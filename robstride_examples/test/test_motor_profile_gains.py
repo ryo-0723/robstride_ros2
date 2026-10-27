@@ -68,3 +68,16 @@ def test_profile_delegates_ranges_to_driver(macro: str, model: str) -> None:
         "effort_min", "effort_max", "effort_wire_min", "effort_wire_max",
         "kp_max", "kd_max",
     })
+
+
+@pytest.mark.parametrize("macro", PROFILE_MACROS)
+def test_profile_forwards_position_recovery(macro: str) -> None:
+    document = process_profile(
+        macro, 'kp="30" kd="1" position_recovery="reset" position_recovery_period="3.0"'
+    )
+    parameters = {
+        node.getAttribute("name"): node.firstChild.data
+        for node in document.getElementsByTagName("param")
+    }
+    assert parameters["position_recovery"] == "reset"
+    assert float(parameters["position_recovery_period"]) == 3.0

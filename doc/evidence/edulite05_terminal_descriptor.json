@@ -1,0 +1,24 @@
+{
+  "firmware_url": "https://github.com/RobStride/Product_Information/releases/download/V25.12.09/EL05_1.0.5.0.2.bin",
+  "sha256": "2b281d5930d502fa27e65381db3b8aa3fb1d38d5054eb957ae608b3eec93ea2d",
+  "image_base": "0x8002000",
+  "group_counts": [
+    2,
+    8,
+    36,
+    79
+  ],
+  "observation_table": "0x8014eac",
+  "terminal_index": "0x304e",
+  "terminal_descriptor_address": "0x8015254",
+  "terminal_descriptor_words": [
+    0,
+    0,
+    0
+  ],
+  "actual_hardware_reply": "4e300000a8640020",
+  "actual_value_bytes": "a8640020",
+  "actual_value_u32": "0x200064a8",
+  "decoded_uint8": 168,
+  "interpretation": "Distributed image accepts group 3 index 78, whose descriptor is all zero. Type 9 reads a full word from the descriptor address even for byte type 0. A vector-table initial SP read at address zero explains the hardware bytes; actual bootloader and application image identity have not been dumped, so this is a static-analysis inference, not a verified dump of address zero."
+}

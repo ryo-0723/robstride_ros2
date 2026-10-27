@@ -1,0 +1,671 @@
+{
+  "branch": "feature/encoder",
+  "date": "2026-10-27",
+  "counter_write_check": [
+    {
+      "unix_s": 1793086601.0914037,
+      "event": "snapshot",
+      "phase": "before",
+      "counter": -6,
+      "mechPos": 2.5310683250427246,
+      "alias_701D": -6
+    },
+    {
+      "unix_s": 1793086601.109355,
+      "event": "snapshot",
+      "phase": "after_plus_one",
+      "counter": -6,
+      "mechPos": 2.5310683250427246,
+      "alias_701D": -6
+    },
+    {
+      "unix_s": 1793086601.1093678,
+      "event": "result",
+      "write_took_effect": false,
+      "delta_position": 0.0
+    },
+    {
+      "unix_s": 1793086601.1264138,
+      "event": "snapshot",
+      "phase": "restored",
+      "counter": -6,
+      "mechPos": 2.5310683250427246,
+      "alias_701D": -6
+    },
+    {
+      "unix_s": 1793086601.1264267,
+      "event": "restore_result",
+      "success": true,
+      "position_difference": 0.0
+    }
+  ],
+  "rotation_relation": [
+    {
+      "unix_s": 1793086739.7721086,
+      "event": "snapshot",
+      "phase": "before",
+      "mechPos": 2.5310683250427246,
+      "counter": -6
+    },
+    {
+      "unix_s": 1793086750.9362516,
+      "event": "snapshot",
+      "phase": "after",
+      "mechPos": 8.829338073730469,
+      "counter": 3,
+      "delta_position": 6.298269748687744,
+      "delta_counter": 9
+    },
+    {
+      "unix_s": 1793086750.9505448,
+      "event": "watchdog_restored",
+      "value": 4000,
+      "success": true
+    }
+  ],
+  "save_request_acknowledged": false,
+  "save_before": [
+    {
+      "unix_s": 1793086865.9812193,
+      "monotonic_s": 30351.181889103,
+      "event": "settings_before_save",
+      "parameters": [
+        {
+          "index": "0x2000",
+          "type_code": 2,
+          "raw": "05000500",
+          "value": 5
+        },
+        {
+          "index": "0x2001",
+          "type_code": 2,
+          "raw": "05000500",
+          "value": 5
+        },
+        {
+          "index": "0x2002",
+          "type_code": 2,
+          "raw": "05000500",
+          "value": 5
+        },
+        {
+          "index": "0x2003",
+          "type_code": 2,
+          "raw": "05000000",
+          "value": 5
+        },
+        {
+          "index": "0x2004",
+          "type_code": 4,
+          "raw": "f4010000",
+          "value": 500
+        },
+        {
+          "index": "0x2005",
+          "type_code": 6,
+          "raw": "23805c3f",
+          "value": 0.8613302111625671
+        },
+        {
+          "index": "0x2006",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x2007",
+          "type_code": 6,
+          "raw": "0000c040",
+          "value": 6.0
+        },
+        {
+          "index": "0x2008",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x2009",
+          "type_code": 0,
+          "raw": "01000100",
+          "value": 1
+        },
+        {
+          "index": "0x200a",
+          "type_code": 0,
+          "raw": "2101fd00",
+          "value": 33
+        },
+        {
+          "index": "0x200b",
+          "type_code": 0,
+          "raw": "fd0000a0",
+          "value": 253
+        },
+        {
+          "index": "0x200c",
+          "type_code": 4,
+          "raw": "a00f0000",
+          "value": 4000
+        },
+        {
+          "index": "0x200d",
+          "type_code": 3,
+          "raw": "00000000",
+          "value": 0
+        },
+        {
+          "index": "0x200e",
+          "type_code": 4,
+          "raw": "00000000",
+          "value": 0
+        },
+        {
+          "index": "0x200f",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x2010",
+          "type_code": 0,
+          "raw": "0000aa28",
+          "value": 0
+        },
+        {
+          "index": "0x2011",
+          "type_code": 6,
+          "raw": "cdcccc3d",
+          "value": 0.10000000149011612
+        },
+        {
+          "index": "0x2012",
+          "type_code": 6,
+          "raw": "0000003e",
+          "value": 0.125
+        },
+        {
+          "index": "0x2013",
+          "type_code": 6,
+          "raw": "006f813c",
+          "value": 0.015799999237060547
+        },
+        {
+          "index": "0x2014",
+          "type_code": 6,
+          "raw": "0000e040",
+          "value": 7.0
+        },
+        {
+          "index": "0x2015",
+          "type_code": 6,
+          "raw": "0ad7a33c",
+          "value": 0.019999999552965164
+        },
+        {
+          "index": "0x2016",
+          "type_code": 6,
+          "raw": "0000f041",
+          "value": 30.0
+        },
+        {
+          "index": "0x2017",
+          "type_code": 6,
+          "raw": "0000003f",
+          "value": 0.5
+        },
+        {
+          "index": "0x2018",
+          "type_code": 6,
+          "raw": "00004843",
+          "value": 200.0
+        },
+        {
+          "index": "0x2019",
+          "type_code": 6,
+          "raw": "00003041",
+          "value": 11.0
+        },
+        {
+          "index": "0x201a",
+          "type_code": 6,
+          "raw": "0ad7233d",
+          "value": 0.03999999910593033
+        },
+        {
+          "index": "0x201b",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x201c",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x201d",
+          "type_code": 6,
+          "raw": "b5e1b940",
+          "value": 5.808802127838135
+        },
+        {
+          "index": "0x201e",
+          "type_code": 6,
+          "raw": "9a99193e",
+          "value": 0.15000000596046448
+        },
+        {
+          "index": "0x201f",
+          "type_code": 6,
+          "raw": "00002041",
+          "value": 10.0
+        },
+        {
+          "index": "0x2020",
+          "type_code": 6,
+          "raw": "00002041",
+          "value": 10.0
+        },
+        {
+          "index": "0x2021",
+          "type_code": 0,
+          "raw": "00000000",
+          "value": 0
+        },
+        {
+          "index": "0x2022",
+          "type_code": 0,
+          "raw": "00000000",
+          "value": 0
+        },
+        {
+          "index": "0x2023",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "unix_s": 1793086865.9932573,
+      "monotonic_s": 30351.193927024,
+      "event": "snapshot",
+      "phase": "before_save",
+      "parameters": [
+        {
+          "index": "0x3014",
+          "type_code": 5,
+          "raw": "03000000",
+          "value": 3
+        },
+        {
+          "index": "0x3016",
+          "type_code": 6,
+          "raw": "ae9c0b41",
+          "value": 8.725751876831055
+        },
+        {
+          "index": "0x2006",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        }
+      ]
+    }
+  ],
+  "save_after_request": [
+    {
+      "unix_s": 1793086963.1335502,
+      "monotonic_s": 30448.334220107,
+      "event": "settings_after_save_request",
+      "parameters": [
+        {
+          "index": "0x2000",
+          "type_code": 2,
+          "raw": "05000500",
+          "value": 5
+        },
+        {
+          "index": "0x2001",
+          "type_code": 2,
+          "raw": "05000500",
+          "value": 5
+        },
+        {
+          "index": "0x2002",
+          "type_code": 2,
+          "raw": "05000500",
+          "value": 5
+        },
+        {
+          "index": "0x2003",
+          "type_code": 2,
+          "raw": "05000000",
+          "value": 5
+        },
+        {
+          "index": "0x2004",
+          "type_code": 4,
+          "raw": "f4010000",
+          "value": 500
+        },
+        {
+          "index": "0x2005",
+          "type_code": 6,
+          "raw": "23805c3f",
+          "value": 0.8613302111625671
+        },
+        {
+          "index": "0x2006",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x2007",
+          "type_code": 6,
+          "raw": "0000c040",
+          "value": 6.0
+        },
+        {
+          "index": "0x2008",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x2009",
+          "type_code": 0,
+          "raw": "01000100",
+          "value": 1
+        },
+        {
+          "index": "0x200a",
+          "type_code": 0,
+          "raw": "2101fd00",
+          "value": 33
+        },
+        {
+          "index": "0x200b",
+          "type_code": 0,
+          "raw": "fd0000a0",
+          "value": 253
+        },
+        {
+          "index": "0x200c",
+          "type_code": 4,
+          "raw": "a00f0000",
+          "value": 4000
+        },
+        {
+          "index": "0x200d",
+          "type_code": 3,
+          "raw": "00000000",
+          "value": 0
+        },
+        {
+          "index": "0x200e",
+          "type_code": 4,
+          "raw": "00000000",
+          "value": 0
+        },
+        {
+          "index": "0x200f",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x2010",
+          "type_code": 0,
+          "raw": "0000aa28",
+          "value": 0
+        },
+        {
+          "index": "0x2011",
+          "type_code": 6,
+          "raw": "cdcccc3d",
+          "value": 0.10000000149011612
+        },
+        {
+          "index": "0x2012",
+          "type_code": 6,
+          "raw": "0000003e",
+          "value": 0.125
+        },
+        {
+          "index": "0x2013",
+          "type_code": 6,
+          "raw": "006f813c",
+          "value": 0.015799999237060547
+        },
+        {
+          "index": "0x2014",
+          "type_code": 6,
+          "raw": "0000e040",
+          "value": 7.0
+        },
+        {
+          "index": "0x2015",
+          "type_code": 6,
+          "raw": "0ad7a33c",
+          "value": 0.019999999552965164
+        },
+        {
+          "index": "0x2016",
+          "type_code": 6,
+          "raw": "0000f041",
+          "value": 30.0
+        },
+        {
+          "index": "0x2017",
+          "type_code": 6,
+          "raw": "0000003f",
+          "value": 0.5
+        },
+        {
+          "index": "0x2018",
+          "type_code": 6,
+          "raw": "00004843",
+          "value": 200.0
+        },
+        {
+          "index": "0x2019",
+          "type_code": 6,
+          "raw": "00003041",
+          "value": 11.0
+        },
+        {
+          "index": "0x201a",
+          "type_code": 6,
+          "raw": "0ad7233d",
+          "value": 0.03999999910593033
+        },
+        {
+          "index": "0x201b",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x201c",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        },
+        {
+          "index": "0x201d",
+          "type_code": 6,
+          "raw": "b5e1b940",
+          "value": 5.808802127838135
+        },
+        {
+          "index": "0x201e",
+          "type_code": 6,
+          "raw": "9a99193e",
+          "value": 0.15000000596046448
+        },
+        {
+          "index": "0x201f",
+          "type_code": 6,
+          "raw": "00002041",
+          "value": 10.0
+        },
+        {
+          "index": "0x2020",
+          "type_code": 6,
+          "raw": "00002041",
+          "value": 10.0
+        },
+        {
+          "index": "0x2021",
+          "type_code": 0,
+          "raw": "00000000",
+          "value": 0
+        },
+        {
+          "index": "0x2022",
+          "type_code": 0,
+          "raw": "00000000",
+          "value": 0
+        },
+        {
+          "index": "0x2023",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        }
+      ],
+      "unchanged_values": true
+    },
+    {
+      "unix_s": 1793086963.1463366,
+      "monotonic_s": 30448.34700635,
+      "event": "ready_for_power_cycle",
+      "duration_s": 150,
+      "save_acknowledged": false
+    }
+  ],
+  "power_cycle_snapshots": [
+    {
+      "unix_s": 1793086963.1463037,
+      "monotonic_s": 30448.346973597,
+      "event": "snapshot",
+      "phase": "after_save_request",
+      "parameters": [
+        {
+          "index": "0x3014",
+          "type_code": 5,
+          "raw": "03000000",
+          "value": 3
+        },
+        {
+          "index": "0x3016",
+          "type_code": 6,
+          "raw": "ae9c0b41",
+          "value": 8.725751876831055
+        },
+        {
+          "index": "0x2006",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "unix_s": 1793087098.9131186,
+      "monotonic_s": 30584.11378838,
+      "event": "snapshot",
+      "phase": "monitor",
+      "parameters": [
+        {
+          "index": "0x3014",
+          "type_code": 5,
+          "raw": "faffffff",
+          "value": -6
+        },
+        {
+          "index": "0x3016",
+          "type_code": 6,
+          "raw": "9b511c40",
+          "value": 2.4424808025360107
+        },
+        {
+          "index": "0x2006",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "unix_s": 1793086987.8372343,
+      "monotonic_s": 30473.037903939,
+      "event": "snapshot",
+      "phase": "monitor",
+      "parameters": [
+        {
+          "index": "0x3014",
+          "type_code": 5,
+          "raw": "03000000",
+          "value": 3
+        },
+        {
+          "index": "0x3016",
+          "type_code": 6,
+          "raw": "ae9c0b41",
+          "value": 8.725751876831055
+        },
+        {
+          "index": "0x2006",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "unix_s": 1793086993.2140582,
+      "monotonic_s": 30478.414727906,
+      "event": "snapshot",
+      "phase": "monitor",
+      "parameters": [
+        {
+          "index": "0x3014",
+          "type_code": 5,
+          "raw": "faffffff",
+          "value": -6
+        },
+        {
+          "index": "0x3016",
+          "type_code": 6,
+          "raw": "9b511c40",
+          "value": 2.4424808025360107
+        },
+        {
+          "index": "0x2006",
+          "type_code": 6,
+          "raw": "00000000",
+          "value": 0.0
+        }
+      ]
+    }
+  ],
+  "probe_validation": {
+    "exit_event": {
+      "monotonic_s": 30531.223265706,
+      "unix_s": 1793087046.022597,
+      "event": "end",
+      "received": 74,
+      "sent": 38
+    },
+    "values": {
+      "rotation": -6,
+      "mechPos": 2.4424808025360107,
+      "status4_firmware_dependent": 0.0
+    }
+  }
+}

@@ -1,0 +1,1677 @@
+{"unix_s": 1793088076.7024293, "event": "tx", "id": "0x400fd21", "data": "0000000000000000"}
+{"unix_s": 1793088076.878976, "event": "rx", "id": "0x20021fd", "data": "58e37fff7fff0118"}
+{"unix_s": 1793088076.8791153, "event": "tx", "id": "0x900fd21", "data": "0020000000000000"}
+{"unix_s": 1793088076.8837202, "event": "rx", "id": "0x90021fd", "data": "0020020005000500"}
+{"unix_s": 1793088076.8837821, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2000", "raw": "0020020005000500", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 5}
+{"unix_s": 1793088076.8838055, "event": "tx", "id": "0x900fd21", "data": "0120000000000000"}
+{"unix_s": 1793088076.8886173, "event": "rx", "id": "0x90021fd", "data": "0120020005000500"}
+{"unix_s": 1793088076.8886826, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2001", "raw": "0120020005000500", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 5}
+{"unix_s": 1793088076.888704, "event": "tx", "id": "0x900fd21", "data": "0220000000000000"}
+{"unix_s": 1793088076.892694, "event": "rx", "id": "0x90021fd", "data": "0220020005000500"}
+{"unix_s": 1793088076.892761, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2002", "raw": "0220020005000500", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 5}
+{"unix_s": 1793088076.892785, "event": "tx", "id": "0x900fd21", "data": "0320000000000000"}
+{"unix_s": 1793088076.89769, "event": "rx", "id": "0x90021fd", "data": "0320020005000000"}
+{"unix_s": 1793088076.8977568, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2003", "raw": "0320020005000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 5}
+{"unix_s": 1793088076.8977804, "event": "tx", "id": "0x900fd21", "data": "0420000000000000"}
+{"unix_s": 1793088076.9016788, "event": "rx", "id": "0x90021fd", "data": "04200400f4010000"}
+{"unix_s": 1793088076.9017453, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2004", "raw": "04200400f4010000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 500}
+{"unix_s": 1793088076.9017684, "event": "tx", "id": "0x900fd21", "data": "0520000000000000"}
+{"unix_s": 1793088076.9070067, "event": "rx", "id": "0x90021fd", "data": "0520060023805c3f"}
+{"unix_s": 1793088076.9071136, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2005", "raw": "0520060023805c3f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.8613302111625671}
+{"unix_s": 1793088076.9071507, "event": "tx", "id": "0x900fd21", "data": "0620000000000000"}
+{"unix_s": 1793088076.9118638, "event": "rx", "id": "0x90021fd", "data": "0620060000000000"}
+{"unix_s": 1793088076.9119468, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2006", "raw": "0620060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088076.9119768, "event": "tx", "id": "0x900fd21", "data": "0720000000000000"}
+{"unix_s": 1793088076.916719, "event": "rx", "id": "0x90021fd", "data": "072006000000c040"}
+{"unix_s": 1793088076.9167886, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2007", "raw": "072006000000c040", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 6.0}
+{"unix_s": 1793088076.9168153, "event": "tx", "id": "0x900fd21", "data": "0820000000000000"}
+{"unix_s": 1793088076.9206264, "event": "rx", "id": "0x90021fd", "data": "0820060000000000"}
+{"unix_s": 1793088076.920675, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2008", "raw": "0820060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088076.920697, "event": "tx", "id": "0x900fd21", "data": "0920000000000000"}
+{"unix_s": 1793088076.9246123, "event": "rx", "id": "0x90021fd", "data": "0920000001000100"}
+{"unix_s": 1793088076.9246585, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2009", "raw": "0920000001000100", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 1}
+{"unix_s": 1793088076.9246926, "event": "tx", "id": "0x900fd21", "data": "0a20000000000000"}
+{"unix_s": 1793088076.9286315, "event": "rx", "id": "0x90021fd", "data": "0a2000002101fd00"}
+{"unix_s": 1793088076.928678, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x200a", "raw": "0a2000002101fd00", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 33}
+{"unix_s": 1793088076.9286983, "event": "tx", "id": "0x900fd21", "data": "0b20000000000000"}
+{"unix_s": 1793088076.9326725, "event": "rx", "id": "0x90021fd", "data": "0b200000fd0000a0"}
+{"unix_s": 1793088076.9327312, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x200b", "raw": "0b200000fd0000a0", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 253}
+{"unix_s": 1793088076.932755, "event": "tx", "id": "0x900fd21", "data": "0c20000000000000"}
+{"unix_s": 1793088076.9367144, "event": "rx", "id": "0x90021fd", "data": "0c200400a00f0000"}
+{"unix_s": 1793088076.9367964, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x200c", "raw": "0c200400a00f0000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 4000}
+{"unix_s": 1793088076.936835, "event": "tx", "id": "0x900fd21", "data": "0d20000000000000"}
+{"unix_s": 1793088076.9406965, "event": "rx", "id": "0x90021fd", "data": "0d20030000000000"}
+{"unix_s": 1793088076.9407544, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x200d", "raw": "0d20030000000000", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 0}
+{"unix_s": 1793088076.9407773, "event": "tx", "id": "0x900fd21", "data": "0e20000000000000"}
+{"unix_s": 1793088076.9446175, "event": "rx", "id": "0x90021fd", "data": "0e20040000000000"}
+{"unix_s": 1793088076.944662, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x200e", "raw": "0e20040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088076.944683, "event": "tx", "id": "0x900fd21", "data": "0f20000000000000"}
+{"unix_s": 1793088076.9486535, "event": "rx", "id": "0x90021fd", "data": "0f20060000000000"}
+{"unix_s": 1793088076.94872, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x200f", "raw": "0f20060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088076.948752, "event": "tx", "id": "0x900fd21", "data": "1020000000000000"}
+{"unix_s": 1793088076.952663, "event": "rx", "id": "0x90021fd", "data": "102000000000ab28"}
+{"unix_s": 1793088076.9527106, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2010", "raw": "102000000000ab28", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 0}
+{"unix_s": 1793088076.9527414, "event": "tx", "id": "0x900fd21", "data": "1120000000000000"}
+{"unix_s": 1793088076.957606, "event": "rx", "id": "0x90021fd", "data": "11200600cdcccc3d"}
+{"unix_s": 1793088076.9576526, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2011", "raw": "11200600cdcccc3d", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.10000000149011612}
+{"unix_s": 1793088076.9576752, "event": "tx", "id": "0x900fd21", "data": "1220000000000000"}
+{"unix_s": 1793088076.9616957, "event": "rx", "id": "0x90021fd", "data": "122006000000003e"}
+{"unix_s": 1793088076.9617367, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2012", "raw": "122006000000003e", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.125}
+{"unix_s": 1793088076.9617574, "event": "tx", "id": "0x900fd21", "data": "1320000000000000"}
+{"unix_s": 1793088076.966885, "event": "rx", "id": "0x90021fd", "data": "13200600006f813c"}
+{"unix_s": 1793088076.9669745, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2013", "raw": "13200600006f813c", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.015799999237060547}
+{"unix_s": 1793088076.967019, "event": "tx", "id": "0x900fd21", "data": "1420000000000000"}
+{"unix_s": 1793088076.9716887, "event": "rx", "id": "0x90021fd", "data": "142006000000e040"}
+{"unix_s": 1793088076.971746, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2014", "raw": "142006000000e040", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 7.0}
+{"unix_s": 1793088076.97177, "event": "tx", "id": "0x900fd21", "data": "1520000000000000"}
+{"unix_s": 1793088076.975706, "event": "rx", "id": "0x90021fd", "data": "152006000ad7a33c"}
+{"unix_s": 1793088076.9757664, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2015", "raw": "152006000ad7a33c", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.019999999552965164}
+{"unix_s": 1793088076.9757915, "event": "tx", "id": "0x900fd21", "data": "1620000000000000"}
+{"unix_s": 1793088076.9796767, "event": "rx", "id": "0x90021fd", "data": "162006000000f041"}
+{"unix_s": 1793088076.9797204, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2016", "raw": "162006000000f041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 30.0}
+{"unix_s": 1793088076.979741, "event": "tx", "id": "0x900fd21", "data": "1720000000000000"}
+{"unix_s": 1793088076.984747, "event": "rx", "id": "0x90021fd", "data": "172006000000003f"}
+{"unix_s": 1793088076.9848156, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2017", "raw": "172006000000003f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.5}
+{"unix_s": 1793088076.9848418, "event": "tx", "id": "0x900fd21", "data": "1820000000000000"}
+{"unix_s": 1793088076.9899485, "event": "rx", "id": "0x90021fd", "data": "1820060000004843"}
+{"unix_s": 1793088076.9900494, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2018", "raw": "1820060000004843", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 200.0}
+{"unix_s": 1793088076.9900897, "event": "tx", "id": "0x900fd21", "data": "1920000000000000"}
+{"unix_s": 1793088076.9948654, "event": "rx", "id": "0x90021fd", "data": "1920060000003041"}
+{"unix_s": 1793088076.9950004, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2019", "raw": "1920060000003041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 11.0}
+{"unix_s": 1793088076.9950628, "event": "tx", "id": "0x900fd21", "data": "1a20000000000000"}
+{"unix_s": 1793088076.9999454, "event": "rx", "id": "0x90021fd", "data": "1a2006000ad7233d"}
+{"unix_s": 1793088077.0000372, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x201a", "raw": "1a2006000ad7233d", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.03999999910593033}
+{"unix_s": 1793088077.0000722, "event": "tx", "id": "0x900fd21", "data": "1b20000000000000"}
+{"unix_s": 1793088077.0049243, "event": "rx", "id": "0x90021fd", "data": "1b20060000000000"}
+{"unix_s": 1793088077.0050128, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x201b", "raw": "1b20060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.0050433, "event": "tx", "id": "0x900fd21", "data": "1c20000000000000"}
+{"unix_s": 1793088077.009759, "event": "rx", "id": "0x90021fd", "data": "1c20060000000000"}
+{"unix_s": 1793088077.009843, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x201c", "raw": "1c20060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.009878, "event": "tx", "id": "0x900fd21", "data": "1d20000000000000"}
+{"unix_s": 1793088077.0146601, "event": "rx", "id": "0x90021fd", "data": "1d200600b5e1b940"}
+{"unix_s": 1793088077.0147202, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x201d", "raw": "1d200600b5e1b940", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 5.808802127838135}
+{"unix_s": 1793088077.0147588, "event": "tx", "id": "0x900fd21", "data": "1e20000000000000"}
+{"unix_s": 1793088077.0197213, "event": "rx", "id": "0x90021fd", "data": "1e2006009a99193e"}
+{"unix_s": 1793088077.0197823, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x201e", "raw": "1e2006009a99193e", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.15000000596046448}
+{"unix_s": 1793088077.0198085, "event": "tx", "id": "0x900fd21", "data": "1f20000000000000"}
+{"unix_s": 1793088077.0236826, "event": "rx", "id": "0x90021fd", "data": "1f20060000002041"}
+{"unix_s": 1793088077.023728, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x201f", "raw": "1f20060000002041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 10.0}
+{"unix_s": 1793088077.0237486, "event": "tx", "id": "0x900fd21", "data": "2020000000000000"}
+{"unix_s": 1793088077.0286052, "event": "rx", "id": "0x90021fd", "data": "2020060000002041"}
+{"unix_s": 1793088077.028647, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2020", "raw": "2020060000002041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 10.0}
+{"unix_s": 1793088077.0286684, "event": "tx", "id": "0x900fd21", "data": "2120000000000000"}
+{"unix_s": 1793088077.0327008, "event": "rx", "id": "0x90021fd", "data": "2120000000000000"}
+{"unix_s": 1793088077.0327606, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2021", "raw": "2120000000000000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 0}
+{"unix_s": 1793088077.032785, "event": "tx", "id": "0x900fd21", "data": "2220000000000000"}
+{"unix_s": 1793088077.0376084, "event": "rx", "id": "0x90021fd", "data": "2220000000000000"}
+{"unix_s": 1793088077.0376573, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2022", "raw": "2220000000000000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 0}
+{"unix_s": 1793088077.0376785, "event": "tx", "id": "0x900fd21", "data": "2320000000000000"}
+{"unix_s": 1793088077.0417042, "event": "rx", "id": "0x90021fd", "data": "2320060000000000"}
+{"unix_s": 1793088077.0417504, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2023", "raw": "2320060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.0417714, "event": "tx", "id": "0x900fd21", "data": "2420000000000000"}
+{"unix_s": 1793088077.0466416, "event": "rx", "id": "0x90121fd", "data": "2420000000000000"}
+{"unix_s": 1793088077.0466866, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2024", "raw": "2420000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088077.0467238, "event": "tx", "id": "0x900fd21", "data": "2520000000000000"}
+{"unix_s": 1793088077.0517008, "event": "rx", "id": "0x90121fd", "data": "2520000000000000"}
+{"unix_s": 1793088077.0517585, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2025", "raw": "2520000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088077.0517826, "event": "tx", "id": "0x900fd21", "data": "2620000000000000"}
+{"unix_s": 1793088077.0557153, "event": "rx", "id": "0x90121fd", "data": "2620000000000000"}
+{"unix_s": 1793088077.0557632, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2026", "raw": "2620000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088077.055786, "event": "tx", "id": "0x900fd21", "data": "2720000000000000"}
+{"unix_s": 1793088077.0597327, "event": "rx", "id": "0x90121fd", "data": "2720000000000000"}
+{"unix_s": 1793088077.0597746, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x2027", "raw": "2720000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088077.059795, "event": "tx", "id": "0x900fd21", "data": "0030000000000000"}
+{"unix_s": 1793088077.0647137, "event": "rx", "id": "0x90021fd", "data": "0030020003000000"}
+{"unix_s": 1793088077.064774, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3000", "raw": "0030020003000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 3}
+{"unix_s": 1793088077.0648177, "event": "tx", "id": "0x900fd21", "data": "0130000000000000"}
+{"unix_s": 1793088077.068628, "event": "rx", "id": "0x90021fd", "data": "0130020000005711"}
+{"unix_s": 1793088077.0686717, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3001", "raw": "0130020000005711", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088077.0686917, "event": "tx", "id": "0x900fd21", "data": "0230000000000000"}
+{"unix_s": 1793088077.0726063, "event": "rx", "id": "0x90021fd", "data": "0230020017000000"}
+{"unix_s": 1793088077.0726495, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3002", "raw": "0230020017000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 23}
+{"unix_s": 1793088077.0726697, "event": "tx", "id": "0x900fd21", "data": "0330000000000000"}
+{"unix_s": 1793088077.0775807, "event": "rx", "id": "0x90021fd", "data": "0330020000000e23"}
+{"unix_s": 1793088077.0776215, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3003", "raw": "0330020000000e23", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088077.0776408, "event": "tx", "id": "0x900fd21", "data": "0430000000000000"}
+{"unix_s": 1793088077.0815878, "event": "rx", "id": "0x90021fd", "data": "04300300ab280000"}
+{"unix_s": 1793088077.0816298, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3004", "raw": "04300300ab280000", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 10411}
+{"unix_s": 1793088077.0816493, "event": "tx", "id": "0x900fd21", "data": "0530000000000000"}
+{"unix_s": 1793088077.0856786, "event": "rx", "id": "0x90021fd", "data": "053003001d011801"}
+{"unix_s": 1793088077.0857196, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3005", "raw": "053003001d011801", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 285}
+{"unix_s": 1793088077.0857387, "event": "tx", "id": "0x900fd21", "data": "0630000000000000"}
+{"unix_s": 1793088077.090594, "event": "rx", "id": "0x90021fd", "data": "0630030018013201"}
+{"unix_s": 1793088077.0906367, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3006", "raw": "0630030018013201", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 280}
+{"unix_s": 1793088077.0906565, "event": "tx", "id": "0x900fd21", "data": "0730000000000000"}
+{"unix_s": 1793088077.0947042, "event": "rx", "id": "0x90021fd", "data": "07300200fc5e1d01"}
+{"unix_s": 1793088077.0947423, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3007", "raw": "07300200fc5e1d01", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 24316}
+{"unix_s": 1793088077.0947604, "event": "tx", "id": "0x900fd21", "data": "0830000000000000"}
+{"unix_s": 1793088077.0996952, "event": "rx", "id": "0x90021fd", "data": "08300500e5070000"}
+{"unix_s": 1793088077.0997446, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3008", "raw": "08300500e5070000", "id": "0x90021fd", "type_code": 5, "result": "ok", "value": 2021}
+{"unix_s": 1793088077.0997646, "event": "tx", "id": "0x900fd21", "data": "0930000000000000"}
+{"unix_s": 1793088077.1036572, "event": "rx", "id": "0x90021fd", "data": "09300500e6070000"}
+{"unix_s": 1793088077.1037047, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3009", "raw": "09300500e6070000", "id": "0x90021fd", "type_code": 5, "result": "ok", "value": 2022}
+{"unix_s": 1793088077.1037257, "event": "tx", "id": "0x900fd21", "data": "0a30000000000000"}
+{"unix_s": 1793088077.107678, "event": "rx", "id": "0x90021fd", "data": "0a300200e2070000"}
+{"unix_s": 1793088077.1077428, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x300a", "raw": "0a300200e2070000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 2018}
+{"unix_s": 1793088077.107763, "event": "tx", "id": "0x900fd21", "data": "0b30000000000000"}
+{"unix_s": 1793088077.1126204, "event": "rx", "id": "0x90021fd", "data": "0b300200e7070000"}
+{"unix_s": 1793088077.1126635, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x300b", "raw": "0b300200e7070000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 2023}
+{"unix_s": 1793088077.1126833, "event": "tx", "id": "0x900fd21", "data": "0c30000000000000"}
+{"unix_s": 1793088077.116599, "event": "rx", "id": "0x90021fd", "data": "0c300600d688c241"}
+{"unix_s": 1793088077.1166446, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x300c", "raw": "0c300600d688c241", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 24.316814422607422}
+{"unix_s": 1793088077.1166654, "event": "tx", "id": "0x900fd21", "data": "0d30000000000000"}
+{"unix_s": 1793088077.1205842, "event": "rx", "id": "0x90021fd", "data": "0d30060000000000"}
+{"unix_s": 1793088077.1206288, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x300d", "raw": "0d30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.1206508, "event": "tx", "id": "0x900fd21", "data": "0e30000000000000"}
+{"unix_s": 1793088077.1246142, "event": "rx", "id": "0x90021fd", "data": "0e30060000000000"}
+{"unix_s": 1793088077.1246562, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x300e", "raw": "0e30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.1246758, "event": "tx", "id": "0x900fd21", "data": "0f30000000000000"}
+{"unix_s": 1793088077.1285815, "event": "rx", "id": "0x90021fd", "data": "0f3006005b56aa41"}
+{"unix_s": 1793088077.128622, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x300f", "raw": "0f3006005b56aa41", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 21.292165756225586}
+{"unix_s": 1793088077.1286538, "event": "tx", "id": "0x900fd21", "data": "1030000000000000"}
+{"unix_s": 1793088077.1326873, "event": "rx", "id": "0x90021fd", "data": "1030060000000000"}
+{"unix_s": 1793088077.1327515, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3010", "raw": "1030060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.1327827, "event": "tx", "id": "0x900fd21", "data": "1130000000000000"}
+{"unix_s": 1793088077.1375983, "event": "rx", "id": "0x90021fd", "data": "1130060000000000"}
+{"unix_s": 1793088077.1376417, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3011", "raw": "1130060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.1376612, "event": "tx", "id": "0x900fd21", "data": "1230000000000000"}
+{"unix_s": 1793088077.1416216, "event": "rx", "id": "0x90021fd", "data": "123006005b56aa41"}
+{"unix_s": 1793088077.1416638, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3012", "raw": "123006005b56aa41", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 21.292165756225586}
+{"unix_s": 1793088077.1416845, "event": "tx", "id": "0x900fd21", "data": "1330000000000000"}
+{"unix_s": 1793088077.1466079, "event": "rx", "id": "0x90021fd", "data": "1330060000000000"}
+{"unix_s": 1793088077.1466482, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3013", "raw": "1330060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.1466675, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088077.1516345, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088077.151689, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3014", "raw": "1430050015000000", "id": "0x90021fd", "type_code": 5, "result": "ok", "value": 21}
+{"unix_s": 1793088077.1517084, "event": "tx", "id": "0x900fd21", "data": "1530000000000000"}
+{"unix_s": 1793088077.1559365, "event": "rx", "id": "0x90021fd", "data": "153006003ab27f40"}
+{"unix_s": 1793088077.1560473, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3015", "raw": "153006003ab27f40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 3.995253086090088}
+{"unix_s": 1793088077.1561015, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088077.1605964, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088077.160637, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3016", "raw": "163006005b56aa41", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 21.292165756225586}
+{"unix_s": 1793088077.160656, "event": "tx", "id": "0x900fd21", "data": "1730000000000000"}
+{"unix_s": 1793088077.1646144, "event": "rx", "id": "0x90021fd", "data": "1730060000000000"}
+{"unix_s": 1793088077.1646545, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3017", "raw": "1730060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.1646736, "event": "tx", "id": "0x900fd21", "data": "1830000000000000"}
+{"unix_s": 1793088077.1709251, "event": "rx", "id": "0x90021fd", "data": "18300600b2bc5740"}
+{"unix_s": 1793088077.1710281, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3018", "raw": "18300600b2bc5740", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 3.37089204788208}
+{"unix_s": 1793088077.1710627, "event": "tx", "id": "0x900fd21", "data": "1930000000000000"}
+{"unix_s": 1793088077.1759446, "event": "rx", "id": "0x90021fd", "data": "1930060000000000"}
+{"unix_s": 1793088077.1760411, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3019", "raw": "1930060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.1760733, "event": "tx", "id": "0x900fd21", "data": "1a30000000000000"}
+{"unix_s": 1793088077.1807244, "event": "rx", "id": "0x90021fd", "data": "1a30060000000000"}
+{"unix_s": 1793088077.1807935, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x301a", "raw": "1a30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.180821, "event": "tx", "id": "0x900fd21", "data": "1b30000000000000"}
+{"unix_s": 1793088077.184708, "event": "rx", "id": "0x90021fd", "data": "1b30060000000000"}
+{"unix_s": 1793088077.1847737, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x301b", "raw": "1b30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.1847997, "event": "tx", "id": "0x900fd21", "data": "1c30000000000000"}
+{"unix_s": 1793088077.1897612, "event": "rx", "id": "0x90021fd", "data": "1c30050000000000"}
+{"unix_s": 1793088077.1898384, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x301c", "raw": "1c30050000000000", "id": "0x90021fd", "type_code": 5, "result": "ok", "value": 0}
+{"unix_s": 1793088077.189867, "event": "tx", "id": "0x900fd21", "data": "1d30000000000000"}
+{"unix_s": 1793088077.1946814, "event": "rx", "id": "0x90021fd", "data": "1d30000001fd0000"}
+{"unix_s": 1793088077.194746, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x301d", "raw": "1d30000001fd0000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 1}
+{"unix_s": 1793088077.194773, "event": "tx", "id": "0x900fd21", "data": "1e30000000000000"}
+{"unix_s": 1793088077.1986878, "event": "rx", "id": "0x90021fd", "data": "1e30060000000000"}
+{"unix_s": 1793088077.1987472, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x301e", "raw": "1e30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.198799, "event": "tx", "id": "0x900fd21", "data": "1f30000000000000"}
+{"unix_s": 1793088077.2038028, "event": "rx", "id": "0x90021fd", "data": "1f3003001d011801"}
+{"unix_s": 1793088077.203872, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x301f", "raw": "1f3003001d011801", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 285}
+{"unix_s": 1793088077.203897, "event": "tx", "id": "0x900fd21", "data": "2030000000000000"}
+{"unix_s": 1793088077.2089188, "event": "rx", "id": "0x90021fd", "data": "2030060000000000"}
+{"unix_s": 1793088077.2090175, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3020", "raw": "2030060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2090514, "event": "tx", "id": "0x900fd21", "data": "2130000000000000"}
+{"unix_s": 1793088077.2142484, "event": "rx", "id": "0x90021fd", "data": "2130060000000000"}
+{"unix_s": 1793088077.214362, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3021", "raw": "2130060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2144108, "event": "tx", "id": "0x900fd21", "data": "2230000000000000"}
+{"unix_s": 1793088077.218949, "event": "rx", "id": "0x90021fd", "data": "2230040000000000"}
+{"unix_s": 1793088077.219081, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3022", "raw": "2230040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088077.219143, "event": "tx", "id": "0x900fd21", "data": "2330000000000000"}
+{"unix_s": 1793088077.2237458, "event": "rx", "id": "0x90021fd", "data": "2330040000000000"}
+{"unix_s": 1793088077.2238007, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3023", "raw": "2330040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088077.2238376, "event": "tx", "id": "0x900fd21", "data": "2430000000000000"}
+{"unix_s": 1793088077.2286248, "event": "rx", "id": "0x90021fd", "data": "2430020000000000"}
+{"unix_s": 1793088077.2286787, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3024", "raw": "2430020000000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088077.2287009, "event": "tx", "id": "0x900fd21", "data": "2530000000000000"}
+{"unix_s": 1793088077.2326653, "event": "rx", "id": "0x90021fd", "data": "2530020000000000"}
+{"unix_s": 1793088077.232723, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3025", "raw": "2530020000000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088077.232747, "event": "tx", "id": "0x900fd21", "data": "2630000000000000"}
+{"unix_s": 1793088077.2366707, "event": "rx", "id": "0x90021fd", "data": "2630060000000000"}
+{"unix_s": 1793088077.2367313, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3026", "raw": "2630060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2367563, "event": "tx", "id": "0x900fd21", "data": "2730000000000000"}
+{"unix_s": 1793088077.2406402, "event": "rx", "id": "0x90021fd", "data": "2730060000000000"}
+{"unix_s": 1793088077.240692, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3027", "raw": "2730060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2407153, "event": "tx", "id": "0x900fd21", "data": "2830000000000000"}
+{"unix_s": 1793088077.2446198, "event": "rx", "id": "0x90021fd", "data": "2830060000000000"}
+{"unix_s": 1793088077.2446702, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3028", "raw": "2830060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2447097, "event": "tx", "id": "0x900fd21", "data": "2930000000000000"}
+{"unix_s": 1793088077.248825, "event": "rx", "id": "0x90021fd", "data": "2930060000000000"}
+{"unix_s": 1793088077.248945, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3029", "raw": "2930060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2489913, "event": "tx", "id": "0x900fd21", "data": "2a30000000000000"}
+{"unix_s": 1793088077.2536795, "event": "rx", "id": "0x90021fd", "data": "2a30060000000000"}
+{"unix_s": 1793088077.2537394, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x302a", "raw": "2a30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2537653, "event": "tx", "id": "0x900fd21", "data": "2b30000000000000"}
+{"unix_s": 1793088077.257654, "event": "rx", "id": "0x90021fd", "data": "2b300600d688c241"}
+{"unix_s": 1793088077.257707, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x302b", "raw": "2b300600d688c241", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 24.316814422607422}
+{"unix_s": 1793088077.2577324, "event": "tx", "id": "0x900fd21", "data": "2c30000000000000"}
+{"unix_s": 1793088077.2616389, "event": "rx", "id": "0x90021fd", "data": "2c30060000000000"}
+{"unix_s": 1793088077.2616892, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x302c", "raw": "2c30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2617106, "event": "tx", "id": "0x900fd21", "data": "2d30000000000000"}
+{"unix_s": 1793088077.2656262, "event": "rx", "id": "0x90021fd", "data": "2d3006009a99d93f"}
+{"unix_s": 1793088077.2656767, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x302d", "raw": "2d3006009a99d93f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 1.7000000476837158}
+{"unix_s": 1793088077.265699, "event": "tx", "id": "0x900fd21", "data": "2e30000000000000"}
+{"unix_s": 1793088077.269836, "event": "rx", "id": "0x90021fd", "data": "2e30060000003041"}
+{"unix_s": 1793088077.2699285, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x302e", "raw": "2e30060000003041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 11.0}
+{"unix_s": 1793088077.2699556, "event": "tx", "id": "0x900fd21", "data": "2f30000000000000"}
+{"unix_s": 1793088077.2747061, "event": "rx", "id": "0x90021fd", "data": "2f30060000000000"}
+{"unix_s": 1793088077.2747743, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x302f", "raw": "2f30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2748, "event": "tx", "id": "0x900fd21", "data": "3030000000000000"}
+{"unix_s": 1793088077.2798395, "event": "rx", "id": "0x90021fd", "data": "3030060000000000"}
+{"unix_s": 1793088077.279914, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3030", "raw": "3030060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.2799435, "event": "tx", "id": "0x900fd21", "data": "3130000000000000"}
+{"unix_s": 1793088077.284852, "event": "rx", "id": "0x90021fd", "data": "3130000000000000"}
+{"unix_s": 1793088077.284927, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3031", "raw": "3130000000000000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 0}
+{"unix_s": 1793088077.2849565, "event": "tx", "id": "0x900fd21", "data": "3230000000000000"}
+{"unix_s": 1793088077.2898464, "event": "rx", "id": "0x90021fd", "data": "3230060031f10743"}
+{"unix_s": 1793088077.289927, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3032", "raw": "3230060031f10743", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 135.94215393066406}
+{"unix_s": 1793088077.2899697, "event": "tx", "id": "0x900fd21", "data": "3330000000000000"}
+{"unix_s": 1793088077.2950323, "event": "rx", "id": "0x90021fd", "data": "33300600f806fe3f"}
+{"unix_s": 1793088077.2951217, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3033", "raw": "33300600f806fe3f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 1.9845876693725586}
+{"unix_s": 1793088077.2951555, "event": "tx", "id": "0x900fd21", "data": "3430000000000000"}
+{"unix_s": 1793088077.2999482, "event": "rx", "id": "0x90021fd", "data": "343006003e867f40"}
+{"unix_s": 1793088077.3000443, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3034", "raw": "343006003e867f40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 3.9925684928894043}
+{"unix_s": 1793088077.3000853, "event": "tx", "id": "0x900fd21", "data": "3530000000000000"}
+{"unix_s": 1793088077.3048124, "event": "rx", "id": "0x90021fd", "data": "35300600dd44bf40"}
+{"unix_s": 1793088077.3048975, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3035", "raw": "35300600dd44bf40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 5.977156162261963}
+{"unix_s": 1793088077.3049366, "event": "tx", "id": "0x900fd21", "data": "3630000000000000"}
+{"unix_s": 1793088077.3099205, "event": "rx", "id": "0x90021fd", "data": "36300600633a0743"}
+{"unix_s": 1793088077.310016, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3036", "raw": "36300600633a0743", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 135.2280731201172}
+{"unix_s": 1793088077.3100672, "event": "tx", "id": "0x900fd21", "data": "3730000000000000"}
+{"unix_s": 1793088077.3146877, "event": "rx", "id": "0x90021fd", "data": "37300600b1140743"}
+{"unix_s": 1793088077.31475, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3037", "raw": "37300600b1140743", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 135.08082580566406}
+{"unix_s": 1793088077.314777, "event": "tx", "id": "0x900fd21", "data": "3830000000000000"}
+{"unix_s": 1793088077.3196754, "event": "rx", "id": "0x90021fd", "data": "3830040000000000"}
+{"unix_s": 1793088077.3197384, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3038", "raw": "3830040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088077.319763, "event": "tx", "id": "0x900fd21", "data": "3930000000000000"}
+{"unix_s": 1793088077.3248594, "event": "rx", "id": "0x90021fd", "data": "3930040000000000"}
+{"unix_s": 1793088077.324961, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3039", "raw": "3930040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088077.3249993, "event": "tx", "id": "0x900fd21", "data": "3a30000000000000"}
+{"unix_s": 1793088077.329348, "event": "rx", "id": "0x90021fd", "data": "3a30040006000000"}
+{"unix_s": 1793088077.329407, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x303a", "raw": "3a30040006000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 6}
+{"unix_s": 1793088077.3294342, "event": "tx", "id": "0x900fd21", "data": "3b30000000000000"}
+{"unix_s": 1793088077.333977, "event": "rx", "id": "0x90021fd", "data": "3b30040000000000"}
+{"unix_s": 1793088077.3340967, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x303b", "raw": "3b30040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088077.3341534, "event": "tx", "id": "0x900fd21", "data": "3c30000000000000"}
+{"unix_s": 1793088077.3386853, "event": "rx", "id": "0x90021fd", "data": "3c30040000000000"}
+{"unix_s": 1793088077.3387415, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x303c", "raw": "3c30040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088077.338779, "event": "tx", "id": "0x900fd21", "data": "3d30000000000000"}
+{"unix_s": 1793088077.3427196, "event": "rx", "id": "0x90021fd", "data": "3d30040006000000"}
+{"unix_s": 1793088077.3427866, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x303d", "raw": "3d30040006000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 6}
+{"unix_s": 1793088077.342814, "event": "tx", "id": "0x900fd21", "data": "3e30000000000000"}
+{"unix_s": 1793088077.346882, "event": "rx", "id": "0x90021fd", "data": "3e30040002000000"}
+{"unix_s": 1793088077.3469317, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x303e", "raw": "3e30040002000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 2}
+{"unix_s": 1793088077.3469522, "event": "tx", "id": "0x900fd21", "data": "3f30000000000000"}
+{"unix_s": 1793088077.3516388, "event": "rx", "id": "0x90021fd", "data": "3f30040000000000"}
+{"unix_s": 1793088077.351684, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x303f", "raw": "3f30040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088077.3517048, "event": "tx", "id": "0x900fd21", "data": "4030000000000000"}
+{"unix_s": 1793088077.3559065, "event": "rx", "id": "0x90021fd", "data": "403006001be7c6c0"}
+{"unix_s": 1793088077.355957, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3040", "raw": "403006001be7c6c0", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -6.2157111167907715}
+{"unix_s": 1793088077.3559804, "event": "tx", "id": "0x900fd21", "data": "4130000000000000"}
+{"unix_s": 1793088077.3605967, "event": "rx", "id": "0x90021fd", "data": "4130030046051405"}
+{"unix_s": 1793088077.3606422, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3041", "raw": "4130030046051405", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 1350}
+{"unix_s": 1793088077.3606627, "event": "tx", "id": "0x900fd21", "data": "4230000000000000"}
+{"unix_s": 1793088077.364609, "event": "rx", "id": "0x90021fd", "data": "423006007b142e3f"}
+{"unix_s": 1793088077.3646526, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3042", "raw": "423006007b142e3f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.6800000071525574}
+{"unix_s": 1793088077.3646736, "event": "tx", "id": "0x900fd21", "data": "4330000000000000"}
+{"unix_s": 1793088077.3686059, "event": "rx", "id": "0x90021fd", "data": "4330000001000000"}
+{"unix_s": 1793088077.3686507, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3043", "raw": "4330000001000000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 1}
+{"unix_s": 1793088077.3686707, "event": "tx", "id": "0x900fd21", "data": "4430000000000000"}
+{"unix_s": 1793088077.3727424, "event": "rx", "id": "0x90021fd", "data": "4430060000000000"}
+{"unix_s": 1793088077.372805, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3044", "raw": "4430060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.372829, "event": "tx", "id": "0x900fd21", "data": "4530000000000000"}
+{"unix_s": 1793088077.3776135, "event": "rx", "id": "0x90021fd", "data": "4530060000cc75c0"}
+{"unix_s": 1793088077.3776584, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3045", "raw": "4530060000cc75c0", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -3.840576171875}
+{"unix_s": 1793088077.3776798, "event": "tx", "id": "0x900fd21", "data": "4630000000000000"}
+{"unix_s": 1793088077.3816133, "event": "rx", "id": "0x90021fd", "data": "4630060000000000"}
+{"unix_s": 1793088077.3816576, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3046", "raw": "4630060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088077.3816917, "event": "tx", "id": "0x900fd21", "data": "4730000000000000"}
+{"unix_s": 1793088077.3856258, "event": "rx", "id": "0x90021fd", "data": "4730060031f10743"}
+{"unix_s": 1793088077.3856678, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3047", "raw": "4730060031f10743", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 135.94215393066406}
+{"unix_s": 1793088077.3856878, "event": "tx", "id": "0x900fd21", "data": "4830000000000000"}
+{"unix_s": 1793088077.3896732, "event": "rx", "id": "0x90021fd", "data": "48300600cc677041"}
+{"unix_s": 1793088077.3897305, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3048", "raw": "48300600cc677041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 15.025341033935547}
+{"unix_s": 1793088077.389753, "event": "tx", "id": "0x900fd21", "data": "4930000000000000"}
+{"unix_s": 1793088077.393619, "event": "rx", "id": "0x90021fd", "data": "49300600633a0743"}
+{"unix_s": 1793088077.393664, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3049", "raw": "49300600633a0743", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 135.2280731201172}
+{"unix_s": 1793088077.3936844, "event": "tx", "id": "0x900fd21", "data": "4a30000000000000"}
+{"unix_s": 1793088077.3986306, "event": "rx", "id": "0x90021fd", "data": "4a300600b1140743"}
+{"unix_s": 1793088077.3986752, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x304a", "raw": "4a300600b1140743", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 135.08082580566406}
+{"unix_s": 1793088077.398706, "event": "tx", "id": "0x900fd21", "data": "4b30000000000000"}
+{"unix_s": 1793088077.4026372, "event": "rx", "id": "0x90021fd", "data": "4b300600c9247041"}
+{"unix_s": 1793088077.402685, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x304b", "raw": "4b300600c9247041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 15.008980751037598}
+{"unix_s": 1793088077.4027083, "event": "tx", "id": "0x900fd21", "data": "4c30000000000000"}
+{"unix_s": 1793088077.4077911, "event": "rx", "id": "0x90021fd", "data": "4c30030000000000"}
+{"unix_s": 1793088077.4078603, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x304c", "raw": "4c30030000000000", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 0}
+{"unix_s": 1793088077.4078858, "event": "tx", "id": "0x900fd21", "data": "4d30000000000000"}
+{"unix_s": 1793088077.412679, "event": "rx", "id": "0x90021fd", "data": "4d30020000000000"}
+{"unix_s": 1793088077.4127433, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x304d", "raw": "4d30020000000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088077.4127684, "event": "tx", "id": "0x900fd21", "data": "4e30000000000000"}
+{"unix_s": 1793088077.416782, "event": "rx", "id": "0x90021fd", "data": "4e300000a8640020"}
+{"unix_s": 1793088077.4168549, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x304e", "raw": "4e300000a8640020", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 168}
+{"unix_s": 1793088077.4168835, "event": "tx", "id": "0x900fd21", "data": "4f30000000000000"}
+{"unix_s": 1793088077.4216979, "event": "rx", "id": "0x90121fd", "data": "4f30000000000000"}
+{"unix_s": 1793088077.421758, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x304f", "raw": "4f30000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088077.421784, "event": "tx", "id": "0x900fd21", "data": "5030000000000000"}
+{"unix_s": 1793088077.4258506, "event": "rx", "id": "0x90121fd", "data": "5030000000000000"}
+{"unix_s": 1793088077.425918, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3050", "raw": "5030000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088077.4259503, "event": "tx", "id": "0x900fd21", "data": "5130000000000000"}
+{"unix_s": 1793088077.4306264, "event": "rx", "id": "0x90121fd", "data": "5130000000000000"}
+{"unix_s": 1793088077.4306693, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3051", "raw": "5130000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088077.4306893, "event": "tx", "id": "0x900fd21", "data": "5230000000000000"}
+{"unix_s": 1793088077.4356816, "event": "rx", "id": "0x90121fd", "data": "5230000000000000"}
+{"unix_s": 1793088077.4357247, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 9, "index": "0x3052", "raw": "5230000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088077.4357507, "event": "tx", "id": "0x1100fd21", "data": "0070000000000000"}
+{"unix_s": 1793088077.439648, "event": "rx", "id": "0x110121fd", "data": "0070000000000000"}
+{"unix_s": 1793088077.4396932, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7000", "raw": "0070000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.439715, "event": "tx", "id": "0x1100fd21", "data": "0170000000000000"}
+{"unix_s": 1793088077.4445937, "event": "rx", "id": "0x110121fd", "data": "0170000000000000"}
+{"unix_s": 1793088077.4446352, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7001", "raw": "0170000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.4446568, "event": "tx", "id": "0x1100fd21", "data": "0270000000000000"}
+{"unix_s": 1793088077.4486637, "event": "rx", "id": "0x110121fd", "data": "0270000000000000"}
+{"unix_s": 1793088077.4487047, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7002", "raw": "0270000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.4487247, "event": "tx", "id": "0x1100fd21", "data": "0370000000000000"}
+{"unix_s": 1793088077.452618, "event": "rx", "id": "0x110121fd", "data": "0370000000000000"}
+{"unix_s": 1793088077.452661, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7003", "raw": "0370000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.4526827, "event": "tx", "id": "0x1100fd21", "data": "0470000000000000"}
+{"unix_s": 1793088077.4566643, "event": "rx", "id": "0x110121fd", "data": "0470000000000000"}
+{"unix_s": 1793088077.4567192, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7004", "raw": "0470000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.456744, "event": "tx", "id": "0x1100fd21", "data": "0570000000000000"}
+{"unix_s": 1793088077.460616, "event": "rx", "id": "0x110021fd", "data": "0570000000000000"}
+{"unix_s": 1793088077.460661, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7005", "raw": "0570000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.4606843, "event": "tx", "id": "0x1100fd21", "data": "0670000000000000"}
+{"unix_s": 1793088077.464611, "event": "rx", "id": "0x110021fd", "data": "0670000000000000"}
+{"unix_s": 1793088077.4646518, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7006", "raw": "0670000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.4646719, "event": "tx", "id": "0x1100fd21", "data": "0770000000000000"}
+{"unix_s": 1793088077.468712, "event": "rx", "id": "0x110121fd", "data": "0770000000000000"}
+{"unix_s": 1793088077.4687672, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7007", "raw": "0770000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.4687936, "event": "tx", "id": "0x1100fd21", "data": "0870000000000000"}
+{"unix_s": 1793088077.4727862, "event": "rx", "id": "0x110121fd", "data": "0870000000000000"}
+{"unix_s": 1793088077.4728777, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7008", "raw": "0870000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.4729092, "event": "tx", "id": "0x1100fd21", "data": "0970000000000000"}
+{"unix_s": 1793088077.4766529, "event": "rx", "id": "0x110121fd", "data": "0970000000000000"}
+{"unix_s": 1793088077.476703, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7009", "raw": "0970000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.476727, "event": "tx", "id": "0x1100fd21", "data": "0a70000000000000"}
+{"unix_s": 1793088077.4806578, "event": "rx", "id": "0x110021fd", "data": "0a70000000000000"}
+{"unix_s": 1793088077.480717, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x700a", "raw": "0a70000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.4807596, "event": "tx", "id": "0x1100fd21", "data": "0b70000000000000"}
+{"unix_s": 1793088077.484608, "event": "rx", "id": "0x110021fd", "data": "0b7000000000c040"}
+{"unix_s": 1793088077.484651, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x700b", "raw": "0b7000000000c040", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.4846716, "event": "tx", "id": "0x1100fd21", "data": "0c70000000000000"}
+{"unix_s": 1793088077.4886196, "event": "rx", "id": "0x110121fd", "data": "0c70000000000000"}
+{"unix_s": 1793088077.4886594, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x700c", "raw": "0c70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.48868, "event": "tx", "id": "0x1100fd21", "data": "0d70000000000000"}
+{"unix_s": 1793088077.4925916, "event": "rx", "id": "0x110121fd", "data": "0d70000000000000"}
+{"unix_s": 1793088077.49263, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x700d", "raw": "0d70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.492649, "event": "tx", "id": "0x1100fd21", "data": "0e70000000000000"}
+{"unix_s": 1793088077.4965885, "event": "rx", "id": "0x110121fd", "data": "0e70000000000000"}
+{"unix_s": 1793088077.4966257, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x700e", "raw": "0e70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.496645, "event": "tx", "id": "0x1100fd21", "data": "0f70000000000000"}
+{"unix_s": 1793088077.5005896, "event": "rx", "id": "0x110121fd", "data": "0f70000000000000"}
+{"unix_s": 1793088077.5006273, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x700f", "raw": "0f70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.5006466, "event": "tx", "id": "0x1100fd21", "data": "1070000000000000"}
+{"unix_s": 1793088077.5046465, "event": "rx", "id": "0x110021fd", "data": "107000000000003e"}
+{"unix_s": 1793088077.5047007, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7010", "raw": "107000000000003e", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5047286, "event": "tx", "id": "0x1100fd21", "data": "1170000000000000"}
+{"unix_s": 1793088077.5095909, "event": "rx", "id": "0x110021fd", "data": "11700000006f813c"}
+{"unix_s": 1793088077.509629, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7011", "raw": "11700000006f813c", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5096488, "event": "tx", "id": "0x1100fd21", "data": "1270000000000000"}
+{"unix_s": 1793088077.5141084, "event": "rx", "id": "0x110021fd", "data": "1270000000000000"}
+{"unix_s": 1793088077.5142205, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7012", "raw": "1270000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5142605, "event": "tx", "id": "0x1100fd21", "data": "1370000000000000"}
+{"unix_s": 1793088077.518596, "event": "rx", "id": "0x110021fd", "data": "1370000001000000"}
+{"unix_s": 1793088077.5186346, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7013", "raw": "1370000001000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5186539, "event": "tx", "id": "0x1100fd21", "data": "1470000000000000"}
+{"unix_s": 1793088077.5229013, "event": "rx", "id": "0x110021fd", "data": "14700000cdcccc3d"}
+{"unix_s": 1793088077.5230074, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7014", "raw": "14700000cdcccc3d", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.523062, "event": "tx", "id": "0x1100fd21", "data": "1570000000000000"}
+{"unix_s": 1793088077.527647, "event": "rx", "id": "0x110021fd", "data": "1570000018010000"}
+{"unix_s": 1793088077.5276885, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7015", "raw": "1570000018010000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.527709, "event": "tx", "id": "0x1100fd21", "data": "1670000000000000"}
+{"unix_s": 1793088077.5316439, "event": "rx", "id": "0x110021fd", "data": "167000005b56aa41"}
+{"unix_s": 1793088077.5316842, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7016", "raw": "167000005b56aa41", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.531704, "event": "tx", "id": "0x1100fd21", "data": "1770000000000000"}
+{"unix_s": 1793088077.535705, "event": "rx", "id": "0x110021fd", "data": "1770000000004843"}
+{"unix_s": 1793088077.535744, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7017", "raw": "1770000000004843", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5357628, "event": "tx", "id": "0x1100fd21", "data": "1870000000000000"}
+{"unix_s": 1793088077.5406194, "event": "rx", "id": "0x110021fd", "data": "1870000000003041"}
+{"unix_s": 1793088077.5406628, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7018", "raw": "1870000000003041", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5406835, "event": "tx", "id": "0x1100fd21", "data": "1970000000000000"}
+{"unix_s": 1793088077.544607, "event": "rx", "id": "0x110021fd", "data": "197000005b56aa41"}
+{"unix_s": 1793088077.5446463, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7019", "raw": "197000005b56aa41", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5446656, "event": "tx", "id": "0x1100fd21", "data": "1a70000000000000"}
+{"unix_s": 1793088077.548721, "event": "rx", "id": "0x110021fd", "data": "1a70000000000000"}
+{"unix_s": 1793088077.5487816, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x701a", "raw": "1a70000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5488093, "event": "tx", "id": "0x1100fd21", "data": "1b70000000000000"}
+{"unix_s": 1793088077.553666, "event": "rx", "id": "0x110021fd", "data": "1b70000000000000"}
+{"unix_s": 1793088077.5537152, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x701b", "raw": "1b70000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5537393, "event": "tx", "id": "0x1100fd21", "data": "1c70000000000000"}
+{"unix_s": 1793088077.5576196, "event": "rx", "id": "0x110021fd", "data": "1c700000d688c241"}
+{"unix_s": 1793088077.5576625, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x701c", "raw": "1c700000d688c241", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.557683, "event": "tx", "id": "0x1100fd21", "data": "1d70000000000000"}
+{"unix_s": 1793088077.5616016, "event": "rx", "id": "0x110021fd", "data": "1d70000015000000"}
+{"unix_s": 1793088077.561658, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x701d", "raw": "1d70000015000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5616784, "event": "tx", "id": "0x1100fd21", "data": "1e70000000000000"}
+{"unix_s": 1793088077.5657341, "event": "rx", "id": "0x110021fd", "data": "1e7000000000f041"}
+{"unix_s": 1793088077.5657911, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x701e", "raw": "1e7000000000f041", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5658288, "event": "tx", "id": "0x1100fd21", "data": "1f70000000000000"}
+{"unix_s": 1793088077.5706267, "event": "rx", "id": "0x110021fd", "data": "1f7000000000e040"}
+{"unix_s": 1793088077.5706763, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x701f", "raw": "1f7000000000e040", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5706985, "event": "tx", "id": "0x1100fd21", "data": "2070000000000000"}
+{"unix_s": 1793088077.5747094, "event": "rx", "id": "0x110021fd", "data": "207000000ad7a33c"}
+{"unix_s": 1793088077.574763, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7020", "raw": "207000000ad7a33c", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5747879, "event": "tx", "id": "0x1100fd21", "data": "2170000000000000"}
+{"unix_s": 1793088077.579714, "event": "rx", "id": "0x110021fd", "data": "217000000000003f"}
+{"unix_s": 1793088077.5797698, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7021", "raw": "217000000000003f", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5797946, "event": "tx", "id": "0x1100fd21", "data": "2270000000000000"}
+{"unix_s": 1793088077.5848334, "event": "rx", "id": "0x110021fd", "data": "2270000000001643"}
+{"unix_s": 1793088077.5849116, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7022", "raw": "2270000000001643", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5849416, "event": "tx", "id": "0x1100fd21", "data": "2370000000000000"}
+{"unix_s": 1793088077.5897174, "event": "rx", "id": "0x110121fd", "data": "2370000000000000"}
+{"unix_s": 1793088077.589785, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7023", "raw": "2370000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.589814, "event": "tx", "id": "0x1100fd21", "data": "2470000000000000"}
+{"unix_s": 1793088077.5936399, "event": "rx", "id": "0x110021fd", "data": "2470000000002041"}
+{"unix_s": 1793088077.5936875, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7024", "raw": "2470000000002041", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.593709, "event": "tx", "id": "0x1100fd21", "data": "2570000000000000"}
+{"unix_s": 1793088077.5987322, "event": "rx", "id": "0x110021fd", "data": "2570000000002041"}
+{"unix_s": 1793088077.5987918, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7025", "raw": "2570000000002041", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.5988204, "event": "tx", "id": "0x1100fd21", "data": "2670000000000000"}
+{"unix_s": 1793088077.6036897, "event": "rx", "id": "0x110021fd", "data": "2670000000000000"}
+{"unix_s": 1793088077.6037586, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7026", "raw": "2670000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.6037836, "event": "tx", "id": "0x1100fd21", "data": "2770000000000000"}
+{"unix_s": 1793088077.607751, "event": "rx", "id": "0x110121fd", "data": "2770000000000000"}
+{"unix_s": 1793088077.6078055, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7027", "raw": "2770000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.6078546, "event": "tx", "id": "0x1100fd21", "data": "2870000000000000"}
+{"unix_s": 1793088077.6126432, "event": "rx", "id": "0x110021fd", "data": "28700000a00f0000"}
+{"unix_s": 1793088077.612694, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7028", "raw": "28700000a00f0000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.6127179, "event": "tx", "id": "0x1100fd21", "data": "2970000000000000"}
+{"unix_s": 1793088077.6166868, "event": "rx", "id": "0x110021fd", "data": "2970000000000000"}
+{"unix_s": 1793088077.6167414, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x7029", "raw": "2970000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.616764, "event": "tx", "id": "0x1100fd21", "data": "2a70000000000000"}
+{"unix_s": 1793088077.6216412, "event": "rx", "id": "0x110121fd", "data": "2a70000000000000"}
+{"unix_s": 1793088077.6216934, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x702a", "raw": "2a70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.6217206, "event": "tx", "id": "0x1100fd21", "data": "2b70000000000000"}
+{"unix_s": 1793088077.625642, "event": "rx", "id": "0x110021fd", "data": "2b70000000000000"}
+{"unix_s": 1793088077.6256905, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x702b", "raw": "2b70000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088077.6257133, "event": "tx", "id": "0x1100fd21", "data": "2c70000000000000"}
+{"unix_s": 1793088077.6296637, "event": "rx", "id": "0x110121fd", "data": "2c70000000000000"}
+{"unix_s": 1793088077.6297162, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x702c", "raw": "2c70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.6297414, "event": "tx", "id": "0x1100fd21", "data": "2d70000000000000"}
+{"unix_s": 1793088077.6336687, "event": "rx", "id": "0x110121fd", "data": "2d70000000000000"}
+{"unix_s": 1793088077.6337178, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x702d", "raw": "2d70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.6337395, "event": "tx", "id": "0x1100fd21", "data": "2e70000000000000"}
+{"unix_s": 1793088077.637643, "event": "rx", "id": "0x110121fd", "data": "2e70000000000000"}
+{"unix_s": 1793088077.6376884, "event": "inventory_entry", "phase": "before_power_cycle", "read_type": 17, "index": "0x702e", "raw": "2e70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088077.637716, "event": "inventory_complete", "phase": "before_power_cycle", "entries": 170}
+{"unix_s": 1793088077.6377494, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088077.6426907, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088077.642765, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088077.6476793, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088077.6477363, "event": "ready_for_power_cycle", "mechPos": 21.292165756225586, "counter": 21, "duration_s": 180}
+{"unix_s": 1793088077.6477618, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088077.6521091, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088077.6522331, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088077.656603, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088077.8608375, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088077.866685, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088077.866765, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088077.8717628, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088078.074675, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088078.0809116, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088078.0809917, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088078.0856233, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088078.2896292, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088078.2948694, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088078.2949831, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088078.299728, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088078.5029323, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088078.5087557, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088078.5088317, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088078.5137272, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088078.7173228, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088078.722837, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088078.7229395, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088078.7270436, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088078.9313066, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088078.936748, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088078.9368234, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088078.9416616, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088079.1480598, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088079.1541522, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088079.1542335, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088079.1598418, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088079.3674803, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088079.3731306, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088079.3732429, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088079.377694, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088079.5841472, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088079.5898242, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088079.5899208, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088079.5949168, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088079.8018413, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088079.8070633, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088079.807173, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088079.8118763, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088080.0199895, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088080.0258784, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088080.0259604, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088080.0310433, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088080.2382247, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088080.24392, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088080.2440078, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088080.2486513, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088080.455104, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088080.4613245, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088080.4615307, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088080.4668224, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088080.6723745, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088080.6778054, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088080.6778924, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088080.6827018, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088080.8879447, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088080.8940122, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088080.894094, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088080.898639, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088081.1049047, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088081.1111846, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088081.111483, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088081.1167724, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088081.3220901, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088081.328195, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088081.328293, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088081.332682, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088081.537763, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088081.5439575, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088081.5440476, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088081.5487735, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088081.7538006, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088081.760145, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088081.7603424, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088081.7658782, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088081.9711707, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088081.9767714, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088081.9768612, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088081.98172, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088082.1881115, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088082.1928768, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088082.1929867, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088082.1980684, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088082.4043274, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088082.4098432, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088082.409944, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088082.4147546, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088082.6206021, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088082.6260324, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088082.6261337, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088082.6307652, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088082.836318, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088082.8418481, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088082.8419366, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088082.8466983, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088083.052513, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088083.057978, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088083.058101, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088083.0627003, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088083.2683365, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088083.2737935, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088083.2739, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088083.2787743, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088083.4840937, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088083.489892, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088083.4899888, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088083.4947798, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088083.7002728, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088083.7059476, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088083.7060502, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088083.7109172, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088083.9153295, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088083.9208949, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088083.9209836, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088083.9256973, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088084.1305265, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088084.1369212, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088084.137012, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088084.1417277, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088084.346237, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088084.3519473, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088084.3520517, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088084.356981, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088084.562243, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088084.5680025, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088084.5680857, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088084.5727053, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088084.7773855, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088084.7828631, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088084.78296, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088084.7879004, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088084.9923024, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088084.9971232, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088084.997314, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088085.0016158, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088085.2059622, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088085.2109616, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088085.2110753, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088085.2158139, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088085.4205554, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088085.4269526, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088085.4270585, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088085.4317133, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088085.6369894, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088085.642998, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088085.643085, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088085.64767, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088085.8531835, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088085.85906, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088085.859216, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088085.86462, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088086.0700555, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088086.0759382, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088086.0760782, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088086.0809867, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088086.2867973, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088086.2930868, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088086.2931838, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088086.2976763, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088086.5037308, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088086.5100193, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088086.5101826, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088086.514742, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088086.7203257, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088086.725773, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088086.7258525, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088086.7306654, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088086.9359376, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088086.9418173, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088086.9419098, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088086.9467263, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088087.1516635, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088087.156755, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088087.1568277, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088087.1618514, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088087.3666575, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088087.372764, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088087.3728635, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088087.3776417, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088087.5824807, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088087.5877743, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088087.5878508, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088087.5926921, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088087.798229, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088087.804054, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088087.8041368, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088087.8086832, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088088.012991, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088088.0191457, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088088.019316, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088088.0249777, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088088.2300317, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088088.235987, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088088.236128, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088088.2407377, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088088.44576, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088088.451952, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088088.4520392, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088088.4567604, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088088.6607125, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088088.665782, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088088.6658628, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088088.6707218, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088088.8764088, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088088.881866, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088088.8819506, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088088.8867483, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088089.0907688, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088089.0958884, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088089.0959685, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088089.1006203, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088089.3044574, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088089.3102837, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088089.3104768, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088089.3147538, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088089.5192637, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088089.5248783, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088089.5250218, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088089.5296516, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088089.73391, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088089.7400522, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088089.7401352, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088089.7446096, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088089.9485474, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088089.9537683, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088089.9538505, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088089.9587493, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088090.162606, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088090.1688707, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088090.1689546, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088090.1737802, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088090.3780866, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088090.3840187, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088090.3841603, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088090.3886883, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088090.5920198, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088090.5980942, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088090.5982559, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088090.6037505, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088090.8071086, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088090.8128164, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088090.8129144, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088090.8176627, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088091.0211706, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088091.0270178, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088091.027269, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088091.0317705, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088091.2351022, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088091.2408955, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088091.2409952, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088091.2456279, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088091.449339, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088091.4539611, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088091.4540546, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088091.4586153, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088091.6624303, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088091.6682951, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088091.6685157, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088091.6727626, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088091.8755307, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088091.8808596, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088091.8809543, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088091.8856409, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088092.088451, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088092.0938103, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088092.0939193, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088092.0987134, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088092.3014207, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088092.3072262, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088092.3075566, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088092.312695, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088092.5154228, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088092.5208302, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088092.520926, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088092.5256183, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088092.7282875, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088092.7341788, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088092.7343194, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088092.7386546, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088092.9414856, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088092.9467733, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088092.9468567, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088092.95176, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088093.1548178, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088093.1600406, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088093.160161, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088093.1647632, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088093.3676882, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088093.3739116, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088093.3740168, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088093.3785949, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088093.5823534, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088093.5877948, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088093.587875, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088093.5927186, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088093.7963655, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088093.8020499, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088093.8021646, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088093.8077633, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088094.0118308, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088094.0169485, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088094.0170207, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088094.0216093, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088094.2252057, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088094.2308118, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088094.2309115, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088094.2357285, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088094.4392061, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088094.4452574, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088094.4453733, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088094.4496737, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088094.6533818, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088094.659099, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088094.6592157, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088094.6637828, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088094.867113, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088094.8727462, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088094.8728428, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088094.8777626, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088095.0813098, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088095.08701, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088095.0870903, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088095.0920234, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088095.2951589, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088095.299908, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088095.3000164, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088095.3048692, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088095.509002, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088095.513779, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088095.5138767, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088095.5188904, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088095.7222397, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088095.7278924, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088095.7279775, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088095.7329116, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088095.9364042, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088095.9420266, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088095.942201, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088095.947798, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088096.1504118, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088096.1560504, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088096.1561515, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088096.1606197, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088096.3630989, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088096.3677413, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088096.3678277, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088096.3729537, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088096.5762768, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088096.5820198, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088096.5821354, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088096.5866222, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088096.7900372, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088096.79584, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088096.7959173, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088096.7999394, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088097.0068882, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088097.011911, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088097.0120199, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088097.016912, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088097.220366, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088097.2259693, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088097.2260804, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088097.2307975, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088097.433647, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088097.4387712, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088097.4388611, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088097.4437633, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088097.6470997, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088097.6528552, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088097.6529372, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088097.657702, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088097.8605032, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088097.8658304, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088097.8659315, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088097.870674, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088098.0739546, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088098.0797863, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088098.079869, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088098.0846395, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088098.287523, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088098.2927854, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088098.2928727, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088098.2976444, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088098.5006166, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088098.5058355, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088098.5059423, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088098.510653, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088098.713969, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088098.7187235, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088098.7188103, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088098.7226324, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088098.9254448, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088098.9307294, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088098.9308128, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088098.93568, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088099.1385767, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088099.1437624, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088099.143838, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088099.1487052, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088099.3510754, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088099.3560872, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088099.3561654, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088099.3606107, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088099.5636625, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088099.5688791, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088099.5689793, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088099.5736322, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088099.7777724, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088099.7831545, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088099.7834995, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088099.7886298, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088099.9911811, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088099.9967327, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088099.9968033, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088100.0016017, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088100.2042503, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088100.2098646, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088100.2099638, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088100.213673, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088100.4164379, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088100.4218261, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088100.4219277, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088100.4256885, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088100.6286495, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088100.6337943, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088100.6339023, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088100.63876, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088100.841487, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088100.8467085, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088100.8467865, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088100.851748, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088101.0546362, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088101.0599325, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088101.0600557, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088101.0646095, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088101.266761, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088101.2717931, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088101.2718692, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088101.2765882, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088101.4787395, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088101.484716, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088101.4847968, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088101.4896007, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088101.6918743, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088101.6968498, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088101.6969254, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088101.7016947, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088101.9045584, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088101.909822, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088101.9099016, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088101.9146767, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088102.116909, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088102.1231394, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088102.12333, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088102.1278818, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088102.3300357, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088102.336058, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088102.3362474, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088102.3408282, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088102.5437875, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088102.548676, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088102.548745, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088102.5526366, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088102.7552156, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088102.761019, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088102.7611325, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088102.7655969, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088102.9675457, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088102.9728026, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088102.9729013, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088102.9776146, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088103.1805525, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088103.185724, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088103.185803, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088103.1896448, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088103.3929152, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088103.398769, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088103.3988516, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088103.403964, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088103.6075828, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088103.6131132, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088103.6131964, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088103.618793, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088103.821544, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088103.8267517, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088103.8268306, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088103.8306944, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088104.0349138, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088104.0403125, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088104.040493, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088104.0449507, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088104.248978, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088104.254752, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088104.2548292, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088104.259726, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088104.4630826, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088104.4688387, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088104.4689329, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088104.4736125, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088104.677762, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088104.6837163, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088104.6837945, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088104.6886249, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088104.8919477, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088104.8978271, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088104.8979163, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088104.90272, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088105.106751, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088105.1118016, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088105.1118894, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088105.1158526, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088105.3192842, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088105.3247576, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088105.324835, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088105.3297155, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088105.5327816, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088105.538131, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088105.5382535, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088105.5427494, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088105.746344, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088105.7519283, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088105.7520368, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088105.7568212, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088105.9599407, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088105.9658265, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088105.9659023, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088105.9706604, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088106.174556, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088106.1800199, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088106.180128, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088106.1848378, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088106.3886013, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088106.394117, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088106.3942332, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088106.3993149, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088106.6029675, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088106.6079702, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088106.6080534, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088106.6128197, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088106.8168235, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088106.821722, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088106.8217995, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088106.8260505, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088107.0288959, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088107.0347288, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088107.0348108, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088107.0396388, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088107.2419693, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088107.2479315, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088107.2480261, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088107.2526562, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088107.454444, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088107.4598546, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088107.4599378, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088107.4646225, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088107.6670709, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088107.6727629, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088107.6728463, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088107.6776075, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088107.88055, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088107.8857398, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088107.8858137, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088107.8907175, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088108.0943441, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088108.0999835, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088108.100061, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088108.1047075, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088108.3081825, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088108.3137488, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088108.3138328, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088108.317893, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088108.5213566, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088108.5270576, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088108.527199, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088108.5316584, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088108.735249, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088108.7406936, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088108.740766, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088108.7458084, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088108.9486856, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088108.9538066, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088108.953918, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088108.958789, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088109.1629019, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088109.167877, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088109.1679828, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088109.1726415, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088109.3758411, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088109.3817964, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088109.3819098, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088109.387056, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088109.5904787, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088109.5958, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088109.595881, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088109.6006467, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088109.8042948, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088109.809854, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088109.8099692, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088109.8145907, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088110.0179656, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088110.0238507, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088110.02393, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088110.0286472, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088110.231673, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088110.2368157, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088110.2369058, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088110.2417448, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088110.4447904, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088110.4500132, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088110.4501011, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088110.4549007, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088110.6582546, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088110.6639678, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088110.6640406, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088110.6686265, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088110.872535, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088110.8779166, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088110.8780155, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088110.8827198, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088111.0883882, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088111.0937893, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088111.093869, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088111.0989513, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088111.30713, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088111.3128242, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088111.3129137, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088111.3176513, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088111.5259287, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088111.5318172, "event": "rx", "id": "0x90021fd", "data": "163006005b56aa41"}
+{"unix_s": 1793088111.531895, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088111.5368135, "event": "rx", "id": "0x90021fd", "data": "1430050015000000"}
+{"unix_s": 1793088111.7443616, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088112.5533578, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088113.3596666, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088114.17149, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088114.9790003, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088115.787554, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088116.604777, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088116.6111217, "event": "rx", "id": "0x90021fd", "data": "163006009b511c40"}
+{"unix_s": 1793088116.6112905, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088116.6166487, "event": "rx", "id": "0x90021fd", "data": "14300500faffffff"}
+{"unix_s": 1793088116.6167035, "event": "position_reset_detected", "before": 21.292165756225586, "after": 2.4424808025360107, "counter": -6}
+{"unix_s": 1793088117.6253989, "event": "tx", "id": "0x900fd21", "data": "0020000000000000"}
+{"unix_s": 1793088117.6308753, "event": "rx", "id": "0x90021fd", "data": "0020020005000500"}
+{"unix_s": 1793088117.6309485, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2000", "raw": "0020020005000500", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 5}
+{"unix_s": 1793088117.6309745, "event": "tx", "id": "0x900fd21", "data": "0120000000000000"}
+{"unix_s": 1793088117.635975, "event": "rx", "id": "0x90021fd", "data": "0120020005000500"}
+{"unix_s": 1793088117.6360211, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2001", "raw": "0120020005000500", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 5}
+{"unix_s": 1793088117.6360435, "event": "tx", "id": "0x900fd21", "data": "0220000000000000"}
+{"unix_s": 1793088117.640667, "event": "rx", "id": "0x90021fd", "data": "0220020005000500"}
+{"unix_s": 1793088117.6407173, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2002", "raw": "0220020005000500", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 5}
+{"unix_s": 1793088117.6407542, "event": "tx", "id": "0x900fd21", "data": "0320000000000000"}
+{"unix_s": 1793088117.6448674, "event": "rx", "id": "0x90021fd", "data": "0320020005000000"}
+{"unix_s": 1793088117.6449347, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2003", "raw": "0320020005000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 5}
+{"unix_s": 1793088117.6449568, "event": "tx", "id": "0x900fd21", "data": "0420000000000000"}
+{"unix_s": 1793088117.6497338, "event": "rx", "id": "0x90021fd", "data": "04200400f4010000"}
+{"unix_s": 1793088117.64978, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2004", "raw": "04200400f4010000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 500}
+{"unix_s": 1793088117.649801, "event": "tx", "id": "0x900fd21", "data": "0520000000000000"}
+{"unix_s": 1793088117.65472, "event": "rx", "id": "0x90021fd", "data": "0520060023805c3f"}
+{"unix_s": 1793088117.6547616, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2005", "raw": "0520060023805c3f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.8613302111625671}
+{"unix_s": 1793088117.6547823, "event": "tx", "id": "0x900fd21", "data": "0620000000000000"}
+{"unix_s": 1793088117.6597595, "event": "rx", "id": "0x90021fd", "data": "0620060000000000"}
+{"unix_s": 1793088117.6599097, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2006", "raw": "0620060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.66, "event": "tx", "id": "0x900fd21", "data": "0720000000000000"}
+{"unix_s": 1793088117.6648486, "event": "rx", "id": "0x90021fd", "data": "072006000000c040"}
+{"unix_s": 1793088117.6648948, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2007", "raw": "072006000000c040", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 6.0}
+{"unix_s": 1793088117.6649158, "event": "tx", "id": "0x900fd21", "data": "0820000000000000"}
+{"unix_s": 1793088117.6697023, "event": "rx", "id": "0x90021fd", "data": "0820060000000000"}
+{"unix_s": 1793088117.6697469, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2008", "raw": "0820060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.6697671, "event": "tx", "id": "0x900fd21", "data": "0920000000000000"}
+{"unix_s": 1793088117.673802, "event": "rx", "id": "0x90021fd", "data": "0920000001000100"}
+{"unix_s": 1793088117.6738644, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2009", "raw": "0920000001000100", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 1}
+{"unix_s": 1793088117.673886, "event": "tx", "id": "0x900fd21", "data": "0a20000000000000"}
+{"unix_s": 1793088117.6786928, "event": "rx", "id": "0x90021fd", "data": "0a2000002101fd00"}
+{"unix_s": 1793088117.6787515, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x200a", "raw": "0a2000002101fd00", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 33}
+{"unix_s": 1793088117.6787865, "event": "tx", "id": "0x900fd21", "data": "0b20000000000000"}
+{"unix_s": 1793088117.6837907, "event": "rx", "id": "0x90021fd", "data": "0b200000fd0000a0"}
+{"unix_s": 1793088117.6838512, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x200b", "raw": "0b200000fd0000a0", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 253}
+{"unix_s": 1793088117.683876, "event": "tx", "id": "0x900fd21", "data": "0c20000000000000"}
+{"unix_s": 1793088117.6887991, "event": "rx", "id": "0x90021fd", "data": "0c200400a00f0000"}
+{"unix_s": 1793088117.6888418, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x200c", "raw": "0c200400a00f0000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 4000}
+{"unix_s": 1793088117.6888616, "event": "tx", "id": "0x900fd21", "data": "0d20000000000000"}
+{"unix_s": 1793088117.6936367, "event": "rx", "id": "0x90021fd", "data": "0d20030000000000"}
+{"unix_s": 1793088117.6936889, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x200d", "raw": "0d20030000000000", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 0}
+{"unix_s": 1793088117.6937108, "event": "tx", "id": "0x900fd21", "data": "0e20000000000000"}
+{"unix_s": 1793088117.6976044, "event": "rx", "id": "0x90021fd", "data": "0e20040000000000"}
+{"unix_s": 1793088117.6976476, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x200e", "raw": "0e20040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088117.6976678, "event": "tx", "id": "0x900fd21", "data": "0f20000000000000"}
+{"unix_s": 1793088117.701594, "event": "rx", "id": "0x90021fd", "data": "0f20060000000000"}
+{"unix_s": 1793088117.7016373, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x200f", "raw": "0f20060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.7016594, "event": "tx", "id": "0x900fd21", "data": "1020000000000000"}
+{"unix_s": 1793088117.705625, "event": "rx", "id": "0x90021fd", "data": "102000000000a828"}
+{"unix_s": 1793088117.7056723, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2010", "raw": "102000000000a828", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 0}
+{"unix_s": 1793088117.7057257, "event": "tx", "id": "0x900fd21", "data": "1120000000000000"}
+{"unix_s": 1793088117.709587, "event": "rx", "id": "0x90021fd", "data": "11200600cdcccc3d"}
+{"unix_s": 1793088117.7096314, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2011", "raw": "11200600cdcccc3d", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.10000000149011612}
+{"unix_s": 1793088117.7096546, "event": "tx", "id": "0x900fd21", "data": "1220000000000000"}
+{"unix_s": 1793088117.7136025, "event": "rx", "id": "0x90021fd", "data": "122006000000003e"}
+{"unix_s": 1793088117.7136436, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2012", "raw": "122006000000003e", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.125}
+{"unix_s": 1793088117.7136638, "event": "tx", "id": "0x900fd21", "data": "1320000000000000"}
+{"unix_s": 1793088117.7175848, "event": "rx", "id": "0x90021fd", "data": "13200600006f813c"}
+{"unix_s": 1793088117.7176247, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2013", "raw": "13200600006f813c", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.015799999237060547}
+{"unix_s": 1793088117.7176447, "event": "tx", "id": "0x900fd21", "data": "1420000000000000"}
+{"unix_s": 1793088117.7216017, "event": "rx", "id": "0x90021fd", "data": "142006000000e040"}
+{"unix_s": 1793088117.721643, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2014", "raw": "142006000000e040", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 7.0}
+{"unix_s": 1793088117.7216625, "event": "tx", "id": "0x900fd21", "data": "1520000000000000"}
+{"unix_s": 1793088117.7256927, "event": "rx", "id": "0x90021fd", "data": "152006000ad7a33c"}
+{"unix_s": 1793088117.7257495, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2015", "raw": "152006000ad7a33c", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.019999999552965164}
+{"unix_s": 1793088117.7257736, "event": "tx", "id": "0x900fd21", "data": "1620000000000000"}
+{"unix_s": 1793088117.7296212, "event": "rx", "id": "0x90021fd", "data": "162006000000f041"}
+{"unix_s": 1793088117.7296624, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2016", "raw": "162006000000f041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 30.0}
+{"unix_s": 1793088117.7296946, "event": "tx", "id": "0x900fd21", "data": "1720000000000000"}
+{"unix_s": 1793088117.733604, "event": "rx", "id": "0x90021fd", "data": "172006000000003f"}
+{"unix_s": 1793088117.7336452, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2017", "raw": "172006000000003f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.5}
+{"unix_s": 1793088117.7336652, "event": "tx", "id": "0x900fd21", "data": "1820000000000000"}
+{"unix_s": 1793088117.7376013, "event": "rx", "id": "0x90021fd", "data": "1820060000004843"}
+{"unix_s": 1793088117.737642, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2018", "raw": "1820060000004843", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 200.0}
+{"unix_s": 1793088117.7376626, "event": "tx", "id": "0x900fd21", "data": "1920000000000000"}
+{"unix_s": 1793088117.741697, "event": "rx", "id": "0x90021fd", "data": "1920060000003041"}
+{"unix_s": 1793088117.741759, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2019", "raw": "1920060000003041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 11.0}
+{"unix_s": 1793088117.7417827, "event": "tx", "id": "0x900fd21", "data": "1a20000000000000"}
+{"unix_s": 1793088117.745599, "event": "rx", "id": "0x90021fd", "data": "1a2006000ad7233d"}
+{"unix_s": 1793088117.7456446, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x201a", "raw": "1a2006000ad7233d", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.03999999910593033}
+{"unix_s": 1793088117.7456808, "event": "tx", "id": "0x900fd21", "data": "1b20000000000000"}
+{"unix_s": 1793088117.749581, "event": "rx", "id": "0x90021fd", "data": "1b20060000000000"}
+{"unix_s": 1793088117.749623, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x201b", "raw": "1b20060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.7496433, "event": "tx", "id": "0x900fd21", "data": "1c20000000000000"}
+{"unix_s": 1793088117.7536108, "event": "rx", "id": "0x90021fd", "data": "1c20060000000000"}
+{"unix_s": 1793088117.7536545, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x201c", "raw": "1c20060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.753675, "event": "tx", "id": "0x900fd21", "data": "1d20000000000000"}
+{"unix_s": 1793088117.75771, "event": "rx", "id": "0x90021fd", "data": "1d200600b5e1b940"}
+{"unix_s": 1793088117.7577746, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x201d", "raw": "1d200600b5e1b940", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 5.808802127838135}
+{"unix_s": 1793088117.7577991, "event": "tx", "id": "0x900fd21", "data": "1e20000000000000"}
+{"unix_s": 1793088117.76159, "event": "rx", "id": "0x90021fd", "data": "1e2006009a99193e"}
+{"unix_s": 1793088117.761633, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x201e", "raw": "1e2006009a99193e", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.15000000596046448}
+{"unix_s": 1793088117.7616549, "event": "tx", "id": "0x900fd21", "data": "1f20000000000000"}
+{"unix_s": 1793088117.7655833, "event": "rx", "id": "0x90021fd", "data": "1f20060000002041"}
+{"unix_s": 1793088117.7656264, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x201f", "raw": "1f20060000002041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 10.0}
+{"unix_s": 1793088117.7656462, "event": "tx", "id": "0x900fd21", "data": "2020000000000000"}
+{"unix_s": 1793088117.7696018, "event": "rx", "id": "0x90021fd", "data": "2020060000002041"}
+{"unix_s": 1793088117.7696426, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2020", "raw": "2020060000002041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 10.0}
+{"unix_s": 1793088117.769662, "event": "tx", "id": "0x900fd21", "data": "2120000000000000"}
+{"unix_s": 1793088117.7738822, "event": "rx", "id": "0x90021fd", "data": "2120000000000000"}
+{"unix_s": 1793088117.7739737, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2021", "raw": "2120000000000000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 0}
+{"unix_s": 1793088117.7740028, "event": "tx", "id": "0x900fd21", "data": "2220000000000000"}
+{"unix_s": 1793088117.7788422, "event": "rx", "id": "0x90021fd", "data": "2220000000000000"}
+{"unix_s": 1793088117.7789047, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2022", "raw": "2220000000000000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 0}
+{"unix_s": 1793088117.7789292, "event": "tx", "id": "0x900fd21", "data": "2320000000000000"}
+{"unix_s": 1793088117.7836573, "event": "rx", "id": "0x90021fd", "data": "2320060000000000"}
+{"unix_s": 1793088117.7837064, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2023", "raw": "2320060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.7837276, "event": "tx", "id": "0x900fd21", "data": "2420000000000000"}
+{"unix_s": 1793088117.7876227, "event": "rx", "id": "0x90121fd", "data": "2420000000000000"}
+{"unix_s": 1793088117.7876656, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2024", "raw": "2420000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088117.787686, "event": "tx", "id": "0x900fd21", "data": "2520000000000000"}
+{"unix_s": 1793088117.7917852, "event": "rx", "id": "0x90121fd", "data": "2520000000000000"}
+{"unix_s": 1793088117.7918262, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2025", "raw": "2520000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088117.791846, "event": "tx", "id": "0x900fd21", "data": "2620000000000000"}
+{"unix_s": 1793088117.796714, "event": "rx", "id": "0x90121fd", "data": "2620000000000000"}
+{"unix_s": 1793088117.7967513, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2026", "raw": "2620000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088117.7967703, "event": "tx", "id": "0x900fd21", "data": "2720000000000000"}
+{"unix_s": 1793088117.8015823, "event": "rx", "id": "0x90121fd", "data": "2720000000000000"}
+{"unix_s": 1793088117.8016214, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x2027", "raw": "2720000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088117.8016403, "event": "tx", "id": "0x900fd21", "data": "0030000000000000"}
+{"unix_s": 1793088117.8056462, "event": "rx", "id": "0x90021fd", "data": "003002001b000000"}
+{"unix_s": 1793088117.8057003, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3000", "raw": "003002001b000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 27}
+{"unix_s": 1793088117.8057225, "event": "tx", "id": "0x900fd21", "data": "0130000000000000"}
+{"unix_s": 1793088117.8096013, "event": "rx", "id": "0x90021fd", "data": "0130020000008953"}
+{"unix_s": 1793088117.8096473, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3001", "raw": "0130020000008953", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088117.809679, "event": "tx", "id": "0x900fd21", "data": "0230000000000000"}
+{"unix_s": 1793088117.813607, "event": "rx", "id": "0x90021fd", "data": "0230020017000000"}
+{"unix_s": 1793088117.8136585, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3002", "raw": "0230020017000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 23}
+{"unix_s": 1793088117.8136775, "event": "tx", "id": "0x900fd21", "data": "0330000000000000"}
+{"unix_s": 1793088117.8176427, "event": "rx", "id": "0x90021fd", "data": "0330020000000671"}
+{"unix_s": 1793088117.8176947, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3003", "raw": "0330020000000671", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088117.8177154, "event": "tx", "id": "0x900fd21", "data": "0430000000000000"}
+{"unix_s": 1793088117.8225944, "event": "rx", "id": "0x90021fd", "data": "04300300a8280000"}
+{"unix_s": 1793088117.8226366, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3004", "raw": "04300300a8280000", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 10408}
+{"unix_s": 1793088117.8226557, "event": "tx", "id": "0x900fd21", "data": "0530000000000000"}
+{"unix_s": 1793088117.8266847, "event": "rx", "id": "0x90021fd", "data": "0530030017011801"}
+{"unix_s": 1793088117.8267255, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3005", "raw": "0530030017011801", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 279}
+{"unix_s": 1793088117.8267436, "event": "tx", "id": "0x900fd21", "data": "0630000000000000"}
+{"unix_s": 1793088117.8306606, "event": "rx", "id": "0x90021fd", "data": "0630030018013201"}
+{"unix_s": 1793088117.8307004, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3006", "raw": "0630030018013201", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 280}
+{"unix_s": 1793088117.8307188, "event": "tx", "id": "0x900fd21", "data": "0730000000000000"}
+{"unix_s": 1793088117.8346212, "event": "rx", "id": "0x90021fd", "data": "07300200fc5e1501"}
+{"unix_s": 1793088117.8346767, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3007", "raw": "07300200fc5e1501", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 24316}
+{"unix_s": 1793088117.8346968, "event": "tx", "id": "0x900fd21", "data": "0830000000000000"}
+{"unix_s": 1793088117.83895, "event": "rx", "id": "0x90021fd", "data": "08300500e4070000"}
+{"unix_s": 1793088117.8390164, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3008", "raw": "08300500e4070000", "id": "0x90021fd", "type_code": 5, "result": "ok", "value": 2020}
+{"unix_s": 1793088117.8390474, "event": "tx", "id": "0x900fd21", "data": "0930000000000000"}
+{"unix_s": 1793088117.84369, "event": "rx", "id": "0x90021fd", "data": "09300500e5070000"}
+{"unix_s": 1793088117.8437302, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3009", "raw": "09300500e5070000", "id": "0x90021fd", "type_code": 5, "result": "ok", "value": 2021}
+{"unix_s": 1793088117.8437486, "event": "tx", "id": "0x900fd21", "data": "0a30000000000000"}
+{"unix_s": 1793088117.8476508, "event": "rx", "id": "0x90021fd", "data": "0a300200e4070000"}
+{"unix_s": 1793088117.8476918, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x300a", "raw": "0a300200e4070000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 2020}
+{"unix_s": 1793088117.8477101, "event": "tx", "id": "0x900fd21", "data": "0b30000000000000"}
+{"unix_s": 1793088117.8516357, "event": "rx", "id": "0x90021fd", "data": "0b300200e6070000"}
+{"unix_s": 1793088117.8516848, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x300b", "raw": "0b300200e6070000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 2022}
+{"unix_s": 1793088117.8517082, "event": "tx", "id": "0x900fd21", "data": "0c30000000000000"}
+{"unix_s": 1793088117.855662, "event": "rx", "id": "0x90021fd", "data": "0c300600d688c241"}
+{"unix_s": 1793088117.8557081, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x300c", "raw": "0c300600d688c241", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 24.316814422607422}
+{"unix_s": 1793088117.8557298, "event": "tx", "id": "0x900fd21", "data": "0d30000000000000"}
+{"unix_s": 1793088117.8596723, "event": "rx", "id": "0x90021fd", "data": "0d30060000000000"}
+{"unix_s": 1793088117.8597124, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x300d", "raw": "0d30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.859732, "event": "tx", "id": "0x900fd21", "data": "0e30000000000000"}
+{"unix_s": 1793088117.8646657, "event": "rx", "id": "0x90021fd", "data": "0e30060000000000"}
+{"unix_s": 1793088117.8647037, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x300e", "raw": "0e30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.8647223, "event": "tx", "id": "0x900fd21", "data": "0f30000000000000"}
+{"unix_s": 1793088117.8696039, "event": "rx", "id": "0x90021fd", "data": "0f3006009b511c40"}
+{"unix_s": 1793088117.8696475, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x300f", "raw": "0f3006009b511c40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 2.4424808025360107}
+{"unix_s": 1793088117.8696678, "event": "tx", "id": "0x900fd21", "data": "1030000000000000"}
+{"unix_s": 1793088117.8737848, "event": "rx", "id": "0x90021fd", "data": "1030060000000000"}
+{"unix_s": 1793088117.8738592, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3010", "raw": "1030060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.873884, "event": "tx", "id": "0x900fd21", "data": "1130000000000000"}
+{"unix_s": 1793088117.8778813, "event": "rx", "id": "0x90021fd", "data": "1130060000000000"}
+{"unix_s": 1793088117.878017, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3011", "raw": "1130060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.8781092, "event": "tx", "id": "0x900fd21", "data": "1230000000000000"}
+{"unix_s": 1793088117.8826935, "event": "rx", "id": "0x90021fd", "data": "123006009b511c40"}
+{"unix_s": 1793088117.8827558, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3012", "raw": "123006009b511c40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 2.4424808025360107}
+{"unix_s": 1793088117.8827803, "event": "tx", "id": "0x900fd21", "data": "1330000000000000"}
+{"unix_s": 1793088117.8866498, "event": "rx", "id": "0x90021fd", "data": "1330060000000000"}
+{"unix_s": 1793088117.8867102, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3013", "raw": "1330060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.8867342, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793088117.8916936, "event": "rx", "id": "0x90021fd", "data": "14300500faffffff"}
+{"unix_s": 1793088117.8917542, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3014", "raw": "14300500faffffff", "id": "0x90021fd", "type_code": 5, "result": "ok", "value": -6}
+{"unix_s": 1793088117.8917768, "event": "tx", "id": "0x900fd21", "data": "1530000000000000"}
+{"unix_s": 1793088117.895675, "event": "rx", "id": "0x90021fd", "data": "15300600609f7f40"}
+{"unix_s": 1793088117.8957257, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3015", "raw": "15300600609f7f40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 3.9941024780273438}
+{"unix_s": 1793088117.895761, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793088117.900718, "event": "rx", "id": "0x90021fd", "data": "163006009b511c40"}
+{"unix_s": 1793088117.9007761, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3016", "raw": "163006009b511c40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 2.4424808025360107}
+{"unix_s": 1793088117.900802, "event": "tx", "id": "0x900fd21", "data": "1730000000000000"}
+{"unix_s": 1793088117.904637, "event": "rx", "id": "0x90021fd", "data": "1730060000000000"}
+{"unix_s": 1793088117.9046917, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3017", "raw": "1730060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9047158, "event": "tx", "id": "0x900fd21", "data": "1830000000000000"}
+{"unix_s": 1793088117.9097533, "event": "rx", "id": "0x90021fd", "data": "1830060034005740"}
+{"unix_s": 1793088117.9098332, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3018", "raw": "1830060034005740", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 3.3593873977661133}
+{"unix_s": 1793088117.9098601, "event": "tx", "id": "0x900fd21", "data": "1930000000000000"}
+{"unix_s": 1793088117.9146621, "event": "rx", "id": "0x90021fd", "data": "1930060000000000"}
+{"unix_s": 1793088117.914724, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3019", "raw": "1930060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9147477, "event": "tx", "id": "0x900fd21", "data": "1a30000000000000"}
+{"unix_s": 1793088117.9196205, "event": "rx", "id": "0x90021fd", "data": "1a30060000000000"}
+{"unix_s": 1793088117.919671, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x301a", "raw": "1a30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9196923, "event": "tx", "id": "0x900fd21", "data": "1b30000000000000"}
+{"unix_s": 1793088117.9237914, "event": "rx", "id": "0x90021fd", "data": "1b30060000000000"}
+{"unix_s": 1793088117.923911, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x301b", "raw": "1b30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9239962, "event": "tx", "id": "0x900fd21", "data": "1c30000000000000"}
+{"unix_s": 1793088117.9286509, "event": "rx", "id": "0x90021fd", "data": "1c30050000000000"}
+{"unix_s": 1793088117.9287002, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x301c", "raw": "1c30050000000000", "id": "0x90021fd", "type_code": 5, "result": "ok", "value": 0}
+{"unix_s": 1793088117.9287248, "event": "tx", "id": "0x900fd21", "data": "1d30000000000000"}
+{"unix_s": 1793088117.9336207, "event": "rx", "id": "0x90021fd", "data": "1d30000001fd0000"}
+{"unix_s": 1793088117.9336638, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x301d", "raw": "1d30000001fd0000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 1}
+{"unix_s": 1793088117.9336832, "event": "tx", "id": "0x900fd21", "data": "1e30000000000000"}
+{"unix_s": 1793088117.9379306, "event": "rx", "id": "0x90021fd", "data": "1e30060000000000"}
+{"unix_s": 1793088117.9380527, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x301e", "raw": "1e30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9381132, "event": "tx", "id": "0x900fd21", "data": "1f30000000000000"}
+{"unix_s": 1793088117.9426432, "event": "rx", "id": "0x90021fd", "data": "1f30030015011801"}
+{"unix_s": 1793088117.9426959, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x301f", "raw": "1f30030015011801", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 277}
+{"unix_s": 1793088117.9427176, "event": "tx", "id": "0x900fd21", "data": "2030000000000000"}
+{"unix_s": 1793088117.9469044, "event": "rx", "id": "0x90021fd", "data": "2030060000000000"}
+{"unix_s": 1793088117.9470265, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3020", "raw": "2030060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9470832, "event": "tx", "id": "0x900fd21", "data": "2130000000000000"}
+{"unix_s": 1793088117.9516346, "event": "rx", "id": "0x90021fd", "data": "2130060000000000"}
+{"unix_s": 1793088117.9516757, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3021", "raw": "2130060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9516962, "event": "tx", "id": "0x900fd21", "data": "2230000000000000"}
+{"unix_s": 1793088117.9556565, "event": "rx", "id": "0x90021fd", "data": "2230040000000000"}
+{"unix_s": 1793088117.9556978, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3022", "raw": "2230040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088117.9557168, "event": "tx", "id": "0x900fd21", "data": "2330000000000000"}
+{"unix_s": 1793088117.9600616, "event": "rx", "id": "0x90021fd", "data": "2330040000000000"}
+{"unix_s": 1793088117.96018, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3023", "raw": "2330040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088117.9602382, "event": "tx", "id": "0x900fd21", "data": "2430000000000000"}
+{"unix_s": 1793088117.9646268, "event": "rx", "id": "0x90021fd", "data": "2430020000000000"}
+{"unix_s": 1793088117.9646685, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3024", "raw": "2430020000000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088117.9646876, "event": "tx", "id": "0x900fd21", "data": "2530000000000000"}
+{"unix_s": 1793088117.968621, "event": "rx", "id": "0x90021fd", "data": "2530020000000000"}
+{"unix_s": 1793088117.9686623, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3025", "raw": "2530020000000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088117.9687061, "event": "tx", "id": "0x900fd21", "data": "2630000000000000"}
+{"unix_s": 1793088117.9727066, "event": "rx", "id": "0x90021fd", "data": "2630060000000000"}
+{"unix_s": 1793088117.9727697, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3026", "raw": "2630060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9727902, "event": "tx", "id": "0x900fd21", "data": "2730000000000000"}
+{"unix_s": 1793088117.9767308, "event": "rx", "id": "0x90021fd", "data": "2730060000000000"}
+{"unix_s": 1793088117.9767745, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3027", "raw": "2730060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9767933, "event": "tx", "id": "0x900fd21", "data": "2830000000000000"}
+{"unix_s": 1793088117.9806979, "event": "rx", "id": "0x90021fd", "data": "2830060000000000"}
+{"unix_s": 1793088117.980739, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3028", "raw": "2830060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9807713, "event": "tx", "id": "0x900fd21", "data": "2930000000000000"}
+{"unix_s": 1793088117.984603, "event": "rx", "id": "0x90021fd", "data": "2930060000000000"}
+{"unix_s": 1793088117.9846418, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3029", "raw": "2930060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.98466, "event": "tx", "id": "0x900fd21", "data": "2a30000000000000"}
+{"unix_s": 1793088117.9885912, "event": "rx", "id": "0x90021fd", "data": "2a30060000000000"}
+{"unix_s": 1793088117.9886308, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x302a", "raw": "2a30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.9886503, "event": "tx", "id": "0x900fd21", "data": "2b30000000000000"}
+{"unix_s": 1793088117.9926026, "event": "rx", "id": "0x90021fd", "data": "2b300600d688c241"}
+{"unix_s": 1793088117.9926615, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x302b", "raw": "2b300600d688c241", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 24.316814422607422}
+{"unix_s": 1793088117.992681, "event": "tx", "id": "0x900fd21", "data": "2c30000000000000"}
+{"unix_s": 1793088117.9966798, "event": "rx", "id": "0x90021fd", "data": "2c30060000000000"}
+{"unix_s": 1793088117.9967191, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x302c", "raw": "2c30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088117.996738, "event": "tx", "id": "0x900fd21", "data": "2d30000000000000"}
+{"unix_s": 1793088118.0005836, "event": "rx", "id": "0x90021fd", "data": "2d3006009a99d93f"}
+{"unix_s": 1793088118.0006225, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x302d", "raw": "2d3006009a99d93f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 1.7000000476837158}
+{"unix_s": 1793088118.000641, "event": "tx", "id": "0x900fd21", "data": "2e30000000000000"}
+{"unix_s": 1793088118.0045881, "event": "rx", "id": "0x90021fd", "data": "2e30060000003041"}
+{"unix_s": 1793088118.0046277, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x302e", "raw": "2e30060000003041", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 11.0}
+{"unix_s": 1793088118.0046465, "event": "tx", "id": "0x900fd21", "data": "2f30000000000000"}
+{"unix_s": 1793088118.0091212, "event": "rx", "id": "0x90021fd", "data": "2f30060000000000"}
+{"unix_s": 1793088118.009177, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x302f", "raw": "2f30060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088118.009214, "event": "tx", "id": "0x900fd21", "data": "3030000000000000"}
+{"unix_s": 1793088118.013608, "event": "rx", "id": "0x90021fd", "data": "3030060000000000"}
+{"unix_s": 1793088118.0136528, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3030", "raw": "3030060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088118.013672, "event": "tx", "id": "0x900fd21", "data": "3130000000000000"}
+{"unix_s": 1793088118.0176766, "event": "rx", "id": "0x90021fd", "data": "3130000000000000"}
+{"unix_s": 1793088118.0177178, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3031", "raw": "3130000000000000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 0}
+{"unix_s": 1793088118.0177364, "event": "tx", "id": "0x900fd21", "data": "3230000000000000"}
+{"unix_s": 1793088118.0217848, "event": "rx", "id": "0x90021fd", "data": "32300600eed106c2"}
+{"unix_s": 1793088118.0218403, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3032", "raw": "32300600eed106c2", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -33.70500946044922}
+{"unix_s": 1793088118.0218606, "event": "tx", "id": "0x900fd21", "data": "3330000000000000"}
+{"unix_s": 1793088118.0265908, "event": "rx", "id": "0x90021fd", "data": "3330060066fafd3f"}
+{"unix_s": 1793088118.0266314, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3033", "raw": "3330060066fafd3f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 1.9842040538787842}
+{"unix_s": 1793088118.026651, "event": "tx", "id": "0x900fd21", "data": "3430000000000000"}
+{"unix_s": 1793088118.0306396, "event": "rx", "id": "0x90021fd", "data": "3430060065737f40"}
+{"unix_s": 1793088118.0306804, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3034", "raw": "3430060065737f40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 3.9914181232452393}
+{"unix_s": 1793088118.0306995, "event": "tx", "id": "0x900fd21", "data": "3530000000000000"}
+{"unix_s": 1793088118.0347703, "event": "rx", "id": "0x90021fd", "data": "353006004c38bf40"}
+{"unix_s": 1793088118.0348237, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3035", "raw": "353006004c38bf40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 5.975622177124023}
+{"unix_s": 1793088118.034843, "event": "tx", "id": "0x900fd21", "data": "3630000000000000"}
+{"unix_s": 1793088118.0396774, "event": "rx", "id": "0x90021fd", "data": "363006007faf09c2"}
+{"unix_s": 1793088118.0397205, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3036", "raw": "363006007faf09c2", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -34.421382904052734}
+{"unix_s": 1793088118.0397398, "event": "tx", "id": "0x900fd21", "data": "3730000000000000"}
+{"unix_s": 1793088118.0446405, "event": "rx", "id": "0x90021fd", "data": "37300600ef430ac2"}
+{"unix_s": 1793088118.044696, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3037", "raw": "37300600ef430ac2", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -34.566341400146484}
+{"unix_s": 1793088118.0447187, "event": "tx", "id": "0x900fd21", "data": "3830000000000000"}
+{"unix_s": 1793088118.0486073, "event": "rx", "id": "0x90021fd", "data": "3830040000000000"}
+{"unix_s": 1793088118.0486538, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3038", "raw": "3830040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088118.0486748, "event": "tx", "id": "0x900fd21", "data": "3930000000000000"}
+{"unix_s": 1793088118.052591, "event": "rx", "id": "0x90021fd", "data": "3930040000000000"}
+{"unix_s": 1793088118.0526314, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3039", "raw": "3930040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088118.0526636, "event": "tx", "id": "0x900fd21", "data": "3a30000000000000"}
+{"unix_s": 1793088118.0566044, "event": "rx", "id": "0x90021fd", "data": "3a30040006000000"}
+{"unix_s": 1793088118.0566475, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x303a", "raw": "3a30040006000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 6}
+{"unix_s": 1793088118.0566688, "event": "tx", "id": "0x900fd21", "data": "3b30000000000000"}
+{"unix_s": 1793088118.060582, "event": "rx", "id": "0x90021fd", "data": "3b30040000000000"}
+{"unix_s": 1793088118.060622, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x303b", "raw": "3b30040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088118.0606415, "event": "tx", "id": "0x900fd21", "data": "3c30000000000000"}
+{"unix_s": 1793088118.0645835, "event": "rx", "id": "0x90021fd", "data": "3c30040000000000"}
+{"unix_s": 1793088118.064624, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x303c", "raw": "3c30040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088118.0646546, "event": "tx", "id": "0x900fd21", "data": "3d30000000000000"}
+{"unix_s": 1793088118.0685968, "event": "rx", "id": "0x90021fd", "data": "3d30040006000000"}
+{"unix_s": 1793088118.0686364, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x303d", "raw": "3d30040006000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 6}
+{"unix_s": 1793088118.0686557, "event": "tx", "id": "0x900fd21", "data": "3e30000000000000"}
+{"unix_s": 1793088118.0726082, "event": "rx", "id": "0x90021fd", "data": "3e30040002000000"}
+{"unix_s": 1793088118.0726492, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x303e", "raw": "3e30040002000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 2}
+{"unix_s": 1793088118.0726688, "event": "tx", "id": "0x900fd21", "data": "3f30000000000000"}
+{"unix_s": 1793088118.0767126, "event": "rx", "id": "0x90021fd", "data": "3f30040000000000"}
+{"unix_s": 1793088118.0767684, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x303f", "raw": "3f30040000000000", "id": "0x90021fd", "type_code": 4, "result": "ok", "value": 0}
+{"unix_s": 1793088118.0767906, "event": "tx", "id": "0x900fd21", "data": "4030000000000000"}
+{"unix_s": 1793088118.0816464, "event": "rx", "id": "0x90021fd", "data": "403006001be7c6c0"}
+{"unix_s": 1793088118.0817041, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3040", "raw": "403006001be7c6c0", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -6.2157111167907715}
+{"unix_s": 1793088118.0817297, "event": "tx", "id": "0x900fd21", "data": "4130000000000000"}
+{"unix_s": 1793088118.085667, "event": "rx", "id": "0x90021fd", "data": "4130030046051405"}
+{"unix_s": 1793088118.0857089, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3041", "raw": "4130030046051405", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 1350}
+{"unix_s": 1793088118.0857294, "event": "tx", "id": "0x900fd21", "data": "4230000000000000"}
+{"unix_s": 1793088118.0896356, "event": "rx", "id": "0x90021fd", "data": "423006007b142e3f"}
+{"unix_s": 1793088118.0896842, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3042", "raw": "423006007b142e3f", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.6800000071525574}
+{"unix_s": 1793088118.0897074, "event": "tx", "id": "0x900fd21", "data": "4330000000000000"}
+{"unix_s": 1793088118.093707, "event": "rx", "id": "0x90021fd", "data": "4330000001000000"}
+{"unix_s": 1793088118.0937483, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3043", "raw": "4330000001000000", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 1}
+{"unix_s": 1793088118.093768, "event": "tx", "id": "0x900fd21", "data": "4430000000000000"}
+{"unix_s": 1793088118.0985844, "event": "rx", "id": "0x90021fd", "data": "4430060000000000"}
+{"unix_s": 1793088118.0986254, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3044", "raw": "4430060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088118.0986457, "event": "tx", "id": "0x900fd21", "data": "4530000000000000"}
+{"unix_s": 1793088118.1030736, "event": "rx", "id": "0x90021fd", "data": "453006009b511c40"}
+{"unix_s": 1793088118.1031997, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3045", "raw": "453006009b511c40", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 2.4424808025360107}
+{"unix_s": 1793088118.1032712, "event": "tx", "id": "0x900fd21", "data": "4630000000000000"}
+{"unix_s": 1793088118.1081026, "event": "rx", "id": "0x90021fd", "data": "4630060000000000"}
+{"unix_s": 1793088118.108193, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3046", "raw": "4630060000000000", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": 0.0}
+{"unix_s": 1793088118.1082134, "event": "tx", "id": "0x900fd21", "data": "4730000000000000"}
+{"unix_s": 1793088118.1127322, "event": "rx", "id": "0x90021fd", "data": "47300600eed106c2"}
+{"unix_s": 1793088118.1128054, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3047", "raw": "47300600eed106c2", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -33.70500946044922}
+{"unix_s": 1793088118.1128538, "event": "tx", "id": "0x900fd21", "data": "4830000000000000"}
+{"unix_s": 1793088118.1166124, "event": "rx", "id": "0x90021fd", "data": "4830060037c674c0"}
+{"unix_s": 1793088118.116656, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3048", "raw": "4830060037c674c0", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -3.8245980739593506}
+{"unix_s": 1793088118.1166787, "event": "tx", "id": "0x900fd21", "data": "4930000000000000"}
+{"unix_s": 1793088118.120598, "event": "rx", "id": "0x90021fd", "data": "493006007faf09c2"}
+{"unix_s": 1793088118.1206381, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3049", "raw": "493006007faf09c2", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -34.421382904052734}
+{"unix_s": 1793088118.120658, "event": "tx", "id": "0x900fd21", "data": "4a30000000000000"}
+{"unix_s": 1793088118.12458, "event": "rx", "id": "0x90021fd", "data": "4a300600ef430ac2"}
+{"unix_s": 1793088118.12462, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x304a", "raw": "4a300600ef430ac2", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -34.566341400146484}
+{"unix_s": 1793088118.1246397, "event": "tx", "id": "0x900fd21", "data": "4b30000000000000"}
+{"unix_s": 1793088118.128583, "event": "rx", "id": "0x90021fd", "data": "4b3006001bce75c0"}
+{"unix_s": 1793088118.128622, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x304b", "raw": "4b3006001bce75c0", "id": "0x90021fd", "type_code": 6, "result": "ok", "value": -3.8407046794891357}
+{"unix_s": 1793088118.1286416, "event": "tx", "id": "0x900fd21", "data": "4c30000000000000"}
+{"unix_s": 1793088118.132586, "event": "rx", "id": "0x90021fd", "data": "4c30030000000000"}
+{"unix_s": 1793088118.1326284, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x304c", "raw": "4c30030000000000", "id": "0x90021fd", "type_code": 3, "result": "ok", "value": 0}
+{"unix_s": 1793088118.1326485, "event": "tx", "id": "0x900fd21", "data": "4d30000000000000"}
+{"unix_s": 1793088118.136601, "event": "rx", "id": "0x90021fd", "data": "4d30020000000000"}
+{"unix_s": 1793088118.1366436, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x304d", "raw": "4d30020000000000", "id": "0x90021fd", "type_code": 2, "result": "ok", "value": 0}
+{"unix_s": 1793088118.1366644, "event": "tx", "id": "0x900fd21", "data": "4e30000000000000"}
+{"unix_s": 1793088118.1405902, "event": "rx", "id": "0x90021fd", "data": "4e300000a8640020"}
+{"unix_s": 1793088118.1406314, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x304e", "raw": "4e300000a8640020", "id": "0x90021fd", "type_code": 0, "result": "ok", "value": 168}
+{"unix_s": 1793088118.1406507, "event": "tx", "id": "0x900fd21", "data": "4f30000000000000"}
+{"unix_s": 1793088118.1446126, "event": "rx", "id": "0x90121fd", "data": "4f30000000000000"}
+{"unix_s": 1793088118.144656, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x304f", "raw": "4f30000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088118.1446886, "event": "tx", "id": "0x900fd21", "data": "5030000000000000"}
+{"unix_s": 1793088118.1485858, "event": "rx", "id": "0x90121fd", "data": "5030000000000000"}
+{"unix_s": 1793088118.148626, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3050", "raw": "5030000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088118.148647, "event": "tx", "id": "0x900fd21", "data": "5130000000000000"}
+{"unix_s": 1793088118.1525915, "event": "rx", "id": "0x90121fd", "data": "5130000000000000"}
+{"unix_s": 1793088118.1526318, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3051", "raw": "5130000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088118.152653, "event": "tx", "id": "0x900fd21", "data": "5230000000000000"}
+{"unix_s": 1793088118.1566234, "event": "rx", "id": "0x90121fd", "data": "5230000000000000"}
+{"unix_s": 1793088118.1566632, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 9, "index": "0x3052", "raw": "5230000000000000", "id": "0x90121fd", "type_code": 0, "result": "ok"}
+{"unix_s": 1793088118.156687, "event": "tx", "id": "0x1100fd21", "data": "0070000000000000"}
+{"unix_s": 1793088118.1605864, "event": "rx", "id": "0x110121fd", "data": "0070000000000000"}
+{"unix_s": 1793088118.1606262, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7000", "raw": "0070000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.160647, "event": "tx", "id": "0x1100fd21", "data": "0170000000000000"}
+{"unix_s": 1793088118.1645803, "event": "rx", "id": "0x110121fd", "data": "0170000000000000"}
+{"unix_s": 1793088118.1646185, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7001", "raw": "0170000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.1646378, "event": "tx", "id": "0x1100fd21", "data": "0270000000000000"}
+{"unix_s": 1793088118.1686108, "event": "rx", "id": "0x110121fd", "data": "0270000000000000"}
+{"unix_s": 1793088118.1686492, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7002", "raw": "0270000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.1686685, "event": "tx", "id": "0x1100fd21", "data": "0370000000000000"}
+{"unix_s": 1793088118.172576, "event": "rx", "id": "0x110121fd", "data": "0370000000000000"}
+{"unix_s": 1793088118.1726134, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7003", "raw": "0370000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.1726327, "event": "tx", "id": "0x1100fd21", "data": "0470000000000000"}
+{"unix_s": 1793088118.1766567, "event": "rx", "id": "0x110121fd", "data": "0470000000000000"}
+{"unix_s": 1793088118.176699, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7004", "raw": "0470000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.1767197, "event": "tx", "id": "0x1100fd21", "data": "0570000000000000"}
+{"unix_s": 1793088118.180591, "event": "rx", "id": "0x110021fd", "data": "0570000000000000"}
+{"unix_s": 1793088118.1806319, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7005", "raw": "0570000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.180668, "event": "tx", "id": "0x1100fd21", "data": "0670000000000000"}
+{"unix_s": 1793088118.1846, "event": "rx", "id": "0x110021fd", "data": "0670000000000000"}
+{"unix_s": 1793088118.184641, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7006", "raw": "0670000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.1846611, "event": "tx", "id": "0x1100fd21", "data": "0770000000000000"}
+{"unix_s": 1793088118.1887286, "event": "rx", "id": "0x110121fd", "data": "0770000000000000"}
+{"unix_s": 1793088118.1887863, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7007", "raw": "0770000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.188811, "event": "tx", "id": "0x1100fd21", "data": "0870000000000000"}
+{"unix_s": 1793088118.1936083, "event": "rx", "id": "0x110121fd", "data": "0870000000000000"}
+{"unix_s": 1793088118.193656, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7008", "raw": "0870000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.1936796, "event": "tx", "id": "0x1100fd21", "data": "0970000000000000"}
+{"unix_s": 1793088118.19759, "event": "rx", "id": "0x110121fd", "data": "0970000000000000"}
+{"unix_s": 1793088118.1976285, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7009", "raw": "0970000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.1976485, "event": "tx", "id": "0x1100fd21", "data": "0a70000000000000"}
+{"unix_s": 1793088118.201617, "event": "rx", "id": "0x110021fd", "data": "0a70000000000000"}
+{"unix_s": 1793088118.2016582, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x700a", "raw": "0a70000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.201679, "event": "tx", "id": "0x1100fd21", "data": "0b70000000000000"}
+{"unix_s": 1793088118.2056322, "event": "rx", "id": "0x110021fd", "data": "0b7000000000c040"}
+{"unix_s": 1793088118.2056766, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x700b", "raw": "0b7000000000c040", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2056973, "event": "tx", "id": "0x1100fd21", "data": "0c70000000000000"}
+{"unix_s": 1793088118.2096167, "event": "rx", "id": "0x110121fd", "data": "0c70000000000000"}
+{"unix_s": 1793088118.2096553, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x700c", "raw": "0c70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.209675, "event": "tx", "id": "0x1100fd21", "data": "0d70000000000000"}
+{"unix_s": 1793088118.2136064, "event": "rx", "id": "0x110121fd", "data": "0d70000000000000"}
+{"unix_s": 1793088118.2136474, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x700d", "raw": "0d70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.2136672, "event": "tx", "id": "0x1100fd21", "data": "0e70000000000000"}
+{"unix_s": 1793088118.2175791, "event": "rx", "id": "0x110121fd", "data": "0e70000000000000"}
+{"unix_s": 1793088118.2176166, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x700e", "raw": "0e70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.2176359, "event": "tx", "id": "0x1100fd21", "data": "0f70000000000000"}
+{"unix_s": 1793088118.221584, "event": "rx", "id": "0x110121fd", "data": "0f70000000000000"}
+{"unix_s": 1793088118.2216208, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x700f", "raw": "0f70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.2216551, "event": "tx", "id": "0x1100fd21", "data": "1070000000000000"}
+{"unix_s": 1793088118.2255805, "event": "rx", "id": "0x110021fd", "data": "107000000000003e"}
+{"unix_s": 1793088118.2256174, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7010", "raw": "107000000000003e", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2256467, "event": "tx", "id": "0x1100fd21", "data": "1170000000000000"}
+{"unix_s": 1793088118.22961, "event": "rx", "id": "0x110021fd", "data": "11700000006f813c"}
+{"unix_s": 1793088118.2296538, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7011", "raw": "11700000006f813c", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2296748, "event": "tx", "id": "0x1100fd21", "data": "1270000000000000"}
+{"unix_s": 1793088118.2335925, "event": "rx", "id": "0x110021fd", "data": "1270000000000000"}
+{"unix_s": 1793088118.233634, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7012", "raw": "1270000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2336538, "event": "tx", "id": "0x1100fd21", "data": "1370000000000000"}
+{"unix_s": 1793088118.237667, "event": "rx", "id": "0x110021fd", "data": "1370000001000000"}
+{"unix_s": 1793088118.2377238, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7013", "raw": "1370000001000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2377539, "event": "tx", "id": "0x1100fd21", "data": "1470000000000000"}
+{"unix_s": 1793088118.2415843, "event": "rx", "id": "0x110021fd", "data": "14700000cdcccc3d"}
+{"unix_s": 1793088118.241622, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7014", "raw": "14700000cdcccc3d", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2416403, "event": "tx", "id": "0x1100fd21", "data": "1570000000000000"}
+{"unix_s": 1793088118.24561, "event": "rx", "id": "0x110021fd", "data": "1570000018010000"}
+{"unix_s": 1793088118.2456508, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7015", "raw": "1570000018010000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2456708, "event": "tx", "id": "0x1100fd21", "data": "1670000000000000"}
+{"unix_s": 1793088118.2495885, "event": "rx", "id": "0x110021fd", "data": "167000009b511c40"}
+{"unix_s": 1793088118.249629, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7016", "raw": "167000009b511c40", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.249648, "event": "tx", "id": "0x1100fd21", "data": "1770000000000000"}
+{"unix_s": 1793088118.2535794, "event": "rx", "id": "0x110021fd", "data": "1770000000004843"}
+{"unix_s": 1793088118.2536168, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7017", "raw": "1770000000004843", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.253635, "event": "tx", "id": "0x1100fd21", "data": "1870000000000000"}
+{"unix_s": 1793088118.2575815, "event": "rx", "id": "0x110021fd", "data": "1870000000003041"}
+{"unix_s": 1793088118.2576187, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7018", "raw": "1870000000003041", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2576382, "event": "tx", "id": "0x1100fd21", "data": "1970000000000000"}
+{"unix_s": 1793088118.2615764, "event": "rx", "id": "0x110021fd", "data": "197000009b511c40"}
+{"unix_s": 1793088118.2616138, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7019", "raw": "197000009b511c40", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2616327, "event": "tx", "id": "0x1100fd21", "data": "1a70000000000000"}
+{"unix_s": 1793088118.2655847, "event": "rx", "id": "0x110021fd", "data": "1a70000000000000"}
+{"unix_s": 1793088118.2656229, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x701a", "raw": "1a70000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2656558, "event": "tx", "id": "0x1100fd21", "data": "1b70000000000000"}
+{"unix_s": 1793088118.2695885, "event": "rx", "id": "0x110021fd", "data": "1b70000000000000"}
+{"unix_s": 1793088118.2696273, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x701b", "raw": "1b70000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2696471, "event": "tx", "id": "0x1100fd21", "data": "1c70000000000000"}
+{"unix_s": 1793088118.2736218, "event": "rx", "id": "0x110021fd", "data": "1c700000d688c241"}
+{"unix_s": 1793088118.2736647, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x701c", "raw": "1c700000d688c241", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2736852, "event": "tx", "id": "0x1100fd21", "data": "1d70000000000000"}
+{"unix_s": 1793088118.2776148, "event": "rx", "id": "0x110021fd", "data": "1d700000faff0000"}
+{"unix_s": 1793088118.2776527, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x701d", "raw": "1d700000faff0000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2776725, "event": "tx", "id": "0x1100fd21", "data": "1e70000000000000"}
+{"unix_s": 1793088118.2818332, "event": "rx", "id": "0x110021fd", "data": "1e7000000000f041"}
+{"unix_s": 1793088118.281903, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x701e", "raw": "1e7000000000f041", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2819319, "event": "tx", "id": "0x1100fd21", "data": "1f70000000000000"}
+{"unix_s": 1793088118.28668, "event": "rx", "id": "0x110021fd", "data": "1f7000000000e040"}
+{"unix_s": 1793088118.286719, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x701f", "raw": "1f7000000000e040", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2867389, "event": "tx", "id": "0x1100fd21", "data": "2070000000000000"}
+{"unix_s": 1793088118.2906263, "event": "rx", "id": "0x110021fd", "data": "207000000ad7a33c"}
+{"unix_s": 1793088118.2906704, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7020", "raw": "207000000ad7a33c", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2906914, "event": "tx", "id": "0x1100fd21", "data": "2170000000000000"}
+{"unix_s": 1793088118.2956316, "event": "rx", "id": "0x110021fd", "data": "217000000000003f"}
+{"unix_s": 1793088118.2956722, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7021", "raw": "217000000000003f", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.2956917, "event": "tx", "id": "0x1100fd21", "data": "2270000000000000"}
+{"unix_s": 1793088118.2998629, "event": "rx", "id": "0x110021fd", "data": "2270000000001643"}
+{"unix_s": 1793088118.2999685, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7022", "raw": "2270000000001643", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.3000228, "event": "tx", "id": "0x1100fd21", "data": "2370000000000000"}
+{"unix_s": 1793088118.304662, "event": "rx", "id": "0x110121fd", "data": "2370000000000000"}
+{"unix_s": 1793088118.3046997, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7023", "raw": "2370000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.304731, "event": "tx", "id": "0x1100fd21", "data": "2470000000000000"}
+{"unix_s": 1793088118.308801, "event": "rx", "id": "0x110021fd", "data": "2470000000002041"}
+{"unix_s": 1793088118.3088381, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7024", "raw": "2470000000002041", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.3088567, "event": "tx", "id": "0x1100fd21", "data": "2570000000000000"}
+{"unix_s": 1793088118.3126428, "event": "rx", "id": "0x110021fd", "data": "2570000000002041"}
+{"unix_s": 1793088118.3126874, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7025", "raw": "2570000000002041", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.312708, "event": "tx", "id": "0x1100fd21", "data": "2670000000000000"}
+{"unix_s": 1793088118.3165941, "event": "rx", "id": "0x110021fd", "data": "2670000000000000"}
+{"unix_s": 1793088118.3166327, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7026", "raw": "2670000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.3166523, "event": "tx", "id": "0x1100fd21", "data": "2770000000000000"}
+{"unix_s": 1793088118.3206556, "event": "rx", "id": "0x110121fd", "data": "2770000000000000"}
+{"unix_s": 1793088118.320694, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7027", "raw": "2770000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.3207135, "event": "tx", "id": "0x1100fd21", "data": "2870000000000000"}
+{"unix_s": 1793088118.3256147, "event": "rx", "id": "0x110021fd", "data": "28700000a00f0000"}
+{"unix_s": 1793088118.3256538, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7028", "raw": "28700000a00f0000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.3256743, "event": "tx", "id": "0x1100fd21", "data": "2970000000000000"}
+{"unix_s": 1793088118.3296025, "event": "rx", "id": "0x110021fd", "data": "2970000000000000"}
+{"unix_s": 1793088118.3296404, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x7029", "raw": "2970000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.3296597, "event": "tx", "id": "0x1100fd21", "data": "2a70000000000000"}
+{"unix_s": 1793088118.3336706, "event": "rx", "id": "0x110121fd", "data": "2a70000000000000"}
+{"unix_s": 1793088118.3337097, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x702a", "raw": "2a70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.3337307, "event": "tx", "id": "0x1100fd21", "data": "2b70000000000000"}
+{"unix_s": 1793088118.3386295, "event": "rx", "id": "0x110021fd", "data": "2b70000000000000"}
+{"unix_s": 1793088118.338667, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x702b", "raw": "2b70000000000000", "id": "0x110021fd", "status": 0, "result": "ok"}
+{"unix_s": 1793088118.3386865, "event": "tx", "id": "0x1100fd21", "data": "2c70000000000000"}
+{"unix_s": 1793088118.34269, "event": "rx", "id": "0x110121fd", "data": "2c70000000000000"}
+{"unix_s": 1793088118.3427556, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x702c", "raw": "2c70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.342786, "event": "tx", "id": "0x1100fd21", "data": "2d70000000000000"}
+{"unix_s": 1793088118.3467488, "event": "rx", "id": "0x110121fd", "data": "2d70000000000000"}
+{"unix_s": 1793088118.3468108, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x702d", "raw": "2d70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.3468385, "event": "tx", "id": "0x1100fd21", "data": "2e70000000000000"}
+{"unix_s": 1793088118.351713, "event": "rx", "id": "0x110121fd", "data": "2e70000000000000"}
+{"unix_s": 1793088118.3517525, "event": "inventory_entry", "phase": "after_power_cycle", "read_type": 17, "index": "0x702e", "raw": "2e70000000000000", "id": "0x110121fd", "status": 1, "result": "rejected"}
+{"unix_s": 1793088118.3517625, "event": "inventory_complete", "phase": "after_power_cycle", "entries": 170}
+{"unix_s": 1793088118.3517704, "event": "power_cycle_comparison_complete"}

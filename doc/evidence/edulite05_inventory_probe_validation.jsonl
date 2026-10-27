@@ -1,0 +1,342 @@
+{"monotonic_s": 32287.639296195, "unix_s": 1793088802.4386296, "event": "start", "ids": [33], "host_id": 253, "duration": 30.0, "read_type": 17, "indices": [28677, 28697, 28699, 28700, 28701, 28713, 28715, 28717], "all_el05": true, "request_plan": [[9, 8192], [9, 8193], [9, 8194], [9, 8195], [9, 8196], [9, 8197], [9, 8198], [9, 8199], [9, 8200], [9, 8201], [9, 8202], [9, 8203], [9, 8204], [9, 8205], [9, 8206], [9, 8207], [9, 8208], [9, 8209], [9, 8210], [9, 8211], [9, 8212], [9, 8213], [9, 8214], [9, 8215], [9, 8216], [9, 8217], [9, 8218], [9, 8219], [9, 8220], [9, 8221], [9, 8222], [9, 8223], [9, 8224], [9, 8225], [9, 8226], [9, 8227], [9, 8228], [9, 8229], [9, 8230], [9, 8231], [9, 12288], [9, 12289], [9, 12290], [9, 12291], [9, 12292], [9, 12293], [9, 12294], [9, 12295], [9, 12296], [9, 12297], [9, 12298], [9, 12299], [9, 12300], [9, 12301], [9, 12302], [9, 12303], [9, 12304], [9, 12305], [9, 12306], [9, 12307], [9, 12308], [9, 12309], [9, 12310], [9, 12311], [9, 12312], [9, 12313], [9, 12314], [9, 12315], [9, 12316], [9, 12317], [9, 12318], [9, 12319], [9, 12320], [9, 12321], [9, 12322], [9, 12323], [9, 12324], [9, 12325], [9, 12326], [9, 12327], [9, 12328], [9, 12329], [9, 12330], [9, 12331], [9, 12332], [9, 12333], [9, 12334], [9, 12335], [9, 12336], [9, 12337], [9, 12338], [9, 12339], [9, 12340], [9, 12341], [9, 12342], [9, 12343], [9, 12344], [9, 12345], [9, 12346], [9, 12347], [9, 12348], [9, 12349], [9, 12350], [9, 12351], [9, 12352], [9, 12353], [9, 12354], [9, 12355], [9, 12356], [9, 12357], [9, 12358], [9, 12359], [9, 12360], [9, 12361], [9, 12362], [9, 12363], [9, 12364], [9, 12365], [9, 12366], [9, 12367], [9, 12368], [9, 12369], [9, 12370], [17, 28672], [17, 28673], [17, 28674], [17, 28675], [17, 28676], [17, 28677], [17, 28678], [17, 28679], [17, 28680], [17, 28681], [17, 28682], [17, 28683], [17, 28684], [17, 28685], [17, 28686], [17, 28687], [17, 28688], [17, 28689], [17, 28690], [17, 28691], [17, 28692], [17, 28693], [17, 28694], [17, 28695], [17, 28696], [17, 28697], [17, 28698], [17, 28699], [17, 28700], [17, 28701], [17, 28702], [17, 28703], [17, 28704], [17, 28705], [17, 28706], [17, 28707], [17, 28708], [17, 28709], [17, 28710], [17, 28711], [17, 28712], [17, 28713], [17, 28714], [17, 28715], [17, 28716], [17, 28717], [17, 28718]], "once": true}
+{"monotonic_s": 32287.69015989, "unix_s": 1793088802.4894922, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2000"}
+{"monotonic_s": 32287.696378491, "unix_s": 1793088802.49571, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0020020005000500", "index": "0x2000", "value_type_code": 2, "status": 0, "parameter": "internal_0x2000", "value": 5}
+{"monotonic_s": 32287.794881001, "unix_s": 1793088802.5942125, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2001"}
+{"monotonic_s": 32287.800361067, "unix_s": 1793088802.599692, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0120020005000500", "index": "0x2001", "value_type_code": 2, "status": 0, "parameter": "internal_0x2001", "value": 5}
+{"monotonic_s": 32287.899813797, "unix_s": 1793088802.699146, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2002"}
+{"monotonic_s": 32287.905364276, "unix_s": 1793088802.7046964, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0220020005000500", "index": "0x2002", "value_type_code": 2, "status": 0, "parameter": "internal_0x2002", "value": 5}
+{"monotonic_s": 32288.004438679, "unix_s": 1793088802.8037705, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2003"}
+{"monotonic_s": 32288.009319822, "unix_s": 1793088802.8086505, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0320020005000000", "index": "0x2003", "value_type_code": 2, "status": 0, "parameter": "internal_0x2003", "value": 5}
+{"monotonic_s": 32288.108181478, "unix_s": 1793088802.9075134, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2004"}
+{"monotonic_s": 32288.113186154, "unix_s": 1793088802.9125173, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "04200400f4010000", "index": "0x2004", "value_type_code": 4, "status": 0, "parameter": "internal_0x2004", "value": 500}
+{"monotonic_s": 32288.212240915, "unix_s": 1793088803.0115728, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2005"}
+{"monotonic_s": 32288.217516509, "unix_s": 1793088803.0168483, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0520060023805c3f", "index": "0x2005", "value_type_code": 6, "status": 0, "parameter": "MechOffset", "value": 0.8613302111625671}
+{"monotonic_s": 32288.317659936, "unix_s": 1793088803.1169925, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2006"}
+{"monotonic_s": 32288.322572066, "unix_s": 1793088803.1219034, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0620060000000000", "index": "0x2006", "value_type_code": 6, "status": 0, "parameter": "status4_firmware_dependent", "value": 0.0}
+{"monotonic_s": 32288.421540056, "unix_s": 1793088803.2208722, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2007"}
+{"monotonic_s": 32288.427281672, "unix_s": 1793088803.2266126, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "072006000000c040", "index": "0x2007", "value_type_code": 6, "status": 0, "parameter": "internal_0x2007", "value": 6.0}
+{"monotonic_s": 32288.525489494, "unix_s": 1793088803.3248212, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2008"}
+{"monotonic_s": 32288.530220628, "unix_s": 1793088803.329552, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0820060000000000", "index": "0x2008", "value_type_code": 6, "status": 0, "parameter": "internal_0x2008", "value": 0.0}
+{"monotonic_s": 32288.629044475, "unix_s": 1793088803.4283764, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2009"}
+{"monotonic_s": 32288.63411364, "unix_s": 1793088803.4334443, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0920000001000100", "index": "0x2009", "value_type_code": 0, "status": 0, "parameter": "internal_0x2009", "value": 1}
+{"monotonic_s": 32288.733492867, "unix_s": 1793088803.5328248, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x200a"}
+{"monotonic_s": 32288.739327836, "unix_s": 1793088803.5386593, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0a2000002101fd00", "index": "0x200a", "value_type_code": 0, "status": 0, "parameter": "internal_0x200a", "value": 33}
+{"monotonic_s": 32288.838386252, "unix_s": 1793088803.637718, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x200b"}
+{"monotonic_s": 32288.843150426, "unix_s": 1793088803.6424813, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0b200000fd0000a0", "index": "0x200b", "value_type_code": 0, "status": 0, "parameter": "internal_0x200b", "value": 253}
+{"monotonic_s": 32288.943355222, "unix_s": 1793088803.742687, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x200c"}
+{"monotonic_s": 32288.948270253, "unix_s": 1793088803.7476008, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0c200400a00f0000", "index": "0x200c", "value_type_code": 4, "status": 0, "parameter": "internal_0x200c", "value": 4000}
+{"monotonic_s": 32289.048334139, "unix_s": 1793088803.8476663, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x200d"}
+{"monotonic_s": 32289.053574696, "unix_s": 1793088803.8529058, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0d20030000000000", "index": "0x200d", "value_type_code": 3, "status": 0, "parameter": "internal_0x200d", "value": 0}
+{"monotonic_s": 32289.15251166, "unix_s": 1793088803.951844, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x200e"}
+{"monotonic_s": 32289.15724216, "unix_s": 1793088803.956573, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0e20040000000000", "index": "0x200e", "value_type_code": 4, "status": 0, "parameter": "internal_0x200e", "value": 0}
+{"monotonic_s": 32289.256384925, "unix_s": 1793088804.0557168, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x200f"}
+{"monotonic_s": 32289.262378703, "unix_s": 1793088804.0617101, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0f20060000000000", "index": "0x200f", "value_type_code": 6, "status": 0, "parameter": "internal_0x200f", "value": 0.0}
+{"monotonic_s": 32289.361678039, "unix_s": 1793088804.1610103, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2010"}
+{"monotonic_s": 32289.367316835, "unix_s": 1793088804.1666484, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "102000000000a828", "index": "0x2010", "value_type_code": 0, "status": 0, "parameter": "internal_0x2010", "value": 0}
+{"monotonic_s": 32289.465239056, "unix_s": 1793088804.2645712, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2011"}
+{"monotonic_s": 32289.47020148, "unix_s": 1793088804.2695324, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "11200600cdcccc3d", "index": "0x2011", "value_type_code": 6, "status": 0, "parameter": "internal_0x2011", "value": 0.10000000149011612}
+{"monotonic_s": 32289.569188042, "unix_s": 1793088804.36852, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2012"}
+{"monotonic_s": 32289.574294452, "unix_s": 1793088804.3736255, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "122006000000003e", "index": "0x2012", "value_type_code": 6, "status": 0, "parameter": "internal_0x2012", "value": 0.125}
+{"monotonic_s": 32289.674383406, "unix_s": 1793088804.4737158, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2013"}
+{"monotonic_s": 32289.679309618, "unix_s": 1793088804.4786403, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "13200600006f813c", "index": "0x2013", "value_type_code": 6, "status": 0, "parameter": "internal_0x2013", "value": 0.015799999237060547}
+{"monotonic_s": 32289.77915936, "unix_s": 1793088804.5784917, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2014"}
+{"monotonic_s": 32289.784217922, "unix_s": 1793088804.5835493, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "142006000000e040", "index": "0x2014", "value_type_code": 6, "status": 0, "parameter": "internal_0x2014", "value": 7.0}
+{"monotonic_s": 32289.87981434, "unix_s": 1793088804.6791468, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2015"}
+{"monotonic_s": 32289.88517359, "unix_s": 1793088804.6845045, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "152006000ad7a33c", "index": "0x2015", "value_type_code": 6, "status": 0, "parameter": "internal_0x2015", "value": 0.019999999552965164}
+{"monotonic_s": 32289.980642636, "unix_s": 1793088804.779975, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2016"}
+{"monotonic_s": 32289.986471525, "unix_s": 1793088804.7858028, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "162006000000f041", "index": "0x2016", "value_type_code": 6, "status": 0, "parameter": "internal_0x2016", "value": 30.0}
+{"monotonic_s": 32290.086144508, "unix_s": 1793088804.8854764, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2017"}
+{"monotonic_s": 32290.091161317, "unix_s": 1793088804.8904927, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "172006000000003f", "index": "0x2017", "value_type_code": 6, "status": 0, "parameter": "internal_0x2017", "value": 0.5}
+{"monotonic_s": 32290.191640496, "unix_s": 1793088804.9909725, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2018"}
+{"monotonic_s": 32290.197397675, "unix_s": 1793088804.9967287, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1820060000004843", "index": "0x2018", "value_type_code": 6, "status": 0, "parameter": "internal_0x2018", "value": 200.0}
+{"monotonic_s": 32290.2932764, "unix_s": 1793088805.0926082, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2019"}
+{"monotonic_s": 32290.298193564, "unix_s": 1793088805.0975244, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1920060000003041", "index": "0x2019", "value_type_code": 6, "status": 0, "parameter": "internal_0x2019", "value": 11.0}
+{"monotonic_s": 32290.393862746, "unix_s": 1793088805.1931944, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x201a"}
+{"monotonic_s": 32290.399155703, "unix_s": 1793088805.1984866, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1a2006000ad7233d", "index": "0x201a", "value_type_code": 6, "status": 0, "parameter": "internal_0x201a", "value": 0.03999999910593033}
+{"monotonic_s": 32290.494495677, "unix_s": 1793088805.2938278, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x201b"}
+{"monotonic_s": 32290.499143805, "unix_s": 1793088805.298475, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1b20060000000000", "index": "0x201b", "value_type_code": 6, "status": 0, "parameter": "internal_0x201b", "value": 0.0}
+{"monotonic_s": 32290.599649487, "unix_s": 1793088805.3989813, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x201c"}
+{"monotonic_s": 32290.604215165, "unix_s": 1793088805.403546, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1c20060000000000", "index": "0x201c", "value_type_code": 6, "status": 0, "parameter": "internal_0x201c", "value": 0.0}
+{"monotonic_s": 32290.704805172, "unix_s": 1793088805.5041373, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x201d"}
+{"monotonic_s": 32290.710202757, "unix_s": 1793088805.5095341, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1d200600b5e1b940", "index": "0x201d", "value_type_code": 6, "status": 0, "parameter": "internal_0x201d", "value": 5.808802127838135}
+{"monotonic_s": 32290.805256284, "unix_s": 1793088805.604588, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x201e"}
+{"monotonic_s": 32290.810280324, "unix_s": 1793088805.6096115, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1e2006009a99193e", "index": "0x201e", "value_type_code": 6, "status": 0, "parameter": "internal_0x201e", "value": 0.15000000596046448}
+{"monotonic_s": 32290.90602518, "unix_s": 1793088805.7053573, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x201f"}
+{"monotonic_s": 32290.911411165, "unix_s": 1793088805.7107432, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1f20060000002041", "index": "0x201f", "value_type_code": 6, "status": 0, "parameter": "internal_0x201f", "value": 10.0}
+{"monotonic_s": 32291.011711404, "unix_s": 1793088805.8110437, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2020"}
+{"monotonic_s": 32291.016434009, "unix_s": 1793088805.815765, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2020060000002041", "index": "0x2020", "value_type_code": 6, "status": 0, "parameter": "internal_0x2020", "value": 10.0}
+{"monotonic_s": 32291.116504356, "unix_s": 1793088805.9158363, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2021"}
+{"monotonic_s": 32291.121868761, "unix_s": 1793088805.9212003, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2120000000000000", "index": "0x2021", "value_type_code": 0, "status": 0, "parameter": "zero_sta", "value": 0}
+{"monotonic_s": 32291.222057447, "unix_s": 1793088806.0213892, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2022"}
+{"monotonic_s": 32291.227319801, "unix_s": 1793088806.0266507, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2220000000000000", "index": "0x2022", "value_type_code": 0, "status": 0, "parameter": "internal_0x2022", "value": 0}
+{"monotonic_s": 32291.326983624, "unix_s": 1793088806.1263158, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2023"}
+{"monotonic_s": 32291.332194203, "unix_s": 1793088806.131525, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2320060000000000", "index": "0x2023", "value_type_code": 6, "status": 0, "parameter": "add_offset", "value": 0.0}
+{"monotonic_s": 32291.430329339, "unix_s": 1793088806.2296615, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2024"}
+{"monotonic_s": 32291.435221747, "unix_s": 1793088806.2345529, "event": "rx", "id": 151069181, "type": 9, "motor_id": 33, "data": "2420000000000000", "index": "0x2024", "value_type_code": 0, "status": 1}
+{"monotonic_s": 32291.534690181, "unix_s": 1793088806.3340228, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2025"}
+{"monotonic_s": 32291.540387483, "unix_s": 1793088806.3397188, "event": "rx", "id": 151069181, "type": 9, "motor_id": 33, "data": "2520000000000000", "index": "0x2025", "value_type_code": 0, "status": 1}
+{"monotonic_s": 32291.635799712, "unix_s": 1793088806.4351318, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2026"}
+{"monotonic_s": 32291.641299087, "unix_s": 1793088806.4406312, "event": "rx", "id": 151069181, "type": 9, "motor_id": 33, "data": "2620000000000000", "index": "0x2026", "value_type_code": 0, "status": 1}
+{"monotonic_s": 32291.739740718, "unix_s": 1793088806.539073, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x2027"}
+{"monotonic_s": 32291.745150816, "unix_s": 1793088806.5444818, "event": "rx", "id": 151069181, "type": 9, "motor_id": 33, "data": "2720000000000000", "index": "0x2027", "value_type_code": 0, "status": 1}
+{"monotonic_s": 32291.840645099, "unix_s": 1793088806.6399775, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3000"}
+{"monotonic_s": 32291.846138361, "unix_s": 1793088806.6454692, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0030020003000000", "index": "0x3000", "value_type_code": 2, "status": 0, "parameter": "internal_0x3000", "value": 3}
+{"monotonic_s": 32291.941786721, "unix_s": 1793088806.7411199, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3001"}
+{"monotonic_s": 32291.947255783, "unix_s": 1793088806.746587, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0130020000008547", "index": "0x3001", "value_type_code": 2, "status": 0, "parameter": "internal_0x3001", "value": 0}
+{"monotonic_s": 32292.04297366, "unix_s": 1793088806.8423064, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3002"}
+{"monotonic_s": 32292.048338109, "unix_s": 1793088806.847669, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0230020017000000", "index": "0x3002", "value_type_code": 2, "status": 0, "parameter": "internal_0x3002", "value": 23}
+{"monotonic_s": 32292.147910372, "unix_s": 1793088806.947242, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3003"}
+{"monotonic_s": 32292.153332375, "unix_s": 1793088806.9526641, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "033002000000b763", "index": "0x3003", "value_type_code": 2, "status": 0, "parameter": "internal_0x3003", "value": 0}
+{"monotonic_s": 32292.253266393, "unix_s": 1793088807.0525985, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3004"}
+{"monotonic_s": 32292.258151679, "unix_s": 1793088807.0574825, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "04300300a8280000", "index": "0x3004", "value_type_code": 3, "status": 0, "parameter": "internal_0x3004", "value": 10408}
+{"monotonic_s": 32292.358312429, "unix_s": 1793088807.1576443, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3005"}
+{"monotonic_s": 32292.363310161, "unix_s": 1793088807.162641, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "053003001e011801", "index": "0x3005", "value_type_code": 3, "status": 0, "parameter": "internal_0x3005", "value": 286}
+{"monotonic_s": 32292.458917137, "unix_s": 1793088807.2582493, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3006"}
+{"monotonic_s": 32292.464267309, "unix_s": 1793088807.2635987, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0630030018013201", "index": "0x3006", "value_type_code": 3, "status": 0, "parameter": "internal_0x3006", "value": 280}
+{"monotonic_s": 32292.559459162, "unix_s": 1793088807.3587909, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3007"}
+{"monotonic_s": 32292.565172307, "unix_s": 1793088807.3645034, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0730020023621e01", "index": "0x3007", "value_type_code": 2, "status": 0, "parameter": "internal_0x3007", "value": 25123}
+{"monotonic_s": 32292.664459494, "unix_s": 1793088807.4637914, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3008"}
+{"monotonic_s": 32292.669279131, "unix_s": 1793088807.46861, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "08300500e4070000", "index": "0x3008", "value_type_code": 5, "status": 0, "parameter": "internal_0x3008", "value": 2020}
+{"monotonic_s": 32292.768159849, "unix_s": 1793088807.5674915, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3009"}
+{"monotonic_s": 32292.773312579, "unix_s": 1793088807.572644, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "09300500e5070000", "index": "0x3009", "value_type_code": 5, "status": 0, "parameter": "internal_0x3009", "value": 2021}
+{"monotonic_s": 32292.872608513, "unix_s": 1793088807.6719403, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x300a"}
+{"monotonic_s": 32292.878136051, "unix_s": 1793088807.6774669, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0a300200e3070000", "index": "0x300a", "value_type_code": 2, "status": 0, "parameter": "internal_0x300a", "value": 2019}
+{"monotonic_s": 32292.973425615, "unix_s": 1793088807.7727575, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x300b"}
+{"monotonic_s": 32292.978613831, "unix_s": 1793088807.7779458, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0b300200e6070000", "index": "0x300b", "value_type_code": 2, "status": 0, "parameter": "internal_0x300b", "value": 2022}
+{"monotonic_s": 32293.078493355, "unix_s": 1793088807.8778253, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x300c"}
+{"monotonic_s": 32293.083363789, "unix_s": 1793088807.8826954, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0c300600aefdc841", "index": "0x300c", "value_type_code": 6, "status": 0, "parameter": "internal_0x300c", "value": 25.12386703491211}
+{"monotonic_s": 32293.183667235, "unix_s": 1793088807.983, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x300d"}
+{"monotonic_s": 32293.189175691, "unix_s": 1793088807.9885063, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0d30060000000000", "index": "0x300d", "value_type_code": 6, "status": 0, "parameter": "internal_0x300d", "value": 0.0}
+{"monotonic_s": 32293.28932476, "unix_s": 1793088808.0886574, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x300e"}
+{"monotonic_s": 32293.294225914, "unix_s": 1793088808.093557, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0e30060000000000", "index": "0x300e", "value_type_code": 6, "status": 0, "parameter": "internal_0x300e", "value": 0.0}
+{"monotonic_s": 32293.390084688, "unix_s": 1793088808.1894164, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x300f"}
+{"monotonic_s": 32293.395542118, "unix_s": 1793088808.1948733, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "0f3006009b511c40", "index": "0x300f", "value_type_code": 6, "status": 0, "parameter": "internal_0x300f", "value": 2.4424808025360107}
+{"monotonic_s": 32293.491441967, "unix_s": 1793088808.290774, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3010"}
+{"monotonic_s": 32293.496267085, "unix_s": 1793088808.2955983, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1030060000000000", "index": "0x3010", "value_type_code": 6, "status": 0, "parameter": "internal_0x3010", "value": 0.0}
+{"monotonic_s": 32293.596628736, "unix_s": 1793088808.395961, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3011"}
+{"monotonic_s": 32293.602230044, "unix_s": 1793088808.4015718, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1130060000000000", "index": "0x3011", "value_type_code": 6, "status": 0, "parameter": "internal_0x3011", "value": 0.0}
+{"monotonic_s": 32293.697029897, "unix_s": 1793088808.4963617, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3012"}
+{"monotonic_s": 32293.702229154, "unix_s": 1793088808.50156, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "123006009b511c40", "index": "0x3012", "value_type_code": 6, "status": 0, "parameter": "internal_0x3012", "value": 2.4424808025360107}
+{"monotonic_s": 32293.798257451, "unix_s": 1793088808.5975895, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3013"}
+{"monotonic_s": 32293.803412852, "unix_s": 1793088808.602744, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1330060000000000", "index": "0x3013", "value_type_code": 6, "status": 0, "parameter": "internal_0x3013", "value": 0.0}
+{"monotonic_s": 32293.903768029, "unix_s": 1793088808.7031002, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3014"}
+{"monotonic_s": 32293.909199158, "unix_s": 1793088808.7085304, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "14300500faffffff", "index": "0x3014", "value_type_code": 5, "status": 0, "parameter": "rotation", "value": -6}
+{"monotonic_s": 32294.008551967, "unix_s": 1793088808.8078837, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3015"}
+{"monotonic_s": 32294.013187456, "unix_s": 1793088808.8125184, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "15300600609f7f40", "index": "0x3015", "value_type_code": 6, "status": 0, "parameter": "modPos", "value": 3.9941024780273438}
+{"monotonic_s": 32294.112102118, "unix_s": 1793088808.9114337, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3016"}
+{"monotonic_s": 32294.117114404, "unix_s": 1793088808.9164453, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "163006009b511c40", "index": "0x3016", "value_type_code": 6, "status": 0, "parameter": "mechPos", "value": 2.4424808025360107}
+{"monotonic_s": 32294.21647816, "unix_s": 1793088809.0158098, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3017"}
+{"monotonic_s": 32294.221182585, "unix_s": 1793088809.0205138, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1730060000000000", "index": "0x3017", "value_type_code": 6, "status": 0, "parameter": "internal_0x3017", "value": 0.0}
+{"monotonic_s": 32294.320104071, "unix_s": 1793088809.119436, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3018"}
+{"monotonic_s": 32294.325309558, "unix_s": 1793088809.1246405, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1830060034005740", "index": "0x3018", "value_type_code": 6, "status": 0, "parameter": "internal_0x3018", "value": 3.3593873977661133}
+{"monotonic_s": 32294.424220619, "unix_s": 1793088809.2235527, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3019"}
+{"monotonic_s": 32294.429286974, "unix_s": 1793088809.228618, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1930060000000000", "index": "0x3019", "value_type_code": 6, "status": 0, "parameter": "internal_0x3019", "value": 0.0}
+{"monotonic_s": 32294.528338358, "unix_s": 1793088809.3276703, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x301a"}
+{"monotonic_s": 32294.533256526, "unix_s": 1793088809.3325875, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1a30060000000000", "index": "0x301a", "value_type_code": 6, "status": 0, "parameter": "internal_0x301a", "value": 0.0}
+{"monotonic_s": 32294.632201284, "unix_s": 1793088809.4315333, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x301b"}
+{"monotonic_s": 32294.637209699, "unix_s": 1793088809.4365404, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1b30060000000000", "index": "0x301b", "value_type_code": 6, "status": 0, "parameter": "internal_0x301b", "value": 0.0}
+{"monotonic_s": 32294.736510555, "unix_s": 1793088809.5358434, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x301c"}
+{"monotonic_s": 32294.74115271, "unix_s": 1793088809.5404835, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1c30050000000000", "index": "0x301c", "value_type_code": 5, "status": 0, "parameter": "internal_0x301c", "value": 0}
+{"monotonic_s": 32294.839782472, "unix_s": 1793088809.6391144, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x301d"}
+{"monotonic_s": 32294.845192975, "unix_s": 1793088809.644524, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1d30000001fd0000", "index": "0x301d", "value_type_code": 0, "status": 0, "parameter": "internal_0x301d", "value": 1}
+{"monotonic_s": 32294.944495089, "unix_s": 1793088809.7438266, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x301e"}
+{"monotonic_s": 32294.94936147, "unix_s": 1793088809.748693, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1e30060000000000", "index": "0x301e", "value_type_code": 6, "status": 0, "parameter": "internal_0x301e", "value": 0.0}
+{"monotonic_s": 32295.048583971, "unix_s": 1793088809.847917, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x301f"}
+{"monotonic_s": 32295.054233653, "unix_s": 1793088809.853565, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "1f3003001e011801", "index": "0x301f", "value_type_code": 3, "status": 0, "parameter": "internal_0x301f", "value": 286}
+{"monotonic_s": 32295.149592374, "unix_s": 1793088809.948924, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3020"}
+{"monotonic_s": 32295.154332555, "unix_s": 1793088809.9536645, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2030060000000000", "index": "0x3020", "value_type_code": 6, "status": 0, "parameter": "internal_0x3020", "value": 0.0}
+{"monotonic_s": 32295.253844571, "unix_s": 1793088810.0531766, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3021"}
+{"monotonic_s": 32295.258444058, "unix_s": 1793088810.057776, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2130060000000000", "index": "0x3021", "value_type_code": 6, "status": 0, "parameter": "internal_0x3021", "value": 0.0}
+{"monotonic_s": 32295.359027107, "unix_s": 1793088810.158359, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3022"}
+{"monotonic_s": 32295.364362516, "unix_s": 1793088810.1636941, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2230040000000000", "index": "0x3022", "value_type_code": 4, "status": 0, "parameter": "internal_0x3022", "value": 0}
+{"monotonic_s": 32295.459974264, "unix_s": 1793088810.2593062, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3023"}
+{"monotonic_s": 32295.465137135, "unix_s": 1793088810.2644682, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2330040000000000", "index": "0x3023", "value_type_code": 4, "status": 0, "parameter": "internal_0x3023", "value": 0}
+{"monotonic_s": 32295.565508253, "unix_s": 1793088810.364841, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3024"}
+{"monotonic_s": 32295.570212175, "unix_s": 1793088810.3695428, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2430020000000000", "index": "0x3024", "value_type_code": 2, "status": 0, "parameter": "internal_0x3024", "value": 0}
+{"monotonic_s": 32295.669456613, "unix_s": 1793088810.4687884, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3025"}
+{"monotonic_s": 32295.674194913, "unix_s": 1793088810.4735258, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2530020000000000", "index": "0x3025", "value_type_code": 2, "status": 0, "parameter": "internal_0x3025", "value": 0}
+{"monotonic_s": 32295.773720541, "unix_s": 1793088810.5730524, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3026"}
+{"monotonic_s": 32295.7791401, "unix_s": 1793088810.578471, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2630060000000000", "index": "0x3026", "value_type_code": 6, "status": 0, "parameter": "internal_0x3026", "value": 0.0}
+{"monotonic_s": 32295.877261258, "unix_s": 1793088810.676593, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3027"}
+{"monotonic_s": 32295.882295169, "unix_s": 1793088810.681626, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2730060000000000", "index": "0x3027", "value_type_code": 6, "status": 0, "parameter": "internal_0x3027", "value": 0.0}
+{"monotonic_s": 32295.981327605, "unix_s": 1793088810.7806597, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3028"}
+{"monotonic_s": 32295.986224956, "unix_s": 1793088810.7855566, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2830060000000000", "index": "0x3028", "value_type_code": 6, "status": 0, "parameter": "internal_0x3028", "value": 0.0}
+{"monotonic_s": 32296.086063525, "unix_s": 1793088810.8853953, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3029"}
+{"monotonic_s": 32296.091214146, "unix_s": 1793088810.890545, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2930060000000000", "index": "0x3029", "value_type_code": 6, "status": 0, "parameter": "internal_0x3029", "value": 0.0}
+{"monotonic_s": 32296.190779605, "unix_s": 1793088810.9901116, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x302a"}
+{"monotonic_s": 32296.196297845, "unix_s": 1793088810.9956293, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2a30060000000000", "index": "0x302a", "value_type_code": 6, "status": 0, "parameter": "internal_0x302a", "value": 0.0}
+{"monotonic_s": 32296.295480939, "unix_s": 1793088811.0948133, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x302b"}
+{"monotonic_s": 32296.300208155, "unix_s": 1793088811.09954, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2b300600aefdc841", "index": "0x302b", "value_type_code": 6, "status": 0, "parameter": "internal_0x302b", "value": 25.12386703491211}
+{"monotonic_s": 32296.400953144, "unix_s": 1793088811.2002857, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x302c"}
+{"monotonic_s": 32296.406147673, "unix_s": 1793088811.2054787, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2c30060000000000", "index": "0x302c", "value_type_code": 6, "status": 0, "parameter": "internal_0x302c", "value": 0.0}
+{"monotonic_s": 32296.505706648, "unix_s": 1793088811.3050385, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x302d"}
+{"monotonic_s": 32296.510266441, "unix_s": 1793088811.3095982, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2d3006009a99d93f", "index": "0x302d", "value_type_code": 6, "status": 0, "parameter": "internal_0x302d", "value": 1.7000000476837158}
+{"monotonic_s": 32296.609097208, "unix_s": 1793088811.4084291, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x302e"}
+{"monotonic_s": 32296.614094245, "unix_s": 1793088811.413425, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2e30060000003041", "index": "0x302e", "value_type_code": 6, "status": 0, "parameter": "internal_0x302e", "value": 11.0}
+{"monotonic_s": 32296.713889613, "unix_s": 1793088811.5132217, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x302f"}
+{"monotonic_s": 32296.718435311, "unix_s": 1793088811.5177667, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "2f30060000000000", "index": "0x302f", "value_type_code": 6, "status": 0, "parameter": "internal_0x302f", "value": 0.0}
+{"monotonic_s": 32296.818787103, "unix_s": 1793088811.6181195, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3030"}
+{"monotonic_s": 32296.824299935, "unix_s": 1793088811.6236308, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3030060000000000", "index": "0x3030", "value_type_code": 6, "status": 0, "parameter": "internal_0x3030", "value": 0.0}
+{"monotonic_s": 32296.919624966, "unix_s": 1793088811.7189577, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3031"}
+{"monotonic_s": 32296.925267692, "unix_s": 1793088811.7245998, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3130000000000000", "index": "0x3031", "value_type_code": 0, "status": 0, "parameter": "internal_0x3031", "value": 0}
+{"monotonic_s": 32297.023798828, "unix_s": 1793088811.8231306, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3032"}
+{"monotonic_s": 32297.029123893, "unix_s": 1793088811.8284547, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "32300600eed106c2", "index": "0x3032", "value_type_code": 6, "status": 0, "parameter": "internal_0x3032", "value": -33.70500946044922}
+{"monotonic_s": 32297.128376362, "unix_s": 1793088811.9277081, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3033"}
+{"monotonic_s": 32297.133174077, "unix_s": 1793088811.9325051, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3330060066fafd3f", "index": "0x3033", "value_type_code": 6, "status": 0, "parameter": "internal_0x3033", "value": 1.9842040538787842}
+{"monotonic_s": 32297.233038182, "unix_s": 1793088812.03237, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3034"}
+{"monotonic_s": 32297.238275931, "unix_s": 1793088812.037607, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3430060065737f40", "index": "0x3034", "value_type_code": 6, "status": 0, "parameter": "internal_0x3034", "value": 3.9914181232452393}
+{"monotonic_s": 32297.336749131, "unix_s": 1793088812.136081, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3035"}
+{"monotonic_s": 32297.34214763, "unix_s": 1793088812.1414785, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "353006004c38bf40", "index": "0x3035", "value_type_code": 6, "status": 0, "parameter": "internal_0x3035", "value": 5.975622177124023}
+{"monotonic_s": 32297.441936678, "unix_s": 1793088812.2412684, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3036"}
+{"monotonic_s": 32297.446264779, "unix_s": 1793088812.2455962, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "363006007faf09c2", "index": "0x3036", "value_type_code": 6, "status": 0, "parameter": "internal_0x3036", "value": -34.421382904052734}
+{"monotonic_s": 32297.543809249, "unix_s": 1793088812.3431413, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3037"}
+{"monotonic_s": 32297.54938748, "unix_s": 1793088812.3487194, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "37300600ef430ac2", "index": "0x3037", "value_type_code": 6, "status": 0, "parameter": "internal_0x3037", "value": -34.566341400146484}
+{"monotonic_s": 32297.648037881, "unix_s": 1793088812.4473705, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3038"}
+{"monotonic_s": 32297.653395005, "unix_s": 1793088812.4527264, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3830040000000000", "index": "0x3038", "value_type_code": 4, "status": 0, "parameter": "internal_0x3038", "value": 0}
+{"monotonic_s": 32297.751900365, "unix_s": 1793088812.551233, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3039"}
+{"monotonic_s": 32297.757802074, "unix_s": 1793088812.557134, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3930040000000000", "index": "0x3039", "value_type_code": 4, "status": 0, "parameter": "internal_0x3039", "value": 0}
+{"monotonic_s": 32297.854852559, "unix_s": 1793088812.654185, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x303a"}
+{"monotonic_s": 32297.8603867, "unix_s": 1793088812.6597178, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3a30040006000000", "index": "0x303a", "value_type_code": 4, "status": 0, "parameter": "internal_0x303a", "value": 6}
+{"monotonic_s": 32297.956778008, "unix_s": 1793088812.7561104, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x303b"}
+{"monotonic_s": 32297.962586683, "unix_s": 1793088812.7619185, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3b30040000000000", "index": "0x303b", "value_type_code": 4, "status": 0, "parameter": "internal_0x303b", "value": 0}
+{"monotonic_s": 32298.0594722, "unix_s": 1793088812.858804, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x303c"}
+{"monotonic_s": 32298.064481473, "unix_s": 1793088812.8638134, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3c30040000000000", "index": "0x303c", "value_type_code": 4, "status": 0, "parameter": "internal_0x303c", "value": 0}
+{"monotonic_s": 32298.161632642, "unix_s": 1793088812.9609647, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x303d"}
+{"monotonic_s": 32298.166371391, "unix_s": 1793088812.9657028, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3d30040006000000", "index": "0x303d", "value_type_code": 4, "status": 0, "parameter": "internal_0x303d", "value": 6}
+{"monotonic_s": 32298.263300485, "unix_s": 1793088813.0626328, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x303e"}
+{"monotonic_s": 32298.268382694, "unix_s": 1793088813.0677135, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3e30040002000000", "index": "0x303e", "value_type_code": 4, "status": 0, "parameter": "internal_0x303e", "value": 2}
+{"monotonic_s": 32298.365472328, "unix_s": 1793088813.1648045, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x303f"}
+{"monotonic_s": 32298.371187768, "unix_s": 1793088813.170519, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "3f30040000000000", "index": "0x303f", "value_type_code": 4, "status": 0, "parameter": "internal_0x303f", "value": 0}
+{"monotonic_s": 32298.46837876, "unix_s": 1793088813.2677104, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3040"}
+{"monotonic_s": 32298.474397837, "unix_s": 1793088813.2737288, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "403006001be7c6c0", "index": "0x3040", "value_type_code": 6, "status": 0, "parameter": "internal_0x3040", "value": -6.2157111167907715}
+{"monotonic_s": 32298.571929643, "unix_s": 1793088813.3712616, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3041"}
+{"monotonic_s": 32298.577274654, "unix_s": 1793088813.3766057, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4130030046051405", "index": "0x3041", "value_type_code": 3, "status": 0, "parameter": "internal_0x3041", "value": 1350}
+{"monotonic_s": 32298.67512766, "unix_s": 1793088813.4744604, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3042"}
+{"monotonic_s": 32298.680750568, "unix_s": 1793088813.480082, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "423006007b142e3f", "index": "0x3042", "value_type_code": 6, "status": 0, "parameter": "internal_0x3042", "value": 0.6800000071525574}
+{"monotonic_s": 32298.777576081, "unix_s": 1793088813.576908, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3043"}
+{"monotonic_s": 32298.782242025, "unix_s": 1793088813.5815735, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4330000001000000", "index": "0x3043", "value_type_code": 0, "status": 0, "parameter": "internal_0x3043", "value": 1}
+{"monotonic_s": 32298.881394251, "unix_s": 1793088813.680727, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3044"}
+{"monotonic_s": 32298.886380982, "unix_s": 1793088813.6857119, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4430060000000000", "index": "0x3044", "value_type_code": 6, "status": 0, "parameter": "internal_0x3044", "value": 0.0}
+{"monotonic_s": 32298.985122122, "unix_s": 1793088813.784454, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3045"}
+{"monotonic_s": 32298.990206679, "unix_s": 1793088813.7895374, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "453006009b511c40", "index": "0x3045", "value_type_code": 6, "status": 0, "parameter": "internal_0x3045", "value": 2.4424808025360107}
+{"monotonic_s": 32299.087367081, "unix_s": 1793088813.886699, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3046"}
+{"monotonic_s": 32299.092380884, "unix_s": 1793088813.8917124, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4630060000000000", "index": "0x3046", "value_type_code": 6, "status": 0, "parameter": "internal_0x3046", "value": 0.0}
+{"monotonic_s": 32299.189653199, "unix_s": 1793088813.9889855, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3047"}
+{"monotonic_s": 32299.195209701, "unix_s": 1793088813.9945407, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "47300600eed106c2", "index": "0x3047", "value_type_code": 6, "status": 0, "parameter": "internal_0x3047", "value": -33.70500946044922}
+{"monotonic_s": 32299.292538418, "unix_s": 1793088814.0918703, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3048"}
+{"monotonic_s": 32299.298350766, "unix_s": 1793088814.097682, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4830060037c674c0", "index": "0x3048", "value_type_code": 6, "status": 0, "parameter": "internal_0x3048", "value": -3.8245980739593506}
+{"monotonic_s": 32299.396393784, "unix_s": 1793088814.1957262, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3049"}
+{"monotonic_s": 32299.401672396, "unix_s": 1793088814.2010043, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "493006007faf09c2", "index": "0x3049", "value_type_code": 6, "status": 0, "parameter": "internal_0x3049", "value": -34.421382904052734}
+{"monotonic_s": 32299.49901612, "unix_s": 1793088814.298348, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x304a"}
+{"monotonic_s": 32299.504307967, "unix_s": 1793088814.3036394, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4a300600ef430ac2", "index": "0x304a", "value_type_code": 6, "status": 0, "parameter": "internal_0x304a", "value": -34.566341400146484}
+{"monotonic_s": 32299.60417648, "unix_s": 1793088814.4035087, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x304b"}
+{"monotonic_s": 32299.609314315, "unix_s": 1793088814.4086459, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4b3006001bce75c0", "index": "0x304b", "value_type_code": 6, "status": 0, "parameter": "internal_0x304b", "value": -3.8407046794891357}
+{"monotonic_s": 32299.707613722, "unix_s": 1793088814.5069454, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x304c"}
+{"monotonic_s": 32299.712369637, "unix_s": 1793088814.5117004, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4c30030000000000", "index": "0x304c", "value_type_code": 3, "status": 0, "parameter": "internal_0x304c", "value": 0}
+{"monotonic_s": 32299.812913649, "unix_s": 1793088814.612246, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x304d"}
+{"monotonic_s": 32299.817234352, "unix_s": 1793088814.6165657, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4d30020000000000", "index": "0x304d", "value_type_code": 2, "status": 0, "parameter": "internal_0x304d", "value": 0}
+{"monotonic_s": 32299.916415255, "unix_s": 1793088814.715747, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x304e"}
+{"monotonic_s": 32299.921263866, "unix_s": 1793088814.7205951, "event": "rx", "id": 151003645, "type": 9, "motor_id": 33, "data": "4e300000a8640020", "index": "0x304e", "value_type_code": 0, "status": 0, "parameter": "internal_0x304e", "value": 168}
+{"monotonic_s": 32300.020598247, "unix_s": 1793088814.81993, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x304f"}
+{"monotonic_s": 32300.026129229, "unix_s": 1793088814.8254604, "event": "rx", "id": 151069181, "type": 9, "motor_id": 33, "data": "4f30000000000000", "index": "0x304f", "value_type_code": 0, "status": 1}
+{"monotonic_s": 32300.124738383, "unix_s": 1793088814.9240701, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3050"}
+{"monotonic_s": 32300.130173074, "unix_s": 1793088814.9295044, "event": "rx", "id": 151069181, "type": 9, "motor_id": 33, "data": "5030000000000000", "index": "0x3050", "value_type_code": 0, "status": 1}
+{"monotonic_s": 32300.229187445, "unix_s": 1793088815.0285192, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3051"}
+{"monotonic_s": 32300.234282405, "unix_s": 1793088815.033614, "event": "rx", "id": 151069181, "type": 9, "motor_id": 33, "data": "5130000000000000", "index": "0x3051", "value_type_code": 0, "status": 1}
+{"monotonic_s": 32300.333141433, "unix_s": 1793088815.1324732, "event": "tx", "id": 151059745, "read_type": 9, "motor_id": 33, "index": "0x3052"}
+{"monotonic_s": 32300.338124474, "unix_s": 1793088815.1374555, "event": "rx", "id": 151069181, "type": 9, "motor_id": 33, "data": "5230000000000000", "index": "0x3052", "value_type_code": 0, "status": 1}
+{"monotonic_s": 32300.437197542, "unix_s": 1793088815.236529, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7000"}
+{"monotonic_s": 32300.442216031, "unix_s": 1793088815.2415473, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0070000000000000", "index": "0x7000", "status": 1}
+{"monotonic_s": 32300.540744681, "unix_s": 1793088815.3400767, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7001"}
+{"monotonic_s": 32300.546195138, "unix_s": 1793088815.3455267, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0170000000000000", "index": "0x7001", "status": 1}
+{"monotonic_s": 32300.64501614, "unix_s": 1793088815.4443486, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7002"}
+{"monotonic_s": 32300.65014852, "unix_s": 1793088815.449479, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0270000000000000", "index": "0x7002", "status": 1}
+{"monotonic_s": 32300.748751205, "unix_s": 1793088815.5480828, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7003"}
+{"monotonic_s": 32300.75314091, "unix_s": 1793088815.5524716, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0370000000000000", "index": "0x7003", "status": 1}
+{"monotonic_s": 32300.852116693, "unix_s": 1793088815.6514482, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7004"}
+{"monotonic_s": 32300.857244758, "unix_s": 1793088815.6565757, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0470000000000000", "index": "0x7004", "status": 1}
+{"monotonic_s": 32300.956400562, "unix_s": 1793088815.7557323, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7005"}
+{"monotonic_s": 32300.961443591, "unix_s": 1793088815.7607744, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "0570000000000000", "index": "0x7005", "status": 0, "parameter": "run_mode", "value": 0}
+{"monotonic_s": 32301.061729183, "unix_s": 1793088815.8610618, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7006"}
+{"monotonic_s": 32301.066177121, "unix_s": 1793088815.8655083, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "0670000000000000", "index": "0x7006", "status": 0}
+{"monotonic_s": 32301.165215748, "unix_s": 1793088815.9645476, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7007"}
+{"monotonic_s": 32301.170122677, "unix_s": 1793088815.9694538, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0770000000000000", "index": "0x7007", "status": 1}
+{"monotonic_s": 32301.268372875, "unix_s": 1793088816.067705, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7008"}
+{"monotonic_s": 32301.273129198, "unix_s": 1793088816.07246, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0870000000000000", "index": "0x7008", "status": 1}
+{"monotonic_s": 32301.371508986, "unix_s": 1793088816.1708407, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7009"}
+{"monotonic_s": 32301.376270092, "unix_s": 1793088816.1756012, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0970000000000000", "index": "0x7009", "status": 1}
+{"monotonic_s": 32301.47436644, "unix_s": 1793088816.2736983, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x700a"}
+{"monotonic_s": 32301.479145094, "unix_s": 1793088816.278476, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "0a70000000000000", "index": "0x700a", "status": 0}
+{"monotonic_s": 32301.578400772, "unix_s": 1793088816.3777332, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x700b"}
+{"monotonic_s": 32301.583063874, "unix_s": 1793088816.3823948, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "0b7000000000c040", "index": "0x700b", "status": 0}
+{"monotonic_s": 32301.683732161, "unix_s": 1793088816.4830644, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x700c"}
+{"monotonic_s": 32301.689164783, "unix_s": 1793088816.4884956, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0c70000000000000", "index": "0x700c", "status": 1}
+{"monotonic_s": 32301.787954309, "unix_s": 1793088816.5872865, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x700d"}
+{"monotonic_s": 32301.793113419, "unix_s": 1793088816.5924442, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0d70000000000000", "index": "0x700d", "status": 1}
+{"monotonic_s": 32301.892295112, "unix_s": 1793088816.6916273, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x700e"}
+{"monotonic_s": 32301.897581753, "unix_s": 1793088816.696914, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0e70000000000000", "index": "0x700e", "status": 1}
+{"monotonic_s": 32301.997905232, "unix_s": 1793088816.7972374, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x700f"}
+{"monotonic_s": 32302.003433216, "unix_s": 1793088816.8027647, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "0f70000000000000", "index": "0x700f", "status": 1}
+{"monotonic_s": 32302.102653737, "unix_s": 1793088816.9019856, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7010"}
+{"monotonic_s": 32302.10823828, "unix_s": 1793088816.9075692, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "107000000000003e", "index": "0x7010", "status": 0}
+{"monotonic_s": 32302.207698195, "unix_s": 1793088817.0070307, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7011"}
+{"monotonic_s": 32302.213336538, "unix_s": 1793088817.0126684, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "11700000006f813c", "index": "0x7011", "status": 0}
+{"monotonic_s": 32302.313182813, "unix_s": 1793088817.1125147, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7012"}
+{"monotonic_s": 32302.318118915, "unix_s": 1793088817.11745, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1270000000000000", "index": "0x7012", "status": 0}
+{"monotonic_s": 32302.418558074, "unix_s": 1793088817.2178905, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7013"}
+{"monotonic_s": 32302.424392218, "unix_s": 1793088817.2237241, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1370000001000000", "index": "0x7013", "status": 0}
+{"monotonic_s": 32302.519330376, "unix_s": 1793088817.3186631, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7014"}
+{"monotonic_s": 32302.524397414, "unix_s": 1793088817.323728, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "14700000cdcccc3d", "index": "0x7014", "status": 0}
+{"monotonic_s": 32302.623452191, "unix_s": 1793088817.4227843, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7015"}
+{"monotonic_s": 32302.628549009, "unix_s": 1793088817.4278805, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1570000018010000", "index": "0x7015", "status": 0}
+{"monotonic_s": 32302.727683055, "unix_s": 1793088817.5270147, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7016"}
+{"monotonic_s": 32302.733322352, "unix_s": 1793088817.5326536, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "167000009b511c40", "index": "0x7016", "status": 0}
+{"monotonic_s": 32302.831817383, "unix_s": 1793088817.6311495, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7017"}
+{"monotonic_s": 32302.837258021, "unix_s": 1793088817.6365893, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1770000000004843", "index": "0x7017", "status": 0}
+{"monotonic_s": 32302.935550559, "unix_s": 1793088817.734882, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7018"}
+{"monotonic_s": 32302.941318839, "unix_s": 1793088817.7406502, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1870000000003041", "index": "0x7018", "status": 0}
+{"monotonic_s": 32303.040164579, "unix_s": 1793088817.8394964, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7019"}
+{"monotonic_s": 32303.045257134, "unix_s": 1793088817.8445883, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "197000009b511c40", "index": "0x7019", "status": 0, "parameter": "mechPos", "value": 2.4424808025360107}
+{"monotonic_s": 32303.144764545, "unix_s": 1793088817.9440966, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x701a"}
+{"monotonic_s": 32303.149229217, "unix_s": 1793088817.9485602, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1a70000000000000", "index": "0x701a", "status": 0}
+{"monotonic_s": 32303.24851655, "unix_s": 1793088818.047849, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x701b"}
+{"monotonic_s": 32303.254493138, "unix_s": 1793088818.0538242, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1b70000000000000", "index": "0x701b", "status": 0, "parameter": "mechVel", "value": 0.0}
+{"monotonic_s": 32303.349538371, "unix_s": 1793088818.1488707, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x701c"}
+{"monotonic_s": 32303.355323765, "unix_s": 1793088818.1546555, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1c700000aefdc841", "index": "0x701c", "status": 0, "parameter": "VBUS", "value": 25.12386703491211}
+{"monotonic_s": 32303.4503487, "unix_s": 1793088818.2496815, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x701d"}
+{"monotonic_s": 32303.45517986, "unix_s": 1793088818.254511, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1d700000faff0000", "index": "0x701d", "status": 0, "parameter": "rotation_low16", "value": -6}
+{"monotonic_s": 32303.554122761, "unix_s": 1793088818.3534546, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x701e"}
+{"monotonic_s": 32303.559351142, "unix_s": 1793088818.358683, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1e7000000000f041", "index": "0x701e", "status": 0}
+{"monotonic_s": 32303.658577224, "unix_s": 1793088818.4579103, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x701f"}
+{"monotonic_s": 32303.663436668, "unix_s": 1793088818.462768, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "1f7000000000e040", "index": "0x701f", "status": 0}
+{"monotonic_s": 32303.761939586, "unix_s": 1793088818.5612717, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7020"}
+{"monotonic_s": 32303.767097559, "unix_s": 1793088818.5664284, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "207000000ad7a33c", "index": "0x7020", "status": 0}
+{"monotonic_s": 32303.867098931, "unix_s": 1793088818.6664307, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7021"}
+{"monotonic_s": 32303.872171584, "unix_s": 1793088818.6715024, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "217000000000003f", "index": "0x7021", "status": 0}
+{"monotonic_s": 32303.970300905, "unix_s": 1793088818.7696328, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7022"}
+{"monotonic_s": 32303.975198025, "unix_s": 1793088818.774529, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "2270000000001643", "index": "0x7022", "status": 0}
+{"monotonic_s": 32304.074556941, "unix_s": 1793088818.8738887, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7023"}
+{"monotonic_s": 32304.0794186, "unix_s": 1793088818.878751, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "2370000000000000", "index": "0x7023", "status": 1}
+{"monotonic_s": 32304.178697187, "unix_s": 1793088818.978029, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7024"}
+{"monotonic_s": 32304.184209401, "unix_s": 1793088818.9835405, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "2470000000002041", "index": "0x7024", "status": 0}
+{"monotonic_s": 32304.283887832, "unix_s": 1793088819.0832202, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7025"}
+{"monotonic_s": 32304.289123413, "unix_s": 1793088819.0884547, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "2570000000002041", "index": "0x7025", "status": 0}
+{"monotonic_s": 32304.387242831, "unix_s": 1793088819.186575, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7026"}
+{"monotonic_s": 32304.392177947, "unix_s": 1793088819.191509, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "2670000000000000", "index": "0x7026", "status": 0}
+{"monotonic_s": 32304.491464922, "unix_s": 1793088819.290797, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7027"}
+{"monotonic_s": 32304.496344026, "unix_s": 1793088819.2956748, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "2770000000000000", "index": "0x7027", "status": 1}
+{"monotonic_s": 32304.594428271, "unix_s": 1793088819.3937602, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7028"}
+{"monotonic_s": 32304.599162654, "unix_s": 1793088819.3984935, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "28700000a00f0000", "index": "0x7028", "status": 0}
+{"monotonic_s": 32304.697677495, "unix_s": 1793088819.4970095, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x7029"}
+{"monotonic_s": 32304.702120884, "unix_s": 1793088819.5014517, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "2970000000000000", "index": "0x7029", "status": 0, "parameter": "zero_sta", "value": 0}
+{"monotonic_s": 32304.802223755, "unix_s": 1793088819.6015553, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x702a"}
+{"monotonic_s": 32304.807354181, "unix_s": 1793088819.6066852, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "2a70000000000000", "index": "0x702a", "status": 1}
+{"monotonic_s": 32304.905987019, "unix_s": 1793088819.705319, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x702b"}
+{"monotonic_s": 32304.911093556, "unix_s": 1793088819.7104247, "event": "rx", "id": 285221373, "type": 17, "motor_id": 33, "data": "2b70000000000000", "index": "0x702b", "status": 0, "parameter": "add_offset", "value": 0.0}
+{"monotonic_s": 32305.009041795, "unix_s": 1793088819.8083737, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x702c"}
+{"monotonic_s": 32305.014549651, "unix_s": 1793088819.8138814, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "2c70000000000000", "index": "0x702c", "status": 1}
+{"monotonic_s": 32305.112840314, "unix_s": 1793088819.912172, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x702d"}
+{"monotonic_s": 32305.118175526, "unix_s": 1793088819.9175065, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "2d70000000000000", "index": "0x702d", "status": 1}
+{"monotonic_s": 32305.216436989, "unix_s": 1793088820.0157688, "event": "tx", "id": 285277473, "read_type": 17, "motor_id": 33, "index": "0x702e"}
+{"monotonic_s": 32305.221421463, "unix_s": 1793088820.0207524, "event": "rx", "id": 285286909, "type": 17, "motor_id": 33, "data": "2e70000000000000", "index": "0x702e", "status": 1}
+{"monotonic_s": 32305.518031683, "unix_s": 1793088820.317365, "event": "end", "received": 170, "sent": 170, "complete_request_pass": true, "complete_response_pass": true, "missing_requests": []}

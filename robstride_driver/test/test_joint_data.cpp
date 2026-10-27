@@ -211,3 +211,57 @@ TEST(JointData, RejectsAmplifiedCancellationEvenWhenJointEndpointsRemainDistinct
   EXPECT_FALSE(joint.checked_joint_to_motor_position(low));
   EXPECT_FALSE(joint.checked_joint_to_motor_position(high));
 }
+
+TEST(JointData, AccumulatedFeedbackUsesJointDirectionRatioAndOffset)
+{
+  for (const double direction : {1.0, -1.0}) {
+    rs::JointData joint;
+    joint.direction = direction;
+    joint.gear_ratio = 2.0;
+    joint.position_offset = 0.5;
+    joint.limits.position_min = -12.0;
+    joint.limits.position_max = 12.0;
+    ASSERT_TRUE(joint.update_position_feedback(11.9));
+    ASSERT_TRUE(joint.update_position_feedback(-11.9));
+    EXPECT_NEAR(joint.feedback.position, direction * 12.1 / 2.0 + 0.5, 1e-12);
+    ASSERT_TRUE(joint.update_position_feedback(11.8));
+    EXPECT_NEAR(joint.feedback.position, direction * 11.8 / 2.0 + 0.5, 1e-12);
+  }
+}
+
+TEST(JointData, RestoredCoordinatesTranslatePositionCommandsBackToMotor)
+{
+  for (const double direction : {1.0, -1.0}) {
+    rs::JointData joint;
+    joint.direction = direction;
+    joint.gear_ratio = 2.0;
+    joint.position_offset = 0.5;
+    joint.limits.position_min = -12.566370614;
+    joint.limits.position_max = 12.566370614;
+    const double period = joint.position_recovery_period;
+    ASSERT_TRUE(joint.update_position_feedback(7.0));
+    ASSERT_TRUE(joint.update_position_feedback(7.0 - period, true));
+    const double target = direction * (7.1 / 2.0) + 0.5;
+    const auto wire = joint.checked_position_command(target);
+    ASSERT_TRUE(wire);
+    EXPECT_NEAR(*wire, 7.1 - period, 1e-12);
+    // This would require a command below the wire minimum after recovery.
+    EXPECT_FALSE(joint.checked_position_command(direction * (-12.0 / 2.0) + 0.5));
+    const auto range = joint.joint_position_range();
+    ASSERT_TRUE(range);
+    EXPECT_FALSE(joint.checked_position_command(std::nextafter(
+      range->second, std::numeric_limits<double>::infinity())));
+  }
+}
+
+TEST(JointData, ResetRecoveryAdoptsMotorCoordinate)
+{
+  rs::JointData joint;
+  joint.limits.position_min = -12.0;
+  joint.limits.position_max = 12.0;
+  joint.position_recovery = rs::PositionRestartPolicy::reset;
+  ASSERT_TRUE(joint.update_position_feedback(7.0));
+  ASSERT_TRUE(joint.update_position_feedback(1.0, true));
+  EXPECT_DOUBLE_EQ(joint.feedback.position, 1.0);
+  EXPECT_DOUBLE_EQ(joint.position_tracker.coordinate_shift(), 0.0);
+}

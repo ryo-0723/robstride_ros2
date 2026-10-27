@@ -97,6 +97,67 @@ effort limits in your robot description when required.
 | RS06 | +/-4 pi rad | +/-50 rad/s | +/-36 Nm | 0..5000 | 0..100 |
 | EL05 | +/-4 pi rad | +/-50 rad/s | +/-6 Nm | 0..500 | 0..5 |
 
+### Position and turn-count retention
+
+Do not assume that an actuator retains its accumulated multi-turn position
+across a motor power cycle. On the tested EL05, approximately +6, -12, and +9
+output-shaft turns changed the internal motor-side rotation counter by +54,
+-108, and +81. After power cycling without moving the shaft, that counter
+changed from 21 to -6 and the internal counted output position changed from
+21.2922 to 2.44248 rad. The previous multi-turn position was not restored.
+Inspection of four public EL05 firmware versions (1.0.5.0.1, .2, .4, and .6)
+found no runtime rotation counter in their normal parameter-save tables;
+physical power-cycle tests after installing each version have not been performed.
+These findings do not establish retention behavior for every model or firmware.
+
+The driver unwraps Type 2 feedback into a continuous position in memory while
+it runs. The feedback period is the CAN position range width (8 pi rad for the
+standard profiles). It accumulates the shortest displacement between received
+frames, then applies `direction`, `gear_ratio`, and `position_offset`.
+Normal tracking requires less than half a feedback period of motion between
+samples. Controller stop/start preserves the accumulator; destroying the driver
+or restarting the node loses it. No position file is written.
+
+Each joint selects how to resume after an unexpected Run-to-Reset transition
+or a feedback gap long enough to make normal tracking ambiguous:
+
+| `position_recovery` | Behavior |
+|---|---|
+| `restore` (default) | Choose the position equivalent nearest the last accumulated angle |
+| `reset` | Discard the accumulator and resume from the new motor reading; this does not set mechanical zero |
+
+`position_recovery_period` defaults to 2 pi rad in motor-protocol coordinates.
+Restore assumes the motor retains its single-turn reference and unobserved
+motion is less than half this period. It cannot recover unknown whole turns or
+a changed mechanical zero. A gap is treated as a restart if it exceeds
+`feedback_timeout_ms` or the configured maximum speed could traverse half the
+feedback period in that time. A reboot returning directly to Run before either
+condition is detectable may not be recognized. Use homing or another verified
+absolute reference when these assumptions cannot be met.
+
+Set the policy inside each `<joint>` in the `ros2_control` description:
+
+```xml
+<param name="position_recovery">restore</param>
+```
+
+The model Xacro helpers also accept `position_recovery="reset"` or `"restore"`
+and an optional `position_recovery_period`. Changing the policy requires
+reloading the hardware configuration. Position commands remain subject to the
+existing accumulated-coordinate command limits and CAN range checks; continuous
+feedback does not make arbitrary multi-turn position targets representable.
+After restoration, accepted targets are translated into the motor's recovered
+coordinate. If `reset` changes the reference while position control is claimed,
+commands are rejected until the hardware and position controller are reactivated,
+preventing an old target from being sent in the new coordinate. Velocity and
+effort control can continue with the new position reading. Explicit
+`set_zero_on_activate=true` establishes a new tracking baseline; it does not
+restore the old angle.
+
+See the [EL05 measurements](doc/edulite05_multiturn_measurements.ja.md) and
+[firmware investigation](doc/edulite05_retention_audit.ja.md) for raw records,
+test scope, and remaining uncertainties (Japanese).
+
 ## Installation
 
 Install the package in the `src` directory of a workspace for one of the
@@ -206,6 +267,8 @@ Each `<joint>` requires its own motor settings.
 | `direction` | `1` | Joint direction; either `1` or `-1` |
 | `gear_ratio` | `1.0` | Additional protocol-side rotations per ROS joint rotation |
 | `position_offset` | `0.0` | ROS joint position offset in radians |
+| `position_recovery` | `restore` | Position restart policy: `restore` or `reset` |
+| `position_recovery_period` | `6.283185307179586` | Phase equivalence period after a restart, in motor-protocol radians; must be positive |
 | `command_position_min/max` | full position range | Operational position-command limits in ROS joint radians |
 | `command_velocity_min/max` | full velocity range | Operational velocity-command limits in ROS joint rad/s |
 | `command_effort_min/max` | derived from effort limits | Operational effort-command limits in ROS joint Nm |

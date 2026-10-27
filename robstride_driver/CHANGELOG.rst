@@ -2,6 +2,13 @@
 Changelog for package robstride_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Accumulate periodic position feedback in memory and support restoring or
+  resetting its coordinate after detected motor resets and feedback gaps.
+* Translate restored position targets to motor coordinates and reject stale
+  position commands after resetting the reference.
+
 0.2.0 (2026-09-06)
 ------------------
 * Add CAN traffic metrics and human-readable motor and transport diagnostics.

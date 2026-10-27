@@ -72,6 +72,57 @@ colcon build --packages-up-to robstride_ros2_control --symlink-install
 | RS06 | ±4π rad | ±50 rad/s | ±36 Nm | 0..5000 | 0..100 |
 | EL05（EduLite-05） | ±4π rad | ±50 rad/s | ±6 Nm | 0..500 | 0..5 |
 
+### 電源再投入後の位置・回転量の保持
+
+モーターの電源再投入後に、それまでの多回転位置が保持されるとは仮定しないでください。
+実機EL05では、出力軸を約+6、−12、+9回転させると、内部のモーター側回転カウンターは
++54、−108、+81変化しました。その後、軸を動かさず電源を再投入すると、カウンターは
+21から−6に、内部の計数済み出力角度は21.2922から2.44248 radに変わり、
+電源断前の多回転位置は復元されませんでした。公開EL05 FWの4版
+（1.0.5.0.1、.2、.4、.6）の通常パラメータ保存表にも、運転中の回転カウンターは
+含まれていません。各版へ更新しての再投入試験は未実施で、全機種・全FWの保持性を
+保証または否定した結果ではありません。
+
+このpkgは、実行中にType 2の折返しを補正し、累積した角度をメモリに保持します。
+通常時はCAN位置範囲の幅（標準profileでは8π rad）を周期として最小変位を加算し、
+その後に`direction`、`gear_ratio`、`position_offset`を適用します。
+受信間の移動は半周期未満である必要があります。controllerの停止・再開では保持しますが、
+driverの破棄やノード再起動では失われます。ファイル保存は行いません。
+
+予期しないRunからResetへの遷移や、追跡が曖昧になる長さの通信断を検出した際の扱いは、
+各jointの`position_recovery`で選択します。
+
+| 設定 | 動作 |
+|---|---|
+| `restore`（既定） | 直前の累積角度に最も近い、同じ位相の角度へ復元 |
+| `reset` | 累積値を破棄し、新しいモーター読出し値から再開。機械ゼロの変更ではない |
+
+復元時の同位相周期`position_recovery_period`は、protocol側の角度で既定2π radです。
+復元には、単回転の原点が維持され、未観測の移動がこの周期の半分未満であるという前提が
+必要です。無通電中の未知の整数回転数や、変更された機械ゼロは復元できません。
+通信断が`feedback_timeout_ms`を超える場合、または設定した最大速度では通信断中に
+feedback半周期を移動できる場合を、再開処理の対象にします。それより短い間に再起動し、
+最初の返答がRunであった場合等、検出できない再起動もあります。
+前提を満たせない用途では原点復帰等で座標を確定してから位置制御を再開してください。
+
+`ros2_control`内の各jointで設定します。
+
+```xml
+<param name="position_recovery">restore</param>
+```
+
+型番別Xacro helperでも`position_recovery="restore"`／`"reset"`と、任意の
+`position_recovery_period`を指定できます。切替にはhardware設定の再読込みが必要です。
+位置指令には引き続き既存の累積座標での指令制限とCAN範囲の検査を適用するため、
+連続した位置feedbackが得られても、任意の多回転位置へ指令できるわけではありません。
+復元後の有効な位置目標はモーター側の復元後座標へ変換します。
+`reset`で位置制御中に座標が変わった場合は、旧座標の目標送信を拒否し、hardwareと
+position controllerの再activateを要求します。速度・トルク制御は新しい位置値で継続できます。
+明示的に`set_zero_on_activate=true`を使う場合は、新しいゼロで累積値の基準を作り直します。
+
+測定値・生記録・検証範囲は[EL05多回転試験](edulite05_multiturn_measurements.ja.md)、
+公開FWの解析と未確認事項は[保存処理調査](edulite05_retention_audit.ja.md)を参照してください。
+
 ## インストール
 
 対応するROS 2 workspaceの`src`内へ配置し、依存packageを解決してbuildします。
@@ -172,6 +223,8 @@ active中は送信経路も監視します。CAN bridgeの送信topic endpoint�
 | `direction` | `1` | jointの方向。`1`または`-1` |
 | `gear_ratio` | `1.0` | ROS joint回転に対する追加のprotocol側回転比 |
 | `position_offset` | `0.0` | ROS joint位置offset `[rad]` |
+| `position_recovery` | `restore` | 再開時の角度処理。`restore`または`reset` |
+| `position_recovery_period` | `6.283185307179586` | 復元時の同位相周期。protocol側のrad単位で正数 |
 | `command_position_min/max` | position全範囲 | ROS joint座標での運用上の位置指令範囲 `[rad]` |
 | `command_velocity_min/max` | velocity全範囲 | ROS joint座標での運用上の速度指令範囲 `[rad/s]` |
 | `command_effort_min/max` | effort制限から算出 | ROS joint座標での運用上のeffort指令範囲 `[Nm]` |

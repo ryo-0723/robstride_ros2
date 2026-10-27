@@ -8,6 +8,7 @@
 #include <string>
 #include <utility>
 
+#include "robstride_driver/position_tracker.hpp"
 #include "robstride_driver/protocol.hpp"
 
 namespace robstride_driver
@@ -137,6 +138,35 @@ struct JointData
   FeedbackStatus feedback_status{};
   ParameterStatus parameter_status{};
   RecoveryState recovery{};
+  PositionTracker position_tracker{};
+  PositionRestartPolicy position_recovery{PositionRestartPolicy::restore};
+  double position_recovery_period{6.28318530717958647692};
+  bool position_reference_changed{false};
+
+  bool update_position_feedback(double raw, bool restart = false) noexcept
+  {
+    const bool accepted = restart ?
+      position_tracker.restart(raw, position_recovery_period, position_recovery) :
+      position_tracker.update(raw, limits.position_max - limits.position_min);
+    if (!accepted) {
+      return false;
+    }
+    feedback.position =
+      direction * (position_tracker.position() / gear_ratio) + position_offset;
+    return std::isfinite(feedback.position);
+  }
+
+  // Position commands stay inside the configured accumulated-coordinate limits.
+  // Translate them into the motor's current wire coordinates after wrapping or
+  // reboot recovery; never modulo an unreachable target into another turn.
+  std::optional<double> checked_position_command(double position) const noexcept
+  {
+    const auto motor = checked_joint_to_motor_position(position);
+    if (!motor) {return std::nullopt;}
+    const double wire = *motor - position_tracker.coordinate_shift();
+    if (!motor_position_within_roundoff(wire)) {return std::nullopt;}
+    return std::clamp(wire, limits.position_min, limits.position_max);
+  }
 
   // Every clamp/encoding range used by a neutral command must preserve zero.
   // Position is intentionally excluded: its origin need not be in the operating range.

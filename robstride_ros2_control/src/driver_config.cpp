@@ -178,6 +178,21 @@ JointData parse_joint(const hardware_interface::ComponentInfo & info)
     joint.direction = number_or_value(info.parameters, "direction", 1.0);
     joint.gear_ratio = number_or_value(info.parameters, "gear_ratio", 1.0);
     joint.position_offset = number_or_value(info.parameters, "position_offset", 0.0);
+    const auto recovery = info.parameters.find("position_recovery");
+    if (recovery != info.parameters.end()) {
+      if (recovery->second == "restore") {
+        joint.position_recovery = robstride_driver::PositionRestartPolicy::restore;
+      } else if (recovery->second == "reset") {
+        joint.position_recovery = robstride_driver::PositionRestartPolicy::reset;
+      } else {
+        throw std::runtime_error("position_recovery must be restore or reset");
+      }
+    }
+    joint.position_recovery_period = number_or_value(
+      info.parameters, "position_recovery_period", joint.position_recovery_period);
+    if (joint.position_recovery_period <= 0.0) {
+      throw std::runtime_error("position_recovery_period must be positive");
+    }
     if (joint.direction != 1.0 && joint.direction != -1.0) {
       throw std::runtime_error("direction must be 1 or -1");
     }

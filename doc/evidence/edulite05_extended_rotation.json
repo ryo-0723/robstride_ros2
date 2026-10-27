@@ -1,0 +1,107 @@
+{
+  "motor_id": 33,
+  "branch": "feature/encoder",
+  "initial": {
+    "unix_s": 1793087581.8379354,
+    "event": "snapshot",
+    "phase": "initial",
+    "modPos": 3.9941024780273438,
+    "mech_angle_rotations": 0,
+    "low_position": 0.0,
+    "mechPos": 2.4424808025360107,
+    "motormechposition": -34.566341400146484,
+    "counter": -6,
+    "counter_stable": true
+  },
+  "final": {
+    "unix_s": 1793087767.725805,
+    "event": "snapshot",
+    "phase": "forward_9_after",
+    "modPos": 3.995253086090088,
+    "mech_angle_rotations": 0,
+    "low_position": 0.0,
+    "mechPos": 21.292165756225586,
+    "motormechposition": 135.08082580566406,
+    "counter": 21,
+    "counter_stable": true
+  },
+  "phases": [
+    {
+      "unix_s": 1793087623.7949607,
+      "event": "phase_end",
+      "phase": "forward_6",
+      "elapsed_s": 41.90211989800082,
+      "delta_position": 37.68343472480774,
+      "actual_turns": 5.997504909133928,
+      "delta_counter": 54,
+      "delta_mech_angle_rotations": 0,
+      "alias_mechPos": 40.12591552734375,
+      "alias_counter": 48
+    },
+    {
+      "unix_s": 1793087705.3132179,
+      "event": "phase_end",
+      "phase": "reverse_12",
+      "elapsed_s": 80.65940786200008,
+      "delta_position": -75.38195419311523,
+      "actual_turns": -11.997410629761116,
+      "delta_counter": -108,
+      "delta_mech_angle_rotations": 0,
+      "alias_mechPos": -35.2559928894043,
+      "alias_counter": -60
+    },
+    {
+      "unix_s": 1793087767.7358272,
+      "event": "phase_end",
+      "phase": "forward_9",
+      "elapsed_s": 61.564898361000814,
+      "delta_position": 56.54815864562988,
+      "actual_turns": 8.999918971196694,
+      "delta_counter": 81,
+      "delta_mech_angle_rotations": 0,
+      "alias_mechPos": 21.292165756225586,
+      "alias_counter": 21
+    }
+  ],
+  "snapshots": 856,
+  "stable_counter_snapshots": 835,
+  "counter_regression": {
+    "counts_per_output_turn": 9.001551050222174,
+    "intercept": -9.368734175064757
+  },
+  "stationary_q_minus_motor_position_over_9": [
+    6.283185402552286,
+    6.283185402552286,
+    6.283186170789932,
+    6.283184899224175
+  ],
+  "stationary_motor_equation_residual_rad": [
+    -1.8239337435943526e-06,
+    -1.8239337435943526e-06,
+    2.3353352730737242e-05,
+    -6.497222443613282e-06
+  ],
+  "wire_feedback": {
+    "position_wire_scale": 0.999998946273242,
+    "period_rad": 25.132761959438586,
+    "offset_rad": 0.0002835558895349311,
+    "fit_residual_rms_rad": 0.0011657908705131682,
+    "large_wire_jumps": 7
+  },
+  "temperature_max_c": 28.0,
+  "max_abs_velocity_rad_s": 1.3054093232623813,
+  "fault_frames": 0,
+  "watchdog_restore": [
+    {
+      "unix_s": 1793087768.5680423,
+      "event": "watchdog_restored",
+      "value": 4000,
+      "success": true
+    }
+  ],
+  "notes": [
+    "Type 9 is a read command; it does not imply nonvolatile storage.",
+    "Sequential readings during motion are not simultaneous.",
+    "MechOffset=0.8613302111625671 rad is from the earlier internal parameter snapshot."
+  ]
+}

@@ -309,3 +309,25 @@ TEST(DriverConfig, RejectsNonPositiveTransmitFailureTimeout)
     EXPECT_THROW(rs::parse_driver_configuration(hardware), std::runtime_error) << value;
   }
 }
+
+TEST(DriverConfig, ParsesPositionRecoveryPolicyAndPeriod)
+{
+  auto hardware = valid_hardware_info();
+  auto config = rs::parse_driver_configuration(hardware);
+  EXPECT_EQ(config.joints[0].position_recovery, robstride_driver::PositionRestartPolicy::restore);
+  EXPECT_NEAR(config.joints[0].position_recovery_period, 6.283185307179586, 1e-14);
+  hardware.joints[0].parameters["position_recovery"] = "reset";
+  hardware.joints[0].parameters["position_recovery_period"] = "3.0";
+  config = rs::parse_driver_configuration(hardware);
+  EXPECT_EQ(config.joints[0].position_recovery, robstride_driver::PositionRestartPolicy::reset);
+  EXPECT_DOUBLE_EQ(config.joints[0].position_recovery_period, 3.0);
+  hardware.joints[0].parameters["position_recovery"] = "restore";
+  EXPECT_NO_THROW(rs::parse_driver_configuration(hardware));
+  hardware.joints[0].parameters["position_recovery"] = "invalid";
+  EXPECT_THROW(rs::parse_driver_configuration(hardware), std::runtime_error);
+  hardware.joints[0].parameters.erase("position_recovery");
+  for (const auto * value : {"0", "-1", "nan", "inf", "3oops"}) {
+    hardware.joints[0].parameters["position_recovery_period"] = value;
+    EXPECT_THROW(rs::parse_driver_configuration(hardware), std::runtime_error);
+  }
+}

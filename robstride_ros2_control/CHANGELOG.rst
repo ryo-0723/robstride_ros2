@@ -2,6 +2,11 @@
 Changelog for package robstride_ros2_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Expose per-joint position recovery policy and period in hardware configuration
+  and all motor-profile Xacro helpers.
+
 0.2.0 (2026-09-06)
 ------------------
 * Resolve known motor models from the production driver profile registry.

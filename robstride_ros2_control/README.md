@@ -28,6 +28,13 @@ feedback timeouts, motor watchdog configuration, Run-mode recovery, command
 clamping, transmit-path failure propagation, and repeated stop commands during
 shutdown.
 
+The position state interface reports accumulated feedback across wraparounds.
+Joint parameters `position_recovery` (`restore` or `reset`) and
+`position_recovery_period` control how tracking resumes after a detected motor
+reset or ambiguous feedback gap; the model Xacro helpers accept both parameters.
+See the [position retention reference](../README.md#position-and-turn-count-retention)
+for the recovery assumptions and position-controller reactivation requirement.
+
 CAN traffic is exchanged through configurable `can_msgs/msg/Frame` topics, so
 the component is not tied to a particular SocketCAN bridge. See the
 [repository README](https://github.com/s2015-turtle/robstride_ros2#readme) for

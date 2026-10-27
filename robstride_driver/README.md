@@ -11,6 +11,14 @@ actuators using the documented 29-bit private CAN protocol. It provides frame
 encoding and decoding, `can_msgs/msg/Frame` topic transport, motor lifecycle
 commands, feedback monitoring, and Run-mode recovery.
 
+Position feedback is accumulated across periodic wraparounds while the driver
+runs. Each joint selects `position_recovery=restore` (default) or `reset` for
+unexpected motor resets and ambiguous feedback gaps. Restore selects the phase
+equivalent nearest the last position; it assumes less than half a recovery
+period of unobserved motion and does not persist across node restarts. See the
+[position retention reference](../README.md#position-and-turn-count-retention)
+for configuration, command-coordinate handling, and limitations.
+
 The package does not open a SocketCAN interface and does not provide a
 standalone ROS node. Applications configure the transmit and receive topics
 through `robstride_ros2_control`, then connect any compatible CAN bridge. The

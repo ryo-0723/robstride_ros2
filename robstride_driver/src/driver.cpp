@@ -52,6 +52,11 @@ bool RobStrideDriver::initialize(DriverConfiguration configuration)
   }
   std::set<uint8_t> can_ids;
   for (const auto & joint : configuration.joints) {
+    if (!std::isfinite(joint.position_recovery_period) || joint.position_recovery_period <= 0.0) {
+      RCLCPP_ERROR(
+        logger_, "Joint '%s': position_recovery_period must be positive", joint.name.c_str());
+      return false;
+    }
     if (const auto * range = joint.invalid_neutral_range()) {
       RCLCPP_ERROR(
         logger_, "Joint '%s': %s must be finite, ordered, and include zero",
@@ -156,6 +161,14 @@ bool RobStrideDriver::start()
   {
     std::lock_guard<std::mutex> lock(state_mutex_);
     for (auto & joint : joints_) {
+      if (settings_.set_zero_on_start) {
+        // Enable feedback follows the queued zero command. Establish the new
+        // coordinate from that measurement rather than accumulating a zeroing jump.
+        const double raw = joint.position_tracker.raw_position();
+        joint.position_tracker.clear();
+        joint.update_position_feedback(raw);
+        joint.position_reference_changed = true;
+      }
       joint.state = joint.feedback;
       joint.recovery = RecoveryState{};
     }
@@ -258,6 +271,11 @@ bool RobStrideDriver::send_commands()
     if (!active_) {return true;}
     for (size_t joint_index = 0; joint_index < joints_.size(); ++joint_index) {
       const auto & joint = joints_[joint_index];
+      if (joint.claimed.position && joint.position_reference_changed) {
+        rejection = "Joint '" + joint.name +
+          "': position reference reset; reactivate the position controller";
+        break;
+      }
       const auto reject = [&](const char * name, double value, double minimum, double maximum) {
           rejection = "Joint '" + joint.name + "': " + name + " command " +
             std::to_string(value) + " is outside [" + std::to_string(minimum) + ", " +
@@ -284,7 +302,7 @@ bool RobStrideDriver::send_commands()
       }
       // An unclaimed position interface has no position target; kp=0 makes this neutral.
       const auto checked_position = joint.claimed.position ?
-        joint.checked_joint_to_motor_position(joint.command.position) : std::optional<double>{0.0};
+        joint.checked_position_command(joint.command.position) : std::optional<double>{0.0};
       const double motor_position = checked_position.value_or(
         std::numeric_limits<double>::quiet_NaN());
       const double motor_velocity =
@@ -418,7 +436,7 @@ bool RobStrideDriver::validate_command_modes_locked(
       }
       return false;
     }
-    if (!joint.checked_joint_to_motor_position(position))
+    if (!joint.checked_position_command(position))
     {
       if (error) {*error = "Joint '" + joint.name + "': measured position exceeds motor range";}
       return false;
@@ -445,6 +463,7 @@ bool RobStrideDriver::apply_command_modes(
     joint.claimed = modes[index];
     if (!previous.position && joint.claimed.position) {
       joint.command.position = joint.feedback.position;
+      joint.position_reference_changed = false;
     }
     if (!previous.velocity && joint.claimed.velocity) {joint.command.velocity = 0.0;}
     if (!previous.effort && joint.claimed.effort) {joint.command.effort = 0.0;}
@@ -532,8 +551,24 @@ void RobStrideDriver::receive_frame(can_msgs::msg::Frame::ConstSharedPtr msg)
   record_feedback(joint_entry->second, received_at, *decoded);
   std::lock_guard<std::mutex> lock(state_mutex_);
   auto & joint = joints_[joint_entry->second];
-  joint.feedback.position =
-    joint.direction * (decoded->position / joint.gear_ratio) + joint.position_offset;
+  const auto & previous = joint.feedback_status;
+  const double gap_seconds =
+    std::chrono::duration<double>(received_at - previous.timestamp).count();
+  const double maximum_speed =
+    std::max(std::abs(joint.limits.velocity_min), std::abs(joint.limits.velocity_max));
+  const bool restart = previous.received &&
+    ((active_ && decoded->mode == kMotorModeReset && previous.mode == kMotorModeRun) ||
+    received_at - previous.timestamp > settings_.feedback_timeout ||
+    gap_seconds * maximum_speed >= (joint.limits.position_max - joint.limits.position_min) / 2.0);
+  if (!joint.update_position_feedback(decoded->position, restart)) {
+    RCLCPP_ERROR_THROTTLE(
+      logger_, *log_clock_, 1000, "Joint '%s': ambiguous or invalid position feedback",
+      joint.name.c_str());
+    return;
+  }
+  if (restart && joint.position_recovery == PositionRestartPolicy::reset) {
+    joint.position_reference_changed = true;
+  }
   joint.feedback.velocity = joint.direction * (decoded->velocity / joint.gear_ratio);
   joint.feedback.effort = joint.motor_to_joint_effort(decoded->effort);
   joint.feedback.temperature = decoded->temperature;

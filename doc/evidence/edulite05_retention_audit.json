@@ -1,0 +1,1444 @@
+{
+  "date": "2026-10-27",
+  "scope": "public repositories and release artifacts",
+  "repositories": [
+    {
+      "name": "RobStride/CAN-USB-data-conversion",
+      "commits_in_all_retrieved_refs": 7,
+      "head": "72524311fbf4980d74ad53387c075cc50d8dd417",
+      "refs": [
+        "72524311fbf4980d74ad53387c075cc50d8dd417 refs/heads/main",
+        "72524311fbf4980d74ad53387c075cc50d8dd417 refs/remotes/origin/HEAD",
+        "72524311fbf4980d74ad53387c075cc50d8dd417 refs/remotes/origin/main",
+        "baf25b72017d327b5b6b6432161da3613e5c932e refs/tags/Tool"
+      ],
+      "branches": 1,
+      "tags": 1,
+      "releases": 1,
+      "issues_and_prs": 0
+    },
+    {
+      "name": "RobStride/EDULITE_A3",
+      "commits_in_all_retrieved_refs": 54,
+      "head": "088b166cf08ec110c1d6c3af42f0a73468b847cb",
+      "refs": [
+        "088b166cf08ec110c1d6c3af42f0a73468b847cb refs/heads/main",
+        "088b166cf08ec110c1d6c3af42f0a73468b847cb refs/remotes/origin/HEAD",
+        "088b166cf08ec110c1d6c3af42f0a73468b847cb refs/remotes/origin/main",
+        "2056e68ee7e9e4f4dc016da3907390382ed17016 refs/remotes/origin/preview/el-a3-sdk"
+      ],
+      "branches": 2,
+      "tags": 0,
+      "releases": 0,
+      "issues_and_prs": 6
+    },
+    {
+      "name": "RobStride/EL_A3_Data_Collection",
+      "commits_in_all_retrieved_refs": 3,
+      "head": "62b997585057db3eacdaf52475293d90bea3649b",
+      "refs": [
+        "62b997585057db3eacdaf52475293d90bea3649b refs/heads/main",
+        "62b997585057db3eacdaf52475293d90bea3649b refs/remotes/origin/HEAD",
+        "62b997585057db3eacdaf52475293d90bea3649b refs/remotes/origin/flush",
+        "62b997585057db3eacdaf52475293d90bea3649b refs/remotes/origin/main",
+        "af02d8b8e71f8301b6a5cce9b1b87443fbe30a3a refs/remotes/origin/master"
+      ],
+      "branches": 3,
+      "tags": 0,
+      "releases": 0,
+      "issues_and_prs": 0
+    },
+    {
+      "name": "RobStride/EL_A3_VLA_Deploy",
+      "commits_in_all_retrieved_refs": 7,
+      "head": "ab3c5665f8988d0ca816c0ae90e7a865f3fcfedf",
+      "refs": [
+        "ab3c5665f8988d0ca816c0ae90e7a865f3fcfedf refs/heads/master",
+        "ab3c5665f8988d0ca816c0ae90e7a865f3fcfedf refs/remotes/origin/HEAD",
+        "ab3c5665f8988d0ca816c0ae90e7a865f3fcfedf refs/remotes/origin/master"
+      ],
+      "branches": 1,
+      "tags": 0,
+      "releases": 0,
+      "issues_and_prs": 0
+    },
+    {
+      "name": "RobStride/MotorStudio",
+      "commits_in_all_retrieved_refs": 3,
+      "head": "7392985c6bf853af0b8e72e56c0ab5ada581e1a7",
+      "refs": [
+        "7392985c6bf853af0b8e72e56c0ab5ada581e1a7 refs/heads/main",
+        "7392985c6bf853af0b8e72e56c0ab5ada581e1a7 refs/remotes/origin/HEAD",
+        "7392985c6bf853af0b8e72e56c0ab5ada581e1a7 refs/remotes/origin/main",
+        "7392985c6bf853af0b8e72e56c0ab5ada581e1a7 refs/tags/V0.0.8",
+        "7392985c6bf853af0b8e72e56c0ab5ada581e1a7 refs/tags/V24.12.18",
+        "3b8f36f532efcea0088e4f8481b0f3b5df57f809 refs/tags/v0.0.6",
+        "7392985c6bf853af0b8e72e56c0ab5ada581e1a7 refs/tags/v1,0,1",
+        "7392985c6bf853af0b8e72e56c0ab5ada581e1a7 refs/tags/v1.0.0",
+        "7392985c6bf853af0b8e72e56c0ab5ada581e1a7 refs/tags/v1.0.2",
+        "7392985c6bf853af0b8e72e56c0ab5ada581e1a7 refs/tags/v1.0.3"
+      ],
+      "branches": 1,
+      "tags": 7,
+      "releases": 7,
+      "issues_and_prs": 2
+    },
+    {
+      "name": "RobStride/Product_Information",
+      "commits_in_all_retrieved_refs": 50,
+      "head": "384cc561e1ff079c22f68b19908526094430febd",
+      "refs": [
+        "384cc561e1ff079c22f68b19908526094430febd refs/heads/main",
+        "384cc561e1ff079c22f68b19908526094430febd refs/remotes/origin/HEAD",
+        "dbc80653b358e40381c5b35b601f91d267096876 refs/remotes/origin/dev",
+        "384cc561e1ff079c22f68b19908526094430febd refs/remotes/origin/main",
+        "cfde0affafdd840cbaa1687c2afe2fd546e1000b refs/tags/V0.0.6",
+        "cfde0affafdd840cbaa1687c2afe2fd546e1000b refs/tags/V24.11.18",
+        "d269055132ca31f48e8c42b1840e014b8d828e5d refs/tags/V24.12.18",
+        "682600d4b8c3a34668c252b51b43160cfbfa84a9 refs/tags/V25.02.27",
+        "beb8eca4d68cf5937f1458fdf3da452aaa4a081f refs/tags/V25.05.14",
+        "914b2670ce5fffa1411186c4d21ee87ce57f5889 refs/tags/V25.08.22",
+        "67928b389c0c46761e7de787ef7b368afa8b2cf9 refs/tags/V25.10.27",
+        "66629aaf75e4f8153c824099d2e063ddb274ade6 refs/tags/V25.12.09",
+        "6daec989b42e1a1008633648ed3b69a30f32f2f1 refs/tags/V26.04.07",
+        "ba7236bc26417766fda71e75ae128c66dbd21aba refs/tags/V26.05.19"
+      ],
+      "branches": 2,
+      "tags": 10,
+      "releases": 8,
+      "issues_and_prs": 4
+    },
+    {
+      "name": "RobStride/Python_Sample",
+      "commits_in_all_retrieved_refs": 4,
+      "head": "cbf977e56c842d57a65f3f17c1b1ecaef002c424",
+      "refs": [
+        "cbf977e56c842d57a65f3f17c1b1ecaef002c424 refs/heads/main",
+        "cbf977e56c842d57a65f3f17c1b1ecaef002c424 refs/remotes/origin/HEAD",
+        "cbf977e56c842d57a65f3f17c1b1ecaef002c424 refs/remotes/origin/main"
+      ],
+      "branches": 1,
+      "tags": 0,
+      "releases": 0,
+      "issues_and_prs": 1
+    },
+    {
+      "name": "RobStride/RobStrideSPC",
+      "commits_in_all_retrieved_refs": 10,
+      "head": "d8451a447d7265becf71271a008a71f7063b7ecc",
+      "refs": [
+        "d8451a447d7265becf71271a008a71f7063b7ecc refs/heads/main",
+        "d8451a447d7265becf71271a008a71f7063b7ecc refs/remotes/origin/HEAD",
+        "d8451a447d7265becf71271a008a71f7063b7ecc refs/remotes/origin/main",
+        "0641db69b970f8d7e933a573906117845072b963 refs/remotes/origin/master"
+      ],
+      "branches": 2,
+      "tags": 0,
+      "releases": 0,
+      "issues_and_prs": 0
+    },
+    {
+      "name": "RobStride/robstride_actuator_bridge",
+      "commits_in_all_retrieved_refs": 6,
+      "head": "ed3da42e4d40c2d12a2d11a5224ae4d2ed7e2fe6",
+      "refs": [
+        "ed3da42e4d40c2d12a2d11a5224ae4d2ed7e2fe6 refs/heads/master",
+        "ed3da42e4d40c2d12a2d11a5224ae4d2ed7e2fe6 refs/remotes/origin/HEAD",
+        "ed3da42e4d40c2d12a2d11a5224ae4d2ed7e2fe6 refs/remotes/origin/master",
+        "80d66ddd389cd9d08149657b9387330db4ab3257 refs/remotes/origin/patch-1"
+      ],
+      "branches": 2,
+      "tags": 0,
+      "releases": 0,
+      "issues_and_prs": 0
+    },
+    {
+      "name": "RobStride/robstride_ros_sample",
+      "commits_in_all_retrieved_refs": 14,
+      "head": "d4751f3f16f3593a4e587738b6e27b949b4999ba",
+      "refs": [
+        "d4751f3f16f3593a4e587738b6e27b949b4999ba refs/heads/main",
+        "d4751f3f16f3593a4e587738b6e27b949b4999ba refs/remotes/origin/HEAD",
+        "d4751f3f16f3593a4e587738b6e27b949b4999ba refs/remotes/origin/main",
+        "aa57ad87c09c915deb5ba0ea794090bf85a6e66d refs/remotes/origin/mainer"
+      ],
+      "branches": 2,
+      "tags": 0,
+      "releases": 0,
+      "issues_and_prs": 1
+    },
+    {
+      "name": "RobStride/SampleProgram",
+      "commits_in_all_retrieved_refs": 10,
+      "head": "5f598686b05fcc527ee0fc0ea954f0afd652b234",
+      "refs": [
+        "5f598686b05fcc527ee0fc0ea954f0afd652b234 refs/heads/main",
+        "5f598686b05fcc527ee0fc0ea954f0afd652b234 refs/remotes/origin/HEAD",
+        "5f598686b05fcc527ee0fc0ea954f0afd652b234 refs/remotes/origin/main"
+      ],
+      "branches": 1,
+      "tags": 0,
+      "releases": 0,
+      "issues_and_prs": 1
+    }
+  ],
+  "firmware": [
+    {
+      "url": "https://github.com/RobStride/Product_Information/releases/download/V25.10.27/EL05_1.0.5.0.1.bin",
+      "name": "EL05_1.0.5.0.1.bin",
+      "bytes": 83860,
+      "sha256": "152a316b2ce4d834e74ed19956ed2949f430efc2b2e513307c956232082febf5",
+      "assumed_image_base": "0x8002000",
+      "parameter_table_address": "0x8014e5c",
+      "parameter_table_count": 36,
+      "parameter_table": [
+        {
+          "index": "0x2000",
+          "name": "echoPara1",
+          "ram": "0x2000012a",
+          "descriptor_offset": "0x12e5c",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2001",
+          "name": "echoPara2",
+          "ram": "0x2000012c",
+          "descriptor_offset": "0x12e6c",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2002",
+          "name": "echoPara3",
+          "ram": "0x2000012e",
+          "descriptor_offset": "0x12e7c",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2003",
+          "name": "echoPara4",
+          "ram": "0x20000130",
+          "descriptor_offset": "0x12e8c",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2004",
+          "name": "echoFreHz",
+          "ram": "0x20000124",
+          "descriptor_offset": "0x12e9c",
+          "flags": "0x2400"
+        },
+        {
+          "index": "0x2005",
+          "name": "MechOffset",
+          "ram": "0x200001f8",
+          "descriptor_offset": "0x12eac",
+          "flags": "0x600"
+        },
+        {
+          "index": "0x2006",
+          "name": "status4",
+          "ram": "0x20000310",
+          "descriptor_offset": "0x12ebc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2007",
+          "name": "limit_torque",
+          "ram": "0x20000820",
+          "descriptor_offset": "0x12ecc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2008",
+          "name": "I_FW_MAX ",
+          "ram": "0x200008c4",
+          "descriptor_offset": "0x12edc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2009",
+          "name": "motor_baud",
+          "ram": "0x20000320",
+          "descriptor_offset": "0x12eec",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200a",
+          "name": "CAN_ID",
+          "ram": "0x20000020",
+          "descriptor_offset": "0x12efc",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200b",
+          "name": "CAN_MASTER",
+          "ram": "0x200008cd",
+          "descriptor_offset": "0x12f0c",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200c",
+          "name": "CAN_TIMEOUT",
+          "ram": "0x200008d0",
+          "descriptor_offset": "0x12f1c",
+          "flags": "0x6402"
+        },
+        {
+          "index": "0x200d",
+          "name": "status2",
+          "ram": "0x20000308",
+          "descriptor_offset": "0x12f2c",
+          "flags": "0x6300"
+        },
+        {
+          "index": "0x200e",
+          "name": "status3",
+          "ram": "0x2000030c",
+          "descriptor_offset": "0x12f3c",
+          "flags": "0x6402"
+        },
+        {
+          "index": "0x200f",
+          "name": "status1",
+          "ram": "0x20000304",
+          "descriptor_offset": "0x12f4c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2010",
+          "name": "status6",
+          "ram": "0x20000318",
+          "descriptor_offset": "0x12f5c",
+          "flags": "0x2000"
+        },
+        {
+          "index": "0x2011",
+          "name": "cur_filt_gain",
+          "ram": "0x200005b4",
+          "descriptor_offset": "0x12f6c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2012",
+          "name": "cur_kp",
+          "ram": "0x200005ac",
+          "descriptor_offset": "0x12f7c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2013",
+          "name": "cur_ki",
+          "ram": "0x200005b0",
+          "descriptor_offset": "0x12f8c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2014",
+          "name": "spd_kp",
+          "ram": "0x20000834",
+          "descriptor_offset": "0x12f9c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2015",
+          "name": "spd_ki",
+          "ram": "0x20000838",
+          "descriptor_offset": "0x12fac",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2016",
+          "name": "loc_kp",
+          "ram": "0x20000860",
+          "descriptor_offset": "0x12fbc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2017",
+          "name": "spd_filt_gain",
+          "ram": "0x2000084c",
+          "descriptor_offset": "0x12fcc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2018",
+          "name": "limit_spd",
+          "ram": "0x20000878",
+          "descriptor_offset": "0x12fdc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2019",
+          "name": "limit_cur",
+          "ram": "0x20000850",
+          "descriptor_offset": "0x12fec",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201a",
+          "name": "loc_ref_filt_gain",
+          "ram": "0x20000874",
+          "descriptor_offset": "0x12ffc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201b",
+          "name": "add_elec_offset",
+          "ram": "0x20000538",
+          "descriptor_offset": "0x1300c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201c",
+          "name": "position_offset",
+          "ram": "0x200001e0",
+          "descriptor_offset": "0x1301c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201d",
+          "name": "chasu_angle_offset",
+          "ram": "0x200002bc",
+          "descriptor_offset": "0x1302c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201e",
+          "name": "spd_step_value",
+          "ram": "0x20000854",
+          "descriptor_offset": "0x1303c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201f",
+          "name": "vel_max",
+          "ram": "0x20000154",
+          "descriptor_offset": "0x1304c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2020",
+          "name": "acc_set",
+          "ram": "0x2000015c",
+          "descriptor_offset": "0x1305c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2021",
+          "name": "zero_sta",
+          "ram": "0x20000531",
+          "descriptor_offset": "0x1306c",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2022",
+          "name": "protocol_1",
+          "ram": "0x20001a2c",
+          "descriptor_offset": "0x1307c",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2023",
+          "name": "add_offset",
+          "ram": "0x20000534",
+          "descriptor_offset": "0x1308c",
+          "flags": "0x6600"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/RobStride/Product_Information/releases/download/V25.12.09/EL05_1.0.5.0.2.bin",
+      "name": "EL05_1.0.5.0.2.bin",
+      "bytes": 83404,
+      "sha256": "2b281d5930d502fa27e65381db3b8aa3fb1d38d5054eb957ae608b3eec93ea2d",
+      "assumed_image_base": "0x8002000",
+      "parameter_table_address": "0x8014c6c",
+      "parameter_table_count": 36,
+      "parameter_table": [
+        {
+          "index": "0x2000",
+          "name": "echoPara1",
+          "ram": "0x2000012a",
+          "descriptor_offset": "0x12c6c",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2001",
+          "name": "echoPara2",
+          "ram": "0x2000012c",
+          "descriptor_offset": "0x12c7c",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2002",
+          "name": "echoPara3",
+          "ram": "0x2000012e",
+          "descriptor_offset": "0x12c8c",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2003",
+          "name": "echoPara4",
+          "ram": "0x20000130",
+          "descriptor_offset": "0x12c9c",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2004",
+          "name": "echoFreHz",
+          "ram": "0x20000124",
+          "descriptor_offset": "0x12cac",
+          "flags": "0x2400"
+        },
+        {
+          "index": "0x2005",
+          "name": "MechOffset",
+          "ram": "0x200001f8",
+          "descriptor_offset": "0x12cbc",
+          "flags": "0x600"
+        },
+        {
+          "index": "0x2006",
+          "name": "status4",
+          "ram": "0x20000310",
+          "descriptor_offset": "0x12ccc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2007",
+          "name": "limit_torque",
+          "ram": "0x20000820",
+          "descriptor_offset": "0x12cdc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2008",
+          "name": "I_FW_MAX ",
+          "ram": "0x200008c8",
+          "descriptor_offset": "0x12cec",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2009",
+          "name": "motor_baud",
+          "ram": "0x20000320",
+          "descriptor_offset": "0x12cfc",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200a",
+          "name": "CAN_ID",
+          "ram": "0x20000020",
+          "descriptor_offset": "0x12d0c",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200b",
+          "name": "CAN_MASTER",
+          "ram": "0x200008d1",
+          "descriptor_offset": "0x12d1c",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200c",
+          "name": "CAN_TIMEOUT",
+          "ram": "0x200008d4",
+          "descriptor_offset": "0x12d2c",
+          "flags": "0x6402"
+        },
+        {
+          "index": "0x200d",
+          "name": "status2",
+          "ram": "0x20000308",
+          "descriptor_offset": "0x12d3c",
+          "flags": "0x6300"
+        },
+        {
+          "index": "0x200e",
+          "name": "status3",
+          "ram": "0x2000030c",
+          "descriptor_offset": "0x12d4c",
+          "flags": "0x6402"
+        },
+        {
+          "index": "0x200f",
+          "name": "status1",
+          "ram": "0x20000304",
+          "descriptor_offset": "0x12d5c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2010",
+          "name": "status6",
+          "ram": "0x20000318",
+          "descriptor_offset": "0x12d6c",
+          "flags": "0x2000"
+        },
+        {
+          "index": "0x2011",
+          "name": "cur_filt_gain",
+          "ram": "0x200005b4",
+          "descriptor_offset": "0x12d7c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2012",
+          "name": "cur_kp",
+          "ram": "0x200005ac",
+          "descriptor_offset": "0x12d8c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2013",
+          "name": "cur_ki",
+          "ram": "0x200005b0",
+          "descriptor_offset": "0x12d9c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2014",
+          "name": "spd_kp",
+          "ram": "0x20000834",
+          "descriptor_offset": "0x12dac",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2015",
+          "name": "spd_ki",
+          "ram": "0x20000838",
+          "descriptor_offset": "0x12dbc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2016",
+          "name": "loc_kp",
+          "ram": "0x20000860",
+          "descriptor_offset": "0x12dcc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2017",
+          "name": "spd_filt_gain",
+          "ram": "0x2000084c",
+          "descriptor_offset": "0x12ddc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2018",
+          "name": "limit_spd",
+          "ram": "0x20000878",
+          "descriptor_offset": "0x12dec",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2019",
+          "name": "limit_cur",
+          "ram": "0x20000850",
+          "descriptor_offset": "0x12dfc",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201a",
+          "name": "loc_ref_filt_gain",
+          "ram": "0x20000874",
+          "descriptor_offset": "0x12e0c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201b",
+          "name": "add_elec_offset",
+          "ram": "0x20000538",
+          "descriptor_offset": "0x12e1c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201c",
+          "name": "position_offset",
+          "ram": "0x200001e0",
+          "descriptor_offset": "0x12e2c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201d",
+          "name": "chasu_angle_offset",
+          "ram": "0x200002bc",
+          "descriptor_offset": "0x12e3c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201e",
+          "name": "spd_step_value",
+          "ram": "0x20000854",
+          "descriptor_offset": "0x12e4c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201f",
+          "name": "vel_max",
+          "ram": "0x20000154",
+          "descriptor_offset": "0x12e5c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2020",
+          "name": "acc_set",
+          "ram": "0x2000015c",
+          "descriptor_offset": "0x12e6c",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2021",
+          "name": "zero_sta",
+          "ram": "0x20000531",
+          "descriptor_offset": "0x12e7c",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2022",
+          "name": "protocol_1",
+          "ram": "0x20001a38",
+          "descriptor_offset": "0x12e8c",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2023",
+          "name": "add_offset",
+          "ram": "0x20000534",
+          "descriptor_offset": "0x12e9c",
+          "flags": "0x6600"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/RobStride/Product_Information/releases/download/V26.04.07/EL05_1.0.5.0.4.bin",
+      "name": "EL05_1.0.5.0.4.bin",
+      "bytes": 92584,
+      "sha256": "fb232707a852f9144bdf4a744ee9c89d39c8d96695189f61ff1e6b8eac293f0f",
+      "assumed_image_base": "0x8002000",
+      "parameter_table_address": "0x8016fb0",
+      "parameter_table_count": 39,
+      "parameter_table": [
+        {
+          "index": "0x2000",
+          "name": "echoPara1",
+          "ram": "0x2000012a",
+          "descriptor_offset": "0x14fb0",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2001",
+          "name": "echoPara2",
+          "ram": "0x2000012c",
+          "descriptor_offset": "0x14fc0",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2002",
+          "name": "echoPara3",
+          "ram": "0x2000012e",
+          "descriptor_offset": "0x14fd0",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2003",
+          "name": "echoPara4",
+          "ram": "0x20000130",
+          "descriptor_offset": "0x14fe0",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2004",
+          "name": "echoFreHz",
+          "ram": "0x20000124",
+          "descriptor_offset": "0x14ff0",
+          "flags": "0x2400"
+        },
+        {
+          "index": "0x2005",
+          "name": "MechOffset",
+          "ram": "0x2000020c",
+          "descriptor_offset": "0x15000",
+          "flags": "0x600"
+        },
+        {
+          "index": "0x2006",
+          "name": "status4",
+          "ram": "0x20000324",
+          "descriptor_offset": "0x15010",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2007",
+          "name": "limit_torque",
+          "ram": "0x20001240",
+          "descriptor_offset": "0x15020",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2008",
+          "name": "I_FW_MAX ",
+          "ram": "0x20001308",
+          "descriptor_offset": "0x15030",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2009",
+          "name": "motor_baud",
+          "ram": "0x20000334",
+          "descriptor_offset": "0x15040",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200a",
+          "name": "CAN_ID",
+          "ram": "0x20000020",
+          "descriptor_offset": "0x15050",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200b",
+          "name": "CAN_MASTER",
+          "ram": "0x20001311",
+          "descriptor_offset": "0x15060",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200c",
+          "name": "CAN_TIMEOUT",
+          "ram": "0x20001314",
+          "descriptor_offset": "0x15070",
+          "flags": "0x6402"
+        },
+        {
+          "index": "0x200d",
+          "name": "status2",
+          "ram": "0x2000031c",
+          "descriptor_offset": "0x15080",
+          "flags": "0x6300"
+        },
+        {
+          "index": "0x200e",
+          "name": "status3",
+          "ram": "0x20000320",
+          "descriptor_offset": "0x15090",
+          "flags": "0x6402"
+        },
+        {
+          "index": "0x200f",
+          "name": "status1",
+          "ram": "0x20000318",
+          "descriptor_offset": "0x150a0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2010",
+          "name": "status6",
+          "ram": "0x2000032c",
+          "descriptor_offset": "0x150b0",
+          "flags": "0x2000"
+        },
+        {
+          "index": "0x2011",
+          "name": "cur_filt_gain",
+          "ram": "0x200005c8",
+          "descriptor_offset": "0x150c0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2012",
+          "name": "cur_kp",
+          "ram": "0x200005c0",
+          "descriptor_offset": "0x150d0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2013",
+          "name": "cur_ki",
+          "ram": "0x200005c4",
+          "descriptor_offset": "0x150e0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2014",
+          "name": "spd_kp",
+          "ram": "0x20001254",
+          "descriptor_offset": "0x150f0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2015",
+          "name": "spd_ki",
+          "ram": "0x20001258",
+          "descriptor_offset": "0x15100",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2016",
+          "name": "loc_kp",
+          "ram": "0x20001280",
+          "descriptor_offset": "0x15110",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2017",
+          "name": "spd_filt_gain",
+          "ram": "0x2000126c",
+          "descriptor_offset": "0x15120",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2018",
+          "name": "limit_spd",
+          "ram": "0x20001298",
+          "descriptor_offset": "0x15130",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2019",
+          "name": "limit_cur",
+          "ram": "0x20001270",
+          "descriptor_offset": "0x15140",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201a",
+          "name": "loc_ref_filt_gain",
+          "ram": "0x20001294",
+          "descriptor_offset": "0x15150",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201b",
+          "name": "add_elec_offset",
+          "ram": "0x2000054c",
+          "descriptor_offset": "0x15160",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201c",
+          "name": "position_offset",
+          "ram": "0x200001f4",
+          "descriptor_offset": "0x15170",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201d",
+          "name": "chasu_angle_offset",
+          "ram": "0x200002d0",
+          "descriptor_offset": "0x15180",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201e",
+          "name": "spd_step_value",
+          "ram": "0x20001274",
+          "descriptor_offset": "0x15190",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201f",
+          "name": "vel_max",
+          "ram": "0x20000154",
+          "descriptor_offset": "0x151a0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2020",
+          "name": "acc_set",
+          "ram": "0x2000015c",
+          "descriptor_offset": "0x151b0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2021",
+          "name": "zero_sta",
+          "ram": "0x20000545",
+          "descriptor_offset": "0x151c0",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2022",
+          "name": "protocol_1",
+          "ram": "0x2000250c",
+          "descriptor_offset": "0x151d0",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2023",
+          "name": "add_offset",
+          "ram": "0x20000548",
+          "descriptor_offset": "0x151e0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2024",
+          "name": "alveolous_open",
+          "ram": "0x200012e8",
+          "descriptor_offset": "0x151f0",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2025",
+          "name": "iq_test",
+          "ram": "0x200012eb",
+          "descriptor_offset": "0x15200",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2026",
+          "name": "acc_stutus",
+          "ram": "0x200001bc",
+          "descriptor_offset": "0x15210",
+          "flags": "0x6000"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/RobStride/Product_Information/releases/download/V26.05.19/el05_1.0.5.0.6.bin",
+      "name": "el05_1.0.5.0.6.bin",
+      "bytes": 98128,
+      "sha256": "b1607b979a1aad774236fd83d5bdedce451da653cc60a644e096741ae4611d60",
+      "assumed_image_base": "0x8002000",
+      "parameter_table_address": "0x80184f0",
+      "parameter_table_count": 40,
+      "parameter_table": [
+        {
+          "index": "0x2000",
+          "name": "echoPara1",
+          "ram": "0x2000013c",
+          "descriptor_offset": "0x164f0",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2001",
+          "name": "echoPara2",
+          "ram": "0x2000013e",
+          "descriptor_offset": "0x16500",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2002",
+          "name": "echoPara3",
+          "ram": "0x20000140",
+          "descriptor_offset": "0x16510",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2003",
+          "name": "echoPara4",
+          "ram": "0x20000142",
+          "descriptor_offset": "0x16520",
+          "flags": "0x2200"
+        },
+        {
+          "index": "0x2004",
+          "name": "echoFreHz",
+          "ram": "0x20000134",
+          "descriptor_offset": "0x16530",
+          "flags": "0x2400"
+        },
+        {
+          "index": "0x2005",
+          "name": "MechOffset",
+          "ram": "0x2000022c",
+          "descriptor_offset": "0x16540",
+          "flags": "0x600"
+        },
+        {
+          "index": "0x2006",
+          "name": "status4",
+          "ram": "0x2000033c",
+          "descriptor_offset": "0x16550",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2007",
+          "name": "limit_torque",
+          "ram": "0x2000125c",
+          "descriptor_offset": "0x16560",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2008",
+          "name": "I_FW_MAX ",
+          "ram": "0x20001468",
+          "descriptor_offset": "0x16570",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2009",
+          "name": "motor_baud",
+          "ram": "0x200012f8",
+          "descriptor_offset": "0x16580",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200a",
+          "name": "CAN_ID",
+          "ram": "0x2000002c",
+          "descriptor_offset": "0x16590",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200b",
+          "name": "CAN_MASTER",
+          "ram": "0x20001471",
+          "descriptor_offset": "0x165a0",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x200c",
+          "name": "CAN_TIMEOUT",
+          "ram": "0x20001474",
+          "descriptor_offset": "0x165b0",
+          "flags": "0x6402"
+        },
+        {
+          "index": "0x200d",
+          "name": "status2",
+          "ram": "0x20000334",
+          "descriptor_offset": "0x165c0",
+          "flags": "0x6300"
+        },
+        {
+          "index": "0x200e",
+          "name": "fault",
+          "ram": "0x20001508",
+          "descriptor_offset": "0x165d0",
+          "flags": "0x6400"
+        },
+        {
+          "index": "0x200f",
+          "name": "status1",
+          "ram": "0x20000330",
+          "descriptor_offset": "0x165e0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2010",
+          "name": "status6",
+          "ram": "0x20000344",
+          "descriptor_offset": "0x165f0",
+          "flags": "0x2000"
+        },
+        {
+          "index": "0x2011",
+          "name": "cur_filt_gain",
+          "ram": "0x200005e0",
+          "descriptor_offset": "0x16600",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2012",
+          "name": "cur_kp",
+          "ram": "0x200005d8",
+          "descriptor_offset": "0x16610",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2013",
+          "name": "cur_ki",
+          "ram": "0x200005dc",
+          "descriptor_offset": "0x16620",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2014",
+          "name": "spd_kp",
+          "ram": "0x2000126c",
+          "descriptor_offset": "0x16630",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2015",
+          "name": "spd_ki",
+          "ram": "0x20001270",
+          "descriptor_offset": "0x16640",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2016",
+          "name": "loc_kp",
+          "ram": "0x20001298",
+          "descriptor_offset": "0x16650",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2017",
+          "name": "spd_filt_gain",
+          "ram": "0x20001288",
+          "descriptor_offset": "0x16660",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2018",
+          "name": "limit_spd",
+          "ram": "0x200012b0",
+          "descriptor_offset": "0x16670",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2019",
+          "name": "limit_cur",
+          "ram": "0x2000128c",
+          "descriptor_offset": "0x16680",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201a",
+          "name": "loc_ref_filt_gain",
+          "ram": "0x200012ac",
+          "descriptor_offset": "0x16690",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201b",
+          "name": "add_elec_offset",
+          "ram": "0x20000560",
+          "descriptor_offset": "0x166a0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201c",
+          "name": "position_offset",
+          "ram": "0x20000210",
+          "descriptor_offset": "0x166b0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201d",
+          "name": "chasu_angle_offset",
+          "ram": "0x200002ec",
+          "descriptor_offset": "0x166c0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201e",
+          "name": "spd_step_value",
+          "ram": "0x200012b4",
+          "descriptor_offset": "0x166d0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x201f",
+          "name": "vel_max",
+          "ram": "0x20000164",
+          "descriptor_offset": "0x166e0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2020",
+          "name": "acc_set",
+          "ram": "0x2000016c",
+          "descriptor_offset": "0x166f0",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2021",
+          "name": "zero_sta",
+          "ram": "0x20000564",
+          "descriptor_offset": "0x16700",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2022",
+          "name": "protocol_1",
+          "ram": "0x200026c4",
+          "descriptor_offset": "0x16710",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2023",
+          "name": "add_offset",
+          "ram": "0x2000055c",
+          "descriptor_offset": "0x16720",
+          "flags": "0x6600"
+        },
+        {
+          "index": "0x2024",
+          "name": "alveolous_open",
+          "ram": "0x20001310",
+          "descriptor_offset": "0x16730",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2025",
+          "name": "iq_test",
+          "ram": "0x20001313",
+          "descriptor_offset": "0x16740",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2026",
+          "name": "acc_stutus",
+          "ram": "0x200001cc",
+          "descriptor_offset": "0x16750",
+          "flags": "0x6000"
+        },
+        {
+          "index": "0x2027",
+          "name": "damper",
+          "ram": "0x20001505",
+          "descriptor_offset": "0x16760",
+          "flags": "0x6000"
+        }
+      ]
+    }
+  ],
+  "hardware_type9": [
+    {
+      "time": 1793085941.488236,
+      "event": "rx",
+      "id": "0x90021fd",
+      "type": 9,
+      "motor": 33,
+      "data": "0520060023805c3f",
+      "index": "0x2005",
+      "value_type_code": 6,
+      "value": 0.8613302111625671
+    },
+    {
+      "time": 1793085941.7440047,
+      "event": "rx",
+      "id": "0x90021fd",
+      "type": 9,
+      "motor": 33,
+      "data": "0620060000000000",
+      "index": "0x2006",
+      "value_type_code": 6,
+      "value": 0.0
+    },
+    {
+      "time": 1793085941.9967854,
+      "event": "rx",
+      "id": "0x90021fd",
+      "type": 9,
+      "motor": 33,
+      "data": "2120000000000000",
+      "index": "0x2021",
+      "value_type_code": 0,
+      "value": 0
+    },
+    {
+      "time": 1793085942.2476785,
+      "event": "rx",
+      "id": "0x90021fd",
+      "type": 9,
+      "motor": 33,
+      "data": "2320060000000000",
+      "index": "0x2023",
+      "value_type_code": 6,
+      "value": 0.0
+    },
+    {
+      "time": 1793085942.507652,
+      "event": "rx",
+      "id": "0x90021fd",
+      "type": 9,
+      "motor": 33,
+      "data": "14300500faffffff",
+      "index": "0x3014",
+      "value_type_code": 5,
+      "value": -6
+    },
+    {
+      "time": 1793085942.761758,
+      "event": "rx",
+      "id": "0x90021fd",
+      "type": 9,
+      "motor": 33,
+      "data": "1630060006fd2140",
+      "index": "0x3016",
+      "value_type_code": 6,
+      "value": 2.5310683250427246
+    },
+    {
+      "time": 1793085943.01669,
+      "event": "rx",
+      "id": "0x90021fd",
+      "type": 9,
+      "motor": 33,
+      "data": "2f30060000000000",
+      "index": "0x302f",
+      "value_type_code": 6,
+      "value": 0.0
+    },
+    {
+      "time": 1793085943.270716,
+      "event": "rx",
+      "id": "0x90022fd",
+      "type": 9,
+      "motor": 34,
+      "data": "05200600c087873f",
+      "index": "0x2005",
+      "value_type_code": 6,
+      "value": 1.0588302612304688
+    },
+    {
+      "time": 1793085943.5255864,
+      "event": "rx",
+      "id": "0x90022fd",
+      "type": 9,
+      "motor": 34,
+      "data": "0620060000000000",
+      "index": "0x2006",
+      "value_type_code": 6,
+      "value": 0.0
+    },
+    {
+      "time": 1793085943.7808053,
+      "event": "rx",
+      "id": "0x90022fd",
+      "type": 9,
+      "motor": 34,
+      "data": "2120000000000000",
+      "index": "0x2021",
+      "value_type_code": 0,
+      "value": 0
+    },
+    {
+      "time": 1793085944.0386322,
+      "event": "rx",
+      "id": "0x90022fd",
+      "type": 9,
+      "motor": 34,
+      "data": "2320060000000000",
+      "index": "0x2023",
+      "value_type_code": 6,
+      "value": 0.0
+    },
+    {
+      "time": 1793085944.2967546,
+      "event": "rx",
+      "id": "0x90022fd",
+      "type": 9,
+      "motor": 34,
+      "data": "1430050004000000",
+      "index": "0x3014",
+      "value_type_code": 5,
+      "value": 4
+    },
+    {
+      "time": 1793085944.5527408,
+      "event": "rx",
+      "id": "0x90022fd",
+      "type": 9,
+      "motor": 34,
+      "data": "1630060034294a40",
+      "index": "0x3016",
+      "value_type_code": 6,
+      "value": 3.1587648391723633
+    },
+    {
+      "time": 1793085944.8090136,
+      "event": "rx",
+      "id": "0x90022fd",
+      "type": 9,
+      "motor": 34,
+      "data": "2f30060000000000",
+      "index": "0x302f",
+      "value_type_code": 6,
+      "value": 0.0
+    }
+  ]
+}

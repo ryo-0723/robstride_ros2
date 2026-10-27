@@ -1,0 +1,7156 @@
+{
+  "branch": "feature/encoder",
+  "motor_id": 33,
+  "requested_per_phase": 170,
+  "requests": [
+    {
+      "read_type": 9,
+      "successful_before": 115,
+      "successful_after": 115
+    },
+    {
+      "read_type": 17,
+      "successful_before": 29,
+      "successful_after": 29
+    }
+  ],
+  "reset_events": [
+    {
+      "unix_s": 1793088077.6477363,
+      "event": "ready_for_power_cycle",
+      "mechPos": 21.292165756225586,
+      "counter": 21,
+      "duration_s": 180
+    },
+    {
+      "unix_s": 1793088116.6167035,
+      "event": "position_reset_detected",
+      "before": 21.292165756225586,
+      "after": 2.4424808025360107,
+      "counter": -6
+    },
+    {
+      "unix_s": 1793088118.3517704,
+      "event": "power_cycle_comparison_complete"
+    }
+  ],
+  "comparison": [
+    {
+      "read_type": 9,
+      "index": "0x2000",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.8837821,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2000",
+        "raw": "0020020005000500",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 5,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6309485,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2000",
+        "raw": "0020020005000500",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 5,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2001",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.8886826,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2001",
+        "raw": "0120020005000500",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 5,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6360211,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2001",
+        "raw": "0120020005000500",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 5,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2002",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.892761,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2002",
+        "raw": "0220020005000500",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 5,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6407173,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2002",
+        "raw": "0220020005000500",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 5,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2003",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.8977568,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2003",
+        "raw": "0320020005000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 5,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6449347,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2003",
+        "raw": "0320020005000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 5,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2004",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9017453,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2004",
+        "raw": "04200400f4010000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 500,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.64978,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2004",
+        "raw": "04200400f4010000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 500,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2005",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9071136,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2005",
+        "raw": "0520060023805c3f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.8613302111625671,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6547616,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2005",
+        "raw": "0520060023805c3f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.8613302111625671,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2006",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9119468,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2006",
+        "raw": "0620060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6599097,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2006",
+        "raw": "0620060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2007",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9167886,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2007",
+        "raw": "072006000000c040",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 6.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6648948,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2007",
+        "raw": "072006000000c040",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 6.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2008",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.920675,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2008",
+        "raw": "0820060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6697469,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2008",
+        "raw": "0820060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2009",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9246585,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2009",
+        "raw": "0920000001000100",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 1,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6738644,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2009",
+        "raw": "0920000001000100",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 1,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x200a",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.928678,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x200a",
+        "raw": "0a2000002101fd00",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 33,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6787515,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x200a",
+        "raw": "0a2000002101fd00",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 33,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x200b",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9327312,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x200b",
+        "raw": "0b200000fd0000a0",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 253,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6838512,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x200b",
+        "raw": "0b200000fd0000a0",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 253,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x200c",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9367964,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x200c",
+        "raw": "0c200400a00f0000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 4000,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6888418,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x200c",
+        "raw": "0c200400a00f0000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 4000,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x200d",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9407544,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x200d",
+        "raw": "0d20030000000000",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6936889,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x200d",
+        "raw": "0d20030000000000",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x200e",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.944662,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x200e",
+        "raw": "0e20040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.6976476,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x200e",
+        "raw": "0e20040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x200f",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.94872,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x200f",
+        "raw": "0f20060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7016373,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x200f",
+        "raw": "0f20060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2010",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9527106,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2010",
+        "raw": "102000000000ab28",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7056723,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2010",
+        "raw": "102000000000a828",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2011",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9576526,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2011",
+        "raw": "11200600cdcccc3d",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.10000000149011612,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7096314,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2011",
+        "raw": "11200600cdcccc3d",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.10000000149011612,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2012",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9617367,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2012",
+        "raw": "122006000000003e",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.125,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7136436,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2012",
+        "raw": "122006000000003e",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.125,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2013",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9669745,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2013",
+        "raw": "13200600006f813c",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.015799999237060547,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7176247,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2013",
+        "raw": "13200600006f813c",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.015799999237060547,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2014",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.971746,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2014",
+        "raw": "142006000000e040",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 7.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.721643,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2014",
+        "raw": "142006000000e040",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 7.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2015",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9757664,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2015",
+        "raw": "152006000ad7a33c",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.019999999552965164,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7257495,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2015",
+        "raw": "152006000ad7a33c",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.019999999552965164,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2016",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9797204,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2016",
+        "raw": "162006000000f041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 30.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7296624,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2016",
+        "raw": "162006000000f041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 30.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2017",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9848156,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2017",
+        "raw": "172006000000003f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.5,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7336452,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2017",
+        "raw": "172006000000003f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.5,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2018",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9900494,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2018",
+        "raw": "1820060000004843",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 200.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.737642,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2018",
+        "raw": "1820060000004843",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 200.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2019",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088076.9950004,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2019",
+        "raw": "1920060000003041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 11.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.741759,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2019",
+        "raw": "1920060000003041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 11.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x201a",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0000372,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x201a",
+        "raw": "1a2006000ad7233d",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.03999999910593033,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7456446,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x201a",
+        "raw": "1a2006000ad7233d",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.03999999910593033,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x201b",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0050128,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x201b",
+        "raw": "1b20060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.749623,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x201b",
+        "raw": "1b20060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x201c",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.009843,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x201c",
+        "raw": "1c20060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7536545,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x201c",
+        "raw": "1c20060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x201d",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0147202,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x201d",
+        "raw": "1d200600b5e1b940",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 5.808802127838135,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7577746,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x201d",
+        "raw": "1d200600b5e1b940",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 5.808802127838135,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x201e",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0197823,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x201e",
+        "raw": "1e2006009a99193e",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.15000000596046448,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.761633,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x201e",
+        "raw": "1e2006009a99193e",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.15000000596046448,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x201f",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.023728,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x201f",
+        "raw": "1f20060000002041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 10.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7656264,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x201f",
+        "raw": "1f20060000002041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 10.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2020",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.028647,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2020",
+        "raw": "2020060000002041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 10.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7696426,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2020",
+        "raw": "2020060000002041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 10.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2021",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0327606,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2021",
+        "raw": "2120000000000000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7739737,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2021",
+        "raw": "2120000000000000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2022",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0376573,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2022",
+        "raw": "2220000000000000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7789047,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2022",
+        "raw": "2220000000000000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2023",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0417504,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2023",
+        "raw": "2320060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.7837064,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2023",
+        "raw": "2320060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x2024",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0466866,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2024",
+        "raw": "2420000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      },
+      "after": {
+        "unix_s": 1793088117.7876656,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2024",
+        "raw": "2420000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      }
+    },
+    {
+      "read_type": 9,
+      "index": "0x2025",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0517585,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2025",
+        "raw": "2520000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      },
+      "after": {
+        "unix_s": 1793088117.7918262,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2025",
+        "raw": "2520000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      }
+    },
+    {
+      "read_type": 9,
+      "index": "0x2026",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0557632,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2026",
+        "raw": "2620000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      },
+      "after": {
+        "unix_s": 1793088117.7967513,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2026",
+        "raw": "2620000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      }
+    },
+    {
+      "read_type": 9,
+      "index": "0x2027",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.0597746,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x2027",
+        "raw": "2720000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      },
+      "after": {
+        "unix_s": 1793088117.8016214,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x2027",
+        "raw": "2720000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      }
+    },
+    {
+      "read_type": 9,
+      "index": "0x3000",
+      "name_in_distributed_1_0_5_0_2": "timeUse0",
+      "before": {
+        "unix_s": 1793088077.064774,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3000",
+        "raw": "0030020003000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 3,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8057003,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3000",
+        "raw": "003002001b000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 27,
+        "status": 0
+      },
+      "delta": 24
+    },
+    {
+      "read_type": 9,
+      "index": "0x3001",
+      "name_in_distributed_1_0_5_0_2": "timeUse1",
+      "before": {
+        "unix_s": 1793088077.0686717,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3001",
+        "raw": "0130020000005711",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8096473,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3001",
+        "raw": "0130020000008953",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3002",
+      "name_in_distributed_1_0_5_0_2": "timeUse2",
+      "before": {
+        "unix_s": 1793088077.0726495,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3002",
+        "raw": "0230020017000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 23,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8136585,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3002",
+        "raw": "0230020017000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 23,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3003",
+      "name_in_distributed_1_0_5_0_2": "timeUse3",
+      "before": {
+        "unix_s": 1793088077.0776215,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3003",
+        "raw": "0330020000000e23",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8176947,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3003",
+        "raw": "0330020000000671",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3004",
+      "name_in_distributed_1_0_5_0_2": "encoderRaw",
+      "before": {
+        "unix_s": 1793088077.0816298,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3004",
+        "raw": "04300300ab280000",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 10411,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8226366,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3004",
+        "raw": "04300300a8280000",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 10408,
+        "status": 0
+      },
+      "delta": -3
+    },
+    {
+      "read_type": 9,
+      "index": "0x3005",
+      "name_in_distributed_1_0_5_0_2": "mcuTemp",
+      "before": {
+        "unix_s": 1793088077.0857196,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3005",
+        "raw": "053003001d011801",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 285,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8267255,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3005",
+        "raw": "0530030017011801",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 279,
+        "status": 0
+      },
+      "delta": -6
+    },
+    {
+      "read_type": 9,
+      "index": "0x3006",
+      "name_in_distributed_1_0_5_0_2": "motorTemp",
+      "before": {
+        "unix_s": 1793088077.0906367,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3006",
+        "raw": "0630030018013201",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 280,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8307004,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3006",
+        "raw": "0630030018013201",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 280,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3007",
+      "name_in_distributed_1_0_5_0_2": "vBus(mv)",
+      "before": {
+        "unix_s": 1793088077.0947423,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3007",
+        "raw": "07300200fc5e1d01",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 24316,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8346767,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3007",
+        "raw": "07300200fc5e1501",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 24316,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3008",
+      "name_in_distributed_1_0_5_0_2": "adc1Offset",
+      "before": {
+        "unix_s": 1793088077.0997446,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3008",
+        "raw": "08300500e5070000",
+        "id": "0x90021fd",
+        "type_code": 5,
+        "result": "ok",
+        "value": 2021,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8390164,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3008",
+        "raw": "08300500e4070000",
+        "id": "0x90021fd",
+        "type_code": 5,
+        "result": "ok",
+        "value": 2020,
+        "status": 0
+      },
+      "delta": -1
+    },
+    {
+      "read_type": 9,
+      "index": "0x3009",
+      "name_in_distributed_1_0_5_0_2": "adc2Offset",
+      "before": {
+        "unix_s": 1793088077.1037047,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3009",
+        "raw": "09300500e6070000",
+        "id": "0x90021fd",
+        "type_code": 5,
+        "result": "ok",
+        "value": 2022,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8437302,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3009",
+        "raw": "09300500e5070000",
+        "id": "0x90021fd",
+        "type_code": 5,
+        "result": "ok",
+        "value": 2021,
+        "status": 0
+      },
+      "delta": -1
+    },
+    {
+      "read_type": 9,
+      "index": "0x300a",
+      "name_in_distributed_1_0_5_0_2": "adc1Raw",
+      "before": {
+        "unix_s": 1793088077.1077428,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x300a",
+        "raw": "0a300200e2070000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 2018,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8476918,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x300a",
+        "raw": "0a300200e4070000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 2020,
+        "status": 0
+      },
+      "delta": 2
+    },
+    {
+      "read_type": 9,
+      "index": "0x300b",
+      "name_in_distributed_1_0_5_0_2": "adc2Raw",
+      "before": {
+        "unix_s": 1793088077.1126635,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x300b",
+        "raw": "0b300200e7070000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 2023,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8516848,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x300b",
+        "raw": "0b300200e6070000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 2022,
+        "status": 0
+      },
+      "delta": -1
+    },
+    {
+      "read_type": 9,
+      "index": "0x300c",
+      "name_in_distributed_1_0_5_0_2": "VBUS",
+      "before": {
+        "unix_s": 1793088077.1166446,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x300c",
+        "raw": "0c300600d688c241",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 24.316814422607422,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8557081,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x300c",
+        "raw": "0c300600d688c241",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 24.316814422607422,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x300d",
+      "name_in_distributed_1_0_5_0_2": "cmdId",
+      "before": {
+        "unix_s": 1793088077.1206288,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x300d",
+        "raw": "0d30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8597124,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x300d",
+        "raw": "0d30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x300e",
+      "name_in_distributed_1_0_5_0_2": "cmdIq",
+      "before": {
+        "unix_s": 1793088077.1246562,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x300e",
+        "raw": "0e30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8647037,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x300e",
+        "raw": "0e30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x300f",
+      "name_in_distributed_1_0_5_0_2": "cmdlocref",
+      "before": {
+        "unix_s": 1793088077.128622,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x300f",
+        "raw": "0f3006005b56aa41",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 21.292165756225586,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8696475,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x300f",
+        "raw": "0f3006009b511c40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 2.4424808025360107,
+        "status": 0
+      },
+      "delta": -18.849684953689575
+    },
+    {
+      "read_type": 9,
+      "index": "0x3010",
+      "name_in_distributed_1_0_5_0_2": "cmdspdref",
+      "before": {
+        "unix_s": 1793088077.1327515,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3010",
+        "raw": "1030060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8738592,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3010",
+        "raw": "1030060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3011",
+      "name_in_distributed_1_0_5_0_2": "cmdTorque",
+      "before": {
+        "unix_s": 1793088077.1376417,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3011",
+        "raw": "1130060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.878017,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3011",
+        "raw": "1130060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3012",
+      "name_in_distributed_1_0_5_0_2": "cmdPos",
+      "before": {
+        "unix_s": 1793088077.1416638,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3012",
+        "raw": "123006005b56aa41",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 21.292165756225586,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8827558,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3012",
+        "raw": "123006009b511c40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 2.4424808025360107,
+        "status": 0
+      },
+      "delta": -18.849684953689575
+    },
+    {
+      "read_type": 9,
+      "index": "0x3013",
+      "name_in_distributed_1_0_5_0_2": "cmdVel",
+      "before": {
+        "unix_s": 1793088077.1466482,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3013",
+        "raw": "1330060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8867102,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3013",
+        "raw": "1330060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3014",
+      "name_in_distributed_1_0_5_0_2": "rotation",
+      "before": {
+        "unix_s": 1793088077.151689,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3014",
+        "raw": "1430050015000000",
+        "id": "0x90021fd",
+        "type_code": 5,
+        "result": "ok",
+        "value": 21,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8917542,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3014",
+        "raw": "14300500faffffff",
+        "id": "0x90021fd",
+        "type_code": 5,
+        "result": "ok",
+        "value": -6,
+        "status": 0
+      },
+      "delta": -27
+    },
+    {
+      "read_type": 9,
+      "index": "0x3015",
+      "name_in_distributed_1_0_5_0_2": "modPos",
+      "before": {
+        "unix_s": 1793088077.1560473,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3015",
+        "raw": "153006003ab27f40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 3.995253086090088,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.8957257,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3015",
+        "raw": "15300600609f7f40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 3.9941024780273438,
+        "status": 0
+      },
+      "delta": -0.0011506080627441406
+    },
+    {
+      "read_type": 9,
+      "index": "0x3016",
+      "name_in_distributed_1_0_5_0_2": "mechPos",
+      "before": {
+        "unix_s": 1793088077.160637,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3016",
+        "raw": "163006005b56aa41",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 21.292165756225586,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9007761,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3016",
+        "raw": "163006009b511c40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 2.4424808025360107,
+        "status": 0
+      },
+      "delta": -18.849684953689575
+    },
+    {
+      "read_type": 9,
+      "index": "0x3017",
+      "name_in_distributed_1_0_5_0_2": "mechVel",
+      "before": {
+        "unix_s": 1793088077.1646545,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3017",
+        "raw": "1730060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9046917,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3017",
+        "raw": "1730060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3018",
+      "name_in_distributed_1_0_5_0_2": "elecPos",
+      "before": {
+        "unix_s": 1793088077.1710281,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3018",
+        "raw": "18300600b2bc5740",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 3.37089204788208,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9098332,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3018",
+        "raw": "1830060034005740",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 3.3593873977661133,
+        "status": 0
+      },
+      "delta": -0.011504650115966797
+    },
+    {
+      "read_type": 9,
+      "index": "0x3019",
+      "name_in_distributed_1_0_5_0_2": "ia",
+      "before": {
+        "unix_s": 1793088077.1760411,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3019",
+        "raw": "1930060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.914724,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3019",
+        "raw": "1930060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x301a",
+      "name_in_distributed_1_0_5_0_2": "ib",
+      "before": {
+        "unix_s": 1793088077.1807935,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x301a",
+        "raw": "1a30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.919671,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x301a",
+        "raw": "1a30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x301b",
+      "name_in_distributed_1_0_5_0_2": "ic",
+      "before": {
+        "unix_s": 1793088077.1847737,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x301b",
+        "raw": "1b30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.923911,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x301b",
+        "raw": "1b30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x301c",
+      "name_in_distributed_1_0_5_0_2": "timeout",
+      "before": {
+        "unix_s": 1793088077.1898384,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x301c",
+        "raw": "1c30050000000000",
+        "id": "0x90021fd",
+        "type_code": 5,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9287002,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x301c",
+        "raw": "1c30050000000000",
+        "id": "0x90021fd",
+        "type_code": 5,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x301d",
+      "name_in_distributed_1_0_5_0_2": "phaseOrder",
+      "before": {
+        "unix_s": 1793088077.194746,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x301d",
+        "raw": "1d30000001fd0000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 1,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9336638,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x301d",
+        "raw": "1d30000001fd0000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 1,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x301e",
+      "name_in_distributed_1_0_5_0_2": "iqf",
+      "before": {
+        "unix_s": 1793088077.1987472,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x301e",
+        "raw": "1e30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9380527,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x301e",
+        "raw": "1e30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x301f",
+      "name_in_distributed_1_0_5_0_2": "boardTemp",
+      "before": {
+        "unix_s": 1793088077.203872,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x301f",
+        "raw": "1f3003001d011801",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 285,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9426959,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x301f",
+        "raw": "1f30030015011801",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 277,
+        "status": 0
+      },
+      "delta": -8
+    },
+    {
+      "read_type": 9,
+      "index": "0x3020",
+      "name_in_distributed_1_0_5_0_2": "iq",
+      "before": {
+        "unix_s": 1793088077.2090175,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3020",
+        "raw": "2030060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9470265,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3020",
+        "raw": "2030060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3021",
+      "name_in_distributed_1_0_5_0_2": "id",
+      "before": {
+        "unix_s": 1793088077.214362,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3021",
+        "raw": "2130060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9516757,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3021",
+        "raw": "2130060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3022",
+      "name_in_distributed_1_0_5_0_2": "faultSta",
+      "before": {
+        "unix_s": 1793088077.219081,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3022",
+        "raw": "2230040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9556978,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3022",
+        "raw": "2230040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3023",
+      "name_in_distributed_1_0_5_0_2": "warnSta",
+      "before": {
+        "unix_s": 1793088077.2238007,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3023",
+        "raw": "2330040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.96018,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3023",
+        "raw": "2330040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3024",
+      "name_in_distributed_1_0_5_0_2": "drv_fault",
+      "before": {
+        "unix_s": 1793088077.2286787,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3024",
+        "raw": "2430020000000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9646685,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3024",
+        "raw": "2430020000000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3025",
+      "name_in_distributed_1_0_5_0_2": "drv_temp",
+      "before": {
+        "unix_s": 1793088077.232723,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3025",
+        "raw": "2530020000000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9686623,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3025",
+        "raw": "2530020000000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3026",
+      "name_in_distributed_1_0_5_0_2": "Uq",
+      "before": {
+        "unix_s": 1793088077.2367313,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3026",
+        "raw": "2630060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9727697,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3026",
+        "raw": "2630060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3027",
+      "name_in_distributed_1_0_5_0_2": "Ud",
+      "before": {
+        "unix_s": 1793088077.240692,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3027",
+        "raw": "2730060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9767745,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3027",
+        "raw": "2730060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3028",
+      "name_in_distributed_1_0_5_0_2": "dtc_u",
+      "before": {
+        "unix_s": 1793088077.2446702,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3028",
+        "raw": "2830060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.980739,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3028",
+        "raw": "2830060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3029",
+      "name_in_distributed_1_0_5_0_2": "dtc_v",
+      "before": {
+        "unix_s": 1793088077.248945,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3029",
+        "raw": "2930060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9846418,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3029",
+        "raw": "2930060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x302a",
+      "name_in_distributed_1_0_5_0_2": "dtc_w",
+      "before": {
+        "unix_s": 1793088077.2537394,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x302a",
+        "raw": "2a30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9886308,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x302a",
+        "raw": "2a30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x302b",
+      "name_in_distributed_1_0_5_0_2": "v_bus",
+      "before": {
+        "unix_s": 1793088077.257707,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x302b",
+        "raw": "2b300600d688c241",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 24.316814422607422,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9926615,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x302b",
+        "raw": "2b300600d688c241",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 24.316814422607422,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x302c",
+      "name_in_distributed_1_0_5_0_2": "torque_fdb",
+      "before": {
+        "unix_s": 1793088077.2616892,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x302c",
+        "raw": "2c30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088117.9967191,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x302c",
+        "raw": "2c30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x302d",
+      "name_in_distributed_1_0_5_0_2": "rated_i",
+      "before": {
+        "unix_s": 1793088077.2656767,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x302d",
+        "raw": "2d3006009a99d93f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 1.7000000476837158,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0006225,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x302d",
+        "raw": "2d3006009a99d93f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 1.7000000476837158,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x302e",
+      "name_in_distributed_1_0_5_0_2": "limit_i",
+      "before": {
+        "unix_s": 1793088077.2699285,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x302e",
+        "raw": "2e30060000003041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 11.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0046277,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x302e",
+        "raw": "2e30060000003041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 11.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x302f",
+      "name_in_distributed_1_0_5_0_2": "spd_ref",
+      "before": {
+        "unix_s": 1793088077.2747743,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x302f",
+        "raw": "2f30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.009177,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x302f",
+        "raw": "2f30060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3030",
+      "name_in_distributed_1_0_5_0_2": "spd_reff",
+      "before": {
+        "unix_s": 1793088077.279914,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3030",
+        "raw": "3030060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0136528,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3030",
+        "raw": "3030060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3031",
+      "name_in_distributed_1_0_5_0_2": "zero_fault",
+      "before": {
+        "unix_s": 1793088077.284927,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3031",
+        "raw": "3130000000000000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0177178,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3031",
+        "raw": "3130000000000000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3032",
+      "name_in_distributed_1_0_5_0_2": "position",
+      "before": {
+        "unix_s": 1793088077.289927,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3032",
+        "raw": "3230060031f10743",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 135.94215393066406,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0218403,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3032",
+        "raw": "32300600eed106c2",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -33.70500946044922,
+        "status": 0
+      },
+      "delta": -169.64716339111328
+    },
+    {
+      "read_type": 9,
+      "index": "0x3033",
+      "name_in_distributed_1_0_5_0_2": "chasu_angle",
+      "before": {
+        "unix_s": 1793088077.2951217,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3033",
+        "raw": "33300600f806fe3f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 1.9845876693725586,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0266314,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3033",
+        "raw": "3330060066fafd3f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 1.9842040538787842,
+        "status": 0
+      },
+      "delta": -0.00038361549377441406
+    },
+    {
+      "read_type": 9,
+      "index": "0x3034",
+      "name_in_distributed_1_0_5_0_2": "as_angle",
+      "before": {
+        "unix_s": 1793088077.3000443,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3034",
+        "raw": "343006003e867f40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 3.9925684928894043,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0306804,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3034",
+        "raw": "3430060065737f40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 3.9914181232452393,
+        "status": 0
+      },
+      "delta": -0.001150369644165039
+    },
+    {
+      "read_type": 9,
+      "index": "0x3035",
+      "name_in_distributed_1_0_5_0_2": "cs_angle",
+      "before": {
+        "unix_s": 1793088077.3048975,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3035",
+        "raw": "35300600dd44bf40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 5.977156162261963,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0348237,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3035",
+        "raw": "353006004c38bf40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 5.975622177124023,
+        "status": 0
+      },
+      "delta": -0.0015339851379394531
+    },
+    {
+      "read_type": 9,
+      "index": "0x3036",
+      "name_in_distributed_1_0_5_0_2": "chasu_angle_out",
+      "before": {
+        "unix_s": 1793088077.310016,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3036",
+        "raw": "36300600633a0743",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 135.2280731201172,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0397205,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3036",
+        "raw": "363006007faf09c2",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -34.421382904052734,
+        "status": 0
+      },
+      "delta": -169.64945602416992
+    },
+    {
+      "read_type": 9,
+      "index": "0x3037",
+      "name_in_distributed_1_0_5_0_2": "motormechposition",
+      "before": {
+        "unix_s": 1793088077.31475,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3037",
+        "raw": "37300600b1140743",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 135.08082580566406,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.044696,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3037",
+        "raw": "37300600ef430ac2",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -34.566341400146484,
+        "status": 0
+      },
+      "delta": -169.64716720581055
+    },
+    {
+      "read_type": 9,
+      "index": "0x3038",
+      "name_in_distributed_1_0_5_0_2": "fault1",
+      "before": {
+        "unix_s": 1793088077.3197384,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3038",
+        "raw": "3830040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0486538,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3038",
+        "raw": "3830040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3039",
+      "name_in_distributed_1_0_5_0_2": "fault2",
+      "before": {
+        "unix_s": 1793088077.324961,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3039",
+        "raw": "3930040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0526314,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3039",
+        "raw": "3930040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x303a",
+      "name_in_distributed_1_0_5_0_2": "fault3",
+      "before": {
+        "unix_s": 1793088077.329407,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x303a",
+        "raw": "3a30040006000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 6,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0566475,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x303a",
+        "raw": "3a30040006000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 6,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x303b",
+      "name_in_distributed_1_0_5_0_2": "fault4",
+      "before": {
+        "unix_s": 1793088077.3340967,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x303b",
+        "raw": "3b30040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.060622,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x303b",
+        "raw": "3b30040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x303c",
+      "name_in_distributed_1_0_5_0_2": "fault5",
+      "before": {
+        "unix_s": 1793088077.3387415,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x303c",
+        "raw": "3c30040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.064624,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x303c",
+        "raw": "3c30040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x303d",
+      "name_in_distributed_1_0_5_0_2": "fault6",
+      "before": {
+        "unix_s": 1793088077.3427866,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x303d",
+        "raw": "3d30040006000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 6,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0686364,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x303d",
+        "raw": "3d30040006000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 6,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x303e",
+      "name_in_distributed_1_0_5_0_2": "fault7",
+      "before": {
+        "unix_s": 1793088077.3469317,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x303e",
+        "raw": "3e30040002000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 2,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0726492,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x303e",
+        "raw": "3e30040002000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 2,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x303f",
+      "name_in_distributed_1_0_5_0_2": "fault8",
+      "before": {
+        "unix_s": 1793088077.351684,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x303f",
+        "raw": "3f30040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0767684,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x303f",
+        "raw": "3f30040000000000",
+        "id": "0x90021fd",
+        "type_code": 4,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3040",
+      "name_in_distributed_1_0_5_0_2": "ElecOffset",
+      "before": {
+        "unix_s": 1793088077.355957,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3040",
+        "raw": "403006001be7c6c0",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -6.2157111167907715,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0817041,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3040",
+        "raw": "403006001be7c6c0",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -6.2157111167907715,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3041",
+      "name_in_distributed_1_0_5_0_2": "mcOverTemp",
+      "before": {
+        "unix_s": 1793088077.3606422,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3041",
+        "raw": "4130030046051405",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 1350,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0857089,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3041",
+        "raw": "4130030046051405",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 1350,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3042",
+      "name_in_distributed_1_0_5_0_2": "Kt_Nm/Amp",
+      "before": {
+        "unix_s": 1793088077.3646526,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3042",
+        "raw": "423006007b142e3f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.6800000071525574,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0896842,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3042",
+        "raw": "423006007b142e3f",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.6800000071525574,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3043",
+      "name_in_distributed_1_0_5_0_2": "Tqcali_Type",
+      "before": {
+        "unix_s": 1793088077.3686507,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3043",
+        "raw": "4330000001000000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 1,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0937483,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3043",
+        "raw": "4330000001000000",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 1,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3044",
+      "name_in_distributed_1_0_5_0_2": "low_position",
+      "before": {
+        "unix_s": 1793088077.372805,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3044",
+        "raw": "4430060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.0986254,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3044",
+        "raw": "4430060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3045",
+      "name_in_distributed_1_0_5_0_2": "theta_mech_1",
+      "before": {
+        "unix_s": 1793088077.3776584,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3045",
+        "raw": "4530060000cc75c0",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -3.840576171875,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.1031997,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3045",
+        "raw": "453006009b511c40",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 2.4424808025360107,
+        "status": 0
+      },
+      "delta": 6.283056974411011
+    },
+    {
+      "read_type": 9,
+      "index": "0x3046",
+      "name_in_distributed_1_0_5_0_2": "instep",
+      "before": {
+        "unix_s": 1793088077.3816576,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3046",
+        "raw": "4630060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.108193,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3046",
+        "raw": "4630060000000000",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 0.0,
+        "status": 0
+      },
+      "delta": 0.0
+    },
+    {
+      "read_type": 9,
+      "index": "0x3047",
+      "name_in_distributed_1_0_5_0_2": "position",
+      "before": {
+        "unix_s": 1793088077.3856678,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3047",
+        "raw": "4730060031f10743",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 135.94215393066406,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.1128054,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3047",
+        "raw": "47300600eed106c2",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -33.70500946044922,
+        "status": 0
+      },
+      "delta": -169.64716339111328
+    },
+    {
+      "read_type": 9,
+      "index": "0x3048",
+      "name_in_distributed_1_0_5_0_2": "chasu_angle_init",
+      "before": {
+        "unix_s": 1793088077.3897305,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3048",
+        "raw": "48300600cc677041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 15.025341033935547,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.116656,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3048",
+        "raw": "4830060037c674c0",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -3.8245980739593506,
+        "status": 0
+      },
+      "delta": -18.849939107894897
+    },
+    {
+      "read_type": 9,
+      "index": "0x3049",
+      "name_in_distributed_1_0_5_0_2": "chasu_angle_out",
+      "before": {
+        "unix_s": 1793088077.393664,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3049",
+        "raw": "49300600633a0743",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 135.2280731201172,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.1206381,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3049",
+        "raw": "493006007faf09c2",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -34.421382904052734,
+        "status": 0
+      },
+      "delta": -169.64945602416992
+    },
+    {
+      "read_type": 9,
+      "index": "0x304a",
+      "name_in_distributed_1_0_5_0_2": "motormechinit",
+      "before": {
+        "unix_s": 1793088077.3986752,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x304a",
+        "raw": "4a300600b1140743",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 135.08082580566406,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.12462,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x304a",
+        "raw": "4a300600ef430ac2",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -34.566341400146484,
+        "status": 0
+      },
+      "delta": -169.64716720581055
+    },
+    {
+      "read_type": 9,
+      "index": "0x304b",
+      "name_in_distributed_1_0_5_0_2": "mech_angle_init2",
+      "before": {
+        "unix_s": 1793088077.402685,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x304b",
+        "raw": "4b300600c9247041",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": 15.008980751037598,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.128622,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x304b",
+        "raw": "4b3006001bce75c0",
+        "id": "0x90021fd",
+        "type_code": 6,
+        "result": "ok",
+        "value": -3.8407046794891357,
+        "status": 0
+      },
+      "delta": -18.849685430526733
+    },
+    {
+      "read_type": 9,
+      "index": "0x304c",
+      "name_in_distributed_1_0_5_0_2": "mech_angle_rotations",
+      "before": {
+        "unix_s": 1793088077.4078603,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x304c",
+        "raw": "4c30030000000000",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.1326284,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x304c",
+        "raw": "4c30030000000000",
+        "id": "0x90021fd",
+        "type_code": 3,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x304d",
+      "name_in_distributed_1_0_5_0_2": "pos_cnt1",
+      "before": {
+        "unix_s": 1793088077.4127433,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x304d",
+        "raw": "4d30020000000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.1366436,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x304d",
+        "raw": "4d30020000000000",
+        "id": "0x90021fd",
+        "type_code": 2,
+        "result": "ok",
+        "value": 0,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x304e",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4168549,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x304e",
+        "raw": "4e300000a8640020",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 168,
+        "status": 0
+      },
+      "after": {
+        "unix_s": 1793088118.1406314,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x304e",
+        "raw": "4e300000a8640020",
+        "id": "0x90021fd",
+        "type_code": 0,
+        "result": "ok",
+        "value": 168,
+        "status": 0
+      },
+      "delta": 0
+    },
+    {
+      "read_type": 9,
+      "index": "0x304f",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.421758,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x304f",
+        "raw": "4f30000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      },
+      "after": {
+        "unix_s": 1793088118.144656,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x304f",
+        "raw": "4f30000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      }
+    },
+    {
+      "read_type": 9,
+      "index": "0x3050",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.425918,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3050",
+        "raw": "5030000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      },
+      "after": {
+        "unix_s": 1793088118.148626,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3050",
+        "raw": "5030000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      }
+    },
+    {
+      "read_type": 9,
+      "index": "0x3051",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4306693,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3051",
+        "raw": "5130000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      },
+      "after": {
+        "unix_s": 1793088118.1526318,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3051",
+        "raw": "5130000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      }
+    },
+    {
+      "read_type": 9,
+      "index": "0x3052",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4357247,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 9,
+        "index": "0x3052",
+        "raw": "5230000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      },
+      "after": {
+        "unix_s": 1793088118.1566632,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 9,
+        "index": "0x3052",
+        "raw": "5230000000000000",
+        "id": "0x90121fd",
+        "type_code": 0,
+        "result": "rejected",
+        "status": 1
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7000",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4396932,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7000",
+        "raw": "0070000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.1606262,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7000",
+        "raw": "0070000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7001",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4446352,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7001",
+        "raw": "0170000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.1646185,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7001",
+        "raw": "0170000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7002",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4487047,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7002",
+        "raw": "0270000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.1686492,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7002",
+        "raw": "0270000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7003",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.452661,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7003",
+        "raw": "0370000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.1726134,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7003",
+        "raw": "0370000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7004",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4567192,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7004",
+        "raw": "0470000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.176699,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7004",
+        "raw": "0470000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7005",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.460661,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7005",
+        "raw": "0570000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.1806319,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7005",
+        "raw": "0570000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7006",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4646518,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7006",
+        "raw": "0670000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.184641,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7006",
+        "raw": "0670000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7007",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4687672,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7007",
+        "raw": "0770000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.1887863,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7007",
+        "raw": "0770000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7008",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4728777,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7008",
+        "raw": "0870000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.193656,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7008",
+        "raw": "0870000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7009",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.476703,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7009",
+        "raw": "0970000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.1976285,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7009",
+        "raw": "0970000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x700a",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.480717,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x700a",
+        "raw": "0a70000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2016582,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x700a",
+        "raw": "0a70000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x700b",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.484651,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x700b",
+        "raw": "0b7000000000c040",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2056766,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x700b",
+        "raw": "0b7000000000c040",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x700c",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4886594,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x700c",
+        "raw": "0c70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.2096553,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x700c",
+        "raw": "0c70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x700d",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.49263,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x700d",
+        "raw": "0d70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.2136474,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x700d",
+        "raw": "0d70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x700e",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.4966257,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x700e",
+        "raw": "0e70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.2176166,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x700e",
+        "raw": "0e70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x700f",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5006273,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x700f",
+        "raw": "0f70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.2216208,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x700f",
+        "raw": "0f70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7010",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5047007,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7010",
+        "raw": "107000000000003e",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2256174,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7010",
+        "raw": "107000000000003e",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7011",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.509629,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7011",
+        "raw": "11700000006f813c",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2296538,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7011",
+        "raw": "11700000006f813c",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7012",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5142205,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7012",
+        "raw": "1270000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.233634,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7012",
+        "raw": "1270000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7013",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5186346,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7013",
+        "raw": "1370000001000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2377238,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7013",
+        "raw": "1370000001000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7014",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5230074,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7014",
+        "raw": "14700000cdcccc3d",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.241622,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7014",
+        "raw": "14700000cdcccc3d",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7015",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5276885,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7015",
+        "raw": "1570000018010000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2456508,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7015",
+        "raw": "1570000018010000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7016",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5316842,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7016",
+        "raw": "167000005b56aa41",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.249629,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7016",
+        "raw": "167000009b511c40",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7017",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.535744,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7017",
+        "raw": "1770000000004843",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2536168,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7017",
+        "raw": "1770000000004843",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7018",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5406628,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7018",
+        "raw": "1870000000003041",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2576187,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7018",
+        "raw": "1870000000003041",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7019",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5446463,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7019",
+        "raw": "197000005b56aa41",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2616138,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7019",
+        "raw": "197000009b511c40",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x701a",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5487816,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x701a",
+        "raw": "1a70000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2656229,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x701a",
+        "raw": "1a70000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x701b",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5537152,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x701b",
+        "raw": "1b70000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2696273,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x701b",
+        "raw": "1b70000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x701c",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5576625,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x701c",
+        "raw": "1c700000d688c241",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2736647,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x701c",
+        "raw": "1c700000d688c241",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x701d",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.561658,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x701d",
+        "raw": "1d70000015000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2776527,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x701d",
+        "raw": "1d700000faff0000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x701e",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5657911,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x701e",
+        "raw": "1e7000000000f041",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.281903,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x701e",
+        "raw": "1e7000000000f041",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x701f",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5706763,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x701f",
+        "raw": "1f7000000000e040",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.286719,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x701f",
+        "raw": "1f7000000000e040",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7020",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.574763,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7020",
+        "raw": "207000000ad7a33c",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2906704,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7020",
+        "raw": "207000000ad7a33c",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7021",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5797698,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7021",
+        "raw": "217000000000003f",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2956722,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7021",
+        "raw": "217000000000003f",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7022",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5849116,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7022",
+        "raw": "2270000000001643",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.2999685,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7022",
+        "raw": "2270000000001643",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7023",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.589785,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7023",
+        "raw": "2370000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.3046997,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7023",
+        "raw": "2370000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7024",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5936875,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7024",
+        "raw": "2470000000002041",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.3088381,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7024",
+        "raw": "2470000000002041",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7025",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.5987918,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7025",
+        "raw": "2570000000002041",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.3126874,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7025",
+        "raw": "2570000000002041",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7026",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.6037586,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7026",
+        "raw": "2670000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.3166327,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7026",
+        "raw": "2670000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7027",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.6078055,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7027",
+        "raw": "2770000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.320694,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7027",
+        "raw": "2770000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7028",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.612694,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7028",
+        "raw": "28700000a00f0000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.3256538,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7028",
+        "raw": "28700000a00f0000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x7029",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.6167414,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x7029",
+        "raw": "2970000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.3296404,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x7029",
+        "raw": "2970000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x702a",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.6216934,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x702a",
+        "raw": "2a70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.3337097,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x702a",
+        "raw": "2a70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x702b",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.6256905,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x702b",
+        "raw": "2b70000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      },
+      "after": {
+        "unix_s": 1793088118.338667,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x702b",
+        "raw": "2b70000000000000",
+        "id": "0x110021fd",
+        "status": 0,
+        "result": "ok"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x702c",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.6297162,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x702c",
+        "raw": "2c70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.3427556,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x702c",
+        "raw": "2c70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x702d",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.6337178,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x702d",
+        "raw": "2d70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.3468108,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x702d",
+        "raw": "2d70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    },
+    {
+      "read_type": 17,
+      "index": "0x702e",
+      "name_in_distributed_1_0_5_0_2": null,
+      "before": {
+        "unix_s": 1793088077.6376884,
+        "event": "inventory_entry",
+        "phase": "before_power_cycle",
+        "read_type": 17,
+        "index": "0x702e",
+        "raw": "2e70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      },
+      "after": {
+        "unix_s": 1793088118.3517525,
+        "event": "inventory_entry",
+        "phase": "after_power_cycle",
+        "read_type": 17,
+        "index": "0x702e",
+        "raw": "2e70000000000000",
+        "id": "0x110121fd",
+        "status": 1,
+        "result": "rejected"
+      }
+    }
+  ],
+  "observation_tables": [
+    {
+      "firmware": "EL05_1.0.5.0.1.bin",
+      "observations": [
+        {
+          "index": "0x3000",
+          "name": "timeUse0",
+          "ram": "0x20001a48",
+          "type_code": 2
+        },
+        {
+          "index": "0x3001",
+          "name": "timeUse1",
+          "ram": "0x20001a4e",
+          "type_code": 2
+        },
+        {
+          "index": "0x3002",
+          "name": "timeUse2",
+          "ram": "0x20001a54",
+          "type_code": 2
+        },
+        {
+          "index": "0x3003",
+          "name": "timeUse3",
+          "ram": "0x20001a5a",
+          "type_code": 2
+        },
+        {
+          "index": "0x3004",
+          "name": "encoderRaw",
+          "ram": "0x20000324",
+          "type_code": 3
+        },
+        {
+          "index": "0x3005",
+          "name": "mcuTemp",
+          "ram": "0x2000053e",
+          "type_code": 3
+        },
+        {
+          "index": "0x3006",
+          "name": "motorTemp",
+          "ram": "0x20000540",
+          "type_code": 3
+        },
+        {
+          "index": "0x3007",
+          "name": "vBus(mv)",
+          "ram": "0x2000053c",
+          "type_code": 2
+        },
+        {
+          "index": "0x3008",
+          "name": "adc1Offset",
+          "ram": "0x200005cc",
+          "type_code": 5
+        },
+        {
+          "index": "0x3009",
+          "name": "adc2Offset",
+          "ram": "0x200005d0",
+          "type_code": 5
+        },
+        {
+          "index": "0x300a",
+          "name": "adc1Raw",
+          "ram": "0x4001283c",
+          "type_code": 2
+        },
+        {
+          "index": "0x300b",
+          "name": "adc2Raw",
+          "ram": "0x40013c3c",
+          "type_code": 2
+        },
+        {
+          "index": "0x300c",
+          "name": "VBUS",
+          "ram": "0x20000560",
+          "type_code": 6
+        },
+        {
+          "index": "0x300d",
+          "name": "cmdId",
+          "ram": "0x200005d4",
+          "type_code": 6
+        },
+        {
+          "index": "0x300e",
+          "name": "cmdIq",
+          "ram": "0x200005d8",
+          "type_code": 6
+        },
+        {
+          "index": "0x300f",
+          "name": "cmdlocref",
+          "ram": "0x20000870",
+          "type_code": 6
+        },
+        {
+          "index": "0x3010",
+          "name": "cmdspdref",
+          "ram": "0x20000840",
+          "type_code": 6
+        },
+        {
+          "index": "0x3011",
+          "name": "cmdTorque",
+          "ram": "0x20000604",
+          "type_code": 6
+        },
+        {
+          "index": "0x3012",
+          "name": "cmdPos",
+          "ram": "0x200005f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3013",
+          "name": "cmdVel",
+          "ram": "0x200005f8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3014",
+          "name": "rotation",
+          "ram": "0x20000328",
+          "type_code": 5
+        },
+        {
+          "index": "0x3015",
+          "name": "modPos",
+          "ram": "0x200001fc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3016",
+          "name": "mechPos",
+          "ram": "0x20000564",
+          "type_code": 6
+        },
+        {
+          "index": "0x3017",
+          "name": "mechVel",
+          "ram": "0x20000570",
+          "type_code": 6
+        },
+        {
+          "index": "0x3018",
+          "name": "elecPos",
+          "ram": "0x20000568",
+          "type_code": 6
+        },
+        {
+          "index": "0x3019",
+          "name": "ia",
+          "ram": "0x20000554",
+          "type_code": 6
+        },
+        {
+          "index": "0x301a",
+          "name": "ib",
+          "ram": "0x20000558",
+          "type_code": 6
+        },
+        {
+          "index": "0x301b",
+          "name": "ic",
+          "ram": "0x2000055c",
+          "type_code": 6
+        },
+        {
+          "index": "0x301c",
+          "name": "timeout",
+          "ram": "0x200005e8",
+          "type_code": 5
+        },
+        {
+          "index": "0x301d",
+          "name": "phaseOrder",
+          "ram": "0x200008cc",
+          "type_code": 0
+        },
+        {
+          "index": "0x301e",
+          "name": "iqf",
+          "ram": "0x20000584",
+          "type_code": 6
+        },
+        {
+          "index": "0x301f",
+          "name": "boardTemp",
+          "ram": "0x2000053e",
+          "type_code": 3
+        },
+        {
+          "index": "0x3020",
+          "name": "iq",
+          "ram": "0x20000580",
+          "type_code": 6
+        },
+        {
+          "index": "0x3021",
+          "name": "id",
+          "ram": "0x2000057c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3022",
+          "name": "faultSta",
+          "ram": "0x200008dc",
+          "type_code": 4
+        },
+        {
+          "index": "0x3023",
+          "name": "warnSta",
+          "ram": "0x200008e0",
+          "type_code": 4
+        },
+        {
+          "index": "0x3024",
+          "name": "drv_fault",
+          "ram": "0x20001b06",
+          "type_code": 2
+        },
+        {
+          "index": "0x3025",
+          "name": "drv_temp",
+          "ram": "0x20001b08",
+          "type_code": 2
+        },
+        {
+          "index": "0x3026",
+          "name": "Uq",
+          "ram": "0x20000590",
+          "type_code": 6
+        },
+        {
+          "index": "0x3027",
+          "name": "Ud",
+          "ram": "0x2000058c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3028",
+          "name": "dtc_u",
+          "ram": "0x20000594",
+          "type_code": 6
+        },
+        {
+          "index": "0x3029",
+          "name": "dtc_v",
+          "ram": "0x20000598",
+          "type_code": 6
+        },
+        {
+          "index": "0x302a",
+          "name": "dtc_w",
+          "ram": "0x2000059c",
+          "type_code": 6
+        },
+        {
+          "index": "0x302b",
+          "name": "v_bus",
+          "ram": "0x20000560",
+          "type_code": 6
+        },
+        {
+          "index": "0x302c",
+          "name": "torque_fdb",
+          "ram": "0x20000824",
+          "type_code": 6
+        },
+        {
+          "index": "0x302d",
+          "name": "rated_i",
+          "ram": "0x200008d8",
+          "type_code": 6
+        },
+        {
+          "index": "0x302e",
+          "name": "limit_i",
+          "ram": "0x20000850",
+          "type_code": 6
+        },
+        {
+          "index": "0x302f",
+          "name": "spd_ref",
+          "ram": "0x20000840",
+          "type_code": 6
+        },
+        {
+          "index": "0x3030",
+          "name": "spd_reff",
+          "ram": "0x20000844",
+          "type_code": 6
+        },
+        {
+          "index": "0x3031",
+          "name": "zero_fault",
+          "ram": "0x20000898",
+          "type_code": 0
+        },
+        {
+          "index": "0x3032",
+          "name": "position",
+          "ram": "0x200001dc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3033",
+          "name": "chasu_angle",
+          "ram": "0x200002c4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3034",
+          "name": "as_angle",
+          "ram": "0x200002b4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3035",
+          "name": "cs_angle",
+          "ram": "0x200002b8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3036",
+          "name": "chasu_angle_out",
+          "ram": "0x200002e0",
+          "type_code": 6
+        },
+        {
+          "index": "0x3037",
+          "name": "motormechposition",
+          "ram": "0x200001f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3038",
+          "name": "fault1",
+          "ram": "0x20000908",
+          "type_code": 4
+        },
+        {
+          "index": "0x3039",
+          "name": "fault2",
+          "ram": "0x2000090c",
+          "type_code": 4
+        },
+        {
+          "index": "0x303a",
+          "name": "fault3",
+          "ram": "0x20000910",
+          "type_code": 4
+        },
+        {
+          "index": "0x303b",
+          "name": "fault4",
+          "ram": "0x20000914",
+          "type_code": 4
+        },
+        {
+          "index": "0x303c",
+          "name": "fault5",
+          "ram": "0x20000918",
+          "type_code": 4
+        },
+        {
+          "index": "0x303d",
+          "name": "fault6",
+          "ram": "0x2000091c",
+          "type_code": 4
+        },
+        {
+          "index": "0x303e",
+          "name": "fault7",
+          "ram": "0x20000920",
+          "type_code": 4
+        },
+        {
+          "index": "0x303f",
+          "name": "fault8",
+          "ram": "0x20000924",
+          "type_code": 4
+        },
+        {
+          "index": "0x3040",
+          "name": "ElecOffset",
+          "ram": "0x200001e8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3041",
+          "name": "mcOverTemp",
+          "ram": "0x200008e6",
+          "type_code": 3
+        },
+        {
+          "index": "0x3042",
+          "name": "Kt_Nm/Amp",
+          "ram": "0x200001cc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3043",
+          "name": "Tqcali_Type",
+          "ram": "0x200001d0",
+          "type_code": 0
+        },
+        {
+          "index": "0x3044",
+          "name": "low_position",
+          "ram": "0x200002e8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3045",
+          "name": "theta_mech_1",
+          "ram": "0x2000056c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3046",
+          "name": "instep",
+          "ram": "0x200008ac",
+          "type_code": 6
+        },
+        {
+          "index": "0x3047",
+          "name": "position",
+          "ram": "0x200001dc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3048",
+          "name": "chasu_angle_init",
+          "ram": "0x200002c8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3049",
+          "name": "chasu_angle_out",
+          "ram": "0x200002e0",
+          "type_code": 6
+        },
+        {
+          "index": "0x304a",
+          "name": "motormechinit",
+          "ram": "0x200001f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x304b",
+          "name": "mech_angle_init2",
+          "ram": "0x200002ec",
+          "type_code": 6
+        },
+        {
+          "index": "0x304c",
+          "name": "mech_angle_rotations",
+          "ram": "0x20000300",
+          "type_code": 3
+        }
+      ]
+    },
+    {
+      "firmware": "EL05_1.0.5.0.2.bin",
+      "observations": [
+        {
+          "index": "0x3000",
+          "name": "timeUse0",
+          "ram": "0x20001a54",
+          "type_code": 2
+        },
+        {
+          "index": "0x3001",
+          "name": "timeUse1",
+          "ram": "0x20001a5a",
+          "type_code": 2
+        },
+        {
+          "index": "0x3002",
+          "name": "timeUse2",
+          "ram": "0x20001a60",
+          "type_code": 2
+        },
+        {
+          "index": "0x3003",
+          "name": "timeUse3",
+          "ram": "0x20001a66",
+          "type_code": 2
+        },
+        {
+          "index": "0x3004",
+          "name": "encoderRaw",
+          "ram": "0x20000324",
+          "type_code": 3
+        },
+        {
+          "index": "0x3005",
+          "name": "mcuTemp",
+          "ram": "0x2000053e",
+          "type_code": 3
+        },
+        {
+          "index": "0x3006",
+          "name": "motorTemp",
+          "ram": "0x20000540",
+          "type_code": 3
+        },
+        {
+          "index": "0x3007",
+          "name": "vBus(mv)",
+          "ram": "0x2000053c",
+          "type_code": 2
+        },
+        {
+          "index": "0x3008",
+          "name": "adc1Offset",
+          "ram": "0x200005cc",
+          "type_code": 5
+        },
+        {
+          "index": "0x3009",
+          "name": "adc2Offset",
+          "ram": "0x200005d0",
+          "type_code": 5
+        },
+        {
+          "index": "0x300a",
+          "name": "adc1Raw",
+          "ram": "0x4001283c",
+          "type_code": 2
+        },
+        {
+          "index": "0x300b",
+          "name": "adc2Raw",
+          "ram": "0x40013c3c",
+          "type_code": 2
+        },
+        {
+          "index": "0x300c",
+          "name": "VBUS",
+          "ram": "0x20000560",
+          "type_code": 6
+        },
+        {
+          "index": "0x300d",
+          "name": "cmdId",
+          "ram": "0x200005d4",
+          "type_code": 6
+        },
+        {
+          "index": "0x300e",
+          "name": "cmdIq",
+          "ram": "0x200005d8",
+          "type_code": 6
+        },
+        {
+          "index": "0x300f",
+          "name": "cmdlocref",
+          "ram": "0x20000870",
+          "type_code": 6
+        },
+        {
+          "index": "0x3010",
+          "name": "cmdspdref",
+          "ram": "0x20000840",
+          "type_code": 6
+        },
+        {
+          "index": "0x3011",
+          "name": "cmdTorque",
+          "ram": "0x20000604",
+          "type_code": 6
+        },
+        {
+          "index": "0x3012",
+          "name": "cmdPos",
+          "ram": "0x200005f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3013",
+          "name": "cmdVel",
+          "ram": "0x200005f8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3014",
+          "name": "rotation",
+          "ram": "0x20000328",
+          "type_code": 5
+        },
+        {
+          "index": "0x3015",
+          "name": "modPos",
+          "ram": "0x200001fc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3016",
+          "name": "mechPos",
+          "ram": "0x20000564",
+          "type_code": 6
+        },
+        {
+          "index": "0x3017",
+          "name": "mechVel",
+          "ram": "0x20000570",
+          "type_code": 6
+        },
+        {
+          "index": "0x3018",
+          "name": "elecPos",
+          "ram": "0x20000568",
+          "type_code": 6
+        },
+        {
+          "index": "0x3019",
+          "name": "ia",
+          "ram": "0x20000554",
+          "type_code": 6
+        },
+        {
+          "index": "0x301a",
+          "name": "ib",
+          "ram": "0x20000558",
+          "type_code": 6
+        },
+        {
+          "index": "0x301b",
+          "name": "ic",
+          "ram": "0x2000055c",
+          "type_code": 6
+        },
+        {
+          "index": "0x301c",
+          "name": "timeout",
+          "ram": "0x200005e8",
+          "type_code": 5
+        },
+        {
+          "index": "0x301d",
+          "name": "phaseOrder",
+          "ram": "0x200008d0",
+          "type_code": 0
+        },
+        {
+          "index": "0x301e",
+          "name": "iqf",
+          "ram": "0x20000584",
+          "type_code": 6
+        },
+        {
+          "index": "0x301f",
+          "name": "boardTemp",
+          "ram": "0x2000053e",
+          "type_code": 3
+        },
+        {
+          "index": "0x3020",
+          "name": "iq",
+          "ram": "0x20000580",
+          "type_code": 6
+        },
+        {
+          "index": "0x3021",
+          "name": "id",
+          "ram": "0x2000057c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3022",
+          "name": "faultSta",
+          "ram": "0x200008e4",
+          "type_code": 4
+        },
+        {
+          "index": "0x3023",
+          "name": "warnSta",
+          "ram": "0x200008e8",
+          "type_code": 4
+        },
+        {
+          "index": "0x3024",
+          "name": "drv_fault",
+          "ram": "0x20001b12",
+          "type_code": 2
+        },
+        {
+          "index": "0x3025",
+          "name": "drv_temp",
+          "ram": "0x20001b14",
+          "type_code": 2
+        },
+        {
+          "index": "0x3026",
+          "name": "Uq",
+          "ram": "0x20000590",
+          "type_code": 6
+        },
+        {
+          "index": "0x3027",
+          "name": "Ud",
+          "ram": "0x2000058c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3028",
+          "name": "dtc_u",
+          "ram": "0x20000594",
+          "type_code": 6
+        },
+        {
+          "index": "0x3029",
+          "name": "dtc_v",
+          "ram": "0x20000598",
+          "type_code": 6
+        },
+        {
+          "index": "0x302a",
+          "name": "dtc_w",
+          "ram": "0x2000059c",
+          "type_code": 6
+        },
+        {
+          "index": "0x302b",
+          "name": "v_bus",
+          "ram": "0x20000560",
+          "type_code": 6
+        },
+        {
+          "index": "0x302c",
+          "name": "torque_fdb",
+          "ram": "0x20000824",
+          "type_code": 6
+        },
+        {
+          "index": "0x302d",
+          "name": "rated_i",
+          "ram": "0x200008dc",
+          "type_code": 6
+        },
+        {
+          "index": "0x302e",
+          "name": "limit_i",
+          "ram": "0x20000850",
+          "type_code": 6
+        },
+        {
+          "index": "0x302f",
+          "name": "spd_ref",
+          "ram": "0x20000840",
+          "type_code": 6
+        },
+        {
+          "index": "0x3030",
+          "name": "spd_reff",
+          "ram": "0x20000844",
+          "type_code": 6
+        },
+        {
+          "index": "0x3031",
+          "name": "zero_fault",
+          "ram": "0x20000898",
+          "type_code": 0
+        },
+        {
+          "index": "0x3032",
+          "name": "position",
+          "ram": "0x200001dc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3033",
+          "name": "chasu_angle",
+          "ram": "0x200002c4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3034",
+          "name": "as_angle",
+          "ram": "0x200002b4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3035",
+          "name": "cs_angle",
+          "ram": "0x200002b8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3036",
+          "name": "chasu_angle_out",
+          "ram": "0x200002e0",
+          "type_code": 6
+        },
+        {
+          "index": "0x3037",
+          "name": "motormechposition",
+          "ram": "0x200001f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3038",
+          "name": "fault1",
+          "ram": "0x20000910",
+          "type_code": 4
+        },
+        {
+          "index": "0x3039",
+          "name": "fault2",
+          "ram": "0x20000914",
+          "type_code": 4
+        },
+        {
+          "index": "0x303a",
+          "name": "fault3",
+          "ram": "0x20000918",
+          "type_code": 4
+        },
+        {
+          "index": "0x303b",
+          "name": "fault4",
+          "ram": "0x2000091c",
+          "type_code": 4
+        },
+        {
+          "index": "0x303c",
+          "name": "fault5",
+          "ram": "0x20000920",
+          "type_code": 4
+        },
+        {
+          "index": "0x303d",
+          "name": "fault6",
+          "ram": "0x20000924",
+          "type_code": 4
+        },
+        {
+          "index": "0x303e",
+          "name": "fault7",
+          "ram": "0x20000928",
+          "type_code": 4
+        },
+        {
+          "index": "0x303f",
+          "name": "fault8",
+          "ram": "0x2000092c",
+          "type_code": 4
+        },
+        {
+          "index": "0x3040",
+          "name": "ElecOffset",
+          "ram": "0x200001e8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3041",
+          "name": "mcOverTemp",
+          "ram": "0x200008ee",
+          "type_code": 3
+        },
+        {
+          "index": "0x3042",
+          "name": "Kt_Nm/Amp",
+          "ram": "0x200001cc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3043",
+          "name": "Tqcali_Type",
+          "ram": "0x200001d0",
+          "type_code": 0
+        },
+        {
+          "index": "0x3044",
+          "name": "low_position",
+          "ram": "0x200002e8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3045",
+          "name": "theta_mech_1",
+          "ram": "0x2000056c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3046",
+          "name": "instep",
+          "ram": "0x200008ac",
+          "type_code": 6
+        },
+        {
+          "index": "0x3047",
+          "name": "position",
+          "ram": "0x200001dc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3048",
+          "name": "chasu_angle_init",
+          "ram": "0x200002c8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3049",
+          "name": "chasu_angle_out",
+          "ram": "0x200002e0",
+          "type_code": 6
+        },
+        {
+          "index": "0x304a",
+          "name": "motormechinit",
+          "ram": "0x200001f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x304b",
+          "name": "mech_angle_init2",
+          "ram": "0x200002ec",
+          "type_code": 6
+        },
+        {
+          "index": "0x304c",
+          "name": "mech_angle_rotations",
+          "ram": "0x20000300",
+          "type_code": 3
+        },
+        {
+          "index": "0x304d",
+          "name": "pos_cnt1",
+          "ram": "0x20000a3e",
+          "type_code": 2
+        }
+      ]
+    },
+    {
+      "firmware": "EL05_1.0.5.0.4.bin",
+      "observations": [
+        {
+          "index": "0x3000",
+          "name": "timeUse0",
+          "ram": "0x2000252c",
+          "type_code": 2
+        },
+        {
+          "index": "0x3001",
+          "name": "timeUse1",
+          "ram": "0x20002532",
+          "type_code": 2
+        },
+        {
+          "index": "0x3002",
+          "name": "timeUse2",
+          "ram": "0x20002538",
+          "type_code": 2
+        },
+        {
+          "index": "0x3003",
+          "name": "timeUse3",
+          "ram": "0x2000253e",
+          "type_code": 2
+        },
+        {
+          "index": "0x3004",
+          "name": "encoderRaw",
+          "ram": "0x20000338",
+          "type_code": 3
+        },
+        {
+          "index": "0x3005",
+          "name": "mcuTemp",
+          "ram": "0x20000552",
+          "type_code": 3
+        },
+        {
+          "index": "0x3006",
+          "name": "motorTemp",
+          "ram": "0x20000554",
+          "type_code": 3
+        },
+        {
+          "index": "0x3007",
+          "name": "vBus(mv)",
+          "ram": "0x20000550",
+          "type_code": 2
+        },
+        {
+          "index": "0x3008",
+          "name": "adc1Offset",
+          "ram": "0x200005e0",
+          "type_code": 5
+        },
+        {
+          "index": "0x3009",
+          "name": "adc2Offset",
+          "ram": "0x200005e4",
+          "type_code": 5
+        },
+        {
+          "index": "0x300a",
+          "name": "adc1Raw",
+          "ram": "0x4001283c",
+          "type_code": 2
+        },
+        {
+          "index": "0x300b",
+          "name": "adc2Raw",
+          "ram": "0x40013c3c",
+          "type_code": 2
+        },
+        {
+          "index": "0x300c",
+          "name": "VBUS",
+          "ram": "0x20000574",
+          "type_code": 6
+        },
+        {
+          "index": "0x300d",
+          "name": "cmdId",
+          "ram": "0x200005f0",
+          "type_code": 6
+        },
+        {
+          "index": "0x300e",
+          "name": "cmdIq",
+          "ram": "0x200005f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x300f",
+          "name": "cmdlocref",
+          "ram": "0x20001290",
+          "type_code": 6
+        },
+        {
+          "index": "0x3010",
+          "name": "cmdspdref",
+          "ram": "0x20001260",
+          "type_code": 6
+        },
+        {
+          "index": "0x3011",
+          "name": "cmdTorque",
+          "ram": "0x20000624",
+          "type_code": 6
+        },
+        {
+          "index": "0x3012",
+          "name": "cmdPos",
+          "ram": "0x20000614",
+          "type_code": 6
+        },
+        {
+          "index": "0x3013",
+          "name": "cmdVel",
+          "ram": "0x20000618",
+          "type_code": 6
+        },
+        {
+          "index": "0x3014",
+          "name": "rotation",
+          "ram": "0x2000033c",
+          "type_code": 5
+        },
+        {
+          "index": "0x3015",
+          "name": "modPos",
+          "ram": "0x20000210",
+          "type_code": 6
+        },
+        {
+          "index": "0x3016",
+          "name": "mechPos",
+          "ram": "0x20000578",
+          "type_code": 6
+        },
+        {
+          "index": "0x3017",
+          "name": "mechVel",
+          "ram": "0x20000584",
+          "type_code": 6
+        },
+        {
+          "index": "0x3018",
+          "name": "elecPos",
+          "ram": "0x2000057c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3019",
+          "name": "ia",
+          "ram": "0x20000568",
+          "type_code": 6
+        },
+        {
+          "index": "0x301a",
+          "name": "ib",
+          "ram": "0x2000056c",
+          "type_code": 6
+        },
+        {
+          "index": "0x301b",
+          "name": "ic",
+          "ram": "0x20000570",
+          "type_code": 6
+        },
+        {
+          "index": "0x301c",
+          "name": "timeout",
+          "ram": "0x20000608",
+          "type_code": 5
+        },
+        {
+          "index": "0x301d",
+          "name": "phaseOrder",
+          "ram": "0x20001310",
+          "type_code": 0
+        },
+        {
+          "index": "0x301e",
+          "name": "iqf",
+          "ram": "0x20000598",
+          "type_code": 6
+        },
+        {
+          "index": "0x301f",
+          "name": "boardTemp",
+          "ram": "0x20000552",
+          "type_code": 3
+        },
+        {
+          "index": "0x3020",
+          "name": "iq",
+          "ram": "0x20000594",
+          "type_code": 6
+        },
+        {
+          "index": "0x3021",
+          "name": "id",
+          "ram": "0x20000590",
+          "type_code": 6
+        },
+        {
+          "index": "0x3022",
+          "name": "faultSta",
+          "ram": "0x2000139c",
+          "type_code": 4
+        },
+        {
+          "index": "0x3023",
+          "name": "warnSta",
+          "ram": "0x200013a0",
+          "type_code": 4
+        },
+        {
+          "index": "0x3024",
+          "name": "drv_fault",
+          "ram": "0x2000257c",
+          "type_code": 2
+        },
+        {
+          "index": "0x3025",
+          "name": "drv_temp",
+          "ram": "0x2000257e",
+          "type_code": 2
+        },
+        {
+          "index": "0x3026",
+          "name": "Uq",
+          "ram": "0x200005a4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3027",
+          "name": "Ud",
+          "ram": "0x200005a0",
+          "type_code": 6
+        },
+        {
+          "index": "0x3028",
+          "name": "dtc_u",
+          "ram": "0x200005a8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3029",
+          "name": "dtc_v",
+          "ram": "0x200005ac",
+          "type_code": 6
+        },
+        {
+          "index": "0x302a",
+          "name": "dtc_w",
+          "ram": "0x200005b0",
+          "type_code": 6
+        },
+        {
+          "index": "0x302b",
+          "name": "v_bus",
+          "ram": "0x20000574",
+          "type_code": 6
+        },
+        {
+          "index": "0x302c",
+          "name": "torque_fdb",
+          "ram": "0x20001244",
+          "type_code": 6
+        },
+        {
+          "index": "0x302d",
+          "name": "rated_i",
+          "ram": "0x2000131c",
+          "type_code": 6
+        },
+        {
+          "index": "0x302e",
+          "name": "limit_i",
+          "ram": "0x20001270",
+          "type_code": 6
+        },
+        {
+          "index": "0x302f",
+          "name": "spd_ref",
+          "ram": "0x20001260",
+          "type_code": 6
+        },
+        {
+          "index": "0x3030",
+          "name": "spd_reff",
+          "ram": "0x20001264",
+          "type_code": 6
+        },
+        {
+          "index": "0x3031",
+          "name": "zero_fault",
+          "ram": "0x200012c0",
+          "type_code": 0
+        },
+        {
+          "index": "0x3032",
+          "name": "position",
+          "ram": "0x200001f0",
+          "type_code": 6
+        },
+        {
+          "index": "0x3033",
+          "name": "chasu_angle",
+          "ram": "0x200002d8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3034",
+          "name": "as_angle",
+          "ram": "0x200002c8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3035",
+          "name": "cs_angle",
+          "ram": "0x200002cc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3036",
+          "name": "chasu_angle_out",
+          "ram": "0x200002f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3037",
+          "name": "motormechposition",
+          "ram": "0x20000208",
+          "type_code": 6
+        },
+        {
+          "index": "0x3038",
+          "name": "fault1",
+          "ram": "0x200013c8",
+          "type_code": 4
+        },
+        {
+          "index": "0x3039",
+          "name": "fault2",
+          "ram": "0x200013cc",
+          "type_code": 4
+        },
+        {
+          "index": "0x303a",
+          "name": "fault3",
+          "ram": "0x200013d0",
+          "type_code": 4
+        },
+        {
+          "index": "0x303b",
+          "name": "fault4",
+          "ram": "0x200013d4",
+          "type_code": 4
+        },
+        {
+          "index": "0x303c",
+          "name": "fault5",
+          "ram": "0x200013d8",
+          "type_code": 4
+        },
+        {
+          "index": "0x303d",
+          "name": "fault6",
+          "ram": "0x200013dc",
+          "type_code": 4
+        },
+        {
+          "index": "0x303e",
+          "name": "fault7",
+          "ram": "0x200013e0",
+          "type_code": 4
+        },
+        {
+          "index": "0x303f",
+          "name": "fault8",
+          "ram": "0x200013e4",
+          "type_code": 4
+        },
+        {
+          "index": "0x3040",
+          "name": "ElecOffset",
+          "ram": "0x200001fc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3041",
+          "name": "mcOverTemp",
+          "ram": "0x200013a6",
+          "type_code": 3
+        },
+        {
+          "index": "0x3042",
+          "name": "Kt_Nm/Amp",
+          "ram": "0x200001d8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3043",
+          "name": "Tqcali_Type",
+          "ram": "0x200001dc",
+          "type_code": 0
+        },
+        {
+          "index": "0x3044",
+          "name": "low_position",
+          "ram": "0x200002fc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3045",
+          "name": "theta_mech_1",
+          "ram": "0x20000580",
+          "type_code": 6
+        },
+        {
+          "index": "0x3046",
+          "name": "instep",
+          "ram": "0x200012dc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3047",
+          "name": "position",
+          "ram": "0x200001f0",
+          "type_code": 6
+        },
+        {
+          "index": "0x3048",
+          "name": "chasu_angle_init",
+          "ram": "0x200002dc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3049",
+          "name": "chasu_angle_out",
+          "ram": "0x200002f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x304a",
+          "name": "motormechinit",
+          "ram": "0x20000208",
+          "type_code": 6
+        },
+        {
+          "index": "0x304b",
+          "name": "mech_angle_init2",
+          "ram": "0x20000300",
+          "type_code": 6
+        },
+        {
+          "index": "0x304c",
+          "name": "mech_angle_rotations",
+          "ram": "0x20000314",
+          "type_code": 3
+        },
+        {
+          "index": "0x304d",
+          "name": "pos_cnt1",
+          "ram": "0x200014f8",
+          "type_code": 2
+        },
+        {
+          "index": "0x304e",
+          "name": "max_alve",
+          "ram": "0x2000120c",
+          "type_code": 6
+        },
+        {
+          "index": "0x304f",
+          "name": "max_alve2",
+          "ram": "0x200012cc",
+          "type_code": 6
+        }
+      ]
+    },
+    {
+      "firmware": "el05_1.0.5.0.6.bin",
+      "observations": [
+        {
+          "index": "0x3000",
+          "name": "timeUse0",
+          "ram": "0x200026e4",
+          "type_code": 2
+        },
+        {
+          "index": "0x3001",
+          "name": "timeUse1",
+          "ram": "0x200026ea",
+          "type_code": 2
+        },
+        {
+          "index": "0x3002",
+          "name": "timeUse2",
+          "ram": "0x200026f0",
+          "type_code": 2
+        },
+        {
+          "index": "0x3003",
+          "name": "timeUse3",
+          "ram": "0x200026f6",
+          "type_code": 2
+        },
+        {
+          "index": "0x3004",
+          "name": "encoderRaw",
+          "ram": "0x2000034e",
+          "type_code": 2
+        },
+        {
+          "index": "0x3005",
+          "name": "mcuTemp",
+          "ram": "0x2000056c",
+          "type_code": 3
+        },
+        {
+          "index": "0x3006",
+          "name": "motorTemp",
+          "ram": "0x2000056e",
+          "type_code": 3
+        },
+        {
+          "index": "0x3007",
+          "name": "encoder2raw",
+          "ram": "0x20000348",
+          "type_code": 2
+        },
+        {
+          "index": "0x3008",
+          "name": "adc1Offset",
+          "ram": "0x200005f8",
+          "type_code": 5
+        },
+        {
+          "index": "0x3009",
+          "name": "adc2Offset",
+          "ram": "0x200005fc",
+          "type_code": 5
+        },
+        {
+          "index": "0x300a",
+          "name": "adc1Raw",
+          "ram": "0x2000000c",
+          "type_code": 2
+        },
+        {
+          "index": "0x300b",
+          "name": "adc2Raw",
+          "ram": "0x20000010",
+          "type_code": 2
+        },
+        {
+          "index": "0x300c",
+          "name": "VBUS",
+          "ram": "0x20000588",
+          "type_code": 6
+        },
+        {
+          "index": "0x300d",
+          "name": "cmdId",
+          "ram": "0x20000608",
+          "type_code": 6
+        },
+        {
+          "index": "0x300e",
+          "name": "cmdIq",
+          "ram": "0x2000060c",
+          "type_code": 6
+        },
+        {
+          "index": "0x300f",
+          "name": "cmdlocref",
+          "ram": "0x200012a8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3010",
+          "name": "cmdspdreff",
+          "ram": "0x2000127c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3011",
+          "name": "cmdspdref",
+          "ram": "0x20001278",
+          "type_code": 6
+        },
+        {
+          "index": "0x3012",
+          "name": "cmdTorque",
+          "ram": "0x20000640",
+          "type_code": 6
+        },
+        {
+          "index": "0x3013",
+          "name": "cmdPos",
+          "ram": "0x20000630",
+          "type_code": 6
+        },
+        {
+          "index": "0x3014",
+          "name": "cmdVel",
+          "ram": "0x20000634",
+          "type_code": 6
+        },
+        {
+          "index": "0x3015",
+          "name": "rotation",
+          "ram": "0x20000350",
+          "type_code": 5
+        },
+        {
+          "index": "0x3016",
+          "name": "modPos",
+          "ram": "0x20000230",
+          "type_code": 6
+        },
+        {
+          "index": "0x3017",
+          "name": "mechPos",
+          "ram": "0x20000590",
+          "type_code": 6
+        },
+        {
+          "index": "0x3018",
+          "name": "mechVel",
+          "ram": "0x2000059c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3019",
+          "name": "elecPos",
+          "ram": "0x20000594",
+          "type_code": 6
+        },
+        {
+          "index": "0x301a",
+          "name": "ia",
+          "ram": "0x2000057c",
+          "type_code": 6
+        },
+        {
+          "index": "0x301b",
+          "name": "ib",
+          "ram": "0x20000580",
+          "type_code": 6
+        },
+        {
+          "index": "0x301c",
+          "name": "ic",
+          "ram": "0x20000584",
+          "type_code": 6
+        },
+        {
+          "index": "0x301d",
+          "name": "timeout",
+          "ram": "0x20000624",
+          "type_code": 5
+        },
+        {
+          "index": "0x301e",
+          "name": "phaseOrder",
+          "ram": "0x20001470",
+          "type_code": 0
+        },
+        {
+          "index": "0x301f",
+          "name": "iqf",
+          "ram": "0x200005b0",
+          "type_code": 6
+        },
+        {
+          "index": "0x3020",
+          "name": "boardTemp",
+          "ram": "0x2000056c",
+          "type_code": 3
+        },
+        {
+          "index": "0x3021",
+          "name": "iq",
+          "ram": "0x200005ac",
+          "type_code": 6
+        },
+        {
+          "index": "0x3022",
+          "name": "id",
+          "ram": "0x200005a8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3023",
+          "name": "faultSta",
+          "ram": "0x200014fc",
+          "type_code": 4
+        },
+        {
+          "index": "0x3024",
+          "name": "warnSta",
+          "ram": "0x20001500",
+          "type_code": 4
+        },
+        {
+          "index": "0x3025",
+          "name": "drv_fault",
+          "ram": "0x20002734",
+          "type_code": 2
+        },
+        {
+          "index": "0x3026",
+          "name": "drv_temp",
+          "ram": "0x20002736",
+          "type_code": 2
+        },
+        {
+          "index": "0x3027",
+          "name": "Uq",
+          "ram": "0x200005bc",
+          "type_code": 6
+        },
+        {
+          "index": "0x3028",
+          "name": "as_angle",
+          "ram": "0x200002e4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3029",
+          "name": "cs_angle",
+          "ram": "0x200002e8",
+          "type_code": 6
+        },
+        {
+          "index": "0x302a",
+          "name": "chasu_angle",
+          "ram": "0x200002f0",
+          "type_code": 6
+        },
+        {
+          "index": "0x302b",
+          "name": "v_bus",
+          "ram": "0x20000588",
+          "type_code": 6
+        },
+        {
+          "index": "0x302c",
+          "name": "ElecOffset",
+          "ram": "0x20000218",
+          "type_code": 6
+        },
+        {
+          "index": "0x302d",
+          "name": "torque_fdb",
+          "ram": "0x20001260",
+          "type_code": 6
+        },
+        {
+          "index": "0x302e",
+          "name": "rated_i",
+          "ram": "0x2000147c",
+          "type_code": 6
+        },
+        {
+          "index": "0x302f",
+          "name": "MechPos_init",
+          "ram": "0x20000240",
+          "type_code": 6
+        },
+        {
+          "index": "0x3030",
+          "name": "instep",
+          "ram": "0x200012f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3031",
+          "name": "status",
+          "ram": "0x200012e4",
+          "type_code": 0
+        },
+        {
+          "index": "0x3032",
+          "name": "cmdlocref",
+          "ram": "0x200012a4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3033",
+          "name": "vel_max",
+          "ram": "0x20000164",
+          "type_code": 6
+        },
+        {
+          "index": "0x3034",
+          "name": "fault1",
+          "ram": "0x2000150c",
+          "type_code": 4
+        },
+        {
+          "index": "0x3035",
+          "name": "fault2",
+          "ram": "0x20001510",
+          "type_code": 4
+        },
+        {
+          "index": "0x3036",
+          "name": "fault3",
+          "ram": "0x20001514",
+          "type_code": 4
+        },
+        {
+          "index": "0x3037",
+          "name": "fault4",
+          "ram": "0x20001518",
+          "type_code": 4
+        },
+        {
+          "index": "0x3038",
+          "name": "fault5",
+          "ram": "0x2000151c",
+          "type_code": 4
+        },
+        {
+          "index": "0x3039",
+          "name": "fault6",
+          "ram": "0x20001520",
+          "type_code": 4
+        },
+        {
+          "index": "0x303a",
+          "name": "fault7",
+          "ram": "0x20001524",
+          "type_code": 4
+        },
+        {
+          "index": "0x303b",
+          "name": "fault8",
+          "ram": "0x20001528",
+          "type_code": 4
+        },
+        {
+          "index": "0x303c",
+          "name": "mcOverTemp",
+          "ram": "0x2000155a",
+          "type_code": 3
+        },
+        {
+          "index": "0x303d",
+          "name": "Kt_Nm/Amp",
+          "ram": "0x200001e8",
+          "type_code": 6
+        },
+        {
+          "index": "0x303e",
+          "name": "Tqcali_Type",
+          "ram": "0x200001ec",
+          "type_code": 0
+        },
+        {
+          "index": "0x303f",
+          "name": "theta_mech_1",
+          "ram": "0x20000598",
+          "type_code": 6
+        },
+        {
+          "index": "0x3040",
+          "name": "adcOffset_1",
+          "ram": "0x200012fc",
+          "type_code": 5
+        },
+        {
+          "index": "0x3041",
+          "name": "adcOffset_2",
+          "ram": "0x20001300",
+          "type_code": 5
+        },
+        {
+          "index": "0x3042",
+          "name": "can_status",
+          "ram": "0x200026c8",
+          "type_code": 0
+        },
+        {
+          "index": "0x3043",
+          "name": "position",
+          "ram": "0x2000020c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3044",
+          "name": "chasu_angle_init",
+          "ram": "0x200002f4",
+          "type_code": 6
+        },
+        {
+          "index": "0x3045",
+          "name": "chasu_angle_out",
+          "ram": "0x20000308",
+          "type_code": 6
+        },
+        {
+          "index": "0x3046",
+          "name": "motormechinit",
+          "ram": "0x20000228",
+          "type_code": 6
+        },
+        {
+          "index": "0x3047",
+          "name": "mech_angle_init2",
+          "ram": "0x2000030c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3048",
+          "name": "mech_angle_rotations",
+          "ram": "0x20000320",
+          "type_code": 3
+        },
+        {
+          "index": "0x3049",
+          "name": "coder_reg",
+          "ram": "0x2000273c",
+          "type_code": 2
+        },
+        {
+          "index": "0x304a",
+          "name": "pos_cnt1",
+          "ram": "0x200016a6",
+          "type_code": 2
+        },
+        {
+          "index": "0x304b",
+          "name": "max_alve",
+          "ram": "0x20001230",
+          "type_code": 6
+        },
+        {
+          "index": "0x304c",
+          "name": "max_alve2",
+          "ram": "0x200012d0",
+          "type_code": 6
+        },
+        {
+          "index": "0x304d",
+          "name": "max_alve3",
+          "ram": "0x200012d4",
+          "type_code": 6
+        },
+        {
+          "index": "0x304e",
+          "name": "max_alve4",
+          "ram": "0x200012f9",
+          "type_code": 0
+        },
+        {
+          "index": "0x304f",
+          "name": "max_alve5",
+          "ram": "0x200012d8",
+          "type_code": 6
+        },
+        {
+          "index": "0x3050",
+          "name": "error_diff",
+          "ram": "0x2000032c",
+          "type_code": 6
+        },
+        {
+          "index": "0x3051",
+          "name": "read_id",
+          "ram": "0x20000565",
+          "type_code": 0
+        },
+        {
+          "index": "0x3052",
+          "name": "drv_count",
+          "ram": "0x20000138",
+          "type_code": 0
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No Type 22 command was sent in this comparison.",
+    "Type 9 high status byte is interpreted before decoding values.",
+    "Unchanged zero, calibration, or fault values do not prove retention of turn history.",
+    "Names and indices differ across firmware versions."
+  ]
+}
