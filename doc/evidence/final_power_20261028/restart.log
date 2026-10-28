@@ -1,0 +1,5 @@
+[WARN] [1793178924.137828936] [zero_live_check]: Joint 'el05_33': initial position target differs from feedback; release and reactivate position control with a current-position target
+STARTUP_MISMATCH_INHIBITED
+pre_hold ros=1.56948 target=1.57024
+hold maximum_motion=0 peak_speed=0.000762951
+{"event":"complete","stopped":true,"type6_frames":0}

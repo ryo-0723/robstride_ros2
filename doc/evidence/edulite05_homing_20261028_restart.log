@@ -1,0 +1,4 @@
+[WARN] [1793175755.441991826] [zero_live_check]: Joint 'el05_33': parameter 0x7028 confirmation attempt 1/3 failed
+pre_hold ros=-0.000191751 target=8.52214e-05
+hold maximum_motion=0.000383501 peak_speed=0.000762951
+{"event":"complete","stopped":true,"type6_frames":0}

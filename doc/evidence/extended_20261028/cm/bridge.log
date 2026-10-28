@@ -1,0 +1,3 @@
+[INFO] [1793179888.606920264] [robstride_usb_can_bridge]: USB-CAN: /dev/ttyUSB0 at 921600 baud; to_can_bus -> serial -> from_can_bus
+[ros2run]: Received signal:  Terminated
+[INFO] [1793179908.047595926] [rclcpp]: signal_handler(signum=15)

@@ -1,0 +1,30 @@
+{
+  "result": "failed",
+  "first_guard_sample": {
+    "motor_id": 34,
+    "unix_s": 1793180587.9556756,
+    "monotonic_s": 72838.679056981,
+    "direction": "rx",
+    "type": 2,
+    "id": "0x28022fd",
+    "data": "c240725271b10122",
+    "mode": 2,
+    "fault": 0,
+    "position": 6.504369536850444,
+    "velocity": -5.342946517128254
+  },
+  "prior_modes": [
+    2
+  ],
+  "max_feedback_gap_previous_5s": 0.03327584266662598,
+  "last_pre_event_position": 6.52699609872505,
+  "minimum_position_next_100ms": 6.455281402614023,
+  "control_transactions_previous_500ms": [],
+  "process_restart_test": "not run after guard failure",
+  "stopped_ids": [
+    33,
+    34
+  ],
+  "fault_flags": 0,
+  "causality": "No pre-event Reset or enable observed. Supply-off timing and visual motion confirmation requested; do not attribute to reactivation offset yet."
+}

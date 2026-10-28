@@ -1,0 +1,6 @@
+[WARN] [1793177289.688525901] [zero_live_check]: Joint 'el05_33': parameter 0x7028 confirmation attempt 1/3 failed
+[WARN] [1793177289.885167588] [zero_live_check]: Joint 'el05_33': initial position target differs from feedback; release and reactivate position control with a current-position target
+STARTUP_MISMATCH_INHIBITED
+pre_hold ros=1.58367 target=1.58418
+hold maximum_motion=0 peak_speed=0.000762951
+{"event":"complete","stopped":true,"type6_frames":0}

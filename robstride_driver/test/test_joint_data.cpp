@@ -242,6 +242,8 @@ TEST(JointData, RestoredCoordinatesTranslatePositionCommandsBackToMotor)
     ASSERT_TRUE(joint.update_position_feedback(7.0));
     ASSERT_TRUE(joint.update_position_feedback(7.0 - period, true));
     const double target = direction * (7.1 / 2.0) + 0.5;
+    joint.motor_reference_ready = true;
+    joint.motor_position_offset = -joint.position_tracker.coordinate_shift();
     const auto wire = joint.checked_position_command(target);
     ASSERT_TRUE(wire);
     EXPECT_NEAR(*wire, 7.1 - period, 1e-12);
@@ -249,8 +251,18 @@ TEST(JointData, RestoredCoordinatesTranslatePositionCommandsBackToMotor)
     EXPECT_FALSE(joint.checked_position_command(direction * (-12.0 / 2.0) + 0.5));
     const auto range = joint.joint_position_range();
     ASSERT_TRUE(range);
-    EXPECT_FALSE(joint.checked_position_command(std::nextafter(
-      range->second, std::numeric_limits<double>::infinity())));
+    // Accumulated coordinates may exceed the old unshifted range if the
+    // translated internal motor target remains representable.
+    EXPECT_EQ(joint
+                  .checked_position_command(std::nextafter(
+                      range->second, std::numeric_limits<double>::infinity()))
+                  .has_value(),
+              direction > 0);
+    const double outside_wire =
+        direction *
+            ((joint.limits.position_max + period + 0.01) / joint.gear_ratio) +
+        joint.position_offset;
+    EXPECT_FALSE(joint.checked_position_command(outside_wire));
   }
 }
 

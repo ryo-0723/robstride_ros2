@@ -1,0 +1,22 @@
+{"unix_s": 1793178788.1857524, "event": "switch", "on": ["jsb"], "off": [], "ok": true}
+{"unix_s": 1793178788.2063153, "event": "switch", "on": ["pos"], "off": [], "ok": true}
+{"unix_s": 1793178788.713745, "event": "observed", "state": {"q": 7.9171874003425025, "v": -0.0007629510948348184, "t": 71039.43705338}, "peak_velocity": 0.009918364232852639}
+{"unix_s": 1793178789.7252023, "event": "observed", "state": {"q": 7.935978951729883, "v": -0.0007629510948348184, "t": 71040.448511465}, "peak_velocity": 0.12741283283741467}
+{"unix_s": 1793178790.7331867, "event": "observed", "state": {"q": 7.9317604401939406, "v": -0.0007629510948348184, "t": 71041.456514851}, "peak_velocity": 0.08621347371633448}
+{"unix_s": 1793178790.7567239, "event": "switch", "on": [], "off": ["pos"], "ok": true}
+{"unix_s": 1793178790.7718768, "event": "service", "name": "begin_homing", "success": true, "message": "Homing active; upper controller must detect the reference and stop"}
+{"unix_s": 1793178790.7786484, "event": "switch", "on": ["pos"], "off": [], "ok": false}
+{"unix_s": 1793178790.805726, "event": "switch", "on": ["vel"], "off": [], "ok": true}
+{"unix_s": 1793178791.813492, "event": "observed", "state": {"q": 8.040674738031004, "v": 0.17166399633783413, "t": 71042.536810201}, "peak_velocity": 0.39291981383993146}
+{"unix_s": 1793178792.8239114, "event": "observed", "state": {"q": 8.041441740128448, "v": -0.0007629510948348184, "t": 71043.547201047}, "peak_velocity": 0.07858396276798629}
+{"unix_s": 1793178792.858141, "event": "switch", "on": [], "off": ["vel"], "ok": true}
+{"unix_s": 1793178792.8697052, "event": "service", "name": "finish_homing", "success": true, "message": "Origin confirmation queued; poll homing_ready before position activation"}
+{"unix_s": 1793178792.8786616, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793178792.9854116, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793178793.097264, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793178793.2070487, "event": "service", "name": "homing_ready", "success": true, "message": "Reference ready"}
+{"unix_s": 1793178793.5131419, "event": "observed", "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 71044.236484294}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793178793.5370946, "event": "switch", "on": ["pos"], "off": [], "ok": true}
+{"unix_s": 1793178794.5443046, "event": "observed", "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 71045.267607675}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793178794.566655, "event": "switch", "on": [], "off": ["pos"], "ok": true}
+{"unix_s": 1793178794.5667696, "event": "cm_integration_passed"}

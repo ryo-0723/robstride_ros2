@@ -31,9 +31,9 @@ rs::DriverConfiguration configuration()
   return config;
 }
 
-void set_feedback(rs::RobStrideDriver & driver, double position)
-{
-  auto & joint = driver.joints().front();
+void set_feedback(rs::RobStrideDriver &driver, double position) {
+  auto &joint = driver.joints().front();
+  joint.motor_reference_ready = true;
   joint.feedback.position = position;
   joint.feedback_status.received = true;
   joint.feedback_status.timestamp = std::chrono::steady_clock::now();

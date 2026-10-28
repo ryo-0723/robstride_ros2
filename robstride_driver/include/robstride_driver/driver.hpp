@@ -73,8 +73,12 @@ private:
   void disable_all();
   void log_runtime_events();
   bool check_transport_health();
-  bool validate_command_modes_locked(
-    const std::vector<ClaimedInterfaces> & modes, std::string * error) const;
+  bool
+  validate_command_modes_locked(const std::vector<ClaimedInterfaces> &modes,
+                                std::string *error) const;
+  bool synchronize_motor_position(JointData &joint, bool set_zero = false,
+    bool reset_ros_origin = true);
+  bool homing_request(size_t index, bool finish, std::string *message);
   void reset_metrics();
   void record_feedback(
     size_t joint_index, std::chrono::steady_clock::time_point now,

@@ -1,0 +1,18 @@
+{"unix_s": 1793172245.427218, "event": "tx", "id": "0x400fd21", "data": "0000000000000000"}
+{"unix_s": 1793172245.437925, "event": "rx", "id": "0x20021fd", "data": "8fd67fff7fff0140"}
+{"unix_s": 1793172245.4382894, "event": "stop_feedback", "mode": 0, "faults": 0, "wire_position": 1.5549050020435793}
+{"unix_s": 1793172245.4384296, "event": "tx", "id": "0x900fd21", "data": "1430000000000000"}
+{"unix_s": 1793172245.4494424, "event": "rx", "id": "0x90021fd", "data": "14300500f9ffffff"}
+{"unix_s": 1793172245.4496844, "event": "parameter", "index": "0x3014", "name": "rotation", "value": -7}
+{"unix_s": 1793172245.44979, "event": "tx", "id": "0x900fd21", "data": "1630000000000000"}
+{"unix_s": 1793172245.4594493, "event": "rx", "id": "0x90021fd", "data": "16300600fc1bc73f"}
+{"unix_s": 1793172245.4597337, "event": "parameter", "index": "0x3016", "name": "mechPos", "value": 1.5555415153503418}
+{"unix_s": 1793172245.460124, "event": "tx", "id": "0x900fd21", "data": "4530000000000000"}
+{"unix_s": 1793172245.4670362, "event": "rx", "id": "0x90021fd", "data": "45300600fc1bc73f"}
+{"unix_s": 1793172245.4671974, "event": "parameter", "index": "0x3045", "name": "theta_mech_1", "value": 1.5555415153503418}
+{"unix_s": 1793172245.4672794, "event": "tx", "id": "0x900fd21", "data": "1230000000000000"}
+{"unix_s": 1793172245.4731984, "event": "rx", "id": "0x90021fd", "data": "12300600fc1bc73f"}
+{"unix_s": 1793172245.4737303, "event": "parameter", "index": "0x3012", "name": "cmdPos", "value": 1.5555415153503418}
+{"unix_s": 1793172245.4738586, "event": "tx", "id": "0x900fd21", "data": "4430000000000000"}
+{"unix_s": 1793172245.4801931, "event": "rx", "id": "0x90021fd", "data": "4430060000000000"}
+{"unix_s": 1793172245.4803894, "event": "parameter", "index": "0x3044", "name": "low_position", "value": 0.0}

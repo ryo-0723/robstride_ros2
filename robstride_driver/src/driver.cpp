@@ -2,6 +2,7 @@
 
 #include <algorithm>
 #include <cmath>
+#include <cstring>
 #include <set>
 #include <stdexcept>
 #include <thread>
@@ -51,10 +52,21 @@ bool RobStrideDriver::initialize(DriverConfiguration configuration)
     return false;
   }
   std::set<uint8_t> can_ids;
-  for (const auto & joint : configuration.joints) {
-    if (!std::isfinite(joint.position_recovery_period) || joint.position_recovery_period <= 0.0) {
-      RCLCPP_ERROR(
-        logger_, "Joint '%s': position_recovery_period must be positive", joint.name.c_str());
+  for (const auto &joint : configuration.joints) {
+    if (!std::isfinite(joint.position_start_tolerance) || joint.position_start_tolerance < 0) {
+      return false;
+    }
+    if (!std::isfinite(joint.homing_velocity_limit) ||
+        joint.homing_velocity_limit <= 0 ||
+        !std::isfinite(joint.homing_effort_limit) ||
+        joint.homing_effort_limit <= 0) {
+      return false;
+    }
+    if (!std::isfinite(joint.position_recovery_period) ||
+        joint.position_recovery_period <= 0.0) {
+      RCLCPP_ERROR(logger_,
+                   "Joint '%s': position_recovery_period must be positive",
+                   joint.name.c_str());
       return false;
     }
     if (const auto * range = joint.invalid_neutral_range()) {
@@ -84,6 +96,7 @@ bool RobStrideDriver::initialize(DriverConfiguration configuration)
   can_id_to_joint_.clear();
   for (size_t index = 0; index < joints_.size(); ++index) {
     can_id_to_joint_[joints_[index].can_id] = index;
+    joints_[index].initial_command_limits = joints_[index].command_limits;
   }
   runtime_events_.clear();
   runtime_events_.reserve(joints_.size());
@@ -109,24 +122,65 @@ bool RobStrideDriver::open()
   try {
     reset_metrics();
     transport_ = std::make_unique<CanTransport>(
-      settings_.transport,
-      [this](can_msgs::msg::Frame::ConstSharedPtr frame) {receive_frame(std::move(frame));},
-      CanTransport::FrameSink{}, [this]() {return metrics();}, CanTransport::EndpointProbe{},
-      [this](const rclcpp::Node::SharedPtr & node) {
-        zero_services_.clear();
-        for (size_t index = 0; index < joints_.size(); ++index) {
-          zero_services_.push_back(node->create_service<std_srvs::srv::Trigger>(
-            "~/zero_position_" + std::to_string(joints_[index].can_id),
-            [this, index](std_srvs::srv::Trigger::Request::SharedPtr,
-              std_srvs::srv::Trigger::Response::SharedPtr response) {
-              response->success = zero_current_position(index, &response->message);
-              if (response->success) {
-                response->message = "Current measured joint position is the new origin; "
-                  "visible on the next control read cycle";
-              }
-            }));
-        }
-      });
+        settings_.transport,
+        [this](can_msgs::msg::Frame::ConstSharedPtr frame) {
+          receive_frame(std::move(frame));
+        },
+        CanTransport::FrameSink{}, [this]() { return metrics(); },
+        CanTransport::EndpointProbe{},
+        [this](const rclcpp::Node::SharedPtr &node) {
+          zero_services_.clear();
+          for (size_t index = 0; index < joints_.size(); ++index) {
+            for (const bool finish : {false, true}) {
+              zero_services_.push_back(node->create_service<
+                                       std_srvs::srv::Trigger>(
+                  std::string(finish ? "~/finish_homing_" : "~/begin_homing_") +
+                      std::to_string(joints_[index].can_id),
+                  [this, index, finish](
+                      std_srvs::srv::Trigger::Request::SharedPtr,
+                      std_srvs::srv::Trigger::Response::SharedPtr response) {
+                    response->success =
+                        homing_request(index, finish, &response->message);
+                  }));
+            }
+            zero_services_.push_back(
+                node->create_service<std_srvs::srv::Trigger>(
+                    "~/homing_ready_" + std::to_string(joints_[index].can_id),
+                    [this, index](
+                        std_srvs::srv::Trigger::Request::SharedPtr,
+                        std_srvs::srv::Trigger::Response::SharedPtr response) {
+                      std::lock_guard<std::mutex> lock(state_mutex_);
+                      const auto &joint = joints_[index];
+                      response->success =
+                          joint.motor_reference_ready && !joint.homing &&
+                          !joint.zero_requested &&
+                          !(joint.claimed.position &&
+                            joint.position_reference_changed) &&
+                          joint.command_limits.contains_position(
+                              joint.feedback.position) &&
+                          joint
+                              .checked_position_command(joint.feedback.position)
+                              .has_value();
+                      response->message = response->success
+                                              ? "Reference ready"
+                                              : "Homing/reference pending";
+                    }));
+            zero_services_.push_back(node->create_service<
+                                     std_srvs::srv::Trigger>(
+                "~/zero_position_" + std::to_string(joints_[index].can_id),
+                [this,
+                 index](std_srvs::srv::Trigger::Request::SharedPtr,
+                        std_srvs::srv::Trigger::Response::SharedPtr response) {
+                  response->success =
+                      zero_current_position(index, &response->message);
+                  if (response->success) {
+                    response->message =
+                        "Current measured joint position is the new origin; "
+                        "visible on the next control read cycle";
+                  }
+                }));
+          }
+        });
     transport_->start();
     return true;
   } catch (const std::exception & error) {
@@ -149,13 +203,22 @@ void RobStrideDriver::close() noexcept
 bool RobStrideDriver::zero_current_position(size_t joint_index, std::string * error)
 {
   std::lock_guard<std::mutex> lock(state_mutex_);
-  const auto reject = [error](const char * reason) {
-      if (error) {*error = reason;}
-      return false;
-    };
-  if (joint_index >= joints_.size()) {return reject("Unknown joint index");}
-  if (!active_) {return reject("Hardware must be active");}
-  auto & joint = joints_[joint_index];
+  const auto reject = [error](const char *reason) {
+    if (error) {
+      *error = reason;
+    }
+    return false;
+  };
+  if (joint_index >= joints_.size()) {
+    return reject("Unknown joint index");
+  }
+  if (!active_) {
+    return reject("Hardware must be active");
+  }
+  auto &joint = joints_[joint_index];
+  if (joint.homing || joint.zero_requested) {
+    return reject("Finish homing before software zero");
+  }
   if (joint.claimed.position) {
     return reject("Deactivate the position controller before changing the joint origin");
   }
@@ -217,11 +280,14 @@ bool RobStrideDriver::start()
       disable_all();
       return false;
     }
-    if (settings_.set_zero_on_start) {
-      transport_->send_transaction(make_set_zero(joint.can_id, settings_.host_id));
-    }
   }
 
+  for (auto &joint : joints_) {
+    if (!synchronize_motor_position(joint, settings_.set_zero_on_start, false)) {
+      disable_all();
+      return false;
+    }
+  }
   if (!enable_and_confirm_all()) {
     disable_all();
     return false;
@@ -229,12 +295,7 @@ bool RobStrideDriver::start()
   {
     std::lock_guard<std::mutex> lock(state_mutex_);
     for (auto & joint : joints_) {
-      if (settings_.set_zero_on_start) {
-        // Enable feedback follows the queued zero command. Establish the new
-        // coordinate from that measurement rather than accumulating a zeroing jump.
-        const double raw = joint.position_tracker.raw_position();
-        joint.position_tracker.clear();
-        joint.update_position_feedback(raw);
+      if (joint.claimed.position) {
         joint.position_reference_changed = true;
       }
       joint.state = joint.feedback;
@@ -258,10 +319,208 @@ void RobStrideDriver::stop() noexcept
   }
 }
 
-bool RobStrideDriver::update_state()
-{
-  if (!active_) {return true;}
-  if (!check_transport_health()) {return false;}
+bool RobStrideDriver::homing_request(size_t index, bool finish,
+                                     std::string *message) {
+  std::lock_guard<std::mutex> lock(state_mutex_);
+  auto &joint = joints_.at(index);
+  if (!active_ || joint.claimed.position || joint.claimed.velocity ||
+      joint.claimed.effort) {
+    *message =
+        "Release all command interfaces before beginning/finishing homing";
+    return false;
+  }
+  if (!joint.feedback_status.received ||
+      std::chrono::steady_clock::now() - joint.feedback_status.timestamp >
+          settings_.feedback_timeout ||
+      !std::isfinite(joint.feedback.velocity) ||
+      std::abs(joint.feedback.velocity) > 0.02) {
+    *message = "Fresh stationary feedback is required";
+    return false;
+  }
+  if (joint.zero_requested) {
+    *message = "Origin confirmation already queued";
+    return false;
+  }
+  if (finish && !joint.homing) {
+    *message = "Begin homing first";
+    return false;
+  }
+  joint.homing = true;
+  joint.zero_requested = finish;
+  *message = finish ? "Origin confirmation queued; poll homing_ready before "
+                      "position activation"
+                    : "Homing active; upper controller must detect the "
+                      "reference and stop";
+  return true;
+}
+
+bool RobStrideDriver::synchronize_motor_position(JointData &joint,
+                                                 bool set_zero, bool reset_ros_origin) {
+  // Called only by the lifecycle/control thread, never by the transport
+  // executor.
+  {
+    std::lock_guard<std::mutex> lock(state_mutex_);
+    joint.motor_reference_ready = false;
+    joint.position_recovery_in_progress = true;
+  }
+  transport_->send_transaction(
+      make_motion_command(joint.can_id, joint.limits, 0, 0, 0, 0, 0));
+  const auto stopped_at = std::chrono::steady_clock::now();
+  const auto poll_stopped_axes = [this, &joint](bool include_target) {
+    for (const auto & other : joints_) {
+      if (include_target || other.can_id != joint.can_id) {
+        transport_->send_transaction(make_stop(other.can_id, settings_.host_id));
+      }
+    }
+  };
+  const auto confirm_stopped = [&]() {
+    const auto deadline = std::chrono::steady_clock::now() + settings_.startup_confirmation_timeout;
+    while (std::chrono::steady_clock::now() < deadline) {
+      const auto requested = std::chrono::steady_clock::now();
+      poll_stopped_axes(true);
+      std::unique_lock<std::mutex> lock(state_mutex_);
+      if (feedback_condition_.wait_until(lock,
+          std::min(deadline, requested + std::chrono::milliseconds(20)), [&]() {
+            return joint.feedback_status.timestamp >= requested &&
+              joint.feedback_status.mode == kMotorModeReset;
+          })) {return true;}
+    }
+    RCLCPP_ERROR(logger_, "Joint '%s': stop confirmation timed out during reference synchronization",
+      joint.name.c_str());
+    return false;
+  };
+  if (!confirm_stopped()) {return false;}
+  if (set_zero) {
+    // A Reset acknowledgement can precede completion of the firmware's stop
+    // transition. Require a settled, stationary Reset state before Type 6.
+    const auto deadline = std::chrono::steady_clock::now() + settings_.startup_confirmation_timeout;
+    const auto settle = std::min(std::chrono::milliseconds(100),
+      settings_.startup_confirmation_timeout / 2);
+    bool stationary = false;
+    while (std::chrono::steady_clock::now() < deadline) {
+      const auto requested = std::chrono::steady_clock::now();
+      poll_stopped_axes(true);
+      std::unique_lock<std::mutex> lock(state_mutex_);
+      const auto next = std::min(deadline, requested + std::chrono::milliseconds(20));
+      const bool stopped = feedback_condition_.wait_until(lock, next, [&]() {
+        return joint.feedback_status.timestamp >= requested &&
+          joint.feedback_status.mode == kMotorModeReset &&
+          std::isfinite(joint.feedback.velocity) && std::abs(joint.feedback.velocity) <= 0.02 &&
+          joint.feedback.fault == 0;
+      });
+      if (stopped && std::chrono::steady_clock::now() - stopped_at >= settle) {
+        stationary = true; break;
+      }
+      lock.unlock();
+      std::this_thread::sleep_until(next);
+    }
+    if (!stationary) {return false;}
+    transport_->send_transaction(make_set_zero(joint.can_id, settings_.host_id));
+  }
+  const auto read_deadline = std::chrono::steady_clock::now() +
+    settings_.startup_confirmation_timeout * (set_zero ? 1 : settings_.startup_retries);
+  const int read_attempts = set_zero ? std::max(25, settings_.startup_retries) : settings_.startup_retries;
+  for (int attempt = 0; attempt < read_attempts && std::chrono::steady_clock::now() < read_deadline; ++attempt) {
+    const auto requested = std::chrono::steady_clock::now();
+    transport_->send_transaction(make_read_parameter(
+      joint.can_id, settings_.host_id, kIndexMechanicalPosition));
+    std::unique_lock<std::mutex> lock(state_mutex_);
+    const auto response_deadline = std::min(read_deadline, requested +
+      (set_zero ? std::chrono::milliseconds(100) : settings_.startup_confirmation_timeout));
+    bool confirmed = false;
+    while (std::chrono::steady_clock::now() < response_deadline) {
+      // Waiting on one motor must not make other stopped axes look rebooted.
+      // Leave the zero target alone until its asynchronous zero operation ends.
+      lock.unlock();
+      poll_stopped_axes(!set_zero);
+      lock.lock();
+      const auto next = std::min(response_deadline, std::chrono::steady_clock::now() +
+        std::chrono::milliseconds(20));
+      confirmed = feedback_condition_.wait_until(lock, next, [&]() {
+        return joint.parameter_status.received && joint.parameter_status.timestamp >= requested &&
+          joint.parameter_status.index == kIndexMechanicalPosition;
+      });
+      if (confirmed) {break;}
+    }
+    if (!confirmed) {continue;}
+    float position;
+    const uint32_t bits = joint.parameter_status.value;
+    std::memcpy(&position, &bits, sizeof(position));
+    if (!std::isfinite(position) || !joint.position_tracker.initialized()) {return false;}
+    if (set_zero && std::abs(position) > 0.01) {
+      // Do not accept a stale pre-zero value, or repeatedly issue Type 6.
+      lock.unlock();
+      std::this_thread::sleep_for(std::chrono::milliseconds(20));
+      continue;
+    }
+    if (set_zero) {
+      joint.position_tracker.clear();
+      if (reset_ros_origin) {
+        joint.position_offset = 0;
+        joint.command_limits = joint.initial_command_limits;
+      }
+      joint.update_position_feedback(position);
+      joint.position_reference_changed = true;
+      lock.unlock();
+      if (!confirm_stopped()) {return false;}
+      lock.lock();
+    }
+    joint.motor_position_offset = position - joint.position_tracker.position();
+    joint.motor_reference_ready = true;
+    if (set_zero) {
+      joint.zero_requested = false;
+      joint.homing = false;
+    }
+    return true;
+  }
+  return false;
+}
+
+bool RobStrideDriver::update_state() {
+  if (!active_) {
+    return true;
+  }
+  if (!check_transport_health()) {
+    return false;
+  }
+  bool resynchronize = false;
+  {
+    std::lock_guard<std::mutex> lock(state_mutex_);
+    for (const auto &joint : joints_) {
+      resynchronize =
+          resynchronize || !joint.motor_reference_ready || joint.zero_requested;
+    }
+  }
+  if (resynchronize) {
+    transport_->disable_active_commands();
+    // Pause every axis before bounded, blocking maintenance transactions.
+    for (const auto &joint : joints_) {
+      transport_->send_transaction(
+          make_motion_command(joint.can_id, joint.limits, 0, 0, 0, 0, 0));
+      transport_->send_transaction(make_stop(joint.can_id, settings_.host_id));
+    }
+    for (auto &joint : joints_) {
+      bool zero;
+      {
+        std::lock_guard<std::mutex> lock(state_mutex_);
+        zero = joint.zero_requested;
+        // Require upper position-controller reactivation after an unexpected
+        // reset.
+        if (joint.claimed.position) {
+          joint.position_reference_changed = true;
+        }
+      }
+      if (!synchronize_motor_position(joint, zero)) {
+        disable_all();
+        return false;
+      }
+    }
+    if (!enable_and_confirm_all()) {
+      disable_all();
+      return false;
+    }
+    transport_->enable_active_commands();
+  }
   const auto now = std::chrono::steady_clock::now();
   bool read_failed = false;
   runtime_events_.clear();
@@ -338,11 +597,24 @@ bool RobStrideDriver::send_commands()
     std::lock_guard<std::mutex> lock(state_mutex_);
     if (!active_) {return true;}
     for (size_t joint_index = 0; joint_index < joints_.size(); ++joint_index) {
-      const auto & joint = joints_[joint_index];
-      if (joint.claimed.position && joint.position_reference_changed) {
-        rejection = "Joint '" + joint.name +
-          "': position reference reset; reactivate the position controller";
-        break;
+      auto &joint = joints_[joint_index];
+      if (joint.claimed.position && joint.awaiting_position_command &&
+        joint.motor_reference_ready && !joint.position_reference_changed) {
+        if (!std::isfinite(joint.command.position) ||
+          !std::isfinite(joint.feedback.position) ||
+          std::abs(joint.command.position - joint.feedback.position) > joint.position_start_tolerance) {
+          joint.position_reference_changed = true;
+          RCLCPP_WARN(logger_, "Joint '%s': initial position target differs from feedback; "
+            "release and reactivate position control with a current-position target", joint.name.c_str());
+        } else {
+          joint.awaiting_position_command = false;
+        }
+      }
+      if (!joint.motor_reference_ready ||
+          (joint.claimed.position && joint.position_reference_changed)) {
+        command_snapshot_[joint_index].frame =
+            make_motion_command(joint.can_id, joint.limits, 0, 0, 0, 0, 0);
+        continue;
       }
       const auto reject = [&](const char * name, double value, double minimum, double maximum) {
           rejection = "Joint '" + joint.name + "': " + name + " command " +
@@ -374,11 +646,14 @@ bool RobStrideDriver::send_commands()
       const double motor_position = checked_position.value_or(
         std::numeric_limits<double>::quiet_NaN());
       const double motor_velocity =
-        joint.claimed.velocity ? joint.direction * joint.command.velocity * joint.gear_ratio : 0.0;
-      const double motor_effort =
-        joint.claimed.effort ? joint.joint_to_motor_effort(joint.command.effort) : 0.0;
-      if (!checked_position)
-      {
+          joint.claimed.velocity
+              ? joint.direction * joint.command.velocity * joint.gear_ratio
+              : 0.0;
+      double motor_effort =
+          joint.claimed.effort
+              ? joint.joint_to_motor_effort(joint.command.effort)
+              : 0.0;
+      if (!checked_position) {
         reject("motor position", motor_position, joint.limits.position_min,
           joint.limits.position_max);
         break;
@@ -399,10 +674,45 @@ bool RobStrideDriver::send_commands()
           std::min(joint.limits.effort_max, joint.limits.effort_wire_max));
         break;
       }
+      if (joint.homing && joint.claimed.position) {
+        rejection = "Position control is unavailable during homing";
+        break;
+      }
+      if (joint.homing &&
+          ((joint.claimed.velocity &&
+            std::abs(joint.command.velocity) > joint.homing_velocity_limit) ||
+           (joint.claimed.effort &&
+            std::abs(joint.command.effort) > joint.homing_effort_limit))) {
+        rejection = "Homing velocity/effort limit exceeded";
+        break;
+      }
       const double kp = joint.claimed.position ? joint.kp : 0.0;
-      const double kd = (joint.claimed.position || joint.claimed.velocity) ? joint.kd : 0.0;
-      command_snapshot_[joint_index].frame = make_motion_command(
-        joint.can_id, joint.limits, motor_position, motor_velocity, motor_effort, kp, kd);
+      double kd =
+          (joint.claimed.position || joint.claimed.velocity) ? joint.kd : 0.0;
+      if (joint.homing) {
+        const double cap = std::min(
+            {joint.homing_effort_limit / joint.gear_ratio,
+             joint.limits.effort_max, -joint.limits.effort_min,
+             joint.limits.effort_wire_max, -joint.limits.effort_wire_min});
+        motor_effort = std::clamp(motor_effort, -cap, cap);
+        if (joint.claimed.velocity) {
+          if (!std::isfinite(joint.feedback.velocity)) {
+            rejection = "Homing requires finite velocity feedback";
+            break;
+          }
+          // Keep the fast damping loop in firmware. Derate Kd using a
+          // conservative velocity-error allowance; this is not a hardware
+          // current limiter.
+          const double velocity_allowance =
+              joint.gear_ratio * (std::abs(joint.command.velocity) +
+                                  std::abs(joint.feedback.velocity) + 1.0);
+          kd = std::min(kd, std::max(0.0, cap - std::abs(motor_effort)) /
+                                velocity_allowance);
+        }
+      }
+      command_snapshot_[joint_index].frame =
+          make_motion_command(joint.can_id, joint.limits, motor_position,
+                              motor_velocity, motor_effort, kp, kd);
     }
   }
   if (!rejection.empty()) {
@@ -485,9 +795,22 @@ bool RobStrideDriver::validate_command_modes_locked(
   }
   const auto now = std::chrono::steady_clock::now();
   for (size_t index = 0; index < joints_.size(); ++index) {
-    const auto & joint = joints_[index];
-    if (joint.claimed.position || !modes[index].position) {continue;}
-    const auto & status = joint.feedback_status;
+    const auto &joint = joints_[index];
+    if (joint.zero_requested &&
+      (modes[index].position || modes[index].velocity || modes[index].effort)) {
+      if (error) {*error = "Wait for homing origin confirmation before claiming commands";}
+      return false;
+    }
+    if (modes[index].position && joint.homing) {
+      if (error) {
+        *error = "Finish homing before position activation";
+      }
+      return false;
+    }
+    if (joint.claimed.position || !modes[index].position) {
+      continue;
+    }
+    const auto &status = joint.feedback_status;
     const double position = joint.feedback.position;
     if (!status.received || status.timestamp > now ||
       now - status.timestamp > settings_.feedback_timeout)
@@ -532,6 +855,7 @@ bool RobStrideDriver::apply_command_modes(
     if (!previous.position && joint.claimed.position) {
       joint.command.position = joint.feedback.position;
       joint.position_reference_changed = false;
+      joint.awaiting_position_command = true;
     }
     if (!previous.velocity && joint.claimed.velocity) {joint.command.velocity = 0.0;}
     if (!previous.effort && joint.claimed.effort) {joint.command.effort = 0.0;}
@@ -628,11 +952,18 @@ void RobStrideDriver::receive_frame(can_msgs::msg::Frame::ConstSharedPtr msg)
     ((active_ && decoded->mode == kMotorModeReset && previous.mode == kMotorModeRun) ||
     received_at - previous.timestamp > settings_.feedback_timeout ||
     gap_seconds * maximum_speed >= (joint.limits.position_max - joint.limits.position_min) / 2.0);
-  if (!joint.update_position_feedback(decoded->position, restart)) {
+  if (restart) {joint.position_recovery_in_progress = true;}
+  // EL05 boot feedback can switch between equivalent -pi..pi and 0..2pi
+  // coordinates. Do not count that representation change as a real turn.
+  const bool recovering = restart || joint.position_recovery_in_progress;
+  if (!joint.update_position_feedback(decoded->position, recovering)) {
     RCLCPP_ERROR_THROTTLE(
       logger_, *log_clock_, 1000, "Joint '%s': ambiguous or invalid position feedback",
       joint.name.c_str());
     return;
+  }
+  if (restart) {
+    joint.motor_reference_ready = false;
   }
   if (restart && joint.position_recovery == PositionRestartPolicy::reset) {
     joint.position_reference_changed = true;
@@ -715,23 +1046,41 @@ bool RobStrideDriver::enable_and_confirm_all()
 {
   for (int attempt = 1; attempt <= settings_.startup_retries; ++attempt) {
     const auto requested_at = std::chrono::steady_clock::now();
-    for (const auto & joint : joints_) {
-      transport_->send_transaction(make_enable(joint.can_id, settings_.host_id));
+    for (const auto &joint : joints_) {
       transport_->send_transaction(make_motion_command(
           joint.can_id, joint.limits, 0.0, 0.0, 0.0, 0.0, 0.0));
+      transport_->send_transaction(
+          make_enable(joint.can_id, settings_.host_id));
     }
 
-    std::unique_lock<std::mutex> lock(state_mutex_);
-    const bool confirmed = feedback_condition_.wait_for(
-      lock, settings_.startup_confirmation_timeout,
-      [this, requested_at]() {
-        return std::all_of(joints_.begin(), joints_.end(), [requested_at](const JointData & joint) {
-          return joint.feedback_status.received &&
-                 joint.feedback_status.timestamp >= requested_at &&
-                 joint.feedback_status.mode == kMotorModeRun;
+    const auto deadline = requested_at + settings_.startup_confirmation_timeout;
+    while (std::chrono::steady_clock::now() < deadline) {
+      // Keep firmware watchdogs alive at zero torque while waiting for a Run
+      // response. A single dropped enable response must not leave a 500ms gap.
+      for (const auto & joint : joints_) {
+        transport_->send_transaction(make_motion_command(
+          joint.can_id, joint.limits, 0, 0, 0, 0, 0));
+      }
+      std::unique_lock<std::mutex> lock(state_mutex_);
+      const auto next = std::min(deadline, std::chrono::steady_clock::now() +
+        std::chrono::milliseconds(20));
+      const bool confirmed = feedback_condition_.wait_until(lock, next,
+        [this, requested_at]() {
+          return std::all_of(joints_.begin(), joints_.end(), [requested_at](const JointData & joint) {
+            return joint.feedback_status.received &&
+                   joint.feedback_status.timestamp >= requested_at &&
+                   joint.feedback_status.mode == kMotorModeRun &&
+                   std::abs(std::remainder(joint.position_tracker.raw_position() -
+                     (joint.position_tracker.position() + joint.motor_position_offset),
+                     joint.limits.position_max - joint.limits.position_min)) <=
+                     std::max(0.01, 8 * (joint.limits.position_max - joint.limits.position_min) / 65535.0);
+          });
         });
-      });
-    if (confirmed) {return true;}
+      if (confirmed) {
+        for (auto & joint : joints_) {joint.position_recovery_in_progress = false;}
+        return true;
+      }
+    }
     RCLCPP_WARN(
       logger_, "Motor enable confirmation attempt %d/%d failed",
       attempt, settings_.startup_retries);

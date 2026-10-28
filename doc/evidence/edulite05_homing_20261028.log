@@ -1,0 +1,7 @@
+service begin_homing success=1 message=Homing active; upper controller must detect the reference and stop
+before_finish velocity=-0.000762951 position=2.32459
+service finish_homing success=1 message=Origin confirmation queued; poll homing_ready before position activation
+service homing_ready success=1 message=Reference ready
+pre_hold ros=-0.000191751 target=4.25975e-05
+hold maximum_motion=0.000383501 peak_speed=0.000762951
+{"event":"complete","stopped":true,"type6_frames":1}

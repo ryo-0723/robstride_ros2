@@ -1,0 +1,107 @@
+{
+  "tests": 123,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "sha256": {
+    "robstride_driver/include/robstride_driver/driver.hpp": "60c65c7de3d4bc3fe75a7f4ce1662bcaae0eafc58a10eca77b497fa8476fdc56",
+    "robstride_driver/include/robstride_driver/joint_data.hpp": "17e91be48244f92459daddfc9c266f710a9bfbc357ad3169d635df9dc7f94782",
+    "robstride_driver/include/robstride_driver/protocol.hpp": "3e1f6c2a64e15f1641e184df00292e23b97fe4d7b13ab9c8c59f62ff0a54bc76",
+    "robstride_driver/src/driver.cpp": "8ec5cf0bdc14ae1691defc861c3ce262ee8297b5dd18f5dcaea783ebe025dad3",
+    "robstride_driver/test/support/fake_robstride_motor.cpp": "a72df9f43eb45e4d89ffd55e1e50382b71e3eeb179e71386a98956b3d085a159",
+    "robstride_driver/test/test_command_safety.cpp": "d99a237808e5f5df2516e6d49dbb13ac2015e53bbf9738cefb48331019c622ee",
+    "robstride_driver/test/test_joint_data.cpp": "051ced7b9007159fd1e1efe6ec031706049c2da25549cfe5b1894c4d9cf23962",
+    "robstride_driver/test/test_position_feedback.cpp": "95b10eb2024085f42023c9752a8b34175dfadd51ea67513f5d8f5c64e1dc7c73",
+    "robstride_ros2_control/src/driver_config.cpp": "bb736d64a0111e0061222456006398aba52af968cd8385988bcd5259025a6289"
+  },
+  "multiturn_recovery_regression": "passed, late coordinate representation switch after initial Run included",
+  "startup_mechanical_zero_regression": "passed, ROS offset preserved",
+  "physical_multiturn_trial": {
+    "result": "passed",
+    "snapshots": {
+      "before_rotation": {
+        "unix_s": 1793184359.0966876,
+        "event": "multiturn_snapshot",
+        "label": "before_rotation",
+        "state": {
+          "q": -0.00019175052436182227,
+          "v": -0.0007629510948348184,
+          "t": 76050.856666695,
+          "q33": 1.5338124443638677,
+          "v33": -0.0007629510948348184,
+          "stamp": 1793184359.0917153
+        },
+        "internal_position": -8.519490802427754e-05,
+        "rotation_counter": 0
+      },
+      "after_three_turns": {
+        "unix_s": 1793184388.464674,
+        "event": "multiturn_snapshot",
+        "label": "after_three_turns",
+        "state": {
+          "q": 18.867292844503424,
+          "v": -0.0007629510948348184,
+          "t": 76080.227357431,
+          "q33": 1.5338124443638677,
+          "v33": -0.0007629510948348184,
+          "stamp": 1793184388.461699
+        },
+        "internal_position": 18.86562156677246,
+        "rotation_counter": 27
+      },
+      "multiturn_hold_before_power": {
+        "unix_s": 1793184399.9453435,
+        "event": "multiturn_snapshot",
+        "label": "multiturn_hold_before_power",
+        "state": {
+          "q": 11.920171346903322,
+          "v": -0.0007629510948348184,
+          "t": 76091.707677978,
+          "q33": 1.5338124443638677,
+          "v33": -0.0007629510948348184,
+          "stamp": 1793184399.942354
+        },
+        "internal_position": 11.92397403717041,
+        "rotation_counter": 17
+      },
+      "after_power_reactivation": {
+        "unix_s": 1793184499.754792,
+        "event": "multiturn_snapshot",
+        "label": "after_power_reactivation",
+        "state": {
+          "q": 11.922376478113073,
+          "v": -0.0007629510948348184,
+          "t": 76191.517399404,
+          "q33": 1.5338124443638677,
+          "v33": -0.0007629510948348184,
+          "stamp": 1793184499.752101
+        },
+        "internal_position": 5.641129016876221,
+        "rotation_counter": 8
+      }
+    },
+    "actual_forward_turns": 3.0025704860436426,
+    "holding_turns_before_power": 1.8977594093150942,
+    "ros_angle_before_power": 11.920554847952042,
+    "ros_angle_after_power": 11.922376478113073,
+    "ros_delta": 0.0018216301610305408,
+    "native_position_after_power": 5.641129016876221,
+    "rotation_counter_before": 17,
+    "rotation_counter_after": 8,
+    "run_peak_velocity": {
+      "33": 0.08621347371633448,
+      "34": 0.0007629510948348184
+    },
+    "max_state_gap_s": 0.2292505869991146,
+    "post_boot_nonzero_kp_target_range": [
+      5.641108676177097,
+      5.641108676177097
+    ],
+    "process_restart_passed": true,
+    "stopped_ids": [
+      33,
+      34
+    ],
+    "scope": "Three forward turns, then return to approximately 1.9 turns for representable MIT position hold. Holding directly at three turns is rejected; it was not claimed as tested."
+  }
+}

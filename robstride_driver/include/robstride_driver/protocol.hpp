@@ -55,6 +55,7 @@ constexpr uint8_t kTypeWriteParameter = 18;
 constexpr uint8_t kMotorModeReset = 0;
 constexpr uint8_t kMotorModeRun = 2;
 constexpr uint16_t kIndexRunMode = 0x7005;
+constexpr uint16_t kIndexMechanicalPosition = 0x7019;
 constexpr uint16_t kIndexCanTimeout = 0x7028;
 
 uint16_t encode_u16(double value, double minimum, double maximum);

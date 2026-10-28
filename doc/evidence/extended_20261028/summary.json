@@ -1,0 +1,133 @@
+{
+  "conditions": {
+    "load": "none",
+    "supply_V": 24,
+    "supply_rating_A": 10,
+    "limit_switch": "virtual encoder thresholds, upper ROS node"
+  },
+  "tests": 121,
+  "speed34": {
+    "steps": 31,
+    "peak_abs_velocity": 23.4767681392,
+    "peak_sampled_iq": 0.192023068666
+  },
+  "effort": {
+    "33": {
+      "steps": 16,
+      "command_range_Nm": [
+        -5.4,
+        5.4
+      ],
+      "wire_kd": 1,
+      "peak_sampled_iq": 0.757949054241,
+      "peak_sampled_velocity": 5.45281147478
+    },
+    "34": {
+      "steps": 16,
+      "command_range_Nm": [
+        -5.4,
+        5.4
+      ],
+      "wire_kd": 1,
+      "peak_sampled_iq": 0.786614835262,
+      "peak_sampled_velocity": 5.51689936675
+    }
+  },
+  "two_axis_virtual_limit": {
+    "unix_s": 1793179904.8522406,
+    "event": "two_axis_virtual_limit_passed",
+    "max_joint_state_gap_s": 0.3425088920048438,
+    "state": {
+      "q": -0.00019175052436182227,
+      "v": -0.0007629510948348184,
+      "t": 72155.563886197,
+      "q33": 1.5694780418950174,
+      "v33": -0.0007629510948348184
+    }
+  },
+  "two_axis_power_cycle": {
+    "result": "failed",
+    "first_guard_sample": {
+      "motor_id": 34,
+      "unix_s": 1793180587.9556756,
+      "monotonic_s": 72838.679056981,
+      "direction": "rx",
+      "type": 2,
+      "id": "0x28022fd",
+      "data": "c240725271b10122",
+      "mode": 2,
+      "fault": 0,
+      "position": 6.504369536850444,
+      "velocity": -5.342946517128254
+    },
+    "prior_modes": [
+      2
+    ],
+    "max_feedback_gap_previous_5s": 0.03327584266662598,
+    "last_pre_event_position": 6.52699609872505,
+    "minimum_position_next_100ms": 6.455281402614023,
+    "control_transactions_previous_500ms": [],
+    "process_restart_test": "not run after guard failure",
+    "stopped_ids": [
+      33,
+      34
+    ],
+    "fault_flags": 0,
+    "causality": "No pre-event Reset or enable observed. Supply-off timing and visual motion confirmation requested; do not attribute to reactivation offset yet."
+  },
+  "two_axis_restart": "not run",
+  "latest_two_axis_trial": {
+    "result": "passed_this_trial",
+    "power_cycle": {
+      "unix_s": 1793183199.9090147,
+      "event": "two_axis_power_reactivation_passed",
+      "state": {
+        "q": 6.516545695326958,
+        "v": -0.0007629510948348184,
+        "t": 74891.67187373,
+        "q33": 1.533428943315144,
+        "v33": -0.0007629510948348184,
+        "stamp": 1793183199.9035904
+      },
+      "raw_peak_velocity": {
+        "33": 0.0007629510948348184,
+        "34": 0.003814755474174092
+      },
+      "max_state_gap_s": 0.6412565420032479
+    },
+    "restart": {
+      "unix_s": 1793183207.6354957,
+      "event": "two_axis_process_restart_passed",
+      "state": {
+        "q": 0.23336038814737137,
+        "v": -0.0007629510948348184,
+        "t": 74899.394187493,
+        "q33": 1.533428943315144,
+        "v33": -0.0007629510948348184,
+        "stamp": 1793183207.6292963
+      },
+      "raw_peak_velocity": {
+        "33": 0.0007629510948348184,
+        "34": 0.0007629510948348184
+      },
+      "max_state_gap_s": 0.02070693499990739
+    },
+    "ros_angle_deltas": {
+      "34": 0.0018216301610181063,
+      "33": -0.00038350104872364454
+    },
+    "mode_run_peak_velocity": {
+      "33": 0.0007629510948348184,
+      "34": 0.003814755474174092
+    },
+    "reset_extreme_samples": {
+      "33": 3,
+      "34": 2
+    },
+    "previous_mode_run_anomaly": "not reproduced; cause still unresolved",
+    "final_stop_confirmed": [
+      33,
+      34
+    ]
+  }
+}

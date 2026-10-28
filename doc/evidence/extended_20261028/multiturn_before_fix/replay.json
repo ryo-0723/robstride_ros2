@@ -1,0 +1,10 @@
+{
+  "pre_power_ros_position": 12.14336895725956,
+  "boot_raw": -0.41897489572884794,
+  "normal_reset_raw": 5.862388781289724,
+  "first_restored": 12.147395718630325,
+  "old_accumulation_result": 18.428759395648896,
+  "correct_restoration_result": 12.14557408846931,
+  "false_added_turn_rad": 6.283185307179586,
+  "position_reactivation": "rejected, no unintended Run speed detected in this trial"
+}

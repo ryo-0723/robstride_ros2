@@ -129,6 +129,7 @@ struct JointData
   double kd{0.0};
   uint32_t can_timeout_ticks{0};
   CommandLimits command_limits{};
+  CommandLimits initial_command_limits{};
   bool exports_temperature{false};
   bool exports_fault{false};
   StateValues state{};
@@ -142,6 +143,15 @@ struct JointData
   PositionRestartPolicy position_recovery{PositionRestartPolicy::restore};
   double position_recovery_period{6.28318530717958647692};
   bool position_reference_changed{false};
+  bool motor_reference_ready{false};
+  bool position_recovery_in_progress{false};
+  bool awaiting_position_command{false};
+  double position_start_tolerance{0.01};
+  double motor_position_offset{0.0};
+  bool homing{false};
+  bool zero_requested{false};
+  double homing_velocity_limit{0.5};
+  double homing_effort_limit{0.5};
 
   bool update_position_feedback(double raw, bool restart = false) noexcept
   {
@@ -157,14 +167,18 @@ struct JointData
   }
 
   // Position commands stay inside the configured accumulated-coordinate limits.
-  // Translate them into the motor's current wire coordinates after wrapping or
-  // reboot recovery; never modulo an unreachable target into another turn.
-  std::optional<double> checked_position_command(double position) const noexcept
-  {
-    const auto motor = checked_joint_to_motor_position(position);
-    if (!motor) {return std::nullopt;}
-    const double wire = *motor - position_tracker.coordinate_shift();
-    if (!motor_position_within_roundoff(wire)) {return std::nullopt;}
+  // Translate them into the motor's internal control coordinates using the
+  // stopped parameter measurement; never modulo a target into another turn.
+  std::optional<double>
+  checked_position_command(double position) const noexcept {
+    if (!motor_reference_ready || !std::isfinite(position)) {
+      return std::nullopt;
+    }
+    const double motor = direction * (position - position_offset) * gear_ratio;
+    const double wire = motor + motor_position_offset;
+    if (!motor_position_within_roundoff(wire)) {
+      return std::nullopt;
+    }
     return std::clamp(wire, limits.position_min, limits.position_max);
   }
 

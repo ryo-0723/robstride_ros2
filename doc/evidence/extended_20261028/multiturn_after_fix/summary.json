@@ -1,0 +1,88 @@
+{
+  "result": "passed",
+  "snapshots": {
+    "before_rotation": {
+      "unix_s": 1793184359.0966876,
+      "event": "multiturn_snapshot",
+      "label": "before_rotation",
+      "state": {
+        "q": -0.00019175052436182227,
+        "v": -0.0007629510948348184,
+        "t": 76050.856666695,
+        "q33": 1.5338124443638677,
+        "v33": -0.0007629510948348184,
+        "stamp": 1793184359.0917153
+      },
+      "internal_position": -8.519490802427754e-05,
+      "rotation_counter": 0
+    },
+    "after_three_turns": {
+      "unix_s": 1793184388.464674,
+      "event": "multiturn_snapshot",
+      "label": "after_three_turns",
+      "state": {
+        "q": 18.867292844503424,
+        "v": -0.0007629510948348184,
+        "t": 76080.227357431,
+        "q33": 1.5338124443638677,
+        "v33": -0.0007629510948348184,
+        "stamp": 1793184388.461699
+      },
+      "internal_position": 18.86562156677246,
+      "rotation_counter": 27
+    },
+    "multiturn_hold_before_power": {
+      "unix_s": 1793184399.9453435,
+      "event": "multiturn_snapshot",
+      "label": "multiturn_hold_before_power",
+      "state": {
+        "q": 11.920171346903322,
+        "v": -0.0007629510948348184,
+        "t": 76091.707677978,
+        "q33": 1.5338124443638677,
+        "v33": -0.0007629510948348184,
+        "stamp": 1793184399.942354
+      },
+      "internal_position": 11.92397403717041,
+      "rotation_counter": 17
+    },
+    "after_power_reactivation": {
+      "unix_s": 1793184499.754792,
+      "event": "multiturn_snapshot",
+      "label": "after_power_reactivation",
+      "state": {
+        "q": 11.922376478113073,
+        "v": -0.0007629510948348184,
+        "t": 76191.517399404,
+        "q33": 1.5338124443638677,
+        "v33": -0.0007629510948348184,
+        "stamp": 1793184499.752101
+      },
+      "internal_position": 5.641129016876221,
+      "rotation_counter": 8
+    }
+  },
+  "actual_forward_turns": 3.0025704860436426,
+  "holding_turns_before_power": 1.8977594093150942,
+  "ros_angle_before_power": 11.920554847952042,
+  "ros_angle_after_power": 11.922376478113073,
+  "ros_delta": 0.0018216301610305408,
+  "native_position_after_power": 5.641129016876221,
+  "rotation_counter_before": 17,
+  "rotation_counter_after": 8,
+  "run_peak_velocity": {
+    "33": 0.08621347371633448,
+    "34": 0.0007629510948348184
+  },
+  "max_state_gap_s": 0.2292505869991146,
+  "post_boot_nonzero_kp_target_range": [
+    5.641108676177097,
+    5.641108676177097
+  ],
+  "process_restart_passed": true,
+  "stopped_ids": [
+    33,
+    34
+  ],
+  "scope": "Three forward turns, then return to approximately 1.9 turns for representable MIT position hold. Holding directly at three turns is rejected; it was not claimed as tested."
+}

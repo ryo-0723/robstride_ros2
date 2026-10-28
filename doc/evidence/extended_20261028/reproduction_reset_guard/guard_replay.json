@@ -1,0 +1,19 @@
+{
+  "previous_run_anomaly_still_detected": true,
+  "boot_reset_not_classified_as_motion": true,
+  "boot_packet": {
+    "motor_id": 34,
+    "unix_s": 1793182887.3221407,
+    "monotonic_s": 74579.085957973,
+    "direction": "rx",
+    "type": 2,
+    "id": "0x20022fd",
+    "data": "825a00007fff0000",
+    "mode": 0,
+    "fault": 0,
+    "position": 0.23105938185503838,
+    "velocity": -50.0
+  },
+  "review": "Mode Reset, speed word 0000, temperature word 0000, immediately following device identity broadcast; physical -50 rad/s was not established.",
+  "user_visual_observation": "User reported no visible shaft movement in this reproduction."
+}

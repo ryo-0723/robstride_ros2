@@ -1,0 +1,49 @@
+{"unix_s": 1793179895.2216601, "event": "switch", "on": ["jsb"], "off": [], "ok": true}
+{"unix_s": 1793179895.2528276, "event": "switch", "on": ["hold"], "off": [], "ok": true}
+{"unix_s": 1793179895.5600364, "event": "observed", "state": {"q": 4.3782397227353655, "v": -0.0007629510948348184, "t": 72146.283346031, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793179895.585737, "event": "switch", "on": ["pos"], "off": [], "ok": true}
+{"unix_s": 1793179896.0900185, "event": "observed", "state": {"q": 4.3782397227353655, "v": -0.0007629510948348184, "t": 72146.813331988, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793179897.0904524, "event": "observed", "state": {"q": 4.395497269927855, "v": -0.0007629510948348184, "t": 72147.813772433, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.08468757152666484}
+{"unix_s": 1793179898.1001892, "event": "observed", "state": {"q": 4.380924230076417, "v": -0.0007629510948348184, "t": 72148.823505003, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.08621347371633448}
+{"unix_s": 1793179898.1232407, "event": "switch", "on": [], "off": ["pos"], "ok": true}
+{"unix_s": 1793179898.138642, "event": "service", "name": "begin_homing", "success": true, "message": "Homing active; upper controller must detect the reference and stop"}
+{"unix_s": 1793179898.1457877, "event": "switch", "on": ["pos"], "off": [], "ok": false}
+{"unix_s": 1793179898.1733005, "event": "switch", "on": ["vel"], "off": [], "ok": true}
+{"unix_s": 1793179898.1738417, "event": "virtual_limit_armed", "direction": 1, "threshold": 4.500924230076417, "state": {"q": 4.380924230076417, "v": -0.0007629510948348184, "t": 72148.893560806, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}}
+{"unix_s": 1793179899.1801364, "event": "virtual_limit_triggered", "state": {"q": 4.5017270604238675, "v": 0.24795910582131597, "t": 72149.903325759, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}}
+{"unix_s": 1793179899.8902922, "event": "observed", "state": {"q": 4.504411567764919, "v": -0.0007629510948348184, "t": 72150.613597084, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.1701380941481645}
+{"unix_s": 1793179899.9229972, "event": "switch", "on": [], "off": ["vel"], "ok": true}
+{"unix_s": 1793179899.929044, "event": "service", "name": "finish_homing", "success": true, "message": "Origin confirmation queued; poll homing_ready before position activation"}
+{"unix_s": 1793179899.9410646, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793179900.0499828, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793179900.1571085, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793179900.265281, "event": "service", "name": "homing_ready", "success": true, "message": "Reference ready"}
+{"unix_s": 1793179900.4699676, "event": "observed", "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 72151.193275442, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793179900.4777203, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793179900.5030327, "event": "switch", "on": [], "off": ["hold"], "ok": true}
+{"unix_s": 1793179900.5221748, "event": "switch", "on": ["hold"], "off": [], "ok": true}
+{"unix_s": 1793179900.8302143, "event": "observed", "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 72151.553526207, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793179900.8535938, "event": "switch", "on": ["pos"], "off": [], "ok": true}
+{"unix_s": 1793179901.5599344, "event": "observed", "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 72152.283253296, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793179901.583995, "event": "switch", "on": [], "off": ["pos"], "ok": true}
+{"unix_s": 1793179901.5901856, "event": "service", "name": "begin_homing", "success": true, "message": "Homing active; upper controller must detect the reference and stop"}
+{"unix_s": 1793179901.5974665, "event": "switch", "on": ["pos"], "off": [], "ok": false}
+{"unix_s": 1793179901.62379, "event": "switch", "on": ["vel"], "off": [], "ok": true}
+{"unix_s": 1793179901.6239822, "event": "virtual_limit_armed", "direction": -1, "threshold": -0.12019175052436182, "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 72152.343587618, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}}
+{"unix_s": 1793179902.5214434, "event": "virtual_limit_triggered", "state": {"q": -0.12214508401797453, "v": -0.2937361715114051, "t": 72153.244631764, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}}
+{"unix_s": 1793179903.2304957, "event": "observed", "state": {"q": -0.12598009450519498, "v": -0.0007629510948348184, "t": 72153.953780536, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.18387121385519123}
+{"unix_s": 1793179903.2635212, "event": "switch", "on": [], "off": ["vel"], "ok": true}
+{"unix_s": 1793179903.274221, "event": "service", "name": "finish_homing", "success": true, "message": "Origin confirmation queued; poll homing_ready before position activation"}
+{"unix_s": 1793179903.2812757, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793179903.3888671, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793179903.5013616, "event": "service", "name": "homing_ready", "success": true, "message": "Reference ready"}
+{"unix_s": 1793179903.7102313, "event": "observed", "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 72154.433549624, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793179903.717313, "event": "service", "name": "homing_ready", "success": false, "message": "Homing/reference pending"}
+{"unix_s": 1793179903.7430205, "event": "switch", "on": [], "off": ["hold"], "ok": true}
+{"unix_s": 1793179903.7633946, "event": "switch", "on": ["hold"], "off": [], "ok": true}
+{"unix_s": 1793179904.0702, "event": "observed", "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 72154.793506339, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793179904.092792, "event": "switch", "on": ["pos"], "off": [], "ok": true}
+{"unix_s": 1793179904.800859, "event": "observed", "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 72155.524136092, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793179904.821728, "event": "switch", "on": [], "off": ["pos"], "ok": true}
+{"unix_s": 1793179904.852084, "event": "switch", "on": [], "off": ["hold"], "ok": true}
+{"unix_s": 1793179904.8522406, "event": "two_axis_virtual_limit_passed", "max_joint_state_gap_s": 0.3425088920048438, "state": {"q": -0.00019175052436182227, "v": -0.0007629510948348184, "t": 72155.563886197, "q33": 1.5694780418950174, "v33": -0.0007629510948348184}}

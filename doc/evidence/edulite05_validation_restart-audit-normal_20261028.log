@@ -1,0 +1,2 @@
+{"event":"pre_hold","internal":14.0679683685,"target":-11.0618959999,"raw":-11.0618959999}
+BUG: motor internal position and hold target disagree; position motion NOT sent

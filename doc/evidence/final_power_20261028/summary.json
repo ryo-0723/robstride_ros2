@@ -1,0 +1,38 @@
+{
+  "held_feedback_count": 1713,
+  "peak_abs_velocity_after_initial_hold": 0.08621347371633448,
+  "fault_flags": [
+    0
+  ],
+  "power_off_feedback_gap_s": 2.84084153175354,
+  "first_boot_feedback": {
+    "unix_s": 1793178920.0609677,
+    "monotonic_s": 71170.784347781,
+    "direction": "rx",
+    "type": 2,
+    "id": "0x20021fd",
+    "data": "8ffc7fff7fff012c",
+    "mode": 0,
+    "fault": 0,
+    "position": 1.5694780418950192,
+    "velocity": -0.0007629510948348184
+  },
+  "positive_kp_frames_after_boot": 120,
+  "positive_kp_target_min": 1.5702450439924611,
+  "positive_kp_target_max": 1.5702450439924611,
+  "stale_target_above_3rad_after_boot": false,
+  "power_reactivation_passed": true,
+  "process_restart_and_initial_target_guard_passed": true,
+  "last_can_feedback": {
+    "unix_s": 1793178929.1091247,
+    "monotonic_s": 71179.832506363,
+    "direction": "rx",
+    "type": 2,
+    "id": "0x20021fd",
+    "data": "8ffc7fff7fff012c",
+    "mode": 0,
+    "fault": 0,
+    "position": 1.5694780418950192,
+    "velocity": -0.0007629510948348184
+  }
+}

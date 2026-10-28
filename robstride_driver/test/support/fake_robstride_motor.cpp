@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <array>
 #include <atomic>
+#include <cstring>
 #include <mutex>
 #include <stdexcept>
 #include <string>
@@ -85,6 +86,11 @@ struct FakeRobStrideMotor::Impl
         std::lock_guard<std::mutex> lock(state_mutex);
         const auto entry = parameters.find(index);
         if (entry != parameters.end()) {value = entry->second;}
+      }
+      if (index == kIndexMechanicalPosition) {
+        const float position = static_cast<float>(
+            decode_u16(position_raw.load(), -12.566370614, 12.566370614));
+        std::memcpy(&value, &position, sizeof(value));
       }
       send_parameter(index, value);
     } else if (type == kTypeEnable) {

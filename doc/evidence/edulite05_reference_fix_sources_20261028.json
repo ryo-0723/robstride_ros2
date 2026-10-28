@@ -1,0 +1,21 @@
+{
+  "head": "86b09fe5388f6859c49bafa211c831d0c8cac4cb",
+  "tests": {
+    "total": 119,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "sha256": {
+    "robstride_driver/include/robstride_driver/driver.hpp": "ab04b448cb2f5ab51a1b159ea357f8861e7cdbb7418f66b2f96cd6b7f7f95a84",
+    "robstride_driver/include/robstride_driver/joint_data.hpp": "a7336dc176063f4892b20b3db4a49989bcf30241ca17a503a66f44c33d113b64",
+    "robstride_driver/include/robstride_driver/protocol.hpp": "3e1f6c2a64e15f1641e184df00292e23b97fe4d7b13ab9c8c59f62ff0a54bc76",
+    "robstride_driver/src/driver.cpp": "f5ab144962e33ae5f5215b4bcfd6649f1a9cada5de6a2ecd54301b64834179c8",
+    "robstride_driver/test/support/fake_robstride_motor.cpp": "a72df9f43eb45e4d89ffd55e1e50382b71e3eeb179e71386a98956b3d085a159",
+    "robstride_driver/test/test_command_safety.cpp": "d99a237808e5f5df2516e6d49dbb13ac2015e53bbf9738cefb48331019c622ee",
+    "robstride_driver/test/test_joint_data.cpp": "051ced7b9007159fd1e1efe6ec031706049c2da25549cfe5b1894c4d9cf23962",
+    "robstride_driver/test/test_position_feedback.cpp": "4a41a0074a2fcef07d8338d11b45fb9cfdcc2d1974b512e7cb0cb70cdb9f0f2b",
+    "robstride_ros2_control/src/driver_config.cpp": "bb736d64a0111e0061222456006398aba52af968cd8385988bcd5259025a6289"
+  },
+  "physical_scope": "ID33 driver API / ROS Trigger, final startup mismatch guard and hold; power-recovery path tested before adding the first-write guard, see validation report"
+}

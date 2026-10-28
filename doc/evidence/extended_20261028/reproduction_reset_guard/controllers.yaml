@@ -1,0 +1,32 @@
+controller_manager:
+  ros__parameters:
+    hold:
+      params_file:
+      - /work/extended-final/reproduce/controllers.yaml
+      type: forward_command_controller/ForwardCommandController
+    jsb:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    pos:
+      params_file:
+      - /work/extended-final/reproduce/controllers.yaml
+      type: forward_command_controller/ForwardCommandController
+    update_rate: 100
+    vel:
+      params_file:
+      - /work/extended-final/reproduce/controllers.yaml
+      type: forward_command_controller/ForwardCommandController
+hold:
+  ros__parameters:
+    interface_name: position
+    joints:
+    - joint33
+pos:
+  ros__parameters:
+    interface_name: position
+    joints:
+    - robstride_joint
+vel:
+  ros__parameters:
+    interface_name: velocity
+    joints:
+    - robstride_joint

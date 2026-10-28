@@ -177,7 +177,20 @@ JointData parse_joint(const hardware_interface::ComponentInfo & info)
         1, std::numeric_limits<uint32_t>::max(), 0));
     joint.direction = number_or_value(info.parameters, "direction", 1.0);
     joint.gear_ratio = number_or_value(info.parameters, "gear_ratio", 1.0);
-    joint.position_offset = number_or_value(info.parameters, "position_offset", 0.0);
+    joint.position_start_tolerance = number_or_value(
+      info.parameters, "position_start_tolerance", joint.position_start_tolerance);
+    if (joint.position_start_tolerance < 0) {
+      throw std::runtime_error("position_start_tolerance must be nonnegative");
+    }
+    joint.homing_velocity_limit = number_or_value(
+        info.parameters, "homing_velocity_limit", joint.homing_velocity_limit);
+    joint.homing_effort_limit = number_or_value(
+        info.parameters, "homing_effort_limit", joint.homing_effort_limit);
+    if (joint.homing_velocity_limit <= 0 || joint.homing_effort_limit <= 0) {
+      throw std::runtime_error("homing limits must be positive");
+    }
+    joint.position_offset =
+        number_or_value(info.parameters, "position_offset", 0.0);
     const auto recovery = info.parameters.find("position_recovery");
     if (recovery != info.parameters.end()) {
       if (recovery->second == "restore") {

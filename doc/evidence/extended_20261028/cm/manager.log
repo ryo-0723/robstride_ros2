@@ -1,0 +1,162 @@
+[INFO] [1793179893.083823396] [controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[INFO] [1793179893.106471701] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[INFO] [1793179893.106759372] [controller_manager]: update rate is 100 Hz
+[INFO] [1793179893.106809316] [controller_manager]: Overruns handling is : enabled
+[INFO] [1793179893.106837389] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1793179893.107577141] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1793179893.220233100] [controller_manager]: Received robot description from topic.
+[INFO] [1793179893.220457362] [controller_manager]: Enforcing command limits is enabled...
+[INFO] [1793179893.228582139] [controller_manager]: Using JointLimiter for joint 'joint33' in hardware 'final_system' : '  has position limits: false [-1.79769e+308, 1.79769e+308]
+  has velocity limits: false [1.79769e+308]
+  has acceleration limits: false [nan]
+  has deceleration limits: false [nan]
+  has jerk limits: false [nan]
+  has effort limits: false [1.79769e+308]
+  angle wraparound: false'
+[INFO] [1793179893.228930664] [controller_manager]: Creating JointSaturationLimiter for joint 'joint33' in hardware 'final_system'
+[INFO] [1793179893.228988293] [controller_manager]: Using JointLimiter for joint 'robstride_joint' in hardware 'final_system' : '  has position limits: false [-1.79769e+308, 1.79769e+308]
+  has velocity limits: false [1.79769e+308]
+  has acceleration limits: false [nan]
+  has deceleration limits: false [nan]
+  has jerk limits: false [nan]
+  has effort limits: false [1.79769e+308]
+  angle wraparound: false'
+[INFO] [1793179893.229005455] [controller_manager]: Creating JointSaturationLimiter for joint 'robstride_joint' in hardware 'final_system'
+[INFO] [1793179893.230283899] [controller_manager]: Loading hardware 'final_system' 
+[INFO] [1793179893.237281782] [controller_manager]: Loaded hardware 'final_system' from plugin 'robstride_ros2/RobStrideSystem'
+[INFO] [1793179893.237569027] [controller_manager]: Initialize hardware 'final_system' 
+[INFO] [1793179893.265114402] [controller_manager]: Successful initialization of hardware 'final_system'
+[INFO] [1793179893.265840528] [controller_manager]: Activating component 'final_system'.
+[INFO] [1793179893.265869512] [resource_manager]: 'configure' hardware 'final_system' 
+[INFO] [1793179893.317712583] [resource_manager]: Successful 'configure' of hardware 'final_system'
+[INFO] [1793179893.317840754] [resource_manager]: 'activate' hardware 'final_system' 
+[WARN] [1793179893.818418254] [RobStrideSystem]: Joint 'robstride_joint': parameter 0x7028 confirmation attempt 1/3 failed
+[WARN] [1793179894.327052953] [RobStrideSystem]: Joint 'robstride_joint': parameter 0x7005 confirmation attempt 1/3 failed
+[WARN] [1793179894.842178479] [RobStrideSystem]: Joint 'joint33': parameter 0x7005 confirmation attempt 1/3 failed
+[INFO] [1793179894.873834747] [resource_manager]: Successful 'activate' of hardware 'final_system'
+[INFO] [1793179894.874237493] [controller_manager]: Registering statistics for : final_system
+[INFO] [1793179894.874487653] [controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[INFO] [1793179894.941123427] [controller_manager]: Loading controller : 'jsb' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[INFO] [1793179894.941340975] [controller_manager]: Loading controller 'jsb'
+[INFO] [1793179895.008215381] [controller_manager]: Configuring controller: 'jsb'
+[INFO] [1793179895.009063297] [jsb]: 'joints' or 'interfaces' parameter is empty. Will try to publish all available state interfaces of the URDF joints.
+[INFO] [1793179895.036571390] [controller_manager]: Loading controller : 'pos' of type 'forward_command_controller/ForwardCommandController'
+[INFO] [1793179895.036937307] [controller_manager]: Loading controller 'pos'
+[INFO] [1793179895.039992359] [controller_manager]: Controller 'pos' node arguments: '--ros-args --params-file /work/extended-final/cm/controllers.yaml'
+[INFO] [1793179895.084706209] [controller_manager]: Configuring controller: 'pos'
+[INFO] [1793179895.087081440] [pos]: configure successful
+[INFO] [1793179895.096600006] [controller_manager]: Loading controller : 'vel' of type 'forward_command_controller/ForwardCommandController'
+[INFO] [1793179895.096774373] [controller_manager]: Loading controller 'vel'
+[INFO] [1793179895.097374561] [controller_manager]: Controller 'vel' node arguments: '--ros-args --params-file /work/extended-final/cm/controllers.yaml'
+[INFO] [1793179895.145634395] [controller_manager]: Configuring controller: 'vel'
+[INFO] [1793179895.147497604] [vel]: configure successful
+[INFO] [1793179895.155761892] [controller_manager]: Loading controller : 'hold' of type 'forward_command_controller/ForwardCommandController'
+[INFO] [1793179895.155933254] [controller_manager]: Loading controller 'hold'
+[INFO] [1793179895.156295093] [controller_manager]: Controller 'hold' node arguments: '--ros-args --params-file /work/extended-final/cm/controllers.yaml'
+[INFO] [1793179895.195782596] [controller_manager]: Configuring controller: 'hold'
+[INFO] [1793179895.198078467] [hold]: configure successful
+[INFO] [1793179895.207285498] [controller_manager]: Activating controllers: [ jsb ]
+[INFO] [1793179895.208834477] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179895.209110565] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179895.228649425] [controller_manager]: Activating controllers: [ hold ]
+[INFO] [1793179895.238916135] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179895.239320204] [hold]: activate successful
+[INFO] [1793179895.239395405] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179895.565191784] [controller_manager]: Activating controllers: [ pos ]
+[INFO] [1793179895.568897109] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179895.569177936] [pos]: activate successful
+[INFO] [1793179895.569259560] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179898.104551011] [controller_manager]: Deactivating controllers: [ pos ]
+[INFO] [1793179898.110176656] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179898.111873092] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179898.142198154] [controller_manager]: Activating controllers: [ pos ]
+[ERROR] [1793179898.142500773] [RobStrideSystem]: Command mode switch rejected: Finish homing before position activation
+[ERROR] [1793179898.142565074] [controller_manager]: Component 'final_system' did not accept command interfaces combination: 
+Start interfaces: 
+[
+  robstride_joint/position
+]
+Stop interfaces: 
+[
+]
+
+[ERROR] [1793179898.142757345] [controller_manager]: Could not switch controllers since prepare command mode switch was rejected.
+[INFO] [1793179898.151911765] [controller_manager]: Activating controllers: [ vel ]
+[INFO] [1793179898.158897903] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179898.159262347] [vel]: activate successful
+[INFO] [1793179898.159369418] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179899.904390244] [controller_manager]: Deactivating controllers: [ vel ]
+[INFO] [1793179899.908962612] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179899.909259540] [controller_manager]: Successfully switched controllers!
+[WARN] [1793179900.189192966] [controller_manager]: Overrun might occur, Total time : 260548.220 us (Expected < 10000.000 us) --> Read time : 260192.540 us, Update time : 194.085 us, Write time : 161.595 us
+[WARN] [1793179900.189476670] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 261.025393 ms (missed cycles : 27).
+[INFO] [1793179900.480800818] [controller_manager]: Deactivating controllers: [ hold ]
+[INFO] [1793179900.488879150] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179900.489184845] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179900.507046551] [controller_manager]: Activating controllers: [ hold ]
+[INFO] [1793179900.508986340] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179900.509253011] [hold]: activate successful
+[INFO] [1793179900.509334464] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179900.835276642] [controller_manager]: Activating controllers: [ pos ]
+[INFO] [1793179900.838865573] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179900.839127706] [pos]: activate successful
+[INFO] [1793179900.839192528] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179901.564227650] [controller_manager]: Deactivating controllers: [ pos ]
+[INFO] [1793179901.568899698] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179901.569146662] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179901.594321555] [controller_manager]: Activating controllers: [ pos ]
+[ERROR] [1793179901.594659410] [RobStrideSystem]: Command mode switch rejected: Finish homing before position activation
+[ERROR] [1793179901.594771711] [controller_manager]: Component 'final_system' did not accept command interfaces combination: 
+Start interfaces: 
+[
+  robstride_joint/position
+]
+Stop interfaces: 
+[
+]
+
+[ERROR] [1793179901.594809822] [controller_manager]: Could not switch controllers since prepare command mode switch was rejected.
+[INFO] [1793179901.600804317] [controller_manager]: Activating controllers: [ vel ]
+[INFO] [1793179901.608925371] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179901.609299890] [vel]: activate successful
+[INFO] [1793179901.609483164] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179903.244377452] [controller_manager]: Deactivating controllers: [ vel ]
+[INFO] [1793179903.248887406] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179903.249132797] [controller_manager]: Successfully switched controllers!
+[WARN] [1793179903.413862115] [controller_manager]: Overrun might occur, Total time : 145136.891 us (Expected < 10000.000 us) --> Read time : 144889.106 us, Update time : 160.451 us, Write time : 87.334 us
+[WARN] [1793179903.414042714] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 145.590916 ms (missed cycles : 15).
+[INFO] [1793179903.722593741] [controller_manager]: Deactivating controllers: [ hold ]
+[INFO] [1793179903.728820702] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179903.729083115] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179903.748044605] [controller_manager]: Activating controllers: [ hold ]
+[INFO] [1793179903.748922755] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179903.749134924] [hold]: activate successful
+[INFO] [1793179903.749200257] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179904.074527390] [controller_manager]: Activating controllers: [ pos ]
+[INFO] [1793179904.078842078] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179904.079067201] [pos]: activate successful
+[INFO] [1793179904.079230829] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179904.806770750] [controller_manager]: Deactivating controllers: [ pos ]
+[INFO] [1793179904.808922664] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179904.809109285] [controller_manager]: Successfully switched controllers!
+[INFO] [1793179904.827815873] [controller_manager]: Deactivating controllers: [ hold ]
+[INFO] [1793179904.838984590] [controller_manager]: Requested controller switch from non-realtime loop
+[INFO] [1793179904.839343494] [controller_manager]: Successfully switched controllers!
+[ros2run]: Received signal:  Interrupt
+[INFO] [1793179904.853042831] [rclcpp]: signal_handler(signum=2)
+[INFO] [1793179904.853368713] [controller_manager]: Shutdown request received....
+[INFO] [1793179904.853513345] [controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1793179904.853596701] [controller_manager]: Shutting down controller 'vel'
+[INFO] [1793179904.853986945] [controller_manager]: Shutting down controller 'hold'
+[INFO] [1793179904.854081783] [controller_manager]: Shutting down controller 'pos'
+[INFO] [1793179904.854134131] [controller_manager]: Deactivating controller 'jsb'
+[INFO] [1793179904.854183845] [controller_manager]: Shutting down controller 'jsb'
+[INFO] [1793179904.854248055] [resource_manager]: 'deactivate' hardware 'final_system' 
+[INFO] [1793179904.918742437] [resource_manager]: Successful 'deactivate' of hardware 'final_system'
+[INFO] [1793179904.918837145] [resource_manager]: 'shutdown' hardware 'final_system' 
+[INFO] [1793179905.013442819] [resource_manager]: Successful 'shutdown' of hardware 'final_system'
+[INFO] [1793179905.013656099] [controller_manager]: Shutting down the controller manager.
+[INFO] [1793179905.021632603] [controller_manager.pal_statistics]: Async messages lost 0
+[INFO] [1793179905.021679090] [controller_manager.pal_statistics]: publish_async_failures_ 0
+[INFO] [1793179905.025522127] [controller_manager.pal_statistics]: Async messages lost 0
+[INFO] [1793179905.025555360] [controller_manager.pal_statistics]: publish_async_failures_ 0

@@ -1,0 +1,14 @@
+{"unix_s": 1793180486.7730553, "event": "switch", "on": ["jsb"], "off": [], "ok": true}
+{"unix_s": 1793180486.7934217, "event": "switch", "on": ["hold"], "off": [], "ok": true}
+{"unix_s": 1793180487.0943038, "event": "observed", "state": {"q": 6.525845595578879, "v": -0.0007629510948348184, "t": 72737.814136185, "q33": 1.5338124443638677, "v33": -0.0007629510948348184, "stamp": 1793180487.089911}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793180487.1137264, "event": "switch", "on": ["vel"], "off": [], "ok": true}
+{"unix_s": 1793180488.114272, "event": "observed", "state": {"q": 6.526996098725046, "v": -0.0007629510948348184, "t": 72738.834057747, "q33": 1.5338124443638677, "v33": -0.0007629510948348184, "stamp": 1793180488.1098878}, "peak_velocity": 0.3166247043564496}
+{"unix_s": 1793180488.144212, "event": "switch", "on": [], "off": ["vel"], "ok": true}
+{"unix_s": 1793180488.163461, "event": "switch", "on": ["pos"], "off": [], "ok": true}
+{"unix_s": 1793180488.8655157, "event": "observed", "state": {"q": 6.526996098725046, "v": -0.0007629510948348184, "t": 72739.584284797, "q33": 1.5338124443638677, "v33": -0.0007629510948348184, "stamp": 1793180488.859914}, "peak_velocity": 0.0007629510948348184}
+{"unix_s": 1793180488.8656204, "event": "POWER_CYCLE_READY", "state": {"q": 6.526996098725046, "v": -0.0007629510948348184, "t": 72739.584284797, "q33": 1.5338124443638677, "v33": -0.0007629510948348184, "stamp": 1793180488.859914}}
+Traceback (most recent call last):
+  File "/work/extended-final/power-cm/probe.py", line 105, in <module>
+    if unexpected:raise RuntimeError('Independent speed/fault guard: '+str(unexpected))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Independent speed/fault guard: [(34, -5.342946517128254, 41951997)]

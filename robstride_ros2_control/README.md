@@ -44,3 +44,12 @@ operational limits.
 To set the current joint angle as zero while nodes remain running, use the
 [per-motor runtime origin service](../README.md#set-the-current-joint-position-as-zero-at-runtime).
 Release the target joint's position controller first; motor mechanical zero is unchanged.
+
+For upper-controlled homing, release the command controllers, call
+`begin_homing_<id>`, then activate a velocity/effort controller with recovery
+commands inside the joint's `homing_velocity_limit` and `homing_effort_limit`.
+Detect the reference in the upper controller, stop and release its interfaces,
+then call `finish_homing_<id>`. This queues a mechanical-zero operation; keep
+hardware read cycles running and wait for `homing_ready_<id>` before activating
+position control with a newly generated trajectory. Reference resynchronization
+pauses all axes and may block read cycles for bounded CAN transactions.

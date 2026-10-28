@@ -1,0 +1,18 @@
+[WARN] [1793180253.585483936] [zero_live_check]: Joint 'el05_34': parameter 0x7005 confirmation attempt 1/3 failed
+{"event":"effort_pulse","motor_id":34,"effort_command":0.1,"wire_kd":1,"peak_sampled_iq":0.0974956676364,"peak_sampled_velocity":0.0862134737163,"position":0.000958752621806}
+{"event":"effort_pulse","motor_id":34,"effort_command":0.5,"wire_kd":1,"peak_sampled_iq":0.117185659707,"peak_sampled_velocity":0.592813000687,"position":0.0362408491042}
+{"event":"effort_pulse","motor_id":34,"effort_command":1,"wire_kd":1,"peak_sampled_iq":0.2269179672,"peak_sampled_velocity":1.10704203861,"position":0.106038039972}
+{"event":"effort_pulse","motor_id":34,"effort_command":2,"wire_kd":1,"peak_sampled_iq":0.33381536603,"peak_sampled_velocity":2.12787060349,"position":0.277846509799}
+{"event":"effort_pulse","motor_id":34,"effort_command":3,"wire_kd":1,"peak_sampled_iq":0.424429029226,"peak_sampled_velocity":3.06782635233,"position":0.522136677835}
+{"event":"effort_pulse","motor_id":34,"effort_command":4,"wire_kd":1,"peak_sampled_iq":0.553720831871,"peak_sampled_velocity":4.05050736248,"position":0.849263072395}
+{"event":"effort_pulse","motor_id":34,"effort_command":5,"wire_kd":1,"peak_sampled_iq":0.587301135063,"peak_sampled_velocity":5.03013656825,"position":1.2538566788}
+{"event":"effort_pulse","motor_id":34,"effort_command":5.4,"wire_kd":1,"peak_sampled_iq":0.728354752064,"peak_sampled_velocity":5.44670786603,"position":1.72249496034}
+{"event":"effort_pulse","motor_id":34,"effort_command":-0.1,"wire_kd":1,"peak_sampled_iq":0.0511792637408,"peak_sampled_velocity":0.168612191958,"position":1.71252393307}
+{"event":"effort_pulse","motor_id":34,"effort_command":-0.5,"wire_kd":1,"peak_sampled_iq":0.137867882848,"peak_sampled_velocity":0.594338902876,"position":1.67532433134}
+{"event":"effort_pulse","motor_id":34,"effort_command":-1,"wire_kd":1,"peak_sampled_iq":0.187649130821,"peak_sampled_velocity":1.25658045319,"position":1.60476013838}
+{"event":"effort_pulse","motor_id":34,"effort_command":-2,"wire_kd":1,"peak_sampled_iq":0.340335905552,"peak_sampled_velocity":2.13092240787,"position":1.44368969791}
+{"event":"effort_pulse","motor_id":34,"effort_command":-3,"wire_kd":1,"peak_sampled_iq":0.423199415207,"peak_sampled_velocity":3.06935225452,"position":1.2066860498}
+{"event":"effort_pulse","motor_id":34,"effort_command":-4,"wire_kd":1,"peak_sampled_iq":0.570190608501,"peak_sampled_velocity":4.07339589532,"position":0.887229676218}
+{"event":"effort_pulse","motor_id":34,"effort_command":-5,"wire_kd":1,"peak_sampled_iq":0.469528615475,"peak_sampled_velocity":4.99046311131,"position":0.490306090791}
+{"event":"effort_pulse","motor_id":34,"effort_command":-5.4,"wire_kd":1,"peak_sampled_iq":0.786614835262,"peak_sampled_velocity":5.51689936675,"position":0.0473623795172}
+{"event":"complete","stopped":true,"type6_frames":0}

@@ -1,0 +1,27 @@
+{
+  "samples": 2183,
+  "first": {
+    "event": "power_monitor",
+    "joint_position": 7.86503125772,
+    "motor_internal_position": 7.86736154556,
+    "velocity": -0.000762951094835,
+    "fault": 0,
+    "read_ok": 1,
+    "write_ok": 1
+  },
+  "last": {
+    "event": "power_monitor",
+    "joint_position": 7.86646938683,
+    "motor_internal_position": 1.58404839039,
+    "velocity": -0.000762951094835,
+    "fault": 0,
+    "read_ok": 1,
+    "write_ok": 1
+  },
+  "largest_sample_jump": 0.0014381291100002969,
+  "peak_sampled_velocity": 0.083161669337,
+  "position_blocked_after_reboot": true,
+  "explicit_reactivation_hold_guard_passed": true,
+  "stop_confirmed": true,
+  "note": "Reactivation hold guard limits: 0.03 rad displacement and 0.5 rad/s, 60 cycles at >=20ms. The final additional command-claim guard during pending mechanical-zero is tested separately; it does not run in this power-cycle path."
+}

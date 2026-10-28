@@ -4,6 +4,15 @@ Changelog for package robstride_driver
 
 Forthcoming
 -----------
+* Keep boot coordinate aliases in the recovery period until internal position and
+  Run feedback agree; prevent a spurious extra turn after multi-turn reboot.
+* Confirm startup mechanical zero through stopped readback while preserving the
+  configured ROS joint offset.
+* Poll stopped axes during reference readback to preserve multi-axis reference freshness.
+* Synchronize position commands with stopped internal-angle readback before
+  enabling; inhibit stale position targets after resets and mismatched first writes.
+* Add upper-controlled homing services with restricted velocity/effort commands,
+  explicit stationary mechanical-zero confirmation, and readiness polling.
 * Add per-motor runtime joint-origin services without changing motor zero;
   reject calls while position control is claimed and translate command limits.
 * Accumulate periodic position feedback in memory and support restoring or

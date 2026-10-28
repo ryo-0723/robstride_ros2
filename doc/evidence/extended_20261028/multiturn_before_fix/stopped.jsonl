@@ -1,0 +1,44 @@
+{"unix_s": 1793183750.1797574, "event": "motor_preflight", "motor_id": 33}
+{"unix_s": 1793183750.1805274, "event": "tx", "id": "0x400fd21", "data": "0000000000000000"}
+{"unix_s": 1793183750.1881535, "event": "rx", "id": "0x20021fd", "data": "8f9e7fff7fff0122"}
+{"unix_s": 1793183750.188411, "event": "stop", "motor_id": 33, "mode": 0}
+{"unix_s": 1793183750.1885276, "event": "tx", "id": "0x1100fd21", "data": "0570000000000000"}
+{"unix_s": 1793183750.19522, "event": "rx", "id": "0x110021fd", "data": "0570000000000000"}
+{"unix_s": 1793183750.195363, "event": "parameter", "motor_id": 33, "name": "run_mode", "index": "0x7005", "value": 0}
+{"unix_s": 1793183750.1954427, "event": "tx", "id": "0x1100fd21", "data": "1970000000000000"}
+{"unix_s": 1793183750.2020566, "event": "rx", "id": "0x110021fd", "data": "197000007760c43f"}
+{"unix_s": 1793183750.2022734, "event": "parameter", "motor_id": 33, "name": "position", "index": "0x7019", "value": 1.5341938734054565}
+{"unix_s": 1793183750.2023814, "event": "tx", "id": "0x1100fd21", "data": "1b70000000000000"}
+{"unix_s": 1793183750.2101774, "event": "rx", "id": "0x110021fd", "data": "1b70000000000000"}
+{"unix_s": 1793183750.2103333, "event": "parameter", "motor_id": 33, "name": "velocity", "index": "0x701b", "value": 0.0}
+{"unix_s": 1793183750.210436, "event": "tx", "id": "0x1100fd21", "data": "1a70000000000000"}
+{"unix_s": 1793183750.2170124, "event": "rx", "id": "0x110021fd", "data": "1a70000000000000"}
+{"unix_s": 1793183750.2171636, "event": "parameter", "motor_id": 33, "name": "iq", "index": "0x701a", "value": 0.0}
+{"unix_s": 1793183750.2173507, "event": "tx", "id": "0x1100fd21", "data": "1c70000000000000"}
+{"unix_s": 1793183750.223648, "event": "rx", "id": "0x110021fd", "data": "1c700000d688c241"}
+{"unix_s": 1793183750.2237537, "event": "parameter", "motor_id": 33, "name": "vbus", "index": "0x701c", "value": 24.316814422607422}
+{"unix_s": 1793183750.2238188, "event": "tx", "id": "0x1100fd21", "data": "2870000000000000"}
+{"unix_s": 1793183750.2358668, "event": "rx", "id": "0x110021fd", "data": "28700000a00f0000"}
+{"unix_s": 1793183750.2359989, "event": "parameter", "motor_id": 33, "name": "watchdog", "index": "0x7028", "value": 4000}
+{"unix_s": 1793183750.236025, "event": "motor_preflight", "motor_id": 34}
+{"unix_s": 1793183750.236082, "event": "tx", "id": "0x400fd22", "data": "0000000000000000"}
+{"unix_s": 1793183750.2470598, "event": "rx", "id": "0x20022fd", "data": "bbb67fff7fff0122"}
+{"unix_s": 1793183750.2472234, "event": "stop", "motor_id": 34, "mode": 0}
+{"unix_s": 1793183750.2474003, "event": "tx", "id": "0x1100fd22", "data": "0570000000000000"}
+{"unix_s": 1793183750.2566352, "event": "rx", "id": "0x110022fd", "data": "0570000000000000"}
+{"unix_s": 1793183750.2567706, "event": "parameter", "motor_id": 34, "name": "run_mode", "index": "0x7005", "value": 0}
+{"unix_s": 1793183750.256864, "event": "tx", "id": "0x1100fd22", "data": "1970000000000000"}
+{"unix_s": 1793183750.2625055, "event": "rx", "id": "0x110022fd", "data": "197000007ea7bb40"}
+{"unix_s": 1793183750.2625985, "event": "parameter", "motor_id": 34, "name": "position", "index": "0x7019", "value": 5.864195823669434}
+{"unix_s": 1793183750.2628026, "event": "tx", "id": "0x1100fd22", "data": "1b70000000000000"}
+{"unix_s": 1793183750.2690544, "event": "rx", "id": "0x110022fd", "data": "1b70000000000000"}
+{"unix_s": 1793183750.269164, "event": "parameter", "motor_id": 34, "name": "velocity", "index": "0x701b", "value": 0.0}
+{"unix_s": 1793183750.2692363, "event": "tx", "id": "0x1100fd22", "data": "1a70000000000000"}
+{"unix_s": 1793183750.275512, "event": "rx", "id": "0x110022fd", "data": "1a70000000000000"}
+{"unix_s": 1793183750.2756367, "event": "parameter", "motor_id": 34, "name": "iq", "index": "0x701a", "value": 0.0}
+{"unix_s": 1793183750.275708, "event": "tx", "id": "0x1100fd22", "data": "1c70000000000000"}
+{"unix_s": 1793183750.2813842, "event": "rx", "id": "0x110022fd", "data": "1c7000008621c141"}
+{"unix_s": 1793183750.2814717, "event": "parameter", "motor_id": 34, "name": "vbus", "index": "0x701c", "value": 24.141368865966797}
+{"unix_s": 1793183750.2815478, "event": "tx", "id": "0x1100fd22", "data": "2870000000000000"}
+{"unix_s": 1793183750.287416, "event": "rx", "id": "0x110022fd", "data": "28700000a00f0000"}
+{"unix_s": 1793183750.2875066, "event": "parameter", "motor_id": 34, "name": "watchdog", "index": "0x7028", "value": 4000}
