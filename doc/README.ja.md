@@ -123,6 +123,38 @@ position controllerの再activateを要求します。速度・トルク制御�
 測定値・生記録・検証範囲は[EL05多回転試験](edulite05_multiturn_measurements.ja.md)、
 公開FWの解析と未確認事項は[保存処理調査](edulite05_retention_audit.ja.md)を参照してください。
 
+### 実行中の現在位置を関節原点にする
+
+EL05の再立ち上げ確認では、内部の多回転位置がfeedback範囲を越えた状態で位置保持を開始すると、
+意図しない移動が発生しました。内部角度と折返し角度の差は8π radでした。
+この条件では、Type 2の現在値を初期目標にするだけで「再起動時に動かない」とは保証できません。
+[再立ち上げ確認記録](edulite05_multiturn_measurements.ja.md#プログラム再立ち上げ時の位置保持確認)を参照してください。
+
+hardwareをactiveにしたまま、各モーターの`std_srvs/srv/Trigger`サービス
+`/<hardware名>_can_transport/zero_position_<CAN ID>`を呼ぶと、最新の測定角度を
+ros2_controlの関節原点（0 rad）にできます。変更するのはメモリ上の関節座標だけで、
+モーターへType 6の機械ゼロ設定命令は送りません。Flashやファイルへの保存も行いません。
+次の制御readから`position`と`/joint_states`に反映します。
+ノードやhardwareオブジェクトを作り直すと、設定ファイルのoffsetへ戻ります。
+
+呼出し前に、対象関節のposition command interfaceを解放してください。
+位置controllerが使用中の場合は、旧座標の軌道へ動かないようにサービスを拒否します。
+hardwareやノードの停止・再起動は不要で、速度・トルク制御中でも呼べます。
+新しい位置feedbackが必要です。exampleのhardware名`robstride_system`、CAN ID 1なら：
+
+```bash
+ros2 control switch_controllers --deactivate robstride_position_controller --strict
+ros2 service call /robstride_system_can_transport/zero_position_1 std_srvs/srv/Trigger '{}'
+ros2 control switch_controllers --activate robstride_position_controller --strict
+```
+
+サービスの`success: true`を確認してから位置controllerを再開してください。
+上位の位置軌道は新しい原点で作り直し、以前の絶対位置目標を再送しないでください。
+driver内の位置指令制限は原点とともに移し、物理的に同じ指令範囲を維持します。
+controllerやURDF側の関節制限、アプリケーションの座標も新しい原点に合わせる必要があります。
+CANの位置指令範囲が広がる機能ではありません。
+既存の`set_zero_on_activate`は、activate時にモーターの機械ゼロを変更する別の設定です。
+
 ## インストール
 
 対応するROS 2 workspaceの`src`内へ配置し、依存packageを解決してbuildします。

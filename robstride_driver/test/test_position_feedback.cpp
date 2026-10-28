@@ -1,6 +1,7 @@
 #include <atomic>
 #include <chrono>
 #include <cmath>
+#include <future>
 #include <memory>
 #include <thread>
 
@@ -52,6 +53,7 @@ protected:
       config_.settings.transport.transmit_topic, rclcpp::QoS(100).reliable(),
       [this](can_msgs::msg::Frame::ConstSharedPtr frame) {
         const auto type = (frame->id >> 24) & 31;
+        if (type == 6) {++motor_zero_count_;}
         if (type == 17) {
           can_msgs::msg::Frame reply;
           reply.id = (17u << 24) | (1u << 8) | 253u;
@@ -154,6 +156,7 @@ protected:
   std::atomic<uint8_t> mode_{rs::kMotorModeReset};
   std::atomic<double> last_position_command_{0.0};
   std::atomic<unsigned int> motion_count_{0};
+  std::atomic<unsigned int> motor_zero_count_{0};
 };
 
 TEST_F(PositionFeedback, PublishesContinuousAngleAcrossSeveralForwardAndReverseWraps)
@@ -207,5 +210,107 @@ TEST_F(PositionFeedback, RestoresAfterFeedbackGapEvenWhenFirstResponseIsRun)
   // trajectory is unknown, so the configured restart policy must be applied.
   std::this_thread::sleep_for(300ms);
   ASSERT_TRUE(observe(7.0 - 2 * kPi, 7.0));
+}
+
+TEST_F(PositionFeedback, ZeroServiceRebasesJointAndPreservesPhysicalTargets)
+{
+  ASSERT_TRUE(start());
+  ASSERT_TRUE(observe(2.0, 2.0));
+  const double before = driver_->joints()[0].state.position;
+  const auto limits = driver_->joints()[0].command_limits;
+  auto client = peer_->create_client<std_srvs::srv::Trigger>(
+    "/" + config_.settings.transport.node_name + "/zero_position_1");
+  ASSERT_TRUE(client->wait_for_service(3s));
+  auto result = client->async_send_request(std::make_shared<std_srvs::srv::Trigger::Request>());
+  ASSERT_EQ(result.wait_for(3s), std::future_status::ready);
+  ASSERT_TRUE(result.get()->success);
+  ASSERT_TRUE(driver_->update_state());
+  EXPECT_NEAR(driver_->joints()[0].state.position, 0.0, 1e-12);
+  EXPECT_NEAR(driver_->joints()[0].command_limits.position_min, limits.position_min - before, 1e-12);
+  EXPECT_NEAR(driver_->joints()[0].command_limits.position_max, limits.position_max - before, 1e-12);
+  EXPECT_DOUBLE_EQ(raw_.load(), 2.0);
+  EXPECT_EQ(motor_zero_count_, 0u);
+  ASSERT_TRUE(observe(2.1, 0.1));
+  ASSERT_TRUE(driver_->apply_command_modes({{true, false, false}}));
+  driver_->joints()[0].command.position = 0.25;
+  const auto count = motion_count_.load();
+  ASSERT_TRUE(driver_->send_commands());
+  ASSERT_TRUE(wait_until([&]() {return motion_count_ > count;}));
+  EXPECT_NEAR(last_position_command_.load(), before + 0.25, 0.002);
+}
+
+TEST_F(PositionFeedback, ZeroServiceRejectsClaimedPositionWithoutChangingOrigin)
+{
+  ASSERT_TRUE(start());
+  ASSERT_TRUE(observe(2.0, 2.0));
+  ASSERT_TRUE(driver_->apply_command_modes({{true, false, false}}));
+  const double offset = driver_->joints()[0].position_offset;
+  auto client = peer_->create_client<std_srvs::srv::Trigger>(
+    "/" + config_.settings.transport.node_name + "/zero_position_1");
+  ASSERT_TRUE(client->wait_for_service(3s));
+  auto result = client->async_send_request(std::make_shared<std_srvs::srv::Trigger::Request>());
+  ASSERT_EQ(result.wait_for(3s), std::future_status::ready);
+  EXPECT_FALSE(result.get()->success);
+  EXPECT_DOUBLE_EQ(driver_->joints()[0].position_offset, offset);
+  ASSERT_TRUE(driver_->update_state());
+  EXPECT_NEAR(driver_->joints()[0].state.position, 2.0, 0.002);
+  EXPECT_EQ(motor_zero_count_, 0u);
+}
+
+TEST_F(PositionFeedback, ZeroPositionRejectsStaleInactiveAndUnknownRequests)
+{
+  config_.settings.feedback_timeout = 20ms;
+  ASSERT_TRUE(start());
+  ASSERT_TRUE(observe(2.0, 2.0));
+  std::this_thread::sleep_for(50ms);
+  std::string error;
+  EXPECT_FALSE(driver_->zero_current_position(0, &error));
+  EXPECT_NE(error.find("Fresh"), std::string::npos);
+  driver_->stop();
+  EXPECT_FALSE(driver_->zero_current_position(0, &error));
+  EXPECT_NE(error.find("active"), std::string::npos);
+  EXPECT_FALSE(driver_->zero_current_position(100, &error));
+  EXPECT_NE(error.find("Unknown"), std::string::npos);
+}
+
+TEST_F(PositionFeedback, ZeroPositionSupportsDirectionRatioOffsetAndRepeatedZeroing)
+{
+  auto & joint = config_.joints[0];
+  joint.direction = -1.0;
+  joint.gear_ratio = 2.0;
+  joint.position_offset = 0.25;
+  const auto range = joint.joint_position_range();
+  ASSERT_TRUE(range);
+  joint.command_limits.position_min = range->first;
+  joint.command_limits.position_max = range->second;
+  ASSERT_TRUE(start());
+  ASSERT_TRUE(observe(4.0, -1.75));
+  ASSERT_TRUE(driver_->apply_command_modes({{false, true, false}}));
+  std::string error;
+  ASSERT_TRUE(driver_->zero_current_position(0, &error)) << error;
+  ASSERT_TRUE(driver_->update_state());
+  EXPECT_NEAR(driver_->joints()[0].state.position, 0.0, 1e-12);
+  ASSERT_TRUE(observe(4.6, -0.3));
+  ASSERT_TRUE(driver_->zero_current_position(0, &error)) << error;
+  ASSERT_TRUE(driver_->update_state());
+  EXPECT_NEAR(driver_->joints()[0].state.position, 0.0, 1e-12);
+  ASSERT_TRUE(driver_->apply_command_modes({{true, false, false}}));
+  driver_->joints()[0].command.position = -0.2;
+  const auto count = motion_count_.load();
+  ASSERT_TRUE(driver_->send_commands());
+  ASSERT_TRUE(wait_until([&]() {return motion_count_ > count;}));
+  EXPECT_NEAR(last_position_command_.load(), 5.0, 0.002);
+  EXPECT_EQ(motor_zero_count_, 0u);
+}
+
+TEST_F(PositionFeedback, ClosingDriverRemovesZeroService)
+{
+  ASSERT_TRUE(start());
+  auto client = peer_->create_client<std_srvs::srv::Trigger>(
+    "/" + config_.settings.transport.node_name + "/zero_position_1");
+  ASSERT_TRUE(client->wait_for_service(3s));
+  driver_->stop();
+  driver_->close();
+  ASSERT_TRUE(wait_until([&]() {return !client->service_is_ready();}));
 }
 }  // namespace

@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(can_msgs REQUIRED)
 find_package(diagnostic_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_srvs REQUIRED)
 find_package(Threads REQUIRED)
 
 add_library(${PROJECT_NAME} SHARED
@@ -25,12 +26,13 @@ target_include_directories(${PROJECT_NAME} PUBLIC
   $<INSTALL_INTERFACE:include>
 )
 if(COMMAND ament_target_dependencies)
-  ament_target_dependencies(${PROJECT_NAME} can_msgs diagnostic_msgs rclcpp)
+  ament_target_dependencies(${PROJECT_NAME} can_msgs diagnostic_msgs rclcpp std_srvs)
   target_link_libraries(${PROJECT_NAME} Threads::Threads)
 else()
   target_link_libraries(${PROJECT_NAME} PUBLIC
     ${can_msgs_TARGETS}
     ${diagnostic_msgs_TARGETS}
+    ${std_srvs_TARGETS}
     rclcpp::rclcpp
   )
   target_link_libraries(${PROJECT_NAME} PRIVATE Threads::Threads)
@@ -82,5 +84,5 @@ endif()
 
 ament_export_include_directories(include)
 ament_export_targets(export_${PROJECT_NAME} HAS_LIBRARY_TARGET NAMESPACE ${PROJECT_NAME}::)
-ament_export_dependencies(can_msgs diagnostic_msgs rclcpp)
+ament_export_dependencies(can_msgs diagnostic_msgs rclcpp std_srvs)
 ament_package()

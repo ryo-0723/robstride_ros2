@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-27",
+  "branch": "feature/encoder",
+  "motor_id": 33,
+  "result": "Unexpected motion detected when starting position hold; no no-jump guarantee established.",
+  "production_behavior_changed": false,
+  "production_hashes_match_pre_investigation_runtime_zero_implementation": true,
+  "source_sha256": {
+    "robstride_driver/src/driver.cpp": "64c40cfc6b8b7a68310b40559f560ed919f3a2c621c2d0e9f86209b5c9ed012d",
+    "robstride_driver/src/can_transport.cpp": "f724dd2b12116ee5755a921c2e81e365e052a73d0ae164ca95c9f26c250103cc",
+    "robstride_driver/include/robstride_driver/driver.hpp": "66b71a2839581803f77f6beea71db8b5918334e599b92dd4f916c8184a87a4e7",
+    "robstride_driver/include/robstride_driver/can_transport.hpp": "92e0a2b261b1f9605ed2e17e3253febeabf4c01c5ddca5294de9e0520fa801e6"
+  },
+  "trial": {
+    "first_process_exit_code": 1,
+    "error": "Unexpected startup movement",
+    "pre_send_target_guard_rad": 0.003,
+    "motion_abort_threshold_rad": 0.03,
+    "first_process_mode": "Software joint origin set, then current-position hold enabled. No motor mechanical zero command.",
+    "second_process_comparison": "Not run because first process failed the motion guard.",
+    "limitation": "The failed helper did not print initial angle or exact maximum motion; only guard failure is retained. No exact displacement is claimed."
+  },
+  "post_stop_measurement": {
+    "unix_s": 1793105697.2070673,
+    "event": "stop_feedback",
+    "mode": 0,
+    "faults": 0,
+    "wire_position": -11.062279500912092
+  },
+  "post_stop_internal_parameters": {
+    "rotation": 11,
+    "mechPos": 14.067584991455078,
+    "theta_mech_1": -11.065156936645508,
+    "cmdPos": 14.067584991455078,
+    "low_position": 0.0
+  },
+  "internal_minus_wrapped_theta_rad": 25.132741928100586,
+  "eight_pi_rad": 25.132741228718345,
+  "static_analysis": {
+    "image": "EL05_1.0.5.0.2.bin",
+    "image_base": "0x08002000",
+    "cmdPos_ram": "0x200005f4",
+    "mechPos_ram": "0x20000564",
+    "theta_mech_1_ram": "0x2000056c",
+    "pd_position_error_pc": "0x0800f628..0x0800f630",
+    "position_error": "cmdPos - mechPos, not cmdPos - theta_mech_1",
+    "limitation": "Distributed image static analysis; identity with the hardware application image has not been dumped and verified."
+  },
+  "other_observation": "Warm reactivation can retain old commands. A proposed change and its temporary tests were reverted at the user request.",
+  "notes": [
+    "Stop response mode=Reset and fault flags=0 confirmed after the failed test.",
+    "Normal startup initializes the ROS position target from feedback; this alone does not account for the observed multi-turn versus wrapped-coordinate difference.",
+    "An in-memory software origin is lost on node recreation. External controllers resending old targets are an additional independent source of movement."
+  ]
+}

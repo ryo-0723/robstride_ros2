@@ -1,0 +1,5 @@
+{"event":"before_zero","joint_position":-3.58592655608,"motor_internal_position":21.5457420349}
+{"event":"after_zero_while_moving","joint_position":0.00613601677955,"motor_internal_position":21.558139801,"success":true}
+{"event":"continued_motion","joint_position":0.300664822198,"motor_internal_position":21.8530063629}
+{"event":"position_active_zero_rejected","success":true}
+{"event":"complete","stopped":true,"type6_frames":0}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-27",
+  "branch": "feature/encoder",
+  "motor_id": 33,
+  "service": "/origin_live_driver/zero_position_33",
+  "service_type": "std_srvs/srv/Trigger",
+  "command_interface_during_zero": "velocity",
+  "velocity_command_rad_s": 0.3,
+  "motor_watchdog_ticks": 4000,
+  "events": [
+    {
+      "event": "before_zero",
+      "joint_position": -3.58592655608,
+      "motor_internal_position": 21.5457420349
+    },
+    {
+      "event": "after_zero_while_moving",
+      "joint_position": 0.00613601677955,
+      "motor_internal_position": 21.558139801,
+      "success": true
+    },
+    {
+      "event": "continued_motion",
+      "joint_position": 0.300664822198,
+      "motor_internal_position": 21.8530063629
+    },
+    {
+      "event": "position_active_zero_rejected",
+      "success": true
+    },
+    {
+      "event": "complete",
+      "stopped": true,
+      "type6_frames": 0
+    }
+  ],
+  "cpp_tests_passed": 101,
+  "source_sha256": {
+    "robstride_driver/src/driver.cpp": "64c40cfc6b8b7a68310b40559f560ed919f3a2c621c2d0e9f86209b5c9ed012d",
+    "robstride_driver/src/can_transport.cpp": "f724dd2b12116ee5755a921c2e81e365e052a73d0ae164ca95c9f26c250103cc",
+    "robstride_driver/include/robstride_driver/driver.hpp": "66b71a2839581803f77f6beea71db8b5918334e599b92dd4f916c8184a87a4e7",
+    "robstride_driver/include/robstride_driver/can_transport.hpp": "92e0a2b261b1f9605ed2e17e3253febeabf4c01c5ddca5294de9e0520fa801e6"
+  },
+  "notes": [
+    "The joint origin is the latest measured position at service execution. The moving shaft had advanced 0.00614 rad by the first recorded post-service state.",
+    "No Type 6 motor-zero frames were observed. Motor internal position remained continuous.",
+    "An origin request while position control was claimed was rejected without stopping the node.",
+    "The initial watchdog write/readback required one retry and then succeeded.",
+    "Motor was stopped at the end of this temporary test."
+  ]
+}

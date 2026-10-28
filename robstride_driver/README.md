@@ -54,3 +54,8 @@ Hardware Component. See the
 [repository README](https://github.com/s2015-turtle/robstride_ros2#readme) for
 supported actuators, safety behavior, configuration parameters, and
 installation instructions.
+
+Per-motor `~/zero_position_<can_id>` Trigger services rebase the current ROS joint
+position to zero without sending a motor-zero command. Position control must be
+released and hardware must be active with fresh feedback. See the
+[runtime origin procedure](../README.md#set-the-current-joint-position-as-zero-at-runtime).

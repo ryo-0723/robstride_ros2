@@ -43,6 +43,7 @@ public:
   using FrameSink = std::function<void(const Frame &)>;
   using MetricsProvider = std::function<DriverMetrics()>;
   using EndpointProbe = std::function<bool()>;
+  using NodeSetupCallback = std::function<void(const rclcpp::Node::SharedPtr &)>;
 
   struct MotorFrame
   {
@@ -59,7 +60,8 @@ public:
   CanTransport(
       CanTransportOptions options, ReceiveCallback receive_callback,
       FrameSink frame_sink = FrameSink{}, MetricsProvider metrics_provider = MetricsProvider{},
-      EndpointProbe endpoint_probe = EndpointProbe{});
+      EndpointProbe endpoint_probe = EndpointProbe{},
+      NodeSetupCallback node_setup = NodeSetupCallback{});
   ~CanTransport() noexcept;
 
   CanTransport(const CanTransport &) = delete;
@@ -108,6 +110,7 @@ private:
   FrameSink frame_sink_;
   MetricsProvider metrics_provider_;
   EndpointProbe endpoint_probe_;
+  NodeSetupCallback node_setup_;
   std::deque<Frame> pending_transactions_;
   std::vector<std::optional<ActiveFrame>> pending_motion_frames_;
   std::vector<std::optional<ActiveFrame>> pending_recovery_frames_;

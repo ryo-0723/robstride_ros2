@@ -13,6 +13,7 @@
 #include <can_msgs/msg/frame.hpp>
 #include <rclcpp/clock.hpp>
 #include <rclcpp/logger.hpp>
+#include <std_srvs/srv/trigger.hpp>
 
 #include "robstride_driver/config.hpp"
 #include "robstride_driver/metrics.hpp"
@@ -45,6 +46,9 @@ public:
   bool apply_command_modes(
     const std::vector<ClaimedInterfaces> & modes, std::string * error = nullptr);
   DriverMetrics metrics() const;
+  // Rebase the ROS joint coordinate only. Position control must be released.
+  // The exported state is updated on the next normal control read cycle.
+  bool zero_current_position(size_t joint_index, std::string * error = nullptr);
 
 private:
   enum class RuntimeEventKind
@@ -96,6 +100,7 @@ private:
   std::chrono::steady_clock::time_point activated_at_{};
   std::shared_ptr<rclcpp::Clock> log_clock_;
   std::unique_ptr<CanTransport> transport_;
+  std::vector<rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr> zero_services_;
   std::atomic<uint64_t> feedback_frames_received_{0};
   std::atomic<uint64_t> parameter_frames_received_{0};
   std::atomic<int64_t> metrics_started_at_ns_{0};

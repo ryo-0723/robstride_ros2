@@ -20,12 +20,13 @@ int64_t steady_now_ns() noexcept
 
 CanTransport::CanTransport(
   CanTransportOptions options, ReceiveCallback receive_callback, FrameSink frame_sink,
-  MetricsProvider metrics_provider, EndpointProbe endpoint_probe)
+  MetricsProvider metrics_provider, EndpointProbe endpoint_probe, NodeSetupCallback node_setup)
 : options_(std::move(options)),
   receive_callback_(std::move(receive_callback)),
   frame_sink_(std::move(frame_sink)),
   metrics_provider_(std::move(metrics_provider)),
   endpoint_probe_(std::move(endpoint_probe)),
+  node_setup_(std::move(node_setup)),
   recovery_active_(std::make_unique<std::atomic<bool>[]>(options_.motor_count))
 {
   if (options_.node_name.empty()) {throw std::invalid_argument("node_name must not be empty");}
@@ -65,6 +66,7 @@ void CanTransport::start()
       rclcpp::NodeOptions node_options;
       if (options_.context) {node_options.context(options_.context);}
       node_ = std::make_shared<rclcpp::Node>(options_.node_name, node_options);
+      if (node_setup_) {node_setup_(node_);}
       const auto qos =
         rclcpp::QoS(rclcpp::KeepLast(std::max<size_t>(32, options_.motor_count * 4)))
         .reliable().durability_volatile();

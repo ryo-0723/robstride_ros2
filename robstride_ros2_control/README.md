@@ -40,3 +40,7 @@ the component is not tied to a particular SocketCAN bridge. See the
 [repository README](https://github.com/s2015-turtle/robstride_ros2#readme) for
 the complete hardware and joint parameter reference, controller examples, and
 operational limits.
+
+To set the current joint angle as zero while nodes remain running, use the
+[per-motor runtime origin service](../README.md#set-the-current-joint-position-as-zero-at-runtime).
+Release the target joint's position controller first; motor mechanical zero is unchanged.

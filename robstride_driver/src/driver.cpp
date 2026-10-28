@@ -111,7 +111,22 @@ bool RobStrideDriver::open()
     transport_ = std::make_unique<CanTransport>(
       settings_.transport,
       [this](can_msgs::msg::Frame::ConstSharedPtr frame) {receive_frame(std::move(frame));},
-      CanTransport::FrameSink{}, [this]() {return metrics();});
+      CanTransport::FrameSink{}, [this]() {return metrics();}, CanTransport::EndpointProbe{},
+      [this](const rclcpp::Node::SharedPtr & node) {
+        zero_services_.clear();
+        for (size_t index = 0; index < joints_.size(); ++index) {
+          zero_services_.push_back(node->create_service<std_srvs::srv::Trigger>(
+            "~/zero_position_" + std::to_string(joints_[index].can_id),
+            [this, index](std_srvs::srv::Trigger::Request::SharedPtr,
+              std_srvs::srv::Trigger::Response::SharedPtr response) {
+              response->success = zero_current_position(index, &response->message);
+              if (response->success) {
+                response->message = "Current measured joint position is the new origin; "
+                  "visible on the next control read cycle";
+              }
+            }));
+        }
+      });
     transport_->start();
     return true;
   } catch (const std::exception & error) {
@@ -128,6 +143,59 @@ void RobStrideDriver::close() noexcept
     if (transport_) {transport_->stop();}
   } catch (...) {}
   transport_.reset();
+  zero_services_.clear();
+}
+
+bool RobStrideDriver::zero_current_position(size_t joint_index, std::string * error)
+{
+  std::lock_guard<std::mutex> lock(state_mutex_);
+  const auto reject = [error](const char * reason) {
+      if (error) {*error = reason;}
+      return false;
+    };
+  if (joint_index >= joints_.size()) {return reject("Unknown joint index");}
+  if (!active_) {return reject("Hardware must be active");}
+  auto & joint = joints_[joint_index];
+  if (joint.claimed.position) {
+    return reject("Deactivate the position controller before changing the joint origin");
+  }
+  const auto now = std::chrono::steady_clock::now();
+  if (!joint.feedback_status.received || joint.feedback_status.timestamp > now ||
+    now - joint.feedback_status.timestamp > settings_.feedback_timeout ||
+    !std::isfinite(joint.feedback.position) || !joint.position_tracker.initialized())
+  {
+    return reject("Fresh position feedback is required");
+  }
+
+  // Retain the same physical command envelope when changing the ROS coordinate.
+  // Build a numeric-only candidate: do not modify the live joint on failure.
+  const auto motor_min = joint.checked_joint_to_motor_position(joint.command_limits.position_min);
+  const auto motor_max = joint.checked_joint_to_motor_position(joint.command_limits.position_max);
+  if (!motor_min || !motor_max) {return reject("Existing position limits are not representable");}
+  JointData candidate;
+  candidate.limits = joint.limits;
+  candidate.direction = joint.direction;
+  candidate.gear_ratio = joint.gear_ratio;
+  candidate.position_offset =
+    -joint.direction * (joint.position_tracker.position() / joint.gear_ratio);
+  const double next_min =
+    joint.direction * (*motor_min / joint.gear_ratio) + candidate.position_offset;
+  const double next_max =
+    joint.direction * (*motor_max / joint.gear_ratio) + candidate.position_offset;
+  if (!std::isfinite(next_min) || !std::isfinite(next_max) || next_min >= next_max ||
+    !candidate.checked_joint_to_motor_position(next_min) ||
+    !candidate.checked_joint_to_motor_position(next_max))
+  {
+    return reject("New origin cannot represent the position command limits");
+  }
+  joint.position_offset = candidate.position_offset;
+  joint.command_limits.position_min = next_min;
+  joint.command_limits.position_max = next_max;
+  joint.feedback.position = 0.0;
+  // Only the control read thread writes exported state and command storage.
+  // Velocity/effort targets and motor coordinates are unchanged.
+  if (error) {error->clear();}
+  return true;
 }
 
 bool RobStrideDriver::start()

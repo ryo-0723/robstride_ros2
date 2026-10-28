@@ -158,6 +158,42 @@ See the [EL05 measurements](doc/edulite05_multiturn_measurements.ja.md) and
 [firmware investigation](doc/edulite05_retention_audit.ja.md) for raw records,
 test scope, and remaining uncertainties (Japanese).
 
+### Set the current joint position as zero at runtime
+
+EL05 restart check: starting position hold with a multi-turn internal position
+outside the feedback window produced unexpected motion in the hardware test.
+The measured internal and wrapped angles differed by 8 pi rad. Initializing a
+target from Type 2 feedback alone does not establish a no-motion restart in this
+condition. See the [restart investigation](doc/edulite05_multiturn_measurements.ja.md#プログラム再立ち上げ時の位置保持確認).
+
+While the hardware is active, call the per-motor `std_srvs/srv/Trigger` service
+`/<hardware_name>_can_transport/zero_position_<can_id>` to make the latest measured
+ROS joint angle zero. This changes the in-memory joint coordinate only: it does
+not send the motor's Type 6 zero command or save anything to motor flash or disk.
+The next control read publishes the new coordinate through `position` and
+`/joint_states`. Node or hardware-object recreation reloads the configured offset.
+
+Release the target joint's position command interface before calling. An active
+position controller is rejected so its old trajectory cannot become a target
+in the new coordinate. Hardware and nodes stay active; velocity/effort control
+may continue. Fresh position feedback is required. For the example hardware name
+`robstride_system` and motor ID 1:
+
+```bash
+ros2 control switch_controllers --deactivate robstride_position_controller --strict
+ros2 service call /robstride_system_can_transport/zero_position_1 std_srvs/srv/Trigger '{}'
+ros2 control switch_controllers --activate robstride_position_controller --strict
+```
+
+Check that the service returns `success: true` before restarting the position
+controller. Clear or rebuild upstream trajectories in the new coordinate; do not
+resend old absolute position targets. The driver translates its position command
+limits along with the origin to retain the same physical command envelope.
+Controller/URDF-side limits and application coordinates must also account for
+the changed origin. This service does not expand the CAN position command range.
+`set_zero_on_activate` remains a separate option that changes the motor's mechanical
+zero when hardware is activated.
+
 ## Installation
 
 Install the package in the `src` directory of a workspace for one of the

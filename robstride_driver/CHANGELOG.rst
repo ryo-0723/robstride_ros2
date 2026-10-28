@@ -4,6 +4,8 @@ Changelog for package robstride_driver
 
 Forthcoming
 -----------
+* Add per-motor runtime joint-origin services without changing motor zero;
+  reject calls while position control is claimed and translate command limits.
 * Accumulate periodic position feedback in memory and support restoring or
   resetting its coordinate after detected motor resets and feedback gaps.
 * Translate restored position targets to motor coordinates and reject stale
